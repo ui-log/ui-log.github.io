@@ -50,6 +50,8 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
+  "git": {
+    "updatedTime": 1668643220000
+  },
   "filePathRelative": "docs/Setting/m1-nvm/README.md"
 }

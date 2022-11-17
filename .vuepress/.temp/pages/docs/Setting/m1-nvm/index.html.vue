@@ -3,17 +3,6 @@
 <p>Intel Mac에 nvm을 설치하는 방법을 M1 Mac에 하면 에러가 발생하는데,
 M1 Mac에 nvm을 설치하는 방법에 대해 알 수 있습니다.</p>
 </div>
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-<!-- vuepress 수평 -->
-<p><ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins></p>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 <h2 id="_1-nvm-설치" tabindex="-1"><a class="header-anchor" href="#_1-nvm-설치" aria-hidden="true">#</a> 1. nvm 설치</h2>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>brew <span class="token function">install</span> nvm
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>위와 같이 설치를 해주고 난 후에 인텔 Mac과 동일하게 nvm환경변수 설정을 해주어야합니다.</p>

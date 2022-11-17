@@ -3,30 +3,14 @@
 <p><code v-pre>image-set</code> 속성을 사용해서 아래와 같이 브라우저 및 디바이스마다 다른 이미지를 적용하는 방법에 대해 알 수 있습니다.</p>
 </div>
 <img src="https://user-images.githubusercontent.com/46010705/199180122-3b69bb91-75b2-4b7e-9f62-ac80bde4a81b.gif" width="700">
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-<!-- vuepress 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-     <component is="script">
-      (adsbygoogle = window.adsbygoogle || []).push({});
-     </component>
 <hr>
-<h2 id="_1-srcset" tabindex="-1"><a class="header-anchor" href="#_1-srcset" aria-hidden="true">#</a> 1.  srcset</h2>
+<h2 id="_1-srcset" tabindex="-1"><a class="header-anchor" href="#_1-srcset" aria-hidden="true">#</a> 1. srcset</h2>
 <p><code v-pre>image-set</code> 속성에 대해서 소개해 드리기 전에 기존에 자주 사용하는 <code v-pre>srcset</code> 대해서 간략히 설명하고 넘어가도록 하겠습니다.</p>
 <p>코드 작성을 하다 보면 아래와 같이 이미지를 사용하는 경우가 많이 있는데요.</p>
-<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> 
-    <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>./img/large-landscape_2048x1365.jpeg<span class="token punctuation">"</span></span>
-    <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>2048<span class="token punctuation">"</span></span>
-    <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1365<span class="token punctuation">"</span></span>
-    <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span>
-<span class="token punctuation">/></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">img</span> <span class="token punctuation">{</span>
-    <span class="token property">max-width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
-    <span class="token property">height</span><span class="token punctuation">:</span> auto<span class="token punctuation">;</span>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>./img/large-landscape_2048x1365.jpeg<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>2048<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1365<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">img</span> <span class="token punctuation">{</span>
+  <span class="token property">max-width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> auto<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>코드를 위와 같이 작성하면 브라우저에서 아래와 같이 보입니다.</p>
 <img src="https://user-images.githubusercontent.com/46010705/199177264-f4e1c114-740c-49a1-b357-4ad8987acc16.png" width="500">
@@ -36,15 +20,8 @@
 <h3 id="사용-방법" tabindex="-1"><a class="header-anchor" href="#사용-방법" aria-hidden="true">#</a> 사용 방법</h3>
 <p>이러한 개념으로 나오게 된 <code v-pre>srcset</code>은 아래와 같이 사용하고 있습니다.
 w(너비)가 750 이하인 경우에는 작은 사진을 보여주도록 작성한 코드입니다.</p>
-<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> 
-    <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>./img/large-landscape_2048x1365.jpeg<span class="token punctuation">"</span></span>
-    <span class="token attr-name">srcset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>./img/small-landscape_799x533.jpeg 750w,
-	    ./img/large-landscape_2048x1365.jpeg 2048w<span class="token punctuation">"</span></span>
-    <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>2048<span class="token punctuation">"</span></span>
-    <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1536<span class="token punctuation">"</span></span>
-    <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span>
-<span class="token punctuation">/></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="결과" tabindex="-1"><a class="header-anchor" href="#결과" aria-hidden="true">#</a> 결과</h3>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>./img/large-landscape_2048x1365.jpeg<span class="token punctuation">"</span></span> <span class="token attr-name">srcset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>./img/small-landscape_799x533.jpeg 750w, ./img/large-landscape_2048x1365.jpeg 2048w<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>2048<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1536<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="결과" tabindex="-1"><a class="header-anchor" href="#결과" aria-hidden="true">#</a> 결과</h3>
 <p>잘 동작하는지는 브라우저에서 확인해 보겠습니다.</p>
 <img src="https://user-images.githubusercontent.com/46010705/199180122-3b69bb91-75b2-4b7e-9f62-ac80bde4a81b.gif" width="700">
 <p>너비에 따라서 명시한 이미지 소스대로 보이는 것을 볼 수 있습니다.</p>
@@ -55,40 +32,23 @@ w(너비)가 750 이하인 경우에는 작은 사진을 보여주도록 작성�
 <img src="https://user-images.githubusercontent.com/46010705/199181357-b59f14e0-ec15-4b8d-be5f-6f853879acfb.gif" width="700">
 <p>이것은 크롬브라우저의 이미지 캐시에 의해서 발생하는 이슈로 개발자도구 옵션의 Network 탭에서 'Disable cache' 를 활성화해주면 정상적으로 동작하는 것을 확인하실 수 있습니다.</p>
 <img src="https://user-images.githubusercontent.com/46010705/199181626-07917403-e6e3-45cb-9bfc-4747199200e2.png" width="700">
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-<!-- vuepress 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-     <component is="script">
-      (adsbygoogle = window.adsbygoogle || []).push({});
-     </component>
 <h2 id="_2-image-set" tabindex="-1"><a class="header-anchor" href="#_2-image-set" aria-hidden="true">#</a> 2. image-set</h2>
 <p><code v-pre>image-set</code> 속성은 <code v-pre>srcset</code> 속성과 같은 목적이고 사용법도 거의 동일합니다.<br> 다만 img태그에 사용하는지 <code v-pre>background-image</code>에 사용하는지에 따라 다를 뿐 입니다.</p>
 <h3 id="사용방법" tabindex="-1"><a class="header-anchor" href="#사용방법" aria-hidden="true">#</a> 사용방법</h3>
 <p><strong>As-is</strong></p>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">.box</span> <span class="token punctuation">{</span>
-    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/large-landscape_2048x1365.jpeg"</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
+  <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/large-landscape_2048x1365.jpeg"</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>To-be</strong></p>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">.box</span> <span class="token punctuation">{</span>
-    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">image-set</span><span class="token punctuation">(</span>
-	<span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/large-landscape_2048x1365.jpeg"</span><span class="token punctuation">)</span></span> 1x<span class="token punctuation">,</span>
-	<span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/small-landscape_799x533.jpeg"</span><span class="token punctuation">)</span></span> 2x<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">image-set</span><span class="token punctuation">(</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/large-landscape_2048x1365.jpeg"</span><span class="token punctuation">)</span></span> 1x<span class="token punctuation">,</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/small-landscape_799x533.jpeg"</span><span class="token punctuation">)</span></span> 2x<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>크롬 브라우저에서는 <code v-pre>-webkit-</code> prefix를 붙혀야 정상 동작합니다.</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>크롬 브라우저에서는 <code v-pre>-webkit-</code> prefix를 붙혀야 정상 동작합니다.</p>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">.box</span> <span class="token punctuation">{</span>
-    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">-webkit-image-set</span><span class="token punctuation">(</span>
-	<span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/large-landscape_2048x1365.jpeg"</span><span class="token punctuation">)</span></span> 1x<span class="token punctuation">,</span>
-	<span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/small-landscape_799x533.jpeg"</span><span class="token punctuation">)</span></span> 2x<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">image-set</span><span class="token punctuation">(</span>
-	<span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/large-landscape_2048x1365.jpeg"</span><span class="token punctuation">)</span></span> 1x<span class="token punctuation">,</span>
-	<span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/small-landscape_799x533.jpeg"</span><span class="token punctuation">)</span></span> 2x<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">-webkit-image-set</span><span class="token punctuation">(</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/large-landscape_2048x1365.jpeg"</span><span class="token punctuation">)</span></span> 1x<span class="token punctuation">,</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/small-landscape_799x533.jpeg"</span><span class="token punctuation">)</span></span> 2x<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">image-set</span><span class="token punctuation">(</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/large-landscape_2048x1365.jpeg"</span><span class="token punctuation">)</span></span> 1x<span class="token punctuation">,</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"./img/small-landscape_799x533.jpeg"</span><span class="token punctuation">)</span></span> 2x<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="결과-1" tabindex="-1"><a class="header-anchor" href="#결과-1" aria-hidden="true">#</a> 결과</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="결과-1" tabindex="-1"><a class="header-anchor" href="#결과-1" aria-hidden="true">#</a> 결과</h3>
 <p>브라우저에서 테스트해보면 아래 gif처럼 PC인 경우에 large이미지가 MW인 경우에는 small 이미지가 적용되는 것을 보실 수 있습니다.</p>
 <img src="https://user-images.githubusercontent.com/46010705/199197725-c52d111e-6815-4393-bf47-b3c3619d4ac1.gif" width="700">
 <p>모바일 기기에서도 small 이미지가 정상적으로 적용됩니다.</p>

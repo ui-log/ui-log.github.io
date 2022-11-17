@@ -1,33 +1,37 @@
 <script lang="ts" setup>
-import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue';
-import {computed, onMounted, reactive} from "vue";
+import ParentLayout from "@vuepress/theme-default/lib/client/layouts/Layout.vue";
+import { computed, onMounted, reactive } from "vue";
 
-import {Footer, Posts} from "../components";
-import {usePosts} from "../hooks";
+import { Footer, Posts } from "../components";
+import { usePosts } from "../hooks";
 
 const PAGE_SIZE = 9;
-const PAGE_KEY = '__CURRENT_PAGE__';
+const PAGE_KEY = "__CURRENT_PAGE__";
 
 const state = reactive({
   currentPage: 1,
-  selectedTag: '전체',
+  selectedTag: "전체",
 });
 
 const posts = usePosts();
 
 const tagsAndCount = computed(() =>
-  posts.value.reduce((acc, item) => {
-    const tags = item.tag.split(",").map(v => v.trim());
-    for (const tag of tags) {
-      acc[tag] = (acc[tag] || 0) + 1;
-    }
-    return acc;
-  }, {['전체']: posts.value.length} as Record<string, number>));
+  posts.value.reduce(
+    (acc, item) => {
+      const tags = item.tag.split(",").map((v) => v.trim());
+      for (const tag of tags) {
+        acc[tag] = (acc[tag] || 0) + 1;
+      }
+      return acc;
+    },
+    { ["전체"]: posts.value.length } as Record<string, number>
+  )
+);
 
 const selectedTagItems = computed(() => {
-  const {selectedTag} = state;
-  return selectedTag === '전체' ? posts.value : posts.value.filter(v => v.tag.includes(selectedTag));
-})
+  const { selectedTag } = state;
+  return selectedTag === "전체" ? posts.value : posts.value.filter((v) => v.tag.includes(selectedTag));
+});
 
 const currentItems = computed(() => {
   const start = (state.currentPage - 1) * PAGE_SIZE;
@@ -49,7 +53,7 @@ function selectTag(tag: string) {
 
 onMounted(async () => {
   state.currentPage = Number(sessionStorage.getItem(PAGE_KEY) || 1);
-})
+});
 </script>
 
 <template>
@@ -57,44 +61,19 @@ onMounted(async () => {
     <template #page-content-top>
       <section>
         <div class="tags">
-          <a
-            v-for="(count, tag) in tagsAndCount"
-            :key="tag"
-            href="#"
-            :class="{ active: tag === state.selectedTag }"
-            @click.prevent="selectTag(tag)"
-          >
-            #{{ tag.toUpperCase() }} <strong v-html="count"/>
-          </a>
+          <a v-for="(count, tag) in tagsAndCount" :key="tag" href="#" :class="{ active: tag === state.selectedTag }" @click.prevent="selectTag(tag)"> #{{ tag.toUpperCase() }} <strong v-html="count" /> </a>
         </div>
-        <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-<!-- 수평 디스플레이 광고 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="4963641784"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-     <component is="script">
-      (adsbygoogle = window.adsbygoogle || []).push({});
-     </component>
 
-        <Posts :items="currentItems" @select-tag="selectTag"/>
+        <Posts :items="currentItems" @select-tag="selectTag" />
 
         <div class="pagination">
-          <button
-            v-for="i in lastPage"
-            :key="i"
-            :class="{ active: i === state.currentPage }"
-            v-html="i"
-            @click="selectPage(i)"
-          />
+          <button v-for="i in lastPage" :key="i" :class="{ active: i === state.currentPage }" v-html="i" @click="selectPage(i)" />
         </div>
       </section>
     </template>
   </ParentLayout>
 
-  <Footer/>
+  <Footer />
 </template>
 
 <style lang="scss" scoped>

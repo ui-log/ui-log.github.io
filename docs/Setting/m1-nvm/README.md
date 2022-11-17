@@ -16,20 +16,6 @@ M1 Mac에 nvm을 설치하는 방법에 대해 알 수 있습니다.
 
 :::
 
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-
-<!-- vuepress 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-
 ## 1. nvm 설치
 
 ```bash

@@ -2,17 +2,6 @@
 <div class="custom-container tip"><p class="custom-container-title">목표</p>
 <p>optional chaining(<code v-pre>?.</code>), nullish coalescing(<code v-pre>??</code>)를 이용해 변수에 따른 조건 분기 처리를 하는 여러 방법에 대해서 정리해 보려고 합니다.</p>
 </div>
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-<!-- vuepress 수평 -->
-<p><ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins></p>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 <h2 id="_1-optional-chaining" tabindex="-1"><a class="header-anchor" href="#_1-optional-chaining" aria-hidden="true">#</a> 1. optional chaining(<code v-pre>?.</code>)</h2>
 <p>React와 Typescript로 UI개발을 하다 보면 컴포넌트의 props의 타입이 <code v-pre>?: number</code>와 같이 nullable 한 경우가 많이 있습니다.</p>
 <div class="language-jsx ext-jsx line-numbers-mode"><pre v-pre class="language-jsx"><code><span class="token punctuation">{</span><span class="token operator">...</span>중략<span class="token punctuation">}</span>
@@ -77,17 +66,6 @@ UI개발 시 대응하는 과정으로 설명드리겠습니다.</p>
 }
 </span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>optional chaining은 <code v-pre>?.</code> 좌측 값이 null, undefined인 경우 undefined를 리턴합니다.</p>
 <p>위와 같은 방식으로 각 image에도 optional chaining을 적용해 보도록 하겠습니다.</p>
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-<!-- vuepress 수평 -->
-<p><ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins></p>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 <div class="language-jsx ext-jsx line-numbers-mode"><pre v-pre class="language-jsx"><code><span class="token punctuation">{</span><span class="token operator">...</span>중략<span class="token punctuation">}</span>
 
 <span class="token keyword">interface</span> <span class="token class-name">ImageListViewProps</span> <span class="token punctuation">{</span>

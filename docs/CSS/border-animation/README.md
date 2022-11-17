@@ -15,20 +15,6 @@ hitUrl: https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%ui-
 단순 코드 공유가 아닌 결과물을 보고 애니메이션을 만들어가는 과정을 담아보려고 합니다.
 :::
 
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-
-<!-- vuepress 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-
 **1. 길이가 변하는 border 애니메이션**
 ![2](./img/double_border.gif)
 **2. 움직이는 점선 border 애니메이션**
@@ -117,20 +103,6 @@ border: 1px dotted #333;
 
 하지만 border는 따로 animation을 제공하지 않기 때문에 움직이는 점선 애니메이션을 만들 수 없습니다.
 그렇기 때문에 다른 방법으로 점선을 구현해야 합니다. 점선은 `linear-gradient` 로 아래와 같이 구현할 수 있습니다.
-
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-
-<!-- vuepress 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 
 ```css
 .dotted_box {
@@ -271,20 +243,6 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
   }
 }
 ```
-
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-
-<!-- vuepress 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 
 ![4](./img/conic_box1.png)
 

@@ -3,17 +3,6 @@
 <p><code v-pre>linear-gradient</code>, <code v-pre>conic-gradient</code>,<code v-pre>hue-rotate</code> 등을 활용해 아래 5가지 border 애니메이션을 만드는 방법에 대해서 공유합니다.
 단순 코드 공유가 아닌 결과물을 보고 애니메이션을 만들어가는 과정을 담아보려고 합니다.</p>
 </div>
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-<!-- vuepress 수평 -->
-<p><ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins></p>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 <p><strong>1. 길이가 변하는 border 애니메이션</strong>
 <img src="@source/docs/CSS/border-animation/img/double_border.gif" alt="2">
 <strong>2. 움직이는 점선 border 애니메이션</strong>
@@ -84,17 +73,6 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="@source/docs/CSS/border-animation/img/dotted-box.png" alt="1"></p>
 <p>하지만 border는 따로 animation을 제공하지 않기 때문에 움직이는 점선 애니메이션을 만들 수 없습니다.
 그렇기 때문에 다른 방법으로 점선을 구현해야 합니다. 점선은 <code v-pre>linear-gradient</code> 로 아래와 같이 구현할 수 있습니다.</p>
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-<!-- vuepress 수평 -->
-<p><ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins></p>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">.dotted_box</span> <span class="token punctuation">{</span>
   <span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>90deg<span class="token punctuation">,</span> #333 50%<span class="token punctuation">,</span> transparent 50%<span class="token punctuation">)</span> 0 0 / 4px 1px repeat-x<span class="token punctuation">,</span> <span class="token comment">/* 상 */</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>90deg<span class="token punctuation">,</span> #333 50%<span class="token punctuation">,</span> transparent 50%<span class="token punctuation">)</span> 0 100% / 4px 1px repeat-x<span class="token punctuation">,</span>
     <span class="token comment">/* 하 */</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> #333 50%<span class="token punctuation">,</span> transparent 50%<span class="token punctuation">)</span> 0 0 / 1px 4px repeat-y<span class="token punctuation">,</span> <span class="token comment">/* 좌 */</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> #333 50%<span class="token punctuation">,</span> transparent 50%<span class="token punctuation">)</span> 100% 0 / 1px 4px repeat-y<span class="token punctuation">;</span> <span class="token comment">/* 우 */</span>
@@ -193,18 +171,7 @@
     <span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">conic-gradient</span><span class="token punctuation">(</span>transparent<span class="token punctuation">,</span> <span class="token function">rgba</span><span class="token punctuation">(</span>168<span class="token punctuation">,</span> 239<span class="token punctuation">,</span> 255<span class="token punctuation">,</span> 1<span class="token punctuation">)</span><span class="token punctuation">,</span> transparent 30%<span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-<!-- vuepress 수평 -->
-<p><ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins></p>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-<p><img src="@source/docs/CSS/border-animation/img/conic_box1.png" alt="4"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/docs/CSS/border-animation/img/conic_box1.png" alt="4"></p>
 <p>이제 이 <code v-pre>::before</code> 가상 요소를 무지개 애니메이션 때와 같이 회전시켜주고 <code v-pre>::after</code> 요소를 이용해 내부 컨텐츠를 채워주면 됩니다.</p>
 <h3 id="결과-3" tabindex="-1"><a class="header-anchor" href="#결과-3" aria-hidden="true">#</a> 결과</h3>
 <iframe height="300" style="width: 100%;" scrolling="no" title="conic-box" src="https://codepen.io/13akstjq/embed/GRGrVZg?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">

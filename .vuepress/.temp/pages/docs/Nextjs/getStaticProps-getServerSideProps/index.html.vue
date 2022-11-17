@@ -2,17 +2,6 @@
 <div class="custom-container tip"><p class="custom-container-title">목표</p>
 <p>getStaticProps, getServerSideProps, getStaticPaths를 각각 어느 상황에 사용해야하는지 정리해보려고 합니다.</p>
 </div>
-<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-<!-- vuepress 수평 -->
-<p><ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins></p>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 <p>세가지 시나리오에 따라서 적절한 상황에 맞추엇 사용할 수 있습니다.</p>
 <h2 id="_1-외부-데이터가-필요-없는-경우" tabindex="-1"><a class="header-anchor" href="#_1-외부-데이터가-필요-없는-경우" aria-hidden="true">#</a> 1. 외부 데이터가 필요 없는 경우</h2>
 <p>가장 기본적인 경우로, 외부 데이터가 필요 없는 경우라면 아래와 같이 getStaticProps, getServerSideProps, getStaticPaths를 사용하지 않고 컴포넌트를 구성할 수 있다.</p>
@@ -51,18 +40,7 @@ export default function Blog({ posts }) {
     <span class="token punctuation">}</span><span class="token punctuation">,</span>
   <span class="token punctuation">}</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" async></component>
-<!-- vuepress 수평 -->
-<p><ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="7889645103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins></p>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-<h2 id="_3-페이지-경로가-외부-데이터에-의존하는-경우" tabindex="-1"><a class="header-anchor" href="#_3-페이지-경로가-외부-데이터에-의존하는-경우" aria-hidden="true">#</a> 3. 페이지 경로가 외부 데이터에 의존하는 경우</h2>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_3-페이지-경로가-외부-데이터에-의존하는-경우" tabindex="-1"><a class="header-anchor" href="#_3-페이지-경로가-외부-데이터에-의존하는-경우" aria-hidden="true">#</a> 3. 페이지 경로가 외부 데이터에 의존하는 경우</h2>
 <p>세번째로는 페이지의 경로(path)가 외부 데이터에 의존하는 경우인데요.
 예를 들어 블로그 포스트들을 API요청을 통해 불러오고 해당 블로그 포스팅 id로 path를 결정해야하는 경우에 아래와 같이 <code v-pre>getStaticPaths</code>를 사용합니다.</p>
 <div class="language-tsx ext-tsx line-numbers-mode"><pre v-pre class="language-tsx"><code><span class="token comment">// 이 함수는 페이지 빌드시에 호출됩니다.</span>

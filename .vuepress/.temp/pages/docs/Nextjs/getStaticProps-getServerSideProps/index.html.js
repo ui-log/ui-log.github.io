@@ -38,6 +38,8 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
+  "git": {
+    "updatedTime": 1668643220000
+  },
   "filePathRelative": "docs/Nextjs/getStaticProps-getServerSideProps/README.md"
 }

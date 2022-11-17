@@ -15,7 +15,7 @@ export const data = {
   "headers": [
     {
       "level": 2,
-      "title": "1.  srcset",
+      "title": "1. srcset",
       "slug": "_1-srcset",
       "children": [
         {
@@ -64,6 +64,8 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
+  "git": {
+    "updatedTime": 1668643220000
+  },
   "filePathRelative": "docs/CSS/imageset/README.md"
 }

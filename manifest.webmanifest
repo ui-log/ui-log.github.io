@@ -1,6 +1,6 @@
 {
-  "name": "man lab",
-  "short_name": "man lab",
+  "name": "ui-log",
+  "short_name": "ui-log",
   "description": "Today I leanred",
   "start_url": "/index.html",
   "display": "standalone",

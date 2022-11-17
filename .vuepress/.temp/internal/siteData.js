@@ -5,13 +5,6 @@ export const siteData = {
   "description": "Today I leanred",
   "head": [
     [
-      "meta",
-      {
-        "name": "google-site-verification",
-        "content": "pvvSTvZm_50xq7R_E4wMghRYyaoQ0Of-Hf7MvqBbj8M"
-      }
-    ],
-    [
       "link",
       {
         "rel": "apple-touch-icon",
@@ -85,14 +78,6 @@ export const siteData = {
       {
         "name": "theme-color",
         "content": "#ffffff"
-      }
-    ],
-    [
-      "script",
-      {
-        "async": true,
-        "data-ad-client": "ca-pub-4877378276818686",
-        "src": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       }
     ]
   ],

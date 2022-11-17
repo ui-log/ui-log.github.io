@@ -215,53 +215,22 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "M1 mac에 nvm설치하는 방법",
+    "title": "Nextjs + Zustand, \"Text content does not match server-rendered HTML.\" 에러 해결 방법 (React Hydration Error)",
     "headers": [
       {
         "level": 2,
-        "title": "1. nvm 설치",
-        "slug": "_1-nvm-설치",
+        "title": "1. Persist 제거",
+        "slug": "_1-persist-제거",
         "children": []
       },
       {
         "level": 2,
-        "title": "설치 확인",
-        "slug": "설치-확인",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "원하는 Node 버전 설치",
-        "slug": "원하는-node-버전-설치",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "설치된 Node 버전 확인",
-        "slug": "설치된-node-버전-확인",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "원하는 Node 버전으로 변경",
-        "slug": "원하는-node-버전으로-변경",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "default Node 버전 설정",
-        "slug": "default-node-버전-설정",
+        "title": "2. Persist name 변경",
+        "slug": "_2-persist-name-변경",
         "children": []
       }
     ],
-    "path": "/docs/Setting/m1-nvm/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
-    "headers": [],
-    "path": "/docs/Vuepress/hits/",
+    "path": "/docs/Nextjs/zustand-react-hydration-error/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -329,6 +298,57 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "M1 mac에 nvm설치하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. nvm 설치",
+        "slug": "_1-nvm-설치",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "설치 확인",
+        "slug": "설치-확인",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "원하는 Node 버전 설치",
+        "slug": "원하는-node-버전-설치",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "설치된 Node 버전 확인",
+        "slug": "설치된-node-버전-확인",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "원하는 Node 버전으로 변경",
+        "slug": "원하는-node-버전으로-변경",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "default Node 버전 설정",
+        "slug": "default-node-버전-설정",
+        "children": []
+      }
+    ],
+    "path": "/docs/Setting/m1-nvm/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
+    "headers": [],
+    "path": "/docs/Vuepress/hits/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -336,3 +356,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

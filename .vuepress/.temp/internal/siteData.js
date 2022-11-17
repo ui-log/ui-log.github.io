@@ -1,0 +1,100 @@
+export const siteData = {
+  "base": "/",
+  "lang": "en-US",
+  "title": "man lab",
+  "description": "Today I leanred",
+  "head": [
+    [
+      "meta",
+      {
+        "name": "google-site-verification",
+        "content": "pvvSTvZm_50xq7R_E4wMghRYyaoQ0Of-Hf7MvqBbj8M"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "apple-touch-icon",
+        "sizes": "180x180",
+        "href": "/assets/favicons/apple-touch-icon.png"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "icon",
+        "type": "image/png",
+        "sizes": "32x32",
+        "href": "/assets/favicons/favicon-32x32.png"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "icon",
+        "type": "image/png",
+        "sizes": "16x16",
+        "href": "/assets/favicons/favicon-16x16.png"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "manifest",
+        "href": "/manifest.webmanifest"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "mask-icon",
+        "href": "/assets/favicons/safari-pinned-tab.svg",
+        "color": "#3a0839"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "shortcut icon",
+        "href": "/assets/favicons/favicon.ico"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "stylesheet",
+        "href": "https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileColor",
+        "content": "#3a0839"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-config",
+        "content": "/browserconfig.xml"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "theme-color",
+        "content": "#ffffff"
+      }
+    ],
+    [
+      "script",
+      {
+        "async": true,
+        "data-ad-client": "ca-pub-4877378276818686",
+        "src": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      }
+    ]
+  ],
+  "locales": {}
+}

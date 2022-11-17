@@ -75,7 +75,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   base: "/",
   head: [
-    ["meta", { name: "google-site-verification", content: "pvvSTvZm_50xq7R_E4wMghRYyaoQ0Of-Hf7MvqBbj8M" }],
+    // ["meta", { name: "google-site-verification", content: "pvvSTvZm_50xq7R_E4wMghRYyaoQ0Of-Hf7MvqBbj8M" }],
     ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/favicons/apple-touch-icon.png" }],
     ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicons/favicon-32x32.png" }],
     ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicons/favicon-16x16.png" }],
@@ -86,7 +86,7 @@ export default defineUserConfig({
     ["meta", { name: "msapplication-TileColor", content: "#3a0839" }],
     ["meta", { name: "msapplication-config", content: "/browserconfig.xml" }],
     ["meta", { name: "theme-color", content: "#ffffff" }],
-    ["script", { async: true, "data-ad-client": "ca-pub-4877378276818686", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" }],
+    // ["script", { async: true, "data-ad-client": "ca-pub-4877378276818686", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" }],
   ],
   extendsMarkdown: (md) => {
     md.use(MarkdownItPlantuml);

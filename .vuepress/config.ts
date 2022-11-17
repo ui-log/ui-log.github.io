@@ -63,7 +63,7 @@ fs.writeFileSync(path.join(__dirname, "/public/sitemap.xml"), generateSitemap(po
 fs.writeFileSync(path.join(__dirname, "/public/posts.json"), JSON.stringify(posts));
 
 export default defineUserConfig({
-  title: "man lab",
+  title: "ui-log",
   description: "Today I leanred",
   theme: localTheme({
     logo: "https://user-images.githubusercontent.com/46010705/200171783-79070d74-8c1d-488c-819c-548ebd4c461f.png",

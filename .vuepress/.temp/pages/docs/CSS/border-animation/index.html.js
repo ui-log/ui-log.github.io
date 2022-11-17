@@ -87,7 +87,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1668643220000
+    "updatedTime": 1668644988000
   },
   "filePathRelative": "docs/CSS/border-animation/README.md"
 }

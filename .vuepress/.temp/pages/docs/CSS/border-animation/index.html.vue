@@ -194,7 +194,7 @@
   <span class="token property">background-origin</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/docs/CSS/border-animation/img/gradient-box1.png" alt="5"></p>
-<p>이렇게 그라디언트 border를 적용했으면 <code v-pre>hue-rotate</code> 속성과 애니메이션으로 색상을 변경해 주면 됩니다.
+<p>이렇게 그라디언트 border를 적용 했으면 <code v-pre>hue-rotate</code> 속성과 애니메이션으로 색상을 변경해 주면 됩니다.
 <code v-pre>hue-rotate</code>는 각도 값을 넣어주면 되며, 아래 사진과 같은 색상환에 따라서 색상이 노출됩니다.</p>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token function">hue-ratote</span><span class="token punctuation">(</span>angle<span class="token punctuation">)</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="@source/docs/CSS/border-animation/img/hue-rotate.png" alt="5"></p>

@@ -51,7 +51,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1668643220000
+    "updatedTime": 1668644893000
   },
   "filePathRelative": "docs/Setting/m1-nvm/README.md"
 }

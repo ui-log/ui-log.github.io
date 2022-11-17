@@ -278,7 +278,7 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
 
 ![5](./img/gradient-box1.png)
 
-이렇게 그라디언트 border를 적용했으면 `hue-rotate` 속성과 애니메이션으로 색상을 변경해 주면 됩니다.
+이렇게 그라디언트 border를 적용 했으면 `hue-rotate` 속성과 애니메이션으로 색상을 변경해 주면 됩니다.
 `hue-rotate`는 각도 값을 넣어주면 되며, 아래 사진과 같은 색상환에 따라서 색상이 노출됩니다.
 
 ```css

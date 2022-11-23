@@ -79,7 +79,28 @@ export const siteData = {
         "name": "theme-color",
         "content": "#ffffff"
       }
+    ],
+    [
+      "script",
+      {
+        "async": true,
+        "crossorigin": "anonymous",
+        "src": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686"
+      }
     ]
   ],
   "locales": {}
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSiteData) {
+    __VUE_HMR_RUNTIME__.updateSiteData(siteData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ siteData }) => {
+    __VUE_HMR_RUNTIME__.updateSiteData(siteData)
+  })
 }

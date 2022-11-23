@@ -14,85 +14,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "linear-gradient를 활용한 border 애니메이션 5가지 만들기",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 길이가 변하는 border 애니메이션",
-        "slug": "_1-길이가-변하는-border-애니메이션",
-        "children": [
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 움직이는 점선 애니메이션",
-        "slug": "_2-움직이는-점선-애니메이션",
-        "children": [
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 무지개 border 애니메이션",
-        "slug": "_3-무지개-border-애니메이션",
-        "children": [
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과-2",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4. 빛나는 border 애니메이션",
-        "slug": "_4-빛나는-border-애니메이션",
-        "children": [
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과-3",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5. 색깔이 변하는 border 애니메이션",
-        "slug": "_5-색깔이-변하는-border-애니메이션",
-        "children": [
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과-4",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/border-animation/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "image-set 속성으로 반응형 background-image 사용하기",
     "headers": [
       {
@@ -203,6 +124,117 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. optional chaining(?.)",
+        "slug": "_1-optional-chaining",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. nullish coalescing(??)",
+        "slug": "_2-nullish-coalescing",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "정리",
+        "slug": "정리",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/Javascript/optional-chaining/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "linear-gradient를 활용한 border 애니메이션 5가지 만들기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 길이가 변하는 border 애니메이션",
+        "slug": "_1-길이가-변하는-border-애니메이션",
+        "children": [
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 움직이는 점선 애니메이션",
+        "slug": "_2-움직이는-점선-애니메이션",
+        "children": [
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. 무지개 border 애니메이션",
+        "slug": "_3-무지개-border-애니메이션",
+        "children": [
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. 빛나는 border 애니메이션",
+        "slug": "_4-빛나는-border-애니메이션",
+        "children": [
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과-3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5. 색깔이 변하는 border 애니메이션",
+        "slug": "_5-색깔이-변하는-border-애니메이션",
+        "children": [
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과-4",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/border-animation/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "M1 mac에 nvm설치하는 방법",
     "headers": [
       {
@@ -243,38 +275,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Setting/m1-nvm/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. optional chaining(?.)",
-        "slug": "_1-optional-chaining",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. nullish coalescing(??)",
-        "slug": "_2-nullish-coalescing",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "정리",
-        "slug": "정리",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/Javascript/optional-chaining/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -356,3 +356,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

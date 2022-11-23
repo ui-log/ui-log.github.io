@@ -67,7 +67,7 @@ function fromNow(timestamp: number) {
       <img :src="thumbnailUri" alt="no-image" />
     </router-link>
 
-    <div>
+    <div class="text_area">
       <p class="tags" v-if="tags">
         <a v-for="(tag, key) in tags" :key="key" href="#" @click.prevent="emit('select-tag', tag)"> #{{ tag }} </a>
       </p>
@@ -111,16 +111,17 @@ article {
   }
 
   @include only-pc {
+    display: flex;
     $size: 7px;
-    &:hover {
-      border-color: #000;
-      transform: translateY(-$size) translateX($size);
+    // &:hover {
+    //   border-color: #000;
+    //   transform: translateY(-$size) translateX($size);
 
-      &::before {
-        opacity: 1;
-        transform: translateY($size) translateX(-$size);
-      }
-    }
+    //   &::before {
+    //     opacity: 1;
+    //     transform: translateY($size) translateX(-$size);
+    //   }
+    // }
   }
 
   .figure {
@@ -140,6 +141,16 @@ article {
       object-fit: cover;
       border: none;
     }
+
+    @include only-pc {
+      padding-top: 0%;
+      flex-shrink: 0;
+      width: 300px;
+    }
+  }
+
+  .text_area {
+    flex-grow: 1;
   }
 
   > div {
@@ -169,10 +180,13 @@ article {
     display: block;
     margin-bottom: 10px;
     letter-spacing: -0.5px;
-    min-height: 140px;
 
     &:hover {
       text-decoration: none;
+    }
+
+    @include only-pc {
+      height: 120px;
     }
   }
 

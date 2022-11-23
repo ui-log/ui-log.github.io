@@ -1,12 +1,12 @@
-import clientConfig0 from '/Users/user/Desktop/ui-log.github.io/node_modules/@vuepress/plugin-active-header-links/lib/client/config.js'
-import clientConfig1 from '/Users/user/Desktop/ui-log.github.io/node_modules/@vuepress/plugin-back-to-top/lib/client/config.js'
-import clientConfig2 from '/Users/user/Desktop/ui-log.github.io/node_modules/@vuepress/plugin-external-link-icon/lib/client/config.js'
-import clientConfig3 from '/Users/user/Desktop/ui-log.github.io/node_modules/@vuepress/plugin-medium-zoom/lib/client/config.js'
-import clientConfig4 from '/Users/user/Desktop/ui-log.github.io/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
-import clientConfig5 from '/Users/user/Desktop/ui-log.github.io/node_modules/@vuepress/theme-default/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
-import clientConfig6 from '/Users/user/Desktop/ui-log.github.io/node_modules/@vuepress/theme-default/lib/client/config.js'
-import clientConfig7 from '/Users/user/Desktop/ui-log.github.io/node_modules/@vuepress/plugin-search/lib/client/config.js'
-import clientConfig8 from '/Users/user/Desktop/ui-log.github.io/.vuepress/client.ts'
+import clientConfig0 from '/Users/user/Desktop/Blog/ui-log.github.io/node_modules/@vuepress/plugin-active-header-links/lib/client/config.js'
+import clientConfig1 from '/Users/user/Desktop/Blog/ui-log.github.io/node_modules/@vuepress/plugin-back-to-top/lib/client/config.js'
+import clientConfig2 from '/Users/user/Desktop/Blog/ui-log.github.io/node_modules/@vuepress/plugin-external-link-icon/lib/client/config.js'
+import clientConfig3 from '/Users/user/Desktop/Blog/ui-log.github.io/node_modules/@vuepress/plugin-medium-zoom/lib/client/config.js'
+import clientConfig4 from '/Users/user/Desktop/Blog/ui-log.github.io/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
+import clientConfig5 from '/Users/user/Desktop/Blog/ui-log.github.io/node_modules/@vuepress/theme-default/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
+import clientConfig6 from '/Users/user/Desktop/Blog/ui-log.github.io/node_modules/@vuepress/theme-default/lib/client/config.js'
+import clientConfig7 from '/Users/user/Desktop/Blog/ui-log.github.io/node_modules/@vuepress/plugin-search/lib/client/config.js'
+import clientConfig8 from '/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/client.ts'
 
 export const clientConfigs = [
   clientConfig0,

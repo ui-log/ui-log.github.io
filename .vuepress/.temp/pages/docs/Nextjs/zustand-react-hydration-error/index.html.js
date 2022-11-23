@@ -9,7 +9,7 @@ export const data = {
     "date": "2022-11-17T00:00:00.000Z",
     "sidebarDepth": 2,
     "tag": "Nextjs",
-    "thumbnail": null
+    "thumbnail": "https://user-images.githubusercontent.com/46010705/202881531-49ee6266-7a22-4e81-b5cd-36f887f853e7.png"
   },
   "excerpt": "",
   "headers": [
@@ -30,4 +30,17 @@ export const data = {
     "updatedTime": 1668665007000
   },
   "filePathRelative": "docs/Nextjs/zustand-react-hydration-error/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

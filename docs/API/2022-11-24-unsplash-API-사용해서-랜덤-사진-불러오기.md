@@ -9,10 +9,6 @@ thumbnail:
 
 # unsplash API 사용해서 랜덤 사진 불러오기
 
-::: tip 목표
-
-:::
-
 unsplash를 사용하면 아래처럼 멋진 사진들을 사용할 수 있습니다.
 
 ![](./img/1.png)

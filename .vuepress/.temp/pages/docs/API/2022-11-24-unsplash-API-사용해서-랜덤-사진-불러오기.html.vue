@@ -1,7 +1,5 @@
 <template><div><h1 id="unsplash-api-사용해서-랜덤-사진-불러오기" tabindex="-1"><a class="header-anchor" href="#unsplash-api-사용해서-랜덤-사진-불러오기" aria-hidden="true">#</a> unsplash API 사용해서 랜덤 사진 불러오기</h1>
-<div class="custom-container tip"><p class="custom-container-title">목표</p>
-</div>
-<p>unsplash를 사용하면 아래 처럼 멋진 사진들을 사용할 수 있습니다.</p>
+<p>unsplash를 사용하면 아래처럼 멋진 사진들을 사용할 수 있습니다.</p>
 <p><img src="@source/docs/API/img/1.png" alt=""></p>
 <h3 id="unsplash-source-api" tabindex="-1"><a class="header-anchor" href="#unsplash-source-api" aria-hidden="true">#</a> unsplash source API</h3>
 <p>unsplash에는 source API가 존재했는데 현재는 deprecated 된 상태입니다.</p>

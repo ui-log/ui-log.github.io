@@ -5,8 +5,8 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/index.html.vue")),
   // path: /About/
   "v-3e214e9b": defineAsyncComponent(() => import(/* webpackChunkName: "v-3e214e9b" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/About/index.html.vue")),
-  // path: /scripts/generators/
-  "v-5fe8ea0f": defineAsyncComponent(() => import(/* webpackChunkName: "v-5fe8ea0f" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/scripts/generators/index.html.vue")),
+  // path: /docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88.html
+  "v-0b88834e": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b88834e" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-11-24-Selenium-chrome-version-이슈.html.vue")),
   // path: /docs/CSS/border-animation/
   "v-0505b5b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.vue")),
   // path: /docs/CSS/imageset/

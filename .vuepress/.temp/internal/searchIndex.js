@@ -14,28 +14,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "코드 생성 유틸 yarn generate",
-    "headers": [
-      {
-        "level": 2,
-        "title": "사용법",
-        "slug": "사용법",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "제공하는 generator",
-        "slug": "제공하는-generator",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "참고 문서",
-        "slug": "참고-문서",
-        "children": []
-      }
-    ],
-    "path": "/scripts/generators/",
+    "title": "Selenium chrome version 이슈",
+    "headers": [],
+    "path": "/docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88.html",
     "pathLocale": "/",
     "extraFields": []
   },

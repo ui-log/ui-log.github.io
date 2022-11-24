@@ -3,8 +3,8 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /About/
   "v-3e214e9b": () => import(/* webpackChunkName: "v-3e214e9b" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/About/index.html.js").then(({ data }) => data),
-  // path: /scripts/generators/
-  "v-5fe8ea0f": () => import(/* webpackChunkName: "v-5fe8ea0f" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/scripts/generators/index.html.js").then(({ data }) => data),
+  // path: /docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88.html
+  "v-0b88834e": () => import(/* webpackChunkName: "v-0b88834e" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-11-24-Selenium-chrome-version-이슈.html.js").then(({ data }) => data),
   // path: /docs/CSS/border-animation/
   "v-0505b5b6": () => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/imageset/

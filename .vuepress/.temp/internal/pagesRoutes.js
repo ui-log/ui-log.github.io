@@ -3,7 +3,7 @@ import { Vuepress } from '@vuepress/client'
 const routeItems = [
   ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
   ["v-3e214e9b","/About/",{"title":"Today I Learned"},["/About/index.html","/About/README.md"]],
-  ["v-5fe8ea0f","/scripts/generators/",{"title":"코드 생성 유틸 yarn generate"},["/scripts/generators/index.html","/scripts/generators/README.md"]],
+  ["v-0b88834e","/docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88.html",{"title":"Selenium chrome version 이슈 해결방법(This version of ChromeDriver only supports Chrome version)"},["/docs/Selenium/2022-11-24-Selenium-chrome-version-이슈.html","/docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88","/docs/Selenium/2022-11-24-Selenium-chrome-version-이슈.md","/docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88.md"]],
   ["v-0505b5b6","/docs/CSS/border-animation/",{"title":"linear-gradient를 활용한 border 애니메이션 5가지 만들기"},["/docs/CSS/border-animation/index.html","/docs/CSS/border-animation/README.md"]],
   ["v-475c08a1","/docs/CSS/imageset/",{"title":"image-set 속성으로 반응형 background-image 사용하기"},["/docs/CSS/imageset/index.html","/docs/CSS/imageset/README.md"]],
   ["v-0fd7d848","/docs/Javascript/optional-chaining/",{"title":"알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)"},["/docs/Javascript/optional-chaining/index.html","/docs/Javascript/optional-chaining/README.md"]],

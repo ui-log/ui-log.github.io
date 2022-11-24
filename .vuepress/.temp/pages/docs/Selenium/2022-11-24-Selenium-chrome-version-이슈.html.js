@@ -1,0 +1,33 @@
+export const data = {
+  "key": "v-0b88834e",
+  "path": "/docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88.html",
+  "title": "Selenium chrome version 이슈 해결방법(This version of ChromeDriver only supports Chrome version)",
+  "lang": "en-US",
+  "frontmatter": {
+    "title": "Selenium chrome version 이슈 해결방법(This version of ChromeDriver only supports Chrome version)",
+    "description": "This version of ChromeDriver only supports Chrome version 이슈 해결 방법에 대해 정리합니다.",
+    "date": "2022-11-24T00:00:00.000Z",
+    "sidebarDepth": 2,
+    "tag": "Selenium",
+    "thumbnail": null
+  },
+  "excerpt": "",
+  "headers": [],
+  "git": {
+    "updatedTime": null
+  },
+  "filePathRelative": "docs/Selenium/2022-11-24-Selenium-chrome-version-이슈.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

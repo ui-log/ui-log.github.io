@@ -10,7 +10,7 @@
 <code v-pre>?code</code> 는 사진의 키워드로 원하는 키워드를 넣어주면 됩니다.</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>https://source.unsplash.com/500x500/?code
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>위 방법은 공식 문서에는 deprecated되었다고 나와있기 때문에 언제 중지될지 모릅니다.</p>
-<p>사진 관련된 서비스를 사용하시려면 정식 API를 사용하시는 것을 추천드립니다.</p>
+<p>사진 관련된 서비스를 사용하려면 정식 API를 사용하시는 것을 추천드립니다.</p>
 <h3 id="unsplash-new-api-2022년-최신" tabindex="-1"><a class="header-anchor" href="#unsplash-new-api-2022년-최신" aria-hidden="true">#</a> unsplash New API (2022년 최신)</h3>
 <p>unsplash의 API를 사용하기 위해 아래 사이트로 방문해서 회원 가입을 진행해줍니다.</p>
 <p><a href="https://unsplash.com/developers" target="_blank" rel="noopener noreferrer">https://unsplash.com/developers<ExternalLinkIcon/></a></p>

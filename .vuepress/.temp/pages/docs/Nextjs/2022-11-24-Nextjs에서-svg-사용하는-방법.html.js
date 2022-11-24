@@ -21,7 +21,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1669287991000
   },
   "filePathRelative": "docs/Nextjs/2022-11-24-Nextjs에서-svg-사용하는-방법.md"
 }

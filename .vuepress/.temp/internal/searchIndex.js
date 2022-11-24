@@ -14,144 +14,28 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "image-set 속성으로 반응형 background-image 사용하기",
+    "title": "코드 생성 유틸 yarn generate",
     "headers": [
       {
         "level": 2,
-        "title": "1. srcset",
-        "slug": "_1-srcset",
-        "children": [
-          {
-            "level": 3,
-            "title": "사용 방법",
-            "slug": "사용-방법",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. image-set",
-        "slug": "_2-image-set",
-        "children": [
-          {
-            "level": 3,
-            "title": "사용방법",
-            "slug": "사용방법",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "지원범위",
-        "slug": "지원범위",
+        "title": "사용법",
+        "slug": "사용법",
         "children": []
       },
       {
         "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
+        "title": "제공하는 generator",
+        "slug": "제공하는-generator",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "참고 문서",
+        "slug": "참고-문서",
         "children": []
       }
     ],
-    "path": "/docs/CSS/imageset/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "getStaticProps, getServersideProps 적절한 사용 방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 외부 데이터가 필요 없는 경우",
-        "slug": "_1-외부-데이터가-필요-없는-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 페이지 내용이 외부 데이터에 의존하는 경우",
-        "slug": "_2-페이지-내용이-외부-데이터에-의존하는-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 페이지 경로가 외부 데이터에 의존하는 경우",
-        "slug": "_3-페이지-경로가-외부-데이터에-의존하는-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "getServerSideProps",
-        "slug": "getserversideprops",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/getStaticProps-getServerSideProps/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Nextjs + Zustand, \"Text content does not match server-rendered HTML.\" 에러 해결 방법 (React Hydration Error)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Persist 제거",
-        "slug": "_1-persist-제거",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Persist name 변경",
-        "slug": "_2-persist-name-변경",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/zustand-react-hydration-error/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. optional chaining(?.)",
-        "slug": "_1-optional-chaining",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. nullish coalescing(??)",
-        "slug": "_2-nullish-coalescing",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "정리",
-        "slug": "정리",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/Javascript/optional-chaining/",
+    "path": "/scripts/generators/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -231,6 +115,148 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/border-animation/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "image-set 속성으로 반응형 background-image 사용하기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. srcset",
+        "slug": "_1-srcset",
+        "children": [
+          {
+            "level": 3,
+            "title": "사용 방법",
+            "slug": "사용-방법",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. image-set",
+        "slug": "_2-image-set",
+        "children": [
+          {
+            "level": 3,
+            "title": "사용방법",
+            "slug": "사용방법",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "지원범위",
+        "slug": "지원범위",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/imageset/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. optional chaining(?.)",
+        "slug": "_1-optional-chaining",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. nullish coalescing(??)",
+        "slug": "_2-nullish-coalescing",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "정리",
+        "slug": "정리",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/Javascript/optional-chaining/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "getStaticProps, getServersideProps 적절한 사용 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 외부 데이터가 필요 없는 경우",
+        "slug": "_1-외부-데이터가-필요-없는-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 페이지 내용이 외부 데이터에 의존하는 경우",
+        "slug": "_2-페이지-내용이-외부-데이터에-의존하는-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 페이지 경로가 외부 데이터에 의존하는 경우",
+        "slug": "_3-페이지-경로가-외부-데이터에-의존하는-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "getServerSideProps",
+        "slug": "getserversideprops",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/getStaticProps-getServerSideProps/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Nextjs + Zustand, \"Text content does not match server-rendered HTML.\" 에러 해결 방법 (React Hydration Error)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Persist 제거",
+        "slug": "_1-persist-제거",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Persist name 변경",
+        "slug": "_2-persist-name-변경",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/zustand-react-hydration-error/",
     "pathLocale": "/",
     "extraFields": []
   },

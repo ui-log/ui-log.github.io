@@ -7,14 +7,14 @@ export const pagesComponents = {
   "v-3e214e9b": defineAsyncComponent(() => import(/* webpackChunkName: "v-3e214e9b" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/About/index.html.vue")),
   // path: /docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88.html
   "v-0b88834e": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b88834e" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-11-24-Selenium-chrome-version-이슈.html.vue")),
-  // path: /docs/CSS/border-animation/
-  "v-0505b5b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.vue")),
-  // path: /docs/CSS/imageset/
-  "v-475c08a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.vue")),
   // path: /docs/Javascript/optional-chaining/
   "v-0fd7d848": defineAsyncComponent(() => import(/* webpackChunkName: "v-0fd7d848" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Javascript/optional-chaining/index.html.vue")),
+  // path: /docs/CSS/imageset/
+  "v-475c08a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.vue")),
   // path: /docs/Nextjs/getStaticProps-getServerSideProps/
   "v-43071ee6": defineAsyncComponent(() => import(/* webpackChunkName: "v-43071ee6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Nextjs/getStaticProps-getServerSideProps/index.html.vue")),
+  // path: /docs/CSS/border-animation/
+  "v-0505b5b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.vue")),
   // path: /docs/Nextjs/zustand-react-hydration-error/
   "v-36b0ea94": defineAsyncComponent(() => import(/* webpackChunkName: "v-36b0ea94" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Nextjs/zustand-react-hydration-error/index.html.vue")),
   // path: /docs/Setting/m1-nvm/

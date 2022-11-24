@@ -9,12 +9,12 @@ export const data = {
     "date": "2022-11-24T00:00:00.000Z",
     "sidebarDepth": 2,
     "tag": "Selenium",
-    "thumbnail": null
+    "thumbnail": "https://user-images.githubusercontent.com/46010705/203762036-64948650-64cf-4959-800f-920af237b537.png"
   },
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1669284953000
   },
   "filePathRelative": "docs/Selenium/2022-11-24-Selenium-chrome-version-이슈.md"
 }

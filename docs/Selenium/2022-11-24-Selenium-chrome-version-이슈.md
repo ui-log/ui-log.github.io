@@ -4,7 +4,7 @@ description: This version of ChromeDriver only supports Chrome version 이슈 �
 date: 2022-11-24
 sidebarDepth: 2
 tag: Selenium
-thumbnail:
+thumbnail: https://user-images.githubusercontent.com/46010705/203762036-64948650-64cf-4959-800f-920af237b537.png
 ---
 
 # Selenium chrome version 이슈 해결방법 (This version of ChromeDriver only supports Chrome version)

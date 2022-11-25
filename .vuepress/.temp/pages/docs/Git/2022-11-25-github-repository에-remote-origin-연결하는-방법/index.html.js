@@ -5,7 +5,7 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "title": "github repository에 remote origin 연결하는 방법",
-    "description": null,
+    "description": "git remote add origin 명령어를 통해 로컬 저장소를 원격 저장소에 연결하는 방법에 대해 알아봅니다.",
     "date": "2022-11-25T00:00:00.000Z",
     "sidebarDepth": 2,
     "tag": "Git",
@@ -17,4 +17,17 @@ export const data = {
     "updatedTime": 1669338559000
   },
   "filePathRelative": "docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

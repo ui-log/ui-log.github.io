@@ -7,7 +7,7 @@ tag: Nextjs
 thumbnail:
 ---
 
-# Nextjs build 에러 해결 방법
+# Nextjs build 에러 해결 방법 (Only set one of children or props.dangerouslySetInnerHTML react/no-danger-with-children)
 
 ::: tip 목표
 

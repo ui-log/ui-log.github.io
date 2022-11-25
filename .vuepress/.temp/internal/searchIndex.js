@@ -41,35 +41,7 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/docs/API/2022-11-24-unsplash-API-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%9E%9C%EB%8D%A4-%EC%82%AC%EC%A7%84-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "github repository에 remote origin 연결하는 방법",
-    "headers": [],
-    "path": "/docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Nextjs에서 svg파일 사용하는 방법 (2022년 11월 최신)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "설정방법",
-        "slug": "설정방법",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/2022-11-24-Nextjs%EC%97%90%EC%84%9C-svg-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Selenium chrome version 이슈 해결방법(This version of ChromeDriver only supports Chrome version)",
-    "headers": [],
-    "path": "/docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88.html",
+    "path": "/docs/API/2022-11-24-unsplash-API-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%9E%9C%EB%8D%A4-%EC%82%AC%EC%A7%84-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -211,34 +183,23 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "getStaticProps, getServersideProps 적절한 사용 방법",
+    "title": "Nextjs에서 svg파일 사용하는 방법 (2022년 11월 최신)",
     "headers": [
       {
         "level": 2,
-        "title": "1. 외부 데이터가 필요 없는 경우",
-        "slug": "_1-외부-데이터가-필요-없는-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 페이지 내용이 외부 데이터에 의존하는 경우",
-        "slug": "_2-페이지-내용이-외부-데이터에-의존하는-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 페이지 경로가 외부 데이터에 의존하는 경우",
-        "slug": "_3-페이지-경로가-외부-데이터에-의존하는-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "getServerSideProps",
-        "slug": "getserversideprops",
+        "title": "설정방법",
+        "slug": "설정방법",
         "children": []
       }
     ],
-    "path": "/docs/Nextjs/getStaticProps-getServerSideProps/",
+    "path": "/docs/Nextjs/2022-11-24-Nextjs%EC%97%90%EC%84%9C-svg-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "github repository에 remote origin 연결하는 방법",
+    "headers": [],
+    "path": "/docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -271,6 +232,45 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Javascript/optional-chaining/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "getStaticProps, getServersideProps 적절한 사용 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 외부 데이터가 필요 없는 경우",
+        "slug": "_1-외부-데이터가-필요-없는-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 페이지 내용이 외부 데이터에 의존하는 경우",
+        "slug": "_2-페이지-내용이-외부-데이터에-의존하는-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 페이지 경로가 외부 데이터에 의존하는 경우",
+        "slug": "_3-페이지-경로가-외부-데이터에-의존하는-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "getServerSideProps",
+        "slug": "getserversideprops",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/getStaticProps-getServerSideProps/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Selenium chrome version 이슈 해결방법(This version of ChromeDriver only supports Chrome version)",
+    "headers": [],
+    "path": "/docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88/",
     "pathLocale": "/",
     "extraFields": []
   },

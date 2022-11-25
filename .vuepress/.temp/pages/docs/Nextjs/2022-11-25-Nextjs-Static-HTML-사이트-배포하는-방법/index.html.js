@@ -45,7 +45,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669382965000
+    "updatedTime": 1669383120000
   },
   "filePathRelative": "docs/Nextjs/2022-11-25-Nextjs-Static-HTML-사이트-배포하는-방법/README.md"
 }

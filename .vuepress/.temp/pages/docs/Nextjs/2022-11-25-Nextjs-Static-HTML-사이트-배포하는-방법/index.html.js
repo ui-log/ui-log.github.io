@@ -6,7 +6,7 @@ export const data = {
   "frontmatter": {
     "title": "Nextjs Static HTML 사이트 배포하는 방법 (feat. Netlify)",
     "description": "Nextjs Static HTML site를 Netlify에 deploy하는 방법에 대해서 소개합니다.",
-    "date": "2022-11-25 17:02",
+    "date": "2022-11-25 22:02",
     "sidebarDepth": 2,
     "tag": "Nextjs",
     "thumbnail": null
@@ -45,7 +45,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669381687000
+    "updatedTime": 1669382371000
   },
   "filePathRelative": "docs/Nextjs/2022-11-25-Nextjs-Static-HTML-사이트-배포하는-방법/README.md"
 }

@@ -1,5 +1,5 @@
 <template><div><h1 id="nextjs-static-html-사이트-배포하는-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-static-html-사이트-배포하는-방법" aria-hidden="true">#</a> Nextjs Static HTML 사이트 배포하는 방법</h1>
-<div class="custom-container tip"><p class="custom-container-title">목표</p>
+<div class="custom-container tip"><p class="custom-container-title">💡목표</p>
 <p>웹사이트를 만들다보면 DB를 사용하지 않는 정적 웹 사이트를 만드는 경우가 있는데요.
 Nextjs를 활용해 정적 웹사이트 배포하는 방법에 대해서 소개합니다.
 정적 웹 사이트 배포는 Netlify를 통해서 진행합니다.</p>

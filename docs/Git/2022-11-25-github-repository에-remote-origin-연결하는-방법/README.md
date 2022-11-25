@@ -4,7 +4,7 @@ description: git remote add origin 명령어를 통해 로컬 저장소를 원�
 date: 2022-11-25
 sidebarDepth: 2
 tag: Git
-thumbnail:
+thumbnail: https://user-images.githubusercontent.com/46010705/204000545-74117888-0b9a-4285-bb08-4da940dc426a.png
 ---
 
 # github repository에 remote origin 연결하는 방법

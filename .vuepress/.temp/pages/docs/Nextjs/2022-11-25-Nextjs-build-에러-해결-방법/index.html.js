@@ -9,7 +9,7 @@ export const data = {
     "date": "2022-11-25 16:00",
     "sidebarDepth": 2,
     "tag": "Nextjs",
-    "thumbnail": null
+    "thumbnail": "https://user-images.githubusercontent.com/46010705/203999759-375a62ba-4b30-4504-9239-972453015742.png"
   },
   "excerpt": "",
   "headers": [
@@ -24,4 +24,17 @@ export const data = {
     "updatedTime": 1669381562000
   },
   "filePathRelative": "docs/Nextjs/2022-11-25-Nextjs-build-에러-해결-방법/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

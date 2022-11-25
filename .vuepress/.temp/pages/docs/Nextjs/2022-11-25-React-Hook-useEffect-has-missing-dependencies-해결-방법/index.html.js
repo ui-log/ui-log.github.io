@@ -9,7 +9,7 @@ export const data = {
     "date": "2022-11-25 17:00",
     "sidebarDepth": 2,
     "tag": "Nextjs",
-    "thumbnail": null
+    "thumbnail": "https://user-images.githubusercontent.com/46010705/203999521-809b78ac-9c4f-415c-b4bb-970f4eacd963.png"
   },
   "excerpt": "",
   "headers": [
@@ -24,4 +24,17 @@ export const data = {
     "updatedTime": 1669381562000
   },
   "filePathRelative": "docs/Nextjs/2022-11-25-React-Hook-useEffect-has-missing-dependencies-해결-방법/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

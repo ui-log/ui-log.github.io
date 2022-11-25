@@ -9,7 +9,7 @@ export const data = {
     "date": "2022-11-25 22:02",
     "sidebarDepth": 2,
     "tag": "Nextjs",
-    "thumbnail": null
+    "thumbnail": "https://user-images.githubusercontent.com/46010705/203999035-c55621d8-9dce-4f0f-8bc4-11a0e184fe98.png"
   },
   "excerpt": "",
   "headers": [
@@ -45,7 +45,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669383634000
+    "updatedTime": 1669383862000
   },
   "filePathRelative": "docs/Nextjs/2022-11-25-Nextjs-Static-HTML-사이트-배포하는-방법/README.md"
 }

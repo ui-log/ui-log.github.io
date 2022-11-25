@@ -1,7 +1,7 @@
 ---
 title: Nextjs Static HTML 사이트 배포하는 방법 (feat. Netlify)
 description: Nextjs Static HTML site를 Netlify에 deploy하는 방법에 대해서 소개합니다.
-date: 2022-11-25 17:02
+date: 2022-11-25 22:02
 sidebarDepth: 2
 tag: Nextjs
 thumbnail:
@@ -9,7 +9,7 @@ thumbnail:
 
 # Nextjs Static HTML 사이트 배포하는 방법
 
-::: tip 목표
+::: tip 💡목표
 웹사이트를 만들다보면 DB를 사용하지 않는 정적 웹 사이트를 만드는 경우가 있는데요.
 Nextjs를 활용해 정적 웹사이트 배포하는 방법에 대해서 소개합니다.
 정적 웹 사이트 배포는 Netlify를 통해서 진행합니다.

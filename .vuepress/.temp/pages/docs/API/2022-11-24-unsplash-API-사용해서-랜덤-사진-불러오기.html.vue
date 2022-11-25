@@ -6,6 +6,7 @@
 <p><img src="@source/docs/API/img/2.png" alt=""></p>
 <p>아래 url을 통해 get 요청을 하게 되면 현재도 사용을 할 수 는 있습니다.
 <code v-pre>?code</code> 는 사진의 키워드로 원하는 키워드를 넣어주면 됩니다.</p>
+<h3 id="api" tabindex="-1"><a class="header-anchor" href="#api" aria-hidden="true">#</a> API</h3>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>https://source.unsplash.com/500x500/?code
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>위 방법은 공식 문서에는 deprecated되었다고 나와있기 때문에 언제 중지될지 모릅니다.</p>
 <p>사진 관련된 서비스를 사용하려면 정식 API를 사용하시는 것을 추천드립니다.</p>
@@ -20,7 +21,7 @@
 <p><img src="@source/docs/API/img/5.png" alt=""></p>
 <p>앱 생성을 해주면 앱 사용 여부를 검토해준다는 메세지를 확인할 수 있습니다.
 5일에서 10일정도 소요된다고 하니 기다려주시면 될 것 같습니다.</p>
-<p><img src="@source/docs/API/img/5.png" alt=""></p>
+<p><img src="@source/docs/API/img/6.png" alt=""></p>
 <p>현재 저도 심사를 받는 중이라 심사 완료되면 업데이트 하도록 하겠습니다(22/11/24)</p>
 <p>심사를 받기 전에는 1시간에 50번의 호출만 가능하기 때문에 개발용으로 사용하기도 부족해보이네요.</p>
 <p>source API는 deprecated되었으니 안전한 API 사용하셔서 개발하시면 될 것 같습니다.</p>

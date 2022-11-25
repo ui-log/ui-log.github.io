@@ -21,6 +21,12 @@ export const data = {
     },
     {
       "level": 3,
+      "title": "API",
+      "slug": "api",
+      "children": []
+    },
+    {
+      "level": 3,
       "title": "unsplash New API (2022년 최신)",
       "slug": "unsplash-new-api-2022년-최신",
       "children": []
@@ -33,7 +39,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669290403000
+    "updatedTime": 1669290524000
   },
   "filePathRelative": "docs/API/2022-11-24-unsplash-API-사용해서-랜덤-사진-불러오기.md"
 }

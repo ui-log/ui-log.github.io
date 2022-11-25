@@ -24,6 +24,12 @@ export const searchIndex = [
       },
       {
         "level": 3,
+        "title": "API",
+        "slug": "api",
+        "children": []
+      },
+      {
+        "level": 3,
         "title": "unsplash New API (2022년 최신)",
         "slug": "unsplash-new-api-2022년-최신",
         "children": []
@@ -140,64 +146,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "image-set 속성으로 반응형 background-image 사용하기",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. srcset",
-        "slug": "_1-srcset",
-        "children": [
-          {
-            "level": 3,
-            "title": "사용 방법",
-            "slug": "사용-방법",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. image-set",
-        "slug": "_2-image-set",
-        "children": [
-          {
-            "level": 3,
-            "title": "사용방법",
-            "slug": "사용방법",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "지원범위",
-        "slug": "지원범위",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/imageset/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
     "headers": [
       {
@@ -262,6 +210,64 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "image-set 속성으로 반응형 background-image 사용하기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. srcset",
+        "slug": "_1-srcset",
+        "children": [
+          {
+            "level": 3,
+            "title": "사용 방법",
+            "slug": "사용-방법",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. image-set",
+        "slug": "_2-image-set",
+        "children": [
+          {
+            "level": 3,
+            "title": "사용방법",
+            "slug": "사용방법",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "지원범위",
+        "slug": "지원범위",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/imageset/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Nextjs + Zustand, \"Text content does not match server-rendered HTML.\" 에러 해결 방법 (React Hydration Error)",
     "headers": [
       {
@@ -282,46 +288,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "M1 mac에 nvm설치하는 방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. nvm 설치",
-        "slug": "_1-nvm-설치",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "설치 확인",
-        "slug": "설치-확인",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "원하는 Node 버전 설치",
-        "slug": "원하는-node-버전-설치",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "설치된 Node 버전 확인",
-        "slug": "설치된-node-버전-확인",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "원하는 Node 버전으로 변경",
-        "slug": "원하는-node-버전으로-변경",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "default Node 버전 설정",
-        "slug": "default-node-버전-설정",
-        "children": []
-      }
-    ],
-    "path": "/docs/Setting/m1-nvm/",
+    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
+    "headers": [],
+    "path": "/docs/Vuepress/hits/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -389,9 +358,46 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
-    "headers": [],
-    "path": "/docs/Vuepress/hits/",
+    "title": "M1 mac에 nvm설치하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. nvm 설치",
+        "slug": "_1-nvm-설치",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "설치 확인",
+        "slug": "설치-확인",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "원하는 Node 버전 설치",
+        "slug": "원하는-node-버전-설치",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "설치된 Node 버전 확인",
+        "slug": "설치된-node-버전-확인",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "원하는 Node 버전으로 변경",
+        "slug": "원하는-node-버전으로-변경",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "default Node 버전 설정",
+        "slug": "default-node-버전-설정",
+        "children": []
+      }
+    ],
+    "path": "/docs/Setting/m1-nvm/",
     "pathLocale": "/",
     "extraFields": []
   },

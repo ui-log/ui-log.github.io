@@ -1,7 +1,7 @@
 ---
 title: React Hook useEffect has missing dependencies 해결 방법(exhaustive-deps Warning)
 description: react-hooks/exhaustive-deps Warning 해결 방법에 대해서 정리합니다.
-date: 2022-11-25
+date: 2022-11-25 17:00
 sidebarDepth: 2
 tag: Nextjs
 thumbnail:

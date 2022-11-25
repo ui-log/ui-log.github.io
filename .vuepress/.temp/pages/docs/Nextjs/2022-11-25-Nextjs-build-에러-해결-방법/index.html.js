@@ -6,7 +6,7 @@ export const data = {
   "frontmatter": {
     "title": "Nextjs build 에러 해결 방법 (Only set one of children or props.dangerouslySetInnerHTML react/no-danger-with-children)",
     "description": "Only set one of children or props.dangerouslySetInnerHTML react/no-danger-with-children 에러 해결 방법에 대해서 정리합니다.",
-    "date": "2022-11-25T00:00:00.000Z",
+    "date": "2022-11-25 16:00",
     "sidebarDepth": 2,
     "tag": "Nextjs",
     "thumbnail": null
@@ -21,7 +21,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669358942000
+    "updatedTime": 1669361068000
   },
   "filePathRelative": "docs/Nextjs/2022-11-25-Nextjs-build-에러-해결-방법/README.md"
 }

@@ -1,7 +1,7 @@
 ---
 title: Nextjs build 에러 해결 방법 (Only set one of children or props.dangerouslySetInnerHTML react/no-danger-with-children)
 description: Only set one of children or props.dangerouslySetInnerHTML react/no-danger-with-children 에러 해결 방법에 대해서 정리합니다.
-date: 2022-11-25
+date: 2022-11-25 16:00
 sidebarDepth: 2
 tag: Nextjs
 thumbnail:

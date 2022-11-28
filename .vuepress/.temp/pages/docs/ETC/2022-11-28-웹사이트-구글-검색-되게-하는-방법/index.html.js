@@ -21,7 +21,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669614410000
+    "updatedTime": 1669614978000
   },
   "filePathRelative": "docs/ETC/2022-11-28-웹사이트-구글-검색-되게-하는-방법/README.md"
 }

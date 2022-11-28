@@ -4,7 +4,7 @@
 <p><img src="@source/docs/ETC/2022-11-28-웹사이트-구글-검색-되게-하는-방법/img/2.png" alt=""></p>
 <h2 id="search-console" tabindex="-1"><a class="header-anchor" href="#search-console" aria-hidden="true">#</a> Search Console</h2>
 <p>구글 검색 결과에 노출이 되려면 <a href="https://search.google.com/search-console/about" target="_blank" rel="noopener noreferrer">서치콘솔(Search Condsole)<ExternalLinkIcon/></a>에 사이트를 등록해야하는데요.</p>
-<p><img src="@source/docs/ETC/2022-11-28-웹사이트-구글-검색-되게-하는-방법/img/1.png" alt=""></p>
+<p><img src="@source/docs/ETC/2022-11-28-웹사이트-구글-검색-되게-하는-방법/img/1.jpg" alt=""></p>
 <p>사이트에 방문해서 시작하기 버튼을 눌러줍니다.</p>
 <img src="@source/docs/ETC/2022-11-28-웹사이트-구글-검색-되게-하는-방법/img/3.png" width="500">
 <p>좌측 속성 검색 버튼을 누르면 위와 같이 창이 나오는데 여기서 '속성추가'를 눌러줍니다.</p>

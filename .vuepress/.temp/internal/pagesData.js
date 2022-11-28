@@ -5,18 +5,16 @@ export const pagesData = {
   "v-3e214e9b": () => import(/* webpackChunkName: "v-3e214e9b" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/About/index.html.js").then(({ data }) => data),
   // path: /docs/API/2022-11-24-unsplash-API-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%9E%9C%EB%8D%A4-%EC%82%AC%EC%A7%84-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0/
   "v-32d21ace": () => import(/* webpackChunkName: "v-32d21ace" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/API/2022-11-24-unsplash-API-사용해서-랜덤-사진-불러오기/index.html.js").then(({ data }) => data),
-  // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
-  "v-39f3c26a": () => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.js").then(({ data }) => data),
-  // path: /docs/CSS/imageset/
-  "v-475c08a1": () => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/border-animation/
   "v-0505b5b6": () => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.js").then(({ data }) => data),
+  // path: /docs/CSS/imageset/
+  "v-475c08a1": () => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.js").then(({ data }) => data),
   // path: /docs/ETC/2022-11-28-Netlify%EC%97%90-Nextjs-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-out-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EB%B0%B0%ED%8F%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-2e48a586": () => import(/* webpackChunkName: "v-2e48a586" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/ETC/2022-11-28-Netlify에-Nextjs-프로젝트-out-디렉토리로-배포하는-방법/index.html.js").then(({ data }) => data),
-  // path: /docs/ETC/2022-11-28-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B5%AC%EA%B8%80-%EA%B2%80%EC%83%89-%EB%90%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
-  "v-abab7dc8": () => import(/* webpackChunkName: "v-abab7dc8" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/ETC/2022-11-28-웹사이트-구글-검색-되게-하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/ETC/2022-11-28-Netlify%EC%97%90-github-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-d22f24d8": () => import(/* webpackChunkName: "v-d22f24d8" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/ETC/2022-11-28-Netlify에-github-저장소-연결하는-방법/index.html.js").then(({ data }) => data),
+  // path: /docs/ETC/2022-11-28-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B5%AC%EA%B8%80-%EA%B2%80%EC%83%89-%EB%90%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
+  "v-abab7dc8": () => import(/* webpackChunkName: "v-abab7dc8" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/ETC/2022-11-28-웹사이트-구글-검색-되게-하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/Javascript/optional-chaining/
   "v-0fd7d848": () => import(/* webpackChunkName: "v-0fd7d848" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Javascript/optional-chaining/index.html.js").then(({ data }) => data),
   // path: /docs/Nextjs/2022-11-24-Nextjs%EC%97%90%EC%84%9C-svg-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
@@ -39,6 +37,8 @@ export const pagesData = {
   "v-64390c90": () => import(/* webpackChunkName: "v-64390c90" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Vuepress/hits/index.html.js").then(({ data }) => data),
   // path: /docs/Vuepress/vuepress-hosting/
   "v-d8df1a64": () => import(/* webpackChunkName: "v-d8df1a64" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Vuepress/vuepress-hosting/index.html.js").then(({ data }) => data),
+  // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
+  "v-39f3c26a": () => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }

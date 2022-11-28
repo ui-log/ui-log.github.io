@@ -3,7 +3,7 @@ title: Netlify에 github 저장소 연결하는 방법
 description: Netlify에 github 저장소를 연결하여 푸시만 하면 배포되는 방법을 알아봅니다.
 date: 2022-11-28 11:00
 sidebarDepth: 2
-tag: ETC
+tag: SEO
 thumbnail:
 ---
 

@@ -5,8 +5,8 @@
 <p>이 포스팅에서는 각 방식에 따라 Netlify build configuration 설정 방법과 에러 해결 방법에 대해서 정리합니다.</p>
 <h2 id="_1-정적-웹-사이트-out-경로-배포" tabindex="-1"><a class="header-anchor" href="#_1-정적-웹-사이트-out-경로-배포" aria-hidden="true">#</a> 1. 정적 웹 사이트 (out) 경로 배포</h2>
 <p>Netlify를 통해서 Nextjs를 배포할 때는 위 두가지 중 어떤 것으로 배포하냐에 따라 빌드 설정이 달라지게 됩니다.
-빌드 설정을 잘못하게 되면 아래와 같은 에러가 발생합니다.</p>
-<p><img src="@source/docs/ETC/2022-11-28-Netlify에-Nextjs-프로젝트-out-디렉토리로-배포하는-방법/img/1.png" alt=""></p>
+빌드 설정을 잘못하게 되면 아래와 같은 에러가 발생합니다</p>
+<p><img src="@source/docs/ETC/2022-11-28-Netlify에-Nextjs-프로젝트-out-디렉토리로-배포하는-방법/img/1.jpg" alt=""></p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token number">12</span>:48:25 PM:   Error message
 <span class="token number">12</span>:48:25 PM:   Error: Detected that <span class="token string">"next export"</span> was run, but site is incorrectly publishing the <span class="token string">".next"</span> directory.
 <span class="token number">12</span>:48:25 PM:   The publish directory should be <span class="token builtin class-name">set</span> to <span class="token string">"out"</span>, and you should <span class="token builtin class-name">set</span> the environment variable NETLIFY_NEXT_PLUGIN_SKIP to <span class="token string">"true"</span><span class="token builtin class-name">.</span>

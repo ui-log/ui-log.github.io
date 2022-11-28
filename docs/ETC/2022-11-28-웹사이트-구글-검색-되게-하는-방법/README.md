@@ -18,7 +18,7 @@ thumbnail:
 
 구글 검색 결과에 노출이 되려면 [서치콘솔(Search Condsole)](https://search.google.com/search-console/about)에 사이트를 등록해야하는데요.
 
-![](./img/1.png)
+![](./img/1.jpg)
 
 사이트에 방문해서 시작하기 버튼을 눌러줍니다.
 

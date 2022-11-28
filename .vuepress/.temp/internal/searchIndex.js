@@ -46,64 +46,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "image-set 속성으로 반응형 background-image 사용하기",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. srcset",
-        "slug": "_1-srcset",
-        "children": [
-          {
-            "level": 3,
-            "title": "사용 방법",
-            "slug": "사용-방법",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. image-set",
-        "slug": "_2-image-set",
-        "children": [
-          {
-            "level": 3,
-            "title": "사용방법",
-            "slug": "사용방법",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "지원범위",
-        "slug": "지원범위",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/imageset/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "linear-gradient를 활용한 border 애니메이션 5가지 만들기",
     "headers": [
       {
@@ -183,9 +125,179 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "image-set 속성으로 반응형 background-image 사용하기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. srcset",
+        "slug": "_1-srcset",
+        "children": [
+          {
+            "level": 3,
+            "title": "사용 방법",
+            "slug": "사용-방법",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. image-set",
+        "slug": "_2-image-set",
+        "children": [
+          {
+            "level": 3,
+            "title": "사용방법",
+            "slug": "사용방법",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "지원범위",
+        "slug": "지원범위",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/imageset/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Netlify에 github 저장소 연결하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Github 저장소 연결",
+        "slug": "github-저장소-연결",
+        "children": []
+      }
+    ],
+    "path": "/docs/ETC/2022-11-28-Netlify%EC%97%90-github-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Netlify에 Nextjs 프로젝트 배포하는 두 가지 방법 (.next , out)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 정적 웹 사이트 (out) 경로 배포",
+        "slug": "_1-정적-웹-사이트-out-경로-배포",
+        "children": [
+          {
+            "level": 3,
+            "title": "Netlify 환경변수 추가방법",
+            "slug": "netlify-환경변수-추가방법",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "publish directory 변경",
+            "slug": "publish-directory-변경",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "build 명령어 수정",
+            "slug": "build-명령어-수정",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "git push",
+            "slug": "git-push",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. .next 경로 배포",
+        "slug": "_2-next-경로-배포",
+        "children": []
+      }
+    ],
+    "path": "/docs/ETC/2022-11-28-Netlify%EC%97%90-Nextjs-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-out-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EB%B0%B0%ED%8F%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "웹사이트 구글 검색 되게 하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Search Console",
+        "slug": "search-console",
+        "children": []
+      }
+    ],
+    "path": "/docs/ETC/2022-11-28-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B5%AC%EA%B8%80-%EA%B2%80%EC%83%89-%EB%90%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "github repository에 remote origin 연결하는 방법",
     "headers": [],
     "path": "/docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. optional chaining(?.)",
+        "slug": "_1-optional-chaining",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. nullish coalescing(??)",
+        "slug": "_2-nullish-coalescing",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "정리",
+        "slug": "정리",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/Javascript/optional-chaining/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Selenium chrome version 이슈 해결방법(This version of ChromeDriver only supports Chrome version)",
+    "headers": [],
+    "path": "/docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -242,34 +354,30 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
+    "title": "Nextjs build 에러 해결 방법 (Only set one of children or props.dangerouslySetInnerHTML react/no-danger-with-children)",
     "headers": [
       {
         "level": 2,
-        "title": "1. optional chaining(?.)",
-        "slug": "_1-optional-chaining",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. nullish coalescing(??)",
-        "slug": "_2-nullish-coalescing",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "정리",
-        "slug": "정리",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
+        "title": "해결방법",
+        "slug": "해결방법",
         "children": []
       }
     ],
-    "path": "/docs/Javascript/optional-chaining/",
+    "path": "/docs/Nextjs/2022-11-25-Nextjs-build-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "React Hook useEffect has missing dependencies 해결 방법(exhaustive-deps Warning)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "해결 방법",
+        "slug": "해결-방법",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/2022-11-25-React-Hook-useEffect-has-missing-dependencies-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -306,34 +414,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "React Hook useEffect has missing dependencies 해결 방법(exhaustive-deps Warning)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "해결 방법",
-        "slug": "해결-방법",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/2022-11-25-React-Hook-useEffect-has-missing-dependencies-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Nextjs build 에러 해결 방법 (Only set one of children or props.dangerouslySetInnerHTML react/no-danger-with-children)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "해결방법",
-        "slug": "해결방법",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/2022-11-25-Nextjs-build-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Nextjs + Zustand, \"Text content does not match server-rendered HTML.\" 에러 해결 방법 (React Hydration Error)",
     "headers": [
       {
@@ -350,13 +430,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Nextjs/zustand-react-hydration-error/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Selenium chrome version 이슈 해결방법(This version of ChromeDriver only supports Chrome version)",
-    "headers": [],
-    "path": "/docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -401,6 +474,13 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Setting/m1-nvm/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
+    "headers": [],
+    "path": "/docs/Vuepress/hits/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -468,13 +548,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
-    "headers": [],
-    "path": "/docs/Vuepress/hits/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -482,3 +555,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

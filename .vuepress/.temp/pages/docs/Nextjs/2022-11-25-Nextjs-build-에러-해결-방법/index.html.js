@@ -21,7 +21,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669381562000
+    "updatedTime": 1669384721000
   },
   "filePathRelative": "docs/Nextjs/2022-11-25-Nextjs-build-에러-해결-방법/README.md"
 }

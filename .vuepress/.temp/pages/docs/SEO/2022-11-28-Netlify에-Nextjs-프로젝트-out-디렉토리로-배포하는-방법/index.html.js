@@ -9,7 +9,7 @@ export const data = {
     "date": "2022-11-28 14:00",
     "sidebarDepth": 2,
     "tag": "SEO",
-    "thumbnail": null
+    "thumbnail": "https://user-images.githubusercontent.com/46010705/204205482-32156435-9a1b-4585-81d8-bd0b6784cc71.png"
   },
   "excerpt": "",
   "headers": [
@@ -52,7 +52,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669615230000
+    "updatedTime": 1669615588000
   },
   "filePathRelative": "docs/SEO/2022-11-28-Netlify에-Nextjs-프로젝트-out-디렉토리로-배포하는-방법/README.md"
 }

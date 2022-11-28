@@ -9,7 +9,7 @@ export const data = {
     "date": "2022-11-28 10:00",
     "sidebarDepth": 2,
     "tag": "SEO",
-    "thumbnail": null
+    "thumbnail": "https://user-images.githubusercontent.com/46010705/204205306-55dfcb01-dfca-4031-9918-714f88864b3f.png"
   },
   "excerpt": "",
   "headers": [
@@ -21,7 +21,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669615230000
+    "updatedTime": 1669615588000
   },
   "filePathRelative": "docs/SEO/2022-11-28-웹사이트-구글-검색-되게-하는-방법/README.md"
 }

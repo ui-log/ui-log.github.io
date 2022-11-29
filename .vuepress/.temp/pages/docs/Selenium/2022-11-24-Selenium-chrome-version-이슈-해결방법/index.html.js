@@ -1,6 +1,6 @@
 export const data = {
-  "key": "v-e94584a2",
-  "path": "/docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88/",
+  "key": "v-dc0d58ca",
+  "path": "/docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/",
   "title": "Selenium chrome version 이슈 해결방법(This version of ChromeDriver only supports Chrome version)",
   "lang": "en-US",
   "frontmatter": {
@@ -14,9 +14,9 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1669338559000
+    "updatedTime": null
   },
-  "filePathRelative": "docs/Selenium/2022-11-24-Selenium-chrome-version-이슈/README.md"
+  "filePathRelative": "docs/Selenium/2022-11-24-Selenium-chrome-version-이슈-해결방법/README.md"
 }
 
 if (import.meta.webpackHot) {

@@ -9,7 +9,7 @@ export const data = {
     "date": "2022-11-28 11:00",
     "sidebarDepth": 2,
     "tag": "SEO",
-    "thumbnail": null
+    "thumbnail": "https://user-images.githubusercontent.com/46010705/204205405-a6fbb82f-7981-476d-8597-7389b963a142.png"
   },
   "excerpt": "",
   "headers": [
@@ -21,7 +21,20 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669615230000
+    "updatedTime": 1669615669000
   },
   "filePathRelative": "docs/SEO/2022-11-28-Netlify에-github-저장소-연결하는-방법/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

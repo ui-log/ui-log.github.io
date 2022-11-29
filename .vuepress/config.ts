@@ -101,9 +101,9 @@ export default defineUserConfig({
       atom: true,
       json: true,
     }),
-    // googleAnalyticsPlugin({
-    //   id: "G-1J5RF08RZE",
-    // }),
+    googleAnalyticsPlugin({
+      id: "G-VYKVD4LR7J",
+    }),
     searchPlugin({}),
     // demoBlock({}),
   ],

@@ -5,6 +5,13 @@ export const siteData = {
   "description": "Today I leanred",
   "head": [
     [
+      "meta",
+      {
+        "name": "naver-site-verification",
+        "content": "d5357edfb68faf1ae15d21e0fbe3293dea724789"
+      }
+    ],
+    [
       "link",
       {
         "rel": "apple-touch-icon",

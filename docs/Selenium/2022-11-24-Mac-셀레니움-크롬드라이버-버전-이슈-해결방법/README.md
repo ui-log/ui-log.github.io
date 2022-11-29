@@ -1,5 +1,5 @@
 ---
-title: Selenium chrome driver version 이슈 해결방법(This version of ChromeDriver only supports Chrome version)
+title: Mac에서 셀레니움 크롬드라이버 버전 이슈 해결방법(This version of ChromeDriver only supports Chrome version)
 description: This version of ChromeDriver only supports Chrome version 이슈 해결 방법에 대해 정리합니다.
 date: 2022-11-24
 sidebarDepth: 2
@@ -7,7 +7,7 @@ tag: Selenium
 thumbnail: https://user-images.githubusercontent.com/46010705/203762036-64948650-64cf-4959-800f-920af237b537.png
 ---
 
-# Selenium chrome driver version 이슈 해결방법 (This version of ChromeDriver only supports Chrome version)
+# 셀레니움 크롬드라이버 버전 이슈 해결방법 (This version of ChromeDriver only supports Chrome version)
 
 ::: tip 목표
 셀레니움을 사용하다보면 아래와 같은 에러를 자주 만나는데 해결방법에 대해 알아보자

@@ -76,6 +76,7 @@ export default defineUserConfig({
   base: "/",
   head: [
     // ["meta", { name: "google-site-verification", content: "pvvSTvZm_50xq7R_E4wMghRYyaoQ0Of-Hf7MvqBbj8M" }],
+    ["meta", { name: "naver-site-verification", content: "d5357edfb68faf1ae15d21e0fbe3293dea724789" }],
     ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/favicons/apple-touch-icon.png" }],
     ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicons/favicon-32x32.png" }],
     ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicons/favicon-16x16.png" }],

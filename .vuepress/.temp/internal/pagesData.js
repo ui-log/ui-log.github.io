@@ -9,12 +9,12 @@ export const pagesData = {
   "v-0505b5b6": () => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/imageset/
   "v-475c08a1": () => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.js").then(({ data }) => data),
-  // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
-  "v-39f3c26a": () => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/Javascript/optional-chaining/
   "v-0fd7d848": () => import(/* webpackChunkName: "v-0fd7d848" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Javascript/optional-chaining/index.html.js").then(({ data }) => data),
   // path: /docs/Nextjs/2022-11-24-Nextjs%EC%97%90%EC%84%9C-svg-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-2e70fa45": () => import(/* webpackChunkName: "v-2e70fa45" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Nextjs/2022-11-24-Nextjs에서-svg-사용하는-방법/index.html.js").then(({ data }) => data),
+  // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
+  "v-39f3c26a": () => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/Nextjs/2022-11-25-Nextjs-Static-HTML-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-6b21e1c4": () => import(/* webpackChunkName: "v-6b21e1c4" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Nextjs/2022-11-25-Nextjs-Static-HTML-사이트-배포하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/Nextjs/2022-11-25-Nextjs-build-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/
@@ -29,10 +29,10 @@ export const pagesData = {
   "v-64da0058": () => import(/* webpackChunkName: "v-64da0058" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/SEO/2022-11-28-Netlify에-Nextjs-프로젝트-out-디렉토리로-배포하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/SEO/2022-11-28-Netlify%EC%97%90-github-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-7cba2d46": () => import(/* webpackChunkName: "v-7cba2d46" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/SEO/2022-11-28-Netlify에-github-저장소-연결하는-방법/index.html.js").then(({ data }) => data),
-  // path: /docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88/
-  "v-e94584a2": () => import(/* webpackChunkName: "v-e94584a2" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-11-24-Selenium-chrome-version-이슈/index.html.js").then(({ data }) => data),
   // path: /docs/SEO/2022-11-28-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B5%AC%EA%B8%80-%EA%B2%80%EC%83%89-%EB%90%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-745f9c36": () => import(/* webpackChunkName: "v-745f9c36" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/SEO/2022-11-28-웹사이트-구글-검색-되게-하는-방법/index.html.js").then(({ data }) => data),
+  // path: /docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/
+  "v-dc0d58ca": () => import(/* webpackChunkName: "v-dc0d58ca" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-11-24-Selenium-chrome-version-이슈-해결방법/index.html.js").then(({ data }) => data),
   // path: /docs/Setting/m1-nvm/
   "v-19ae13b9": () => import(/* webpackChunkName: "v-19ae13b9" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Setting/m1-nvm/index.html.js").then(({ data }) => data),
   // path: /docs/Vuepress/hits/
@@ -41,6 +41,4 @@ export const pagesData = {
   "v-d8df1a64": () => import(/* webpackChunkName: "v-d8df1a64" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Vuepress/vuepress-hosting/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
-  // path: /docs/Selenium/2022-11-24-Selenium-chrome-version-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/
-  "v-dc0d58ca": () => import(/* webpackChunkName: "v-dc0d58ca" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-11-24-Selenium-chrome-version-이슈-해결방법/index.html.js").then(({ data }) => data),
 }

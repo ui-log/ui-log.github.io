@@ -9,20 +9,22 @@ export const pagesComponents = {
   "v-32d21ace": defineAsyncComponent(() => import(/* webpackChunkName: "v-32d21ace" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/API/2022-11-24-unsplash-API-사용해서-랜덤-사진-불러오기/index.html.vue")),
   // path: /docs/CSS/2022-12-06-CSS-%EB%A7%90%EC%A4%84%EC%9E%84-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/
   "v-3b64b9ad": defineAsyncComponent(() => import(/* webpackChunkName: "v-3b64b9ad" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-CSS-말줄임-처리-방법/index.html.vue")),
-  // path: /docs/CSS/2022-12-06-HTML-CSS%EB%A7%8C-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%8D%94-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/
-  "v-5673dc3a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5673dc3a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-HTML-CSS만-사용해서-슬라이더-만드는-방법/index.html.vue")),
+  // path: /docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/
+  "v-9c8c15ce": defineAsyncComponent(() => import(/* webpackChunkName: "v-9c8c15ce" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-HTML-CSS로-자동-슬라이드-캐러셀-만들기(Embla-Carousel)/index.html.vue")),
   // path: /docs/CSS/border-animation/
   "v-0505b5b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.vue")),
   // path: /docs/CSS/imageset/
   "v-475c08a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.vue")),
-  // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
-  "v-39f3c26a": defineAsyncComponent(() => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.vue")),
   // path: /docs/Javascript/optional-chaining/
   "v-0fd7d848": defineAsyncComponent(() => import(/* webpackChunkName: "v-0fd7d848" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Javascript/optional-chaining/index.html.vue")),
+  // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
+  "v-39f3c26a": defineAsyncComponent(() => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.vue")),
   // path: /docs/Nextjs/2022-11-24-Nextjs%EC%97%90%EC%84%9C-svg-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-2e70fa45": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e70fa45" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Nextjs/2022-11-24-Nextjs에서-svg-사용하는-방법/index.html.vue")),
   // path: /docs/Nextjs/2022-11-25-Nextjs-Static-HTML-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-6b21e1c4": defineAsyncComponent(() => import(/* webpackChunkName: "v-6b21e1c4" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Nextjs/2022-11-25-Nextjs-Static-HTML-사이트-배포하는-방법/index.html.vue")),
+  // path: /docs/CSS/2022-12-06-HTML-CSS%EB%A7%8C-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%8D%94-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/
+  "v-5673dc3a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5673dc3a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-HTML-CSS만-사용해서-슬라이더-만드는-방법/index.html.vue")),
   // path: /docs/Nextjs/2022-11-25-Nextjs-build-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/
   "v-0585c2bb": defineAsyncComponent(() => import(/* webpackChunkName: "v-0585c2bb" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Nextjs/2022-11-25-Nextjs-build-에러-해결-방법/index.html.vue")),
   // path: /docs/Nextjs/2022-11-25-React-Hook-useEffect-has-missing-dependencies-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/

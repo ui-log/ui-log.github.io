@@ -9,7 +9,7 @@ export const data = {
     "date": "2022-12-06T00:00:00.000Z",
     "sidebarDepth": 2,
     "tag": "CSS",
-    "thumbnail": "https://user-images.githubusercontent.com/46010705/205857539-363ec86e-cdcc-47ba-a968-3759cc4c8784.png"
+    "thumbnail": "https://user-images.githubusercontent.com/46010705/205859319-c23e64c6-d3b3-4c33-8ebd-b6e45efc64f4.png"
   },
   "excerpt": "",
   "headers": [
@@ -58,7 +58,20 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670314750000
+    "updatedTime": 1670315226000
   },
   "filePathRelative": "docs/CSS/2022-12-06-HTML-CSS만-사용해서-슬라이더-만드는-방법/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

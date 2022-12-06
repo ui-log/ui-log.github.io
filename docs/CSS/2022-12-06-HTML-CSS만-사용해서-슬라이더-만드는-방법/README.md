@@ -4,7 +4,7 @@ description: 자바스크립트를 사용하지 않고 HTML CSS만 사용해서 
 date: 2022-12-06
 sidebarDepth: 2
 tag: CSS
-thumbnail: https://user-images.githubusercontent.com/46010705/205857539-363ec86e-cdcc-47ba-a968-3759cc4c8784.png
+thumbnail: https://user-images.githubusercontent.com/46010705/205859319-c23e64c6-d3b3-4c33-8ebd-b6e45efc64f4.png
 ---
 
 # HTML CSS만 사용해서 슬라이더 만드는 방법

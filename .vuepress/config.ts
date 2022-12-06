@@ -1,6 +1,5 @@
 import { defaultTheme, DefaultThemeOptions, defineUserConfig, Theme, viteBundler } from "vuepress-vite";
 import { pwaPlugin } from "@vuepress/plugin-pwa";
-import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { feed } from "vuepress-plugin-feed2";
 import { searchPlugin } from "@vuepress/plugin-search";
 import MarkdownItPlantuml from "markdown-it-plantuml";
@@ -100,9 +99,6 @@ export default defineUserConfig({
       rss: true,
       atom: true,
       json: true,
-    }),
-    googleAnalyticsPlugin({
-      id: "G-VYKVD4LR7J",
     }),
     searchPlugin({}),
     // demoBlock({}),

@@ -1,10 +1,10 @@
 export const data = {
   "key": "v-3b64b9ad",
   "path": "/docs/CSS/2022-12-06-CSS-%EB%A7%90%EC%A4%84%EC%9E%84-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/",
-  "title": "CSS 말줄임 처리 방법",
+  "title": "CSS 말줄임 처리 방법 (mixin 공유)",
   "lang": "en-US",
   "frontmatter": {
-    "title": "CSS 말줄임 처리 방법",
+    "title": "CSS 말줄임 처리 방법 (mixin 공유)",
     "description": "CSS를 이용해서 한줄 말줄임 혹은 여러줄 말줄임 처리하는 방법에 대해서 정리합니다.",
     "date": "2022-12-06 18:00",
     "sidebarDepth": 2,
@@ -47,7 +47,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670317803000
+    "updatedTime": 1670318138000
   },
   "filePathRelative": "docs/CSS/2022-12-06-CSS-말줄임-처리-방법/README.md"
 }

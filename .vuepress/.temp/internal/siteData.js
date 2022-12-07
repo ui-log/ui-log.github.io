@@ -101,6 +101,11 @@ export const siteData = {
         "async": true,
         "src": "https://www.googletagmanager.com/gtag/js?id=G-VYKVD4LR7J"
       }
+    ],
+    [
+      "script",
+      {},
+      " window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n  \n    gtag('config', 'G-VYKVD4LR7J');"
     ]
   ],
   "locales": {}

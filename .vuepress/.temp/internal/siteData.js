@@ -94,6 +94,13 @@ export const siteData = {
         "crossorigin": "anonymous",
         "src": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686"
       }
+    ],
+    [
+      "script",
+      {
+        "async": true,
+        "src": "https://www.googletagmanager.com/gtag/js?id=G-VYKVD4LR7J"
+      }
     ]
   ],
   "locales": {}

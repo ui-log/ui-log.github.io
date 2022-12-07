@@ -87,6 +87,15 @@ export default defineUserConfig({
     ["meta", { name: "theme-color", content: "#ffffff" }],
     ["script", { async: true, crossorigin: "anonymous", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" }],
     ["script", { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-VYKVD4LR7J" }],
+    [
+      "script",
+      {},
+      ` window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-VYKVD4LR7J');`,
+    ],
   ],
   extendsMarkdown: (md) => {
     md.use(MarkdownItPlantuml);

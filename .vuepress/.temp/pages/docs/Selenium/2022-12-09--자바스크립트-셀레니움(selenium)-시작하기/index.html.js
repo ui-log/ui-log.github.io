@@ -33,7 +33,20 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670594442000
+    "updatedTime": 1670594824000
   },
   "filePathRelative": "docs/Selenium/2022-12-09--자바스크립트-셀레니움(selenium)-시작하기/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

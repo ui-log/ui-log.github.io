@@ -15,6 +15,20 @@ thumbnail: https://user-images.githubusercontent.com/46010705/201074975-0028bd51
 
 <img width="1709" alt="image" src="https://user-images.githubusercontent.com/46010705/198867686-c2f60f4a-2326-4a3e-8f55-74e87e52effa.png">
 
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 vuepress와 github pages 를 이용하면 위와 같은 블로그를 만들 수 있다.
 
 디자인도 굉장히 깔끔하고 IT 정보성 블로그로는 군더더기가 없는 것이라 생각해서 이 스타일을 채택하게 되었다.

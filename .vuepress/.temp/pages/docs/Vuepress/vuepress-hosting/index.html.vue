@@ -2,6 +2,17 @@
 <p>이전에는 GitHub pages + 지킬 테마를 이용해서 블로그를 만들었었는데, 새로 블로그를 만들게 되면서 찾다가 알게된 vuepress로 GitHub pages에 사이트 호스팅 하는 방법에 대해서 포스팅하려고 한다.</p>
 <p><strong>다른 사이트에서도 vuepress 를 이용해서 github pages에 호스팅 하는 글들이 많지만 초보자 눈 높이에 맞추어 차근차근 정리된 글은 없는 것 같아 상세히 정리하려고 한다.</strong></p>
 <img width="1709" alt="image" src="https://user-images.githubusercontent.com/46010705/198867686-c2f60f4a-2326-4a3e-8f55-74e87e52effa.png">
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <p>vuepress와 github pages 를 이용하면 위와 같은 블로그를 만들 수 있다.</p>
 <p>디자인도 굉장히 깔끔하고 IT 정보성 블로그로는 군더더기가 없는 것이라 생각해서 이 스타일을 채택하게 되었다.</p>
 <p>이 글에서는 github pages와 vuepress의 깊은 얘기는 뒤로하고 github pages에 vuepress를 이용해서 블로그 사이트를 호스팅 하는 방법에만 초점을 맞추어 포스팅하려고 한다.</p>

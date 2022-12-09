@@ -3,6 +3,17 @@
 <p>hits seeyoufarm을 이용해 블로그에 아래와 같은 조회수를 추가할 수 있다.</p>
 </div>
 <img alt="hits demo page" src="@source/docs/Vuepress/hits/img/1.png"/>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <p>티스토리, 네이버 블로그와 같은 플랫폼 블로그를 사용하는 것이 아닌
 vuepress 같은 정적 사이트로 블로그를 운영하면 조회수 기능이 따로 내장되어있지 않습니다.</p>
 <p><a href="https://hits.seeyoufarm.com/" target="_blank" rel="noopener noreferrer">hits<ExternalLinkIcon/></a> 사이트로 가줍니다.</p>

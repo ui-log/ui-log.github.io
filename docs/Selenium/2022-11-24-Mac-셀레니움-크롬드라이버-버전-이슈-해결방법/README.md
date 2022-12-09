@@ -18,6 +18,20 @@ session not created: This version of ChromeDriver only supports Chrome version 1
 Current browser version is 107.0.5304.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 ```
 
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 <img width="855" alt="스크린샷 2022-11-01 오전 8 32 09" src="https://user-images.githubusercontent.com/46010705/199128854-e993413b-65af-4309-995c-4c6145b4ea31.png">
 
 결론부터 말하자면 이 에러는 ChromeDriver에서 지원하는 Chrome버전이 로컬에 설치되어있는 Chrome 버전과 차이가 생겨서 발생하는 것이다.

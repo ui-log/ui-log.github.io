@@ -2,6 +2,17 @@
 <div class="custom-container tip"><p class="custom-container-title">목표</p>
 <p>React 사용시 무조건 만나게 되는 Warning인 react-hooks/exhaustive-deps warning 해결 방법에 대해서 정리합니다.</p>
 </div>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <p><img src="@source/docs/Nextjs/2022-11-25-React-Hook-useEffect-has-missing-dependencies-해결-방법/img/1.png" alt=""></p>
 <p>react-hooks/exhaustive-deps는 React 훅을 사용할 때 그 중에서도 useEffect를 사용할 때 주로 발생하는데요.</p>
 <p>보통 이런 식으로 경고 메세지를 띄워줍니다.</p>

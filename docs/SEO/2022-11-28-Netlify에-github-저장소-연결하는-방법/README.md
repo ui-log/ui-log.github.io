@@ -15,6 +15,20 @@ thumbnail: https://user-images.githubusercontent.com/46010705/204205405-a6fbb82f
 
 ## Github 저장소 연결
 
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ![](./img/1.png)
 
 build & deploy 메뉴에 들어가서 link repository 버튼을 클릭해줍니다.

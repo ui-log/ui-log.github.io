@@ -3,6 +3,17 @@
 <p>아래 처럼 한줄 말줄임 혹은 여러줄 말줄임을 처리할 수 있습니다.</p>
 </div>
 <img src="@source/docs/CSS/2022-12-06-CSS-말줄임-처리-방법/img/1.png" width="300" />
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <h2 id="_1-한-줄-말줄임" tabindex="-1"><a class="header-anchor" href="#_1-한-줄-말줄임" aria-hidden="true">#</a> 1. 한 줄 말줄임</h2>
 <p>말줄임 처리는 한 줄과 여러줄 말줄임 처리 방식으로 나뉩니다.
 한줄 말줄임 처리는 아래 css로 해결할 수 있습니다.</p>
@@ -24,6 +35,17 @@
 <p><code v-pre>text-overflow</code> : 텍스트가 넘칠 때 어떻게 처리할 것인가에 대한 속성으로 ellipsis를 추가해주면 한 줄 말줄임 처리가 완성됩니다. <br> <img src="@source/docs/CSS/2022-12-06-CSS-말줄임-처리-방법/img/4.png" width="350" /></p>
 </li>
 </ol>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <h2 id="_2-여러줄-말줄임" tabindex="-1"><a class="header-anchor" href="#_2-여러줄-말줄임" aria-hidden="true">#</a> 2. 여러줄 말줄임</h2>
 <p>여러줄 말줄임 처리는 아래 css로 적용할 수 있습니다.</p>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token property">display</span><span class="token punctuation">:</span> -webkit-box<span class="token punctuation">;</span>
@@ -31,7 +53,18 @@
 <span class="token property">text-overflow</span><span class="token punctuation">:</span> ellipsis<span class="token punctuation">;</span>
 <span class="token property">-webkit-line-clamp</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span> <span class="token comment">/* 말줄임 줄 수 */</span>
 <span class="token property">-webkit-box-orient</span><span class="token punctuation">:</span> vertical<span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_2-1-여러줄-말줄임-처리-순서" tabindex="-1"><a class="header-anchor" href="#_2-1-여러줄-말줄임-처리-순서" aria-hidden="true">#</a> 2-1. 여러줄 말줄임 처리 순서</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<h3 id="_2-1-여러줄-말줄임-처리-순서" tabindex="-1"><a class="header-anchor" href="#_2-1-여러줄-말줄임-처리-순서" aria-hidden="true">#</a> 2-1. 여러줄 말줄임 처리 순서</h3>
 <ol>
 <li>
 <p><code v-pre>-webkit-line-clamp: 2;</code> : 웹킷 박스의 말줄임 줄 수를 정하는 속성입니다. <br> <img src="@source/docs/CSS/2022-12-06-CSS-말줄임-처리-방법/img/5.png" width="350" /></p>

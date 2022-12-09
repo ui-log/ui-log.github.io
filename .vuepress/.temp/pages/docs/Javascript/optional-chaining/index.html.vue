@@ -2,6 +2,17 @@
 <div class="custom-container tip"><p class="custom-container-title">목표</p>
 <p>optional chaining(<code v-pre>?.</code>), nullish coalescing(<code v-pre>??</code>)를 이용해 변수에 따른 조건 분기 처리를 하는 여러 방법에 대해서 정리해 보려고 합니다.</p>
 </div>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <h2 id="_1-optional-chaining" tabindex="-1"><a class="header-anchor" href="#_1-optional-chaining" aria-hidden="true">#</a> 1. optional chaining(<code v-pre>?.</code>)</h2>
 <p>React와 Typescript로 UI개발을 하다 보면 컴포넌트의 props의 타입이 <code v-pre>?: number</code>와 같이 nullable 한 경우가 많이 있습니다.</p>
 <div class="language-jsx ext-jsx line-numbers-mode"><pre v-pre class="language-jsx"><code><span class="token punctuation">{</span><span class="token operator">...</span>중략<span class="token punctuation">}</span>
@@ -44,7 +55,18 @@ UI개발 시 대응하는 과정으로 설명드리겠습니다.</p>
 	) : </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span></span><span class="token punctuation">></span></span><span class="token plain-text">}
     </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><span class="token plain-text">
 }
-</span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>위와 같이 작성했을 때는 imageList가 존재하지 않을 때 <code v-pre>&lt;&gt;&lt;/&gt;</code> Fragment 요소를 불필요하게 false 조건에 사용해 주어야 하는데요.</p>
+</span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>위와 같이 작성했을 때는 imageList가 존재하지 않을 때 <code v-pre>&lt;&gt;&lt;/&gt;</code> Fragment 요소를 불필요하게 false 조건에 사용해 주어야 하는데요.</p>
 <p>이런 부분을 optional chaining(<code v-pre>?.</code>) 을 통해서 아래와 같이 개선할 수 있습니다.</p>
 <div class="language-jsx ext-jsx line-numbers-mode"><pre v-pre class="language-jsx"><code><span class="token punctuation">{</span><span class="token operator">...</span>중략<span class="token punctuation">}</span>
 
@@ -90,6 +112,17 @@ UI개발 시 대응하는 과정으로 설명드리겠습니다.</p>
 각 image는 width, height 값이 nullable할 뿐 객체 형식이기 때문에 <code v-pre>?.</code>를 사용하지 않아도 됩니다.</p>
 <p>같은 의미에서 만약 아래와 같이 imageList가 nullable한 값이 아니라면
 imageList에도 optional chaining이 필요하지 않게 됩니다.</p>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-jsx ext-jsx line-numbers-mode"><pre v-pre class="language-jsx"><code><span class="token punctuation">{</span><span class="token operator">...</span>중략<span class="token punctuation">}</span>
 
 <span class="token keyword">interface</span> <span class="token class-name">ImageListViewProps</span> <span class="token punctuation">{</span>
@@ -135,6 +168,17 @@ imageList에도 optional chaining이 필요하지 않게 됩니다.</p>
 바로 width, height 값이 0인 경우에도 기본 이미지 사이즈로 지정한다는 점입니다.
 <code v-pre>var ? a : b</code>는 자바스크립트의 신기한 특성 때문에 null, undefined 외에도 0, '', false에서도 결과값으로 b를 갖게 됩니다.</p>
 <p>0이란 값이 들어왔을 때 0을 그대로 사용하고 싶다면 아래와 같이 조건이 하나 더 추가되어야 합니다.</p>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-jsx ext-jsx line-numbers-mode"><pre v-pre class="language-jsx"><code><span class="token punctuation">{</span><span class="token operator">...</span>중략<span class="token punctuation">}</span>
 
 <span class="token keyword">interface</span> <span class="token class-name">ImageListViewProps</span> <span class="token punctuation">{</span>
@@ -194,7 +238,18 @@ imageList에도 optional chaining이 필요하지 않게 됩니다.</p>
 	)}
     </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><span class="token plain-text">
 }
-</span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>위와 같이 작성하면 image의 width, height 값이 null 혹은 undefined이 들어왔을 때만 기본 사이즈인 200x200의 이미지를 만들 수 있게 됩니다.</p>
+</span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>위와 같이 작성하면 image의 width, height 값이 null 혹은 undefined이 들어왔을 때만 기본 사이즈인 200x200의 이미지를 만들 수 있게 됩니다.</p>
 <h2 id="정리" tabindex="-1"><a class="header-anchor" href="#정리" aria-hidden="true">#</a> 정리</h2>
 <p><code v-pre>var ? a : b</code>, <code v-pre>||</code>, <code v-pre>??</code> 세 가지 케이스를 정리해 보면 아래와 같습니다.</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">let</span> height1 <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>

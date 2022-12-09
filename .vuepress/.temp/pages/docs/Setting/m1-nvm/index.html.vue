@@ -3,6 +3,17 @@
 <p>Intel Mac에 nvm을 설치하는 방법을 M1 Mac에 하면 에러가 발생하는데,
 M1 Mac에 nvm을 설치하는 방법에 대해 알 수 있습니다.</p>
 </div>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <h2 id="_1-nvm-설치" tabindex="-1"><a class="header-anchor" href="#_1-nvm-설치" aria-hidden="true">#</a> 1. nvm 설치</h2>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>brew <span class="token function">install</span> nvm
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>위와 같이 설치를 해주고 난 후에 인텔 Mac과 동일하게 nvm환경변수 설정을 해주어야합니다.</p>
@@ -13,6 +24,17 @@ M1 Mac에 nvm을 설치하는 방법에 대해 알 수 있습니다.</p>
 <span class="token function">vi</span> ~/.zshrc // 저는 이거 사용
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>위에 열어둔 파일 맨 아래에 아래 변경된 설정을 복사 붙혀넣기 해줍니다.
 **M1 Mac은 nvm 환경변수 설정하는 경로가 다르기 때문에 인텔 맥과 차이가 있습니다. **</p>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token builtin class-name">export</span> <span class="token assign-left variable">NVM_DIR</span><span class="token operator">=</span><span class="token string">"<span class="token environment constant">$HOME</span>/.nvm"</span>
   <span class="token punctuation">[</span> -s <span class="token string">"/opt/homebrew/opt/nvm/nvm.sh"</span> <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> <span class="token punctuation">\</span>. <span class="token string">"/opt/homebrew/opt/nvm/nvm.sh"</span>  <span class="token comment"># This loads nvm</span>
   <span class="token punctuation">[</span> -s <span class="token string">"/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"</span> <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> <span class="token punctuation">\</span>. <span class="token string">"/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"</span>  <span class="token comment"># This loads nvm bash_completion</span>

@@ -16,6 +16,20 @@ M1 Mac에 nvm을 설치하는 방법에 대해 알 수 있습니다.
 
 :::
 
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ## 1. nvm 설치
 
 ```bash
@@ -38,6 +52,20 @@ vi ~/.zshrc // 저는 이거 사용
 
 위에 열어둔 파일 맨 아래에 아래 변경된 설정을 복사 붙혀넣기 해줍니다.
 **M1 Mac은 nvm 환경변수 설정하는 경로가 다르기 때문에 인텔 맥과 차이가 있습니다. **
+
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ```bash
 export NVM_DIR="$HOME/.nvm"

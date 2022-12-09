@@ -13,14 +13,14 @@ export const pagesComponents = {
   "v-9c8c15ce": defineAsyncComponent(() => import(/* webpackChunkName: "v-9c8c15ce" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-HTML-CSS로-자동-슬라이드-캐러셀-만들기(Embla-Carousel)/index.html.vue")),
   // path: /docs/CSS/2022-12-06-HTML-CSS%EB%A7%8C-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%8D%94-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-5673dc3a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5673dc3a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-HTML-CSS만-사용해서-슬라이더-만드는-방법/index.html.vue")),
-  // path: /docs/CSS/2022-12-07-backdrop-filter-%EC%86%8D%EC%84%B1%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B8%94%EB%9F%AC%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0(IE%EB%8C%80%EC%9D%91)/
-  "v-3379f3a5": defineAsyncComponent(() => import(/* webpackChunkName: "v-3379f3a5" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기(IE대응)/index.html.vue")),
   // path: /docs/CSS/border-animation/
   "v-0505b5b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.vue")),
   // path: /docs/CSS/imageset/
   "v-475c08a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.vue")),
   // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-39f3c26a": defineAsyncComponent(() => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.vue")),
+  // path: /docs/CSS/2022-12-07-backdrop-filter-%EC%86%8D%EC%84%B1%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B8%94%EB%9F%AC%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0(IE%EB%8C%80%EC%9D%91)/
+  "v-3379f3a5": defineAsyncComponent(() => import(/* webpackChunkName: "v-3379f3a5" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기(IE대응)/index.html.vue")),
   // path: /docs/Nextjs/2022-11-24-Nextjs%EC%97%90%EC%84%9C-svg-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-2e70fa45": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e70fa45" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Nextjs/2022-11-24-Nextjs에서-svg-사용하는-방법/index.html.vue")),
   // path: /docs/Javascript/optional-chaining/

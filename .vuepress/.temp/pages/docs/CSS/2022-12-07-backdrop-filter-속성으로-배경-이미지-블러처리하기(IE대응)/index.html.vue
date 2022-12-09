@@ -3,6 +3,17 @@
 <p>backdrop-filter 속성으로 배경 이미지에 블러처리를 줄 수 있어요</p>
 </div>
 <img  src="@source/docs/CSS/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기(IE대응)/img/2.png" width="300"/>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
@@ -54,6 +65,17 @@
 <img  src="@source/docs/CSS/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기(IE대응)/img/1.png" width="300"/>
 <h2 id="블러처리하기" tabindex="-1"><a class="header-anchor" href="#블러처리하기" aria-hidden="true">#</a> 블러처리하기</h2>
 <p>블러처리는 아래 .card 클래스 부분에 before 가상요소를 추가해주면 됩니다. card 요소 자체에 블러처리를 하는 것이 아니라 이미지 위를 덮는 가상 요소를 만들고 그 가상요소를 블러처리하는 방식이죠.</p>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-scss ext-scss line-numbers-mode"><pre v-pre class="language-scss"><code><span class="token selector">.card </span><span class="token punctuation">{</span>
   <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
   <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 0 20px <span class="token function">rgba</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.2<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -80,6 +102,17 @@
 <p>IE가 종료되면서 미지원하는 서비스들이 많긴 하지만 아직은 과도기이기 때문에 이런 부분도 필요할 것으로 보여집니다.</p>
 <p>scss에는 <code v-pre>@supports</code> 문법이 존재하는데 <code v-pre>@supports not (속성)</code> 속성을 지원하지 않는 브라우저에서는 어떤 속성을 사용할 것 인지 지정할 수 있습니다.</p>
 <p>아래와 같이 작성해서 사용할 수 있습니다.</p>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-scss ext-scss line-numbers-mode"><pre v-pre class="language-scss"><code>@supports <span class="token operator">not</span> <span class="token punctuation">(</span><span class="token property">backdrop-filter</span><span class="token punctuation">:</span> <span class="token function">blur</span><span class="token punctuation">(</span><span class="token variable">$amount</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>135deg<span class="token punctuation">,</span> #2a2a31<span class="token punctuation">,</span> #322e46 60%<span class="token punctuation">,</span> #4b336f<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>

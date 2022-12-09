@@ -2,6 +2,17 @@
 <p>이전에는 Netlify에 static HTML 웹사이트 파일을 업로드해서 호스팅하는 방법에 대해서 알아보았었는데요.</p>
 <p>오늘은 github 저장소와 연결하여 원격 저장소에 push하면 자동으로 빌드가 되어 배포되는 방법을 알아보겠습니다.</p>
 <h2 id="github-저장소-연결" tabindex="-1"><a class="header-anchor" href="#github-저장소-연결" aria-hidden="true">#</a> Github 저장소 연결</h2>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <p><img src="@source/docs/SEO/2022-11-28-Netlify에-github-저장소-연결하는-방법/img/1.png" alt=""></p>
 <p>build &amp; deploy 메뉴에 들어가서 link repository 버튼을 클릭해줍니다.</p>
 <p><img src="@source/docs/SEO/2022-11-28-Netlify에-github-저장소-연결하는-방법/img/2.png" alt=""></p>

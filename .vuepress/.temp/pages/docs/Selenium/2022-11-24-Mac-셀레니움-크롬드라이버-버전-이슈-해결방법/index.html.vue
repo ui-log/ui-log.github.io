@@ -4,7 +4,18 @@
 </div>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>session not created: This version of ChromeDriver only supports Chrome version <span class="token number">105</span>
 Current browser version is <span class="token number">107.0</span>.5304.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><img width="855" alt="스크린샷 2022-11-01 오전 8 32 09" src="https://user-images.githubusercontent.com/46010705/199128854-e993413b-65af-4309-995c-4c6145b4ea31.png">
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<img width="855" alt="스크린샷 2022-11-01 오전 8 32 09" src="https://user-images.githubusercontent.com/46010705/199128854-e993413b-65af-4309-995c-4c6145b4ea31.png">
 <p>결론부터 말하자면 이 에러는 ChromeDriver에서 지원하는 Chrome버전이 로컬에 설치되어있는 Chrome 버전과 차이가 생겨서 발생하는 것이다.</p>
 <p>해결 방법은 로컬에 ChromeDriver를 버전에 맞게 재설치해주면 된다.</p>
 <p>아래 크롭드라이브 설치 링크로 방문해준다.</p>

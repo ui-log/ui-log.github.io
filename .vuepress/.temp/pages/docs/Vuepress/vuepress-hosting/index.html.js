@@ -70,20 +70,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670565615000
+    "updatedTime": 1670565829000
   },
   "filePathRelative": "docs/Vuepress/vuepress-hosting/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

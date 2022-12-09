@@ -15,6 +15,20 @@ thumbnail: https://user-images.githubusercontent.com/46010705/205868626-569ca669
 
 <img src="./img/1.png" width="300" />
 
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ## 1. 한 줄 말줄임
 
 말줄임 처리는 한 줄과 여러줄 말줄임 처리 방식으로 나뉩니다.
@@ -37,6 +51,20 @@ thumbnail: https://user-images.githubusercontent.com/46010705/205868626-569ca669
 
 3. `text-overflow` : 텍스트가 넘칠 때 어떻게 처리할 것인가에 대한 속성으로 ellipsis를 추가해주면 한 줄 말줄임 처리가 완성됩니다. <br> <img src="./img/4.png" width="350" />
 
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ## 2. 여러줄 말줄임
 
 여러줄 말줄임 처리는 아래 css로 적용할 수 있습니다.
@@ -48,6 +76,20 @@ text-overflow: ellipsis;
 -webkit-line-clamp: 2; /* 말줄임 줄 수 */
 -webkit-box-orient: vertical;
 ```
+
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ### 2-1. 여러줄 말줄임 처리 순서
 

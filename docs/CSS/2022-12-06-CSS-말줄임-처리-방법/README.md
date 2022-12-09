@@ -32,7 +32,7 @@ thumbnail: https://user-images.githubusercontent.com/46010705/205868626-569ca669
 ## 1. 한 줄 말줄임
 
 말줄임 처리는 한 줄과 여러줄 말줄임 처리 방식으로 나뉩니다.
-한줄 말줄임 처리는 아래 css로 해결할 수 있습니다.
+**한줄 말줄임 처리는 아래 css로 해결할 수 있습니다.**
 
 ```css
 .ellipsis {
@@ -45,7 +45,7 @@ thumbnail: https://user-images.githubusercontent.com/46010705/205868626-569ca669
 
 ### 1-1. 한 줄 말줄임 처리 순서
 
-1. `white-space: nowrap;` : 텍스트가 부모 요소의 너비를 초과할 경우 기본적으로 개행되는데 nowrap으로 지정하면 개행되지 않고 한줄로 표시됩니다. <br> <img src="./img/2.png" width="350" />
+1. `white-space: nowrap;` : 텍스트가 부모 요소의 너비를 초과할 경우 기본적으로 개행되는데 **nowrap으로 지정하면 개행되지 않고 한줄로 표시됩니다**. <br> <img src="./img/2.png" width="350" />
 
 2. `overflow: hidden` : 한줄로 노출되는 텍스트를 카드 영역을 넘치지 않도록 추가해줍니다. <br> <img src="./img/3.png" width="300" />
 

@@ -13,7 +13,7 @@ Nextjs 프로젝트는 두가지 형식의 사이트로 사용되는데요.
 첫번째는 `.next` 디렉토리의 일반적인 Nextjs 프로젝트
 두번째는 `out` 디렉토리로 생성되는 정적 HTML 웹사이트입니다.
 
-이 포스팅에서는 각 방식에 따라 Netlify build configuration 설정 방법과 에러 해결 방법에 대해서 정리합니다.
+**이 포스팅에서는 각 방식에 따라 Netlify build configuration 설정 방법과 에러 해결 방법에 대해서 정리합니다.**
 
 ## 1. 정적 웹 사이트 (out) 경로 배포
 
@@ -50,7 +50,7 @@ publish directory를 정적 웹사이트가 있는 `out`으로 수정해주고 `
 
 ![](./img/2.png)
 
-netlify의 환경변수에서 `NETLIFY_NEXT_PLUGIN_SKIP`를 살펴보면 아래와 같이 설명되어있습니다. 이 값을 true로 변경하면 next.js 런타임을 사용하지 않는 것이고 next export를 이용해서 static html를 생성한다고 나와있습니다.
+netlify의 환경변수에서 `NETLIFY_NEXT_PLUGIN_SKIP`를 살펴보면 아래와 같이 설명되어있습니다. **이 값을 true로 변경하면 next.js 런타임을 사용하지 않는 것이고 next export를 이용해서 static html를 생성한다고 나와있습니다.**
 
 :::
 NETLIFY_NEXT_PLUGIN_SKIP: when set to true for a Next.js site, the build doesn’t use the Next.js Runtime. Use this variable with projects that generate static HTML using next export.

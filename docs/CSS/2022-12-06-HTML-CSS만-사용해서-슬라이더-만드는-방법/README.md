@@ -17,7 +17,7 @@ thumbnail: https://user-images.githubusercontent.com/46010705/205859319-c23e64c6
 
 ## 만드는 방법
 
-스크립트 없이 HTML CSS만으로 슬라이더를 만드는 방법은 input태그의 라디오버튼을 이용해 만들 수 있습니다.
+**스크립트 없이 HTML CSS만으로 슬라이더를 만드는 방법은 input태그의 라디오버튼을 이용해 만들 수 있습니다.**
 
 라디오버튼은 label요소를 통해 체크를 할 수 있고 이 체크 여부 또한 css의 `:checked`를 통해서 판단할 수 있습니다.
 
@@ -92,7 +92,7 @@ HTML은 아래와 같이 작성할 수 있습니다.
 
 ## CSS
 
-CSS는 아래와 같이 작성할 수 있습니다.
+**CSS는 아래와 같이 작성할 수 있습니다.**
 
 <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
 

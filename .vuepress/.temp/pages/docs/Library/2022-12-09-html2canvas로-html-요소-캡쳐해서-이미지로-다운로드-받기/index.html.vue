@@ -3,6 +3,7 @@
 <p>html2canvas를 이용해 특정 html 태그를 캡쳐해서 이미지로 다운로드 받을 수 있는 방법에 대해서 알 수 있습니다.</p>
 </div>
 <h2 id="_1-html2canvas-설치" tabindex="-1"><a class="header-anchor" href="#_1-html2canvas-설치" aria-hidden="true">#</a> 1. html2canvas 설치</h2>
+<p>아래 명령어를 입력해서 설치해줍니다.</p>
 <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
@@ -16,6 +17,7 @@
 </component>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">npm</span> i html2canvas
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="canvas로-변환하는-함수" tabindex="-1"><a class="header-anchor" href="#canvas로-변환하는-함수" aria-hidden="true">#</a> canvas로 변환하는 함수</h3>
+<p>html2canvas 함수의 <strong>첫번째 인자에 캡쳐를 원하는 DOM요소를 넣어줍니다.</strong></p>
 <div class="language-tsx ext-tsx line-numbers-mode"><pre v-pre class="language-tsx"><code><span class="token keyword">import</span> html2canvas <span class="token keyword">from</span> <span class="token string">"html2canvas"</span><span class="token punctuation">;</span>
 
 <span class="token comment">// canvas로 변환하는 함수</span>
@@ -64,7 +66,7 @@
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="결과-화면" tabindex="-1"><a class="header-anchor" href="#결과-화면" aria-hidden="true">#</a> 결과 화면</h2>
-<p>위와 같이 작성해서 버튼 클릭 이벤트에 연결하면 아래처럼 다운로드 버튼 클릭시 특정 html요소를 이미지로 만들어 다운로드 받을 수 있습니다.</p>
+<p>위와 같이 작성해서 <strong>버튼 클릭 이벤트에 연결하면 아래처럼 다운로드 버튼 클릭시 특정 html요소를 이미지로 만들어 다운로드 받을 수 있습니다.</strong></p>
 <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"

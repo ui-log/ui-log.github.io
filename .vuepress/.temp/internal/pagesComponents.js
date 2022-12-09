@@ -5,24 +5,24 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/index.html.vue")),
   // path: /About/
   "v-3e214e9b": defineAsyncComponent(() => import(/* webpackChunkName: "v-3e214e9b" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/About/index.html.vue")),
+  // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
+  "v-39f3c26a": defineAsyncComponent(() => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.vue")),
   // path: /docs/API/2022-11-24-unsplash-API-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%9E%9C%EB%8D%A4-%EC%82%AC%EC%A7%84-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0/
   "v-32d21ace": defineAsyncComponent(() => import(/* webpackChunkName: "v-32d21ace" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/API/2022-11-24-unsplash-API-사용해서-랜덤-사진-불러오기/index.html.vue")),
   // path: /docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/
   "v-9c8c15ce": defineAsyncComponent(() => import(/* webpackChunkName: "v-9c8c15ce" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-HTML-CSS로-자동-슬라이드-캐러셀-만들기(Embla-Carousel)/index.html.vue")),
   // path: /docs/CSS/2022-12-06-CSS-%EB%A7%90%EC%A4%84%EC%9E%84-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/
   "v-3b64b9ad": defineAsyncComponent(() => import(/* webpackChunkName: "v-3b64b9ad" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-CSS-말줄임-처리-방법/index.html.vue")),
-  // path: /docs/CSS/2022-12-06-HTML-CSS%EB%A7%8C-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%8D%94-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/
-  "v-5673dc3a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5673dc3a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-HTML-CSS만-사용해서-슬라이더-만드는-방법/index.html.vue")),
   // path: /docs/CSS/2022-12-07-backdrop-filter-%EC%86%8D%EC%84%B1%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B8%94%EB%9F%AC%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0(IE%EB%8C%80%EC%9D%91)/
   "v-3379f3a5": defineAsyncComponent(() => import(/* webpackChunkName: "v-3379f3a5" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기(IE대응)/index.html.vue")),
-  // path: /docs/CSS/imageset/
-  "v-475c08a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.vue")),
+  // path: /docs/CSS/2022-12-06-HTML-CSS%EB%A7%8C-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%8D%94-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/
+  "v-5673dc3a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5673dc3a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-HTML-CSS만-사용해서-슬라이더-만드는-방법/index.html.vue")),
   // path: /docs/CSS/2022-12-09-lottie-react-web-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%A1%9C%EB%9D%A0-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/
   "v-78dc67fe": defineAsyncComponent(() => import(/* webpackChunkName: "v-78dc67fe" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-09-lottie-react-web-사용해서-로띠-애니메이션-적용하기/index.html.vue")),
   // path: /docs/CSS/border-animation/
   "v-0505b5b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.vue")),
-  // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
-  "v-39f3c26a": defineAsyncComponent(() => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.vue")),
+  // path: /docs/CSS/imageset/
+  "v-475c08a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.vue")),
   // path: /docs/Javascript/optional-chaining/
   "v-0fd7d848": defineAsyncComponent(() => import(/* webpackChunkName: "v-0fd7d848" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Javascript/optional-chaining/index.html.vue")),
   // path: /docs/Library/2022-12-09-html2canvas%EB%A1%9C-html-%EC%9A%94%EC%86%8C-%EC%BA%A1%EC%B3%90%ED%95%B4%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A1%9C-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%9B%EA%B8%B0/

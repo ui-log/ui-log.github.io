@@ -11,7 +11,7 @@ thumbnail: https://user-images.githubusercontent.com/46010705/204205405-a6fbb82f
 
 이전에는 Netlify에 static HTML 웹사이트 파일을 업로드해서 호스팅하는 방법에 대해서 알아보았었는데요.
 
-오늘은 github 저장소와 연결하여 원격 저장소에 push하면 자동으로 빌드가 되어 배포되는 방법을 알아보겠습니다.
+오늘은 github 저장소와 연결하여 **원격 저장소에 push하면 자동으로 빌드가 되어 배포되는 방법을 알아보겠습니다.**
 
 ## Github 저장소 연결
 
@@ -47,7 +47,7 @@ Github을 선택해줍니다.
 
 ![](./img/5.png)
 
-배포할 브랜치와 베이스 디렉토리 publish directory 등 배포에 필요한 설정을 할 수 있습니다.
+배포할 브랜치와 베이스 디렉토리 **publish directory 등 배포에 필요한 설정을 할 수 있습니다.**
 
 Nextjs 저장소의 경우 .next와 out 두 개의 배포 방법이 있기 때문에 이 내용은 아래 포스팅에서 확인하실 수 있습니다.
 

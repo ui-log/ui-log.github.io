@@ -64,7 +64,7 @@
 <p>이미지는 아무거나 사용하시면 됩니다.</p>
 <img  src="@source/docs/CSS/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기(IE대응)/img/1.png" width="300"/>
 <h2 id="블러처리하기" tabindex="-1"><a class="header-anchor" href="#블러처리하기" aria-hidden="true">#</a> 블러처리하기</h2>
-<p>블러처리는 아래 .card 클래스 부분에 before 가상요소를 추가해주면 됩니다. card 요소 자체에 블러처리를 하는 것이 아니라 이미지 위를 덮는 가상 요소를 만들고 그 가상요소를 블러처리하는 방식이죠.</p>
+<p>블러처리는 아래 .card 클래스 부분에 before 가상요소를 추가해주면 됩니다. <strong>card 요소 자체에 블러처리를 하는 것이 아니라 이미지 위를 덮는 가상 요소를 만들고 그 가상요소를 블러처리하는 방식이죠.</strong></p>
 <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
@@ -100,7 +100,7 @@
 <h2 id="ie-대응" tabindex="-1"><a class="header-anchor" href="#ie-대응" aria-hidden="true">#</a> IE 대응</h2>
 <p>IE에서는 backdrop-filter 속성을 지원하지 않고 있기 때문에 이런 경우에도 블러처리와 비슷한 스펙을 적용해주어야합니다.</p>
 <p>IE가 종료되면서 미지원하는 서비스들이 많긴 하지만 아직은 과도기이기 때문에 이런 부분도 필요할 것으로 보여집니다.</p>
-<p>scss에는 <code v-pre>@supports</code> 문법이 존재하는데 <code v-pre>@supports not (속성)</code> 속성을 지원하지 않는 브라우저에서는 어떤 속성을 사용할 것 인지 지정할 수 있습니다.</p>
+<p>scss에는 <code v-pre>@supports</code> 문법이 존재하는데 <strong><code v-pre>@supports not (속성)</code> 속성을 지원하지 않는 브라우저에서는 어떤 속성을 사용할 것 인지 지정할 수 있습니다.</strong></p>
 <p>아래와 같이 작성해서 사용할 수 있습니다.</p>
 <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
 <!-- ui-log 수평형 -->

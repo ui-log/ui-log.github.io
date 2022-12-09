@@ -4,7 +4,7 @@
 </div>
 <img src="@source/docs/CSS/2022-12-06-HTML-CSS만-사용해서-슬라이더-만드는-방법/img/1.gif" width="300"/>
 <h2 id="만드는-방법" tabindex="-1"><a class="header-anchor" href="#만드는-방법" aria-hidden="true">#</a> 만드는 방법</h2>
-<p>스크립트 없이 HTML CSS만으로 슬라이더를 만드는 방법은 input태그의 라디오버튼을 이용해 만들 수 있습니다.</p>
+<p><strong>스크립트 없이 HTML CSS만으로 슬라이더를 만드는 방법은 input태그의 라디오버튼을 이용해 만들 수 있습니다.</strong></p>
 <p>라디오버튼은 label요소를 통해 체크를 할 수 있고 이 체크 여부 또한 css의 <code v-pre>:checked</code>를 통해서 판단할 수 있습니다.</p>
 <p>라디오버튼을 클릭하면 몇번째 라디오버튼을 클릭했는지에 따라 리스트를 좌우로 움직이는 방식으로 만들 수 있습니다.</p>
 <p>바로 코드부터 공유하고 어떻게 만드는지 알아보도록 하겠습니다.</p>
@@ -63,7 +63,7 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 <h2 id="css" tabindex="-1"><a class="header-anchor" href="#css" aria-hidden="true">#</a> CSS</h2>
-<p>CSS는 아래와 같이 작성할 수 있습니다.</p>
+<p><strong>CSS는 아래와 같이 작성할 수 있습니다.</strong></p>
 <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"

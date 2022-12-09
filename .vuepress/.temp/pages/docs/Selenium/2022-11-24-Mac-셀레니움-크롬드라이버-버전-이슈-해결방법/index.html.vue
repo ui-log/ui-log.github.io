@@ -16,8 +16,8 @@ Current browser version is <span class="token number">107.0</span>.5304.87 with 
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 <img width="855" alt="스크린샷 2022-11-01 오전 8 32 09" src="https://user-images.githubusercontent.com/46010705/199128854-e993413b-65af-4309-995c-4c6145b4ea31.png">
-<p>결론부터 말하자면 이 에러는 ChromeDriver에서 지원하는 Chrome버전이 로컬에 설치되어있는 Chrome 버전과 차이가 생겨서 발생하는 것이다.</p>
-<p>해결 방법은 로컬에 ChromeDriver를 버전에 맞게 재설치해주면 된다.</p>
+<p>결론부터 말하자면 이 에러는 ChromeDriver에서 <strong>지원하는 Chrome버전이 로컬에 설치되어있는 Chrome 버전과 차이가 생겨서 발생하는 것이다.</strong></p>
+<p><strong>해결 방법은 로컬에 ChromeDriver를 버전에 맞게 재설치해주면 된다.</strong></p>
 <p>아래 크롭드라이브 설치 링크로 방문해준다.</p>
 <p><a href="https://chromedriver.chromium.org/downloads" target="_blank" rel="noopener noreferrer">https://chromedriver.chromium.org/downloads<ExternalLinkIcon/></a></p>
 <img width="978" alt="스크린샷 2022-11-01 오전 8 34 23" src="https://user-images.githubusercontent.com/46010705/199128961-a6e923fe-9fbb-4d8b-89d2-67456a08b39b.png">

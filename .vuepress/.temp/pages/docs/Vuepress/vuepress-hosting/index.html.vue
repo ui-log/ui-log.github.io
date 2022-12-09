@@ -1,5 +1,5 @@
 <template><div><h1 id="vuepress-로-github-pages-에-사이트-호스팅-하는-방법" tabindex="-1"><a class="header-anchor" href="#vuepress-로-github-pages-에-사이트-호스팅-하는-방법" aria-hidden="true">#</a> vuepress 로 GitHub pages 에 사이트 호스팅 하는 방법</h1>
-<p>이전에는 GitHub pages + 지킬 테마를 이용해서 블로그를 만들었었는데, 새로 블로그를 만들게 되면서 찾다가 알게된 vuepress로 GitHub pages에 사이트 호스팅 하는 방법에 대해서 포스팅하려고 한다.</p>
+<p>이전에는 GitHub pages + 지킬 테마를 이용해서 블로그를 만들었었는데, 새로 블로그를 만들게 되면서 찾다가 알게된 <strong>vuepress로 GitHub pages에 사이트 호스팅 하는 방법에 대해서 포스팅하려고 한다.</strong></p>
 <p><strong>다른 사이트에서도 vuepress 를 이용해서 github pages에 호스팅 하는 글들이 많지만 초보자 눈 높이에 맞추어 차근차근 정리된 글은 없는 것 같아 상세히 정리하려고 한다.</strong></p>
 <img width="1709" alt="image" src="https://user-images.githubusercontent.com/46010705/198867686-c2f60f4a-2326-4a3e-8f55-74e87e52effa.png">
 <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
@@ -19,7 +19,7 @@
 <h2 id="github-저장소-생성" tabindex="-1"><a class="header-anchor" href="#github-저장소-생성" aria-hidden="true">#</a> github 저장소 생성</h2>
 <p>TIL이라는 저장소를 생성해준다. 저장소의 이름은 어떤 것이어도 상관 없다.</p>
 <img width="1080" alt="image" src="https://user-images.githubusercontent.com/46010705/198867791-7423904c-0410-4657-9073-11411e0137bc.png">
-<p>저장소를 생성해주었다면 해당 저장소에 vuepress를 설치해야한다.</p>
+<p>저장소를 생성해주었다면 <strong>해당 저장소에 vuepress를 설치해야한다.</strong></p>
 <h2 id="vuepress-설치" tabindex="-1"><a class="header-anchor" href="#vuepress-설치" aria-hidden="true">#</a> vuepress 설치</h2>
 <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
 <!-- ui-log 수평형 -->
@@ -53,7 +53,7 @@
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<p>npm을 설치했으니 vuepress를 설치해준다.</p>
+<p><strong>npm을 설치했으니 vuepress를 설치해준다.</strong></p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">yarn</span> <span class="token function">add</span> -D vuepress
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="_3-포스트-작성" tabindex="-1"><a class="header-anchor" href="#_3-포스트-작성" aria-hidden="true">#</a> 3. 포스트 작성</h3>
 <p>GitHub pages 를 사용하는 방법에는 여러가지가 있는데 루트 디렉토리에 <code v-pre>docs/</code> 폴더 하위에 글을 작성하는 방식을 선택했기 때문에 docs 폴더를 만들어 하위에 마크다운 문서를 작성해준다.</p>

@@ -15,7 +15,7 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 <p>프로젝트를 진행하다보면 위와 같은 캐러셀을 필요로하는 경우가 많은데,
-Embla Carousel 라이브러리를 사용해 손쉽게 추가할 수 있는 방법에 대해 정리했습니다.</p>
+<strong>Embla Carousel 라이브러리를 사용해 손쉽게 추가할 수 있는 방법에 대해 정리했습니다.</strong></p>
 <h2 id="_1-html-추가" tabindex="-1"><a class="header-anchor" href="#_1-html-추가" aria-hidden="true">#</a> 1. HTML 추가</h2>
 <p>html은 아래와 같은 구조로 작성합니다.</p>
 <div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>embla<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
@@ -102,7 +102,7 @@ CDN을 사용해서 손쉽게 라이브러리를 적용할 수 있습니다.</p>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 <h2 id="_4-스크립트-추가" tabindex="-1"><a class="header-anchor" href="#_4-스크립트-추가" aria-hidden="true">#</a> 4. 스크립트 추가</h2>
-<p>html의 body 태그가 끝나기 전에 아래 스크립트를 추가해줍니다.</p>
+<p><strong>html의 body 태그가 끝나기 전에 아래 스크립트를 추가해줍니다.</strong></p>
 <div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
   <span class="token keyword">var</span> emblaNode <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">".embla"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token keyword">var</span> options <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token literal-property property">loop</span><span class="token operator">:</span> <span class="token boolean">false</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>

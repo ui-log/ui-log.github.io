@@ -16,7 +16,7 @@
 </component>
 <h2 id="_1-한-줄-말줄임" tabindex="-1"><a class="header-anchor" href="#_1-한-줄-말줄임" aria-hidden="true">#</a> 1. 한 줄 말줄임</h2>
 <p>말줄임 처리는 한 줄과 여러줄 말줄임 처리 방식으로 나뉩니다.
-한줄 말줄임 처리는 아래 css로 해결할 수 있습니다.</p>
+<strong>한줄 말줄임 처리는 아래 css로 해결할 수 있습니다.</strong></p>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">.ellipsis</span> <span class="token punctuation">{</span>
   <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
   <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
@@ -26,7 +26,7 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_1-1-한-줄-말줄임-처리-순서" tabindex="-1"><a class="header-anchor" href="#_1-1-한-줄-말줄임-처리-순서" aria-hidden="true">#</a> 1-1. 한 줄 말줄임 처리 순서</h3>
 <ol>
 <li>
-<p><code v-pre>white-space: nowrap;</code> : 텍스트가 부모 요소의 너비를 초과할 경우 기본적으로 개행되는데 nowrap으로 지정하면 개행되지 않고 한줄로 표시됩니다. <br> <img src="@source/docs/CSS/2022-12-06-CSS-말줄임-처리-방법/img/2.png" width="350" /></p>
+<p><code v-pre>white-space: nowrap;</code> : 텍스트가 부모 요소의 너비를 초과할 경우 기본적으로 개행되는데 <strong>nowrap으로 지정하면 개행되지 않고 한줄로 표시됩니다</strong>. <br> <img src="@source/docs/CSS/2022-12-06-CSS-말줄임-처리-방법/img/2.png" width="350" /></p>
 </li>
 <li>
 <p><code v-pre>overflow: hidden</code> : 한줄로 노출되는 텍스트를 카드 영역을 넘치지 않도록 추가해줍니다. <br> <img src="@source/docs/CSS/2022-12-06-CSS-말줄임-처리-방법/img/3.png" width="300" /></p>

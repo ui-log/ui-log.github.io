@@ -52,20 +52,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670566184000
+    "updatedTime": 1670598985000
   },
   "filePathRelative": "docs/SEO/2022-11-28-Netlify에-Nextjs-프로젝트-out-디렉토리로-배포하는-방법/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

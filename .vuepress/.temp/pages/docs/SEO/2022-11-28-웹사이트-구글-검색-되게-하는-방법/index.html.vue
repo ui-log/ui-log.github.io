@@ -1,6 +1,6 @@
 <template><div><h1 id="웹사이트-구글-검색-되게-하는-방법" tabindex="-1"><a class="header-anchor" href="#웹사이트-구글-검색-되게-하는-방법" aria-hidden="true">#</a> 웹사이트 구글 검색 되게 하는 방법</h1>
 <p>아무리 사이트를 잘 만들어두어도 아무도 들어오지 않는다면 소용이 없겠죠?
-잘 만든 사이트를 구글 검색에 노출이 되어 아래와 같이 유입을 만들 수 있는 방법을 정리했습니다.</p>
+잘 만든 사이트를 <strong>구글 검색에 노출이 되어 아래와 같이 유입을 만들 수 있는 방법을 정리했습니다.</strong></p>
 <p><img src="@source/docs/SEO/2022-11-28-웹사이트-구글-검색-되게-하는-방법/img/2.png" alt=""></p>
 <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
 <!-- ui-log 수평형 -->

@@ -15,7 +15,7 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 <h2 id="_1-외부-데이터가-필요-없는-경우" tabindex="-1"><a class="header-anchor" href="#_1-외부-데이터가-필요-없는-경우" aria-hidden="true">#</a> 1. 외부 데이터가 필요 없는 경우</h2>
-<p>가장 기본적인 경우로, 외부 데이터가 필요 없는 경우라면 아래와 같이 getStaticProps, getServerSideProps, getStaticPaths를 사용하지 않고 컴포넌트를 구성할 수 있다.</p>
+<p>가장 기본적인 경우로, 외부 데이터가 필요 없는 경우라면 아래와 같이 <strong>getStaticProps, getServerSideProps, getStaticPaths를 사용하지 않고 컴포넌트를 구성할 수 있다.</strong></p>
 <div class="language-tsx ext-tsx line-numbers-mode"><pre v-pre class="language-tsx"><code><span class="token keyword">function</span> <span class="token function">Test</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span><span class="token plain-text">Test</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
@@ -44,7 +44,7 @@
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<p>위와 같이 렌더링 되기 전에 API요청으로 원하는 데이터(posts)를 불러와야하는 경우에 <code v-pre>getStaticProps</code> 를 사용합니다.</p>
+<p>위와 같이 <strong>렌더링 되기 전에 API요청으로 원하는 데이터(posts)를 불러와야하는 경우에 <code v-pre>getStaticProps</code> 를 사용합니다.</strong></p>
 <div class="language-tsx ext-tsx line-numbers-mode"><pre v-pre class="language-tsx"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">Blog</span><span class="token punctuation">(</span><span class="token punctuation">{</span> posts <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token comment">// Render posts...</span>
 <span class="token punctuation">}</span>

@@ -2,7 +2,7 @@
 <p>Nextjs 프로젝트는 두가지 형식의 사이트로 사용되는데요.
 첫번째는 <code v-pre>.next</code> 디렉토리의 일반적인 Nextjs 프로젝트
 두번째는 <code v-pre>out</code> 디렉토리로 생성되는 정적 HTML 웹사이트입니다.</p>
-<p>이 포스팅에서는 각 방식에 따라 Netlify build configuration 설정 방법과 에러 해결 방법에 대해서 정리합니다.</p>
+<p><strong>이 포스팅에서는 각 방식에 따라 Netlify build configuration 설정 방법과 에러 해결 방법에 대해서 정리합니다.</strong></p>
 <h2 id="_1-정적-웹-사이트-out-경로-배포" tabindex="-1"><a class="header-anchor" href="#_1-정적-웹-사이트-out-경로-배포" aria-hidden="true">#</a> 1. 정적 웹 사이트 (out) 경로 배포</h2>
 <p>Netlify를 통해서 Nextjs를 배포할 때는 위 두가지 중 어떤 것으로 배포하냐에 따라 빌드 설정이 달라지게 됩니다.
 빌드 설정을 잘못하게 되면 아래와 같은 에러가 발생합니다.</p>
@@ -25,7 +25,7 @@
 <p>publish directory를 정적 웹사이트가 있는 <code v-pre>out</code>으로 수정해주고 <code v-pre>NETLIFY_NEXT_PLUGIN_SKIP</code> 를 true로 바꾸어주어야합니다.</p>
 <p>정적웹사이트를 배포하는 과정에서는 Netlify에서 Nextjs 플러그인을 빌드할 필요가 없기 때문에 skip에 true를 넣어주는 것이죠.<a href="https://docs.netlify.com/integrations/frameworks/#next-js" target="_blank" rel="noopener noreferrer">참고<ExternalLinkIcon/></a></p>
 <p><img src="@source/docs/SEO/2022-11-28-Netlify에-Nextjs-프로젝트-out-디렉토리로-배포하는-방법/img/2.png" alt=""></p>
-<p>netlify의 환경변수에서 <code v-pre>NETLIFY_NEXT_PLUGIN_SKIP</code>를 살펴보면 아래와 같이 설명되어있습니다. 이 값을 true로 변경하면 next.js 런타임을 사용하지 않는 것이고 next export를 이용해서 static html를 생성한다고 나와있습니다.</p>
+<p>netlify의 환경변수에서 <code v-pre>NETLIFY_NEXT_PLUGIN_SKIP</code>를 살펴보면 아래와 같이 설명되어있습니다. <strong>이 값을 true로 변경하면 next.js 런타임을 사용하지 않는 것이고 next export를 이용해서 static html를 생성한다고 나와있습니다.</strong></p>
 <p>:::
 NETLIFY_NEXT_PLUGIN_SKIP: when set to true for a Next.js site, the build doesn’t use the Next.js Runtime. Use this variable with projects that generate static HTML using next export.
 :::</p>

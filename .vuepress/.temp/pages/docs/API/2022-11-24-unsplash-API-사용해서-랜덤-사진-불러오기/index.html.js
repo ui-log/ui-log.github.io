@@ -39,20 +39,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670566184000
+    "updatedTime": 1670598985000
   },
   "filePathRelative": "docs/API/2022-11-24-unsplash-API-사용해서-랜덤-사진-불러오기/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

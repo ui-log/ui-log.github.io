@@ -123,7 +123,10 @@ em {
 }
 
 .sidebar {
+  display: none;
+
   @include only-pc {
+    display: block;
     left: calc(50% + 440px);
     border-right: none;
 

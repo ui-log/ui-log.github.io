@@ -47,7 +47,20 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670318138000
+    "updatedTime": 1670566184000
   },
   "filePathRelative": "docs/CSS/2022-12-06-CSS-말줄임-처리-방법/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

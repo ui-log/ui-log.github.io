@@ -21,7 +21,20 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669384721000
+    "updatedTime": 1670566184000
   },
   "filePathRelative": "docs/Nextjs/2022-11-25-React-Hook-useEffect-has-missing-dependencies-해결-방법/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

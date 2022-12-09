@@ -27,7 +27,20 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1669216537000
+    "updatedTime": 1670566184000
   },
   "filePathRelative": "docs/Nextjs/zustand-react-hydration-error/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

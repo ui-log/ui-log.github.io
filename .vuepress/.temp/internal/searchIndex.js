@@ -175,6 +175,32 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대응)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "블러처리하기",
+        "slug": "블러처리하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "IE 대응",
+        "slug": "ie-대응",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "텍스트 영역만 블러처리",
+        "slug": "텍스트-영역만-블러처리",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2022-12-07-backdrop-filter-%EC%86%8D%EC%84%B1%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B8%94%EB%9F%AC%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0(IE%EB%8C%80%EC%9D%91)/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "linear-gradient를 활용한 border 애니메이션 5가지 만들기",
     "headers": [
       {
@@ -254,71 +280,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대응)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "블러처리하기",
-        "slug": "블러처리하기",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "IE 대응",
-        "slug": "ie-대응",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "텍스트 영역만 블러처리",
-        "slug": "텍스트-영역만-블러처리",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2022-12-07-backdrop-filter-%EC%86%8D%EC%84%B1%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B8%94%EB%9F%AC%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0(IE%EB%8C%80%EC%9D%91)/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "github repository에 remote origin 연결하는 방법",
-    "headers": [],
-    "path": "/docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. optional chaining(?.)",
-        "slug": "_1-optional-chaining",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. nullish coalescing(??)",
-        "slug": "_2-nullish-coalescing",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "정리",
-        "slug": "정리",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/Javascript/optional-chaining/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "image-set 속성으로 반응형 background-image 사용하기",
     "headers": [
       {
@@ -373,6 +334,45 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/imageset/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "github repository에 remote origin 연결하는 방법",
+    "headers": [],
+    "path": "/docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. optional chaining(?.)",
+        "slug": "_1-optional-chaining",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. nullish coalescing(??)",
+        "slug": "_2-nullish-coalescing",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "정리",
+        "slug": "정리",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/Javascript/optional-chaining/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -615,50 +615,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "M1 mac에 nvm설치하는 방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. nvm 설치",
-        "slug": "_1-nvm-설치",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "설치 확인",
-        "slug": "설치-확인",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "원하는 Node 버전 설치",
-        "slug": "원하는-node-버전-설치",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "설치된 Node 버전 확인",
-        "slug": "설치된-node-버전-확인",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "원하는 Node 버전으로 변경",
-        "slug": "원하는-node-버전으로-변경",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "default Node 버전 설정",
-        "slug": "default-node-버전-설정",
-        "children": []
-      }
-    ],
-    "path": "/docs/Setting/m1-nvm/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "hits로 블로그에 조회수 기능 추가하는 방법",
     "headers": [],
     "path": "/docs/Vuepress/hits/",
@@ -729,6 +685,50 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "M1 mac에 nvm설치하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. nvm 설치",
+        "slug": "_1-nvm-설치",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "설치 확인",
+        "slug": "설치-확인",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "원하는 Node 버전 설치",
+        "slug": "원하는-node-버전-설치",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "설치된 Node 버전 확인",
+        "slug": "설치된-node-버전-확인",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "원하는 Node 버전으로 변경",
+        "slug": "원하는-node-버전으로-변경",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "default Node 버전 설정",
+        "slug": "default-node-버전-설정",
+        "children": []
+      }
+    ],
+    "path": "/docs/Setting/m1-nvm/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -736,16 +736,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

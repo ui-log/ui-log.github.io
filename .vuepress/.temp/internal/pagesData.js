@@ -11,16 +11,16 @@ export const pagesData = {
   "v-9c8c15ce": () => import(/* webpackChunkName: "v-9c8c15ce" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-HTML-CSS로-자동-슬라이드-캐러셀-만들기(Embla-Carousel)/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/2022-12-06-HTML-CSS%EB%A7%8C-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%8D%94-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-5673dc3a": () => import(/* webpackChunkName: "v-5673dc3a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-HTML-CSS만-사용해서-슬라이더-만드는-방법/index.html.js").then(({ data }) => data),
-  // path: /docs/CSS/border-animation/
-  "v-0505b5b6": () => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/2022-12-07-backdrop-filter-%EC%86%8D%EC%84%B1%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B8%94%EB%9F%AC%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0(IE%EB%8C%80%EC%9D%91)/
   "v-3379f3a5": () => import(/* webpackChunkName: "v-3379f3a5" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기(IE대응)/index.html.js").then(({ data }) => data),
+  // path: /docs/CSS/border-animation/
+  "v-0505b5b6": () => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.js").then(({ data }) => data),
+  // path: /docs/CSS/imageset/
+  "v-475c08a1": () => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.js").then(({ data }) => data),
   // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-39f3c26a": () => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/Javascript/optional-chaining/
   "v-0fd7d848": () => import(/* webpackChunkName: "v-0fd7d848" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Javascript/optional-chaining/index.html.js").then(({ data }) => data),
-  // path: /docs/CSS/imageset/
-  "v-475c08a1": () => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.js").then(({ data }) => data),
   // path: /docs/SEO/2022-11-28-Netlify%EC%97%90-Nextjs-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-out-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EB%B0%B0%ED%8F%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-64da0058": () => import(/* webpackChunkName: "v-64da0058" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/SEO/2022-11-28-Netlify에-Nextjs-프로젝트-out-디렉토리로-배포하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/SEO/2022-11-28-Netlify%EC%97%90-github-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
@@ -43,12 +43,12 @@ export const pagesData = {
   "v-7fa337ba": () => import(/* webpackChunkName: "v-7fa337ba" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-11-24-Mac-셀레니움-크롬드라이버-버전-이슈-해결방법/index.html.js").then(({ data }) => data),
   // path: /docs/Selenium/2022-12-09--%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80(selenium)-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/
   "v-966c6478": () => import(/* webpackChunkName: "v-966c6478" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-12-09--자바스크립트-셀레니움(selenium)-시작하기/index.html.js").then(({ data }) => data),
-  // path: /docs/Setting/m1-nvm/
-  "v-19ae13b9": () => import(/* webpackChunkName: "v-19ae13b9" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Setting/m1-nvm/index.html.js").then(({ data }) => data),
   // path: /docs/Vuepress/hits/
   "v-64390c90": () => import(/* webpackChunkName: "v-64390c90" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Vuepress/hits/index.html.js").then(({ data }) => data),
   // path: /docs/Vuepress/vuepress-hosting/
   "v-d8df1a64": () => import(/* webpackChunkName: "v-d8df1a64" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Vuepress/vuepress-hosting/index.html.js").then(({ data }) => data),
+  // path: /docs/Setting/m1-nvm/
+  "v-19ae13b9": () => import(/* webpackChunkName: "v-19ae13b9" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Setting/m1-nvm/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }

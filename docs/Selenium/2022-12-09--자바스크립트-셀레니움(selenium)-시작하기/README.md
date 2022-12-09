@@ -19,6 +19,20 @@ thumbnail: https://user-images.githubusercontent.com/46010705/206715170-0cdb8586
 
 ## 1. selenium-webdriver 설치
 
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ```bash
 npm i selenium-webdriver
 ```
@@ -58,6 +72,20 @@ await driver.get("https://www.naver.com/"); // 네이버 홈페이지 열기
 await driver.sleep(1000000000); // 타임 슬립
 ```
 
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 위에 주석처리해둔 속성들을 보고 필요한 속성을 적용하여 사용할 수 있습니다.
 위와 같이 index.js를 작성해서 실행하면 아무런 결과도 나오지 않는데요.
 
@@ -67,6 +95,20 @@ await driver.sleep(1000000000); // 타임 슬립
 ```js
 .addArguments("--headless") // 백그라운드로 실행
 ```
+
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 <img src="./img/1.png" width="700" />
 

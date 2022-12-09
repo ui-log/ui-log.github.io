@@ -6,6 +6,17 @@
 <p>크롤링을 하는 방법에는 다양한 방법이 있지만 실제 유저가 동작하는 것처럼 하기 위해서는 셀레니움(selenium)을 사용해야합니다.
 셀레니움은 파이썬 자바 자바스크립트 등 다양한 언어로 사용할 수 있지만 자바스크립트로 사용하는 방법에 대해서 공유합니다.</p>
 <h2 id="_1-selenium-webdriver-설치" tabindex="-1"><a class="header-anchor" href="#_1-selenium-webdriver-설치" aria-hidden="true">#</a> 1. selenium-webdriver 설치</h2>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">npm</span> i selenium-webdriver
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="_2-크롬-실행" tabindex="-1"><a class="header-anchor" href="#_2-크롬-실행" aria-hidden="true">#</a> 2. 크롬 실행</h2>
 <p>크롬 셀레니움을 사용하기 위해선 chromeOption들을 설정해주어야 합니다.</p>
@@ -37,12 +48,34 @@
 
 <span class="token keyword">await</span> driver<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">"https://www.naver.com/"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 네이버 홈페이지 열기</span>
 <span class="token keyword">await</span> driver<span class="token punctuation">.</span><span class="token function">sleep</span><span class="token punctuation">(</span><span class="token number">1000000000</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 타임 슬립</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>위에 주석처리해둔 속성들을 보고 필요한 속성을 적용하여 사용할 수 있습니다.
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>위에 주석처리해둔 속성들을 보고 필요한 속성을 적용하여 사용할 수 있습니다.
 위와 같이 index.js를 작성해서 실행하면 아무런 결과도 나오지 않는데요.</p>
 <p>그 이유는 백그라운드로 실행했기 때문입니다.
 아래 부분을 주석처리하거나 제거하고 실행시켜야합니다.</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token punctuation">.</span><span class="token function">addArguments</span><span class="token punctuation">(</span><span class="token string">"--headless"</span><span class="token punctuation">)</span> <span class="token comment">// 백그라운드로 실행</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><img src="@source/docs/Selenium/2022-12-09--자바스크립트-셀레니움(selenium)-시작하기/img/1.png" width="700" />
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<img src="@source/docs/Selenium/2022-12-09--자바스크립트-셀레니움(selenium)-시작하기/img/1.png" width="700" />
 <h2 id="_3-셀레니움-파이어폭스-실행" tabindex="-1"><a class="header-anchor" href="#_3-셀레니움-파이어폭스-실행" aria-hidden="true">#</a> 3. 셀레니움 파이어폭스 실행</h2>
 <p>크롬이 아닌 파이어폭스도 실행할 수 있는데요.
 셀레니움을 사용하다보면 특정 브라우저에서는 동작하지 않는 경우가 있어서 다른 브라우저도 사용해야할 경우가 발생합니다.</p>

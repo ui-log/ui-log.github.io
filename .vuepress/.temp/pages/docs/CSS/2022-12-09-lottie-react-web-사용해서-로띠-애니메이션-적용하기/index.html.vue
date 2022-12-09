@@ -2,6 +2,17 @@
 <div class="custom-container tip"><p class="custom-container-title">💡이 포스팅을 읽으면</p>
 <p>리액트 프로젝트에 lottie-react-web를 이용해 아래와 같은 로띠 애니메이션을 쉽게 적용할 수 있습니다.</p>
 </div>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <img src="@source/docs/CSS/2022-12-09-lottie-react-web-사용해서-로띠-애니메이션-적용하기/img/1.gif" width="500" />
 <h2 id="로띠-lottie-란" tabindex="-1"><a class="header-anchor" href="#로띠-lottie-란" aria-hidden="true">#</a> 로띠(lottie)란?</h2>
 <p>웹 개발을 할 때 애니메이션을 적용하는 방식에는 여러가지가 있는데요.</p>
@@ -14,10 +25,32 @@
 <p>그 중에서 성능면에서도 좋고 요즘 많이 사용하고 있는 로띠를 이용해 애니메이션을 적용해보려고 합니다.</p>
 <p>리액트 프로젝트에 손쉽게 적용할 수 있답니다.</p>
 <h2 id="_1-lottie-react-web-설치" tabindex="-1"><a class="header-anchor" href="#_1-lottie-react-web-설치" aria-hidden="true">#</a> 1. lottie-react-web 설치</h2>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <p>먼저 lottie-react-web를 설치해줍니다.</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">yarn</span> <span class="token function">add</span> lottie-react-web
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="_2-lottie-react-web-적용" tabindex="-1"><a class="header-anchor" href="#_2-lottie-react-web-적용" aria-hidden="true">#</a> 2. lottie-react-web 적용</h2>
 <p>적용하는 방법은 굉장히 간단합니다.</p>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-tsx ext-tsx line-numbers-mode"><pre v-pre class="language-tsx"><code><span class="token punctuation">{</span><span class="token operator">...</span> 중략<span class="token punctuation">}</span>
 
 <span class="token keyword">import</span> Lottie <span class="token keyword">from</span> <span class="token string">"lottie-react-web"</span><span class="token punctuation">;</span>

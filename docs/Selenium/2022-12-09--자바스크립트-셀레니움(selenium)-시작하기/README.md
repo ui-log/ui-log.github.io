@@ -15,6 +15,7 @@ thumbnail: https://user-images.githubusercontent.com/46010705/206715170-0cdb8586
 :::
 
 크롤링을 하는 방법에는 다양한 방법이 있지만 실제 유저가 동작하는 것처럼 하기 위해서는 셀레니움(selenium)을 사용해야합니다.
+
 셀레니움은 파이썬 자바 자바스크립트 등 다양한 언어로 사용할 수 있지만 자바스크립트로 사용하는 방법에 대해서 공유합니다.
 
 ## 1. selenium-webdriver 설치

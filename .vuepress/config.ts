@@ -57,6 +57,7 @@ const generateSitemap = (posts) => {
 };
 
 console.log(generateSitemap(posts));
+
 fs.writeFileSync(path.join(__dirname, "/public/sitemap.xml"), generateSitemap(posts));
 fs.writeFileSync(path.join(__dirname, "/public/posts.json"), JSON.stringify(posts));
 

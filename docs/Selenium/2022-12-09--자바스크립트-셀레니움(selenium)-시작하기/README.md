@@ -39,7 +39,7 @@ npm i selenium-webdriver
 
 ## 2. 크롬 실행
 
-크롬 셀레니움을 사용하기 위해선 chromeOption들을 설정해주어야 합니다.
+크롬 셀레니움을 사용하기 위해선 chromeOption들을 설정해 주어야 합니다.
 
 ```js
 const webdriver = require("selenium-webdriver");

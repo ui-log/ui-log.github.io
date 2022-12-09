@@ -12,16 +12,16 @@
 <span class="token keyword">export</span> <span class="token keyword">default</span> Test<span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_2-페이지-내용이-외부-데이터에-의존하는-경우" tabindex="-1"><a class="header-anchor" href="#_2-페이지-내용이-외부-데이터에-의존하는-경우" aria-hidden="true">#</a> 2. 페이지 내용이 외부 데이터에 의존하는 경우</h2>
 <p>이런 경우는 보통 블로그와 같은 페이지에서 사용됩니다.</p>
-<div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>// Blog컴포넌트는 posts라는 데이터를 API 요청을 통해서 얻어와야합니다.
-export default function Blog({ posts }) {
-  return (
-    &lt;ul>
-      {posts.map((post) => (
-        &lt;li>{post.title}&lt;/li>
-      ))}
-    &lt;/ul>
-  )
-}
+<div class="language-tsx ext-tsx line-numbers-mode"><pre v-pre class="language-tsx"><code><span class="token comment">// Blog컴포넌트는 posts라는 데이터를 API 요청을 통해서 얻어와야합니다.</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">Blog</span><span class="token punctuation">(</span><span class="token punctuation">{</span> posts <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><span class="token plain-text">
+      </span><span class="token punctuation">{</span>posts<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span>post<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token punctuation">{</span>post<span class="token punctuation">.</span>title<span class="token punctuation">}</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+      <span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token plain-text">
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>위와 같이 렌더링 되기 전에 API요청으로 원하는 데이터(posts)를 불러와야하는 경우에 <code v-pre>getStaticProps</code> 를 사용합니다.</p>
 <div class="language-tsx ext-tsx line-numbers-mode"><pre v-pre class="language-tsx"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">Blog</span><span class="token punctuation">(</span><span class="token punctuation">{</span> posts <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token comment">// Render posts...</span>

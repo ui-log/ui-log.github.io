@@ -33,7 +33,7 @@ export default Test;
 
 이런 경우는 보통 블로그와 같은 페이지에서 사용됩니다.
 
-```
+```tsx
 // Blog컴포넌트는 posts라는 데이터를 API 요청을 통해서 얻어와야합니다.
 export default function Blog({ posts }) {
   return (
@@ -42,7 +42,7 @@ export default function Blog({ posts }) {
         <li>{post.title}</li>
       ))}
     </ul>
-  )
+  );
 }
 ```
 

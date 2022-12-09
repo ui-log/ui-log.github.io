@@ -21,6 +21,17 @@
 <img width="1080" alt="image" src="https://user-images.githubusercontent.com/46010705/198867791-7423904c-0410-4657-9073-11411e0137bc.png">
 <p>저장소를 생성해주었다면 해당 저장소에 vuepress를 설치해야한다.</p>
 <h2 id="vuepress-설치" tabindex="-1"><a class="header-anchor" href="#vuepress-설치" aria-hidden="true">#</a> vuepress 설치</h2>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <p>vuepress를 설치하는 방법은 2가지로 나뉜다. 보일러플레이트를 가지고 있는 패키지를 설치하거나 직접 수동으로 vuepress를 설치하는 방법이다.</p>
 <p>이번 글에서는 vuepress를 수동으로 설치해서 아래와 같은 기본적인 형태의 사이트를 호스팅하는 것까지만 다루려고 한다.</p>
 <p><img src="https://user-images.githubusercontent.com/46010705/200462601-1f276025-c8ca-4b98-8498-331910267548.png" alt="image"></p>
@@ -31,6 +42,17 @@
 <p>vuepress를 설치하기 위해서는 yarn, npm이 필요하기 때문이다.</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">npm</span> init
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="_2-vuepress-설치" tabindex="-1"><a class="header-anchor" href="#_2-vuepress-설치" aria-hidden="true">#</a> 2. vuepress 설치</h3>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <p>npm을 설치했으니 vuepress를 설치해준다.</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">yarn</span> <span class="token function">add</span> -D vuepress
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="_3-포스트-작성" tabindex="-1"><a class="header-anchor" href="#_3-포스트-작성" aria-hidden="true">#</a> 3. 포스트 작성</h3>

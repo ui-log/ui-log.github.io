@@ -2,6 +2,17 @@
 <div class="custom-container tip"><p class="custom-container-title">💡이 포스팅을 읽으면</p>
 <p>scss에서 for, each 반복문을 작성할 수 있습니다.</p>
 </div>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <h2 id="_1-for-i-from-start-to-end" tabindex="-1"><a class="header-anchor" href="#_1-for-i-from-start-to-end" aria-hidden="true">#</a> 1. for ${i} from ${start} to ${end}</h2>
 <p>for문의 가장 기본적인 방법으로</p>
 <p><code v-pre>for ${i} from ${start} to ${end}</code>로 작성하면
@@ -15,7 +26,18 @@ i를 인덱스로 하고 start부터 end <strong>미만</strong>까지 반복합
     <span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">nth</span><span class="token punctuation">(</span><span class="token variable">$colorList</span><span class="token punctuation">,</span> <span class="token variable">$i</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>여기서 nth는 기본 내장 함수로서 scss의 배열에서 특정 값을 알아낼 수 있는 함수입니다.
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>여기서 nth는 기본 내장 함수로서 scss의 배열에서 특정 값을 알아낼 수 있는 함수입니다.
 자바스크립트로 치면 <code v-pre>colorList[i]</code> 와 같은 개념이겠죠.</p>
 <h2 id="_2-for-i-from-start-through-end" tabindex="-1"><a class="header-anchor" href="#_2-for-i-from-start-through-end" aria-hidden="true">#</a> 2. for ${i} from ${start} through ${end}</h2>
 <p>첫번째 for문과의 차이점은 to가 through로 변경되었다는 점 뿐인데요.
@@ -30,6 +52,17 @@ start부터 end<strong>이하</strong> 까지 반복합니다.</p>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_3-each-item-in-list" tabindex="-1"><a class="header-anchor" href="#_3-each-item-in-list" aria-hidden="true">#</a> 3. @each ${item} in ${list}</h2>
 <p>다음은 @each 문법인데요. 자바스크립트의 for each 문법과 동일한 방식이라고 생각해주시면 됩니다.</p>
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-scss ext-scss line-numbers-mode"><pre v-pre class="language-scss"><code><span class="token comment">// index 찾는 방법</span>
 <span class="token keyword">@each</span> <span class="token selector"><span class="token variable">$color</span> in <span class="token variable">$colorList</span> </span><span class="token punctuation">{</span>
 <span class="token punctuation">}</span>

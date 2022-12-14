@@ -13,6 +13,20 @@ thumbnail: https://user-images.githubusercontent.com/46010705/207650166-fac87af4
 scss에서 for, each 반복문을 작성할 수 있습니다.
 :::
 
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ## 1. for ${i} from ${start} to ${end}
 
 for문의 가장 기본적인 방법으로
@@ -31,6 +45,20 @@ $colorList: #e74c3c, #e67e22, #f1c40f, #2ecc71, #c0392b, #3498db, #2c3e50, #9b59
   }
 }
 ```
+
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 여기서 nth는 기본 내장 함수로서 scss의 배열에서 특정 값을 알아낼 수 있는 함수입니다.
 자바스크립트로 치면 `colorList[i]` 와 같은 개념이겠죠.
@@ -54,6 +82,20 @@ $colorList: #e74c3c, #e67e22, #f1c40f, #2ecc71, #c0392b, #3498db, #2c3e50, #9b59
 ## 3. @each ${item} in ${list}
 
 다음은 @each 문법인데요. 자바스크립트의 for each 문법과 동일한 방식이라고 생각해주시면 됩니다.
+
+<component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ```scss
 // index 찾는 방법

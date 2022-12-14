@@ -1,5 +1,5 @@
 ---
-title: egjs/react-grid로 Masonry레이아웃 만드는 방법
+title: "@egjs/react-grid로 Masonry레이아웃 만드는 방법"
 description: react-grid로 MasonryGrid justifiedGrid PackingGrid 레이아웃을 만드는 방법에 대해서 공유합니다.
 date: 2022-12-15 00:26
 sidebarDepth: 2

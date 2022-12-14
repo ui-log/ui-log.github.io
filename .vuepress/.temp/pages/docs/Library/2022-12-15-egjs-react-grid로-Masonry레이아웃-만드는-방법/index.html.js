@@ -1,10 +1,10 @@
 export const data = {
   "key": "v-9759f660",
   "path": "/docs/Library/2022-12-15-egjs-react-grid%EB%A1%9C-Masonry%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
-  "title": "egjs/react-grid로 Masonry레이아웃 만드는 방법",
+  "title": "@egjs/react-grid로 Masonry레이아웃 만드는 방법",
   "lang": "en-US",
   "frontmatter": {
-    "title": "egjs/react-grid로 Masonry레이아웃 만드는 방법",
+    "title": "@egjs/react-grid로 Masonry레이아웃 만드는 방법",
     "description": "react-grid로 MasonryGrid justifiedGrid PackingGrid 레이아웃을 만드는 방법에 대해서 공유합니다.",
     "date": "2022-12-15 00:26",
     "sidebarDepth": 2,
@@ -52,7 +52,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1671032511000
   },
   "filePathRelative": "docs/Library/2022-12-15-egjs-react-grid로-Masonry레이아웃-만드는-방법/README.md"
 }

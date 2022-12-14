@@ -27,6 +27,18 @@ const tags = computed(() => {
   return props.item.tag?.split(",").map((v) => v.trim());
 });
 
+const title = computed(() => {
+  const postTitle = props.item.title;
+
+  return postTitle.replace(/\"/gi, "");
+});
+
+const description = computed(() => {
+  const postTitle = props.item.description;
+
+  return postTitle?.replace(/\"/gi, "");
+});
+
 function fromNow(timestamp: number) {
   const ms = Date.now() - timestamp;
   const 초 = 1000;
@@ -73,9 +85,9 @@ function fromNow(timestamp: number) {
       </p>
 
       <router-link :to="item.path" class="info">
-        <h4 class="post_title" v-html="item.title" />
+        <h4 class="post_title" v-html="title" />
 
-        <p v-html="item.description" />
+        <p v-html="description" />
       </router-link>
 
       <time>

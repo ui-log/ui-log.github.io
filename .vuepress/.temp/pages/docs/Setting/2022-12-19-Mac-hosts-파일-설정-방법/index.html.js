@@ -34,7 +34,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1671432357000
   },
   "filePathRelative": "docs/Setting/2022-12-19-Mac-hosts-파일-설정-방법/README.md"
 }

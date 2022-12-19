@@ -30,6 +30,12 @@ const relationPosts = computed(() => {
     <template #page-content-top>
       <div class="hit">
         <img :src="hitUrl" alt="Hits bn" />
+        <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
+
+        <!-- ui-log 수평형 -->
+
+        <ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-4877378276818686" data-ad-slot="9743150776" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <component is="script"> (adsbygoogle = window.adsbygoogle || []).push({}); </component>
       </div>
     </template>
     <template #page-bottom>

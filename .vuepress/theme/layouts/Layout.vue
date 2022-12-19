@@ -55,12 +55,9 @@ const relationPosts = computed(() => {
 @import "../../styles/mixins";
 
 .hit {
-  @include only-pc {
-    right: calc(50% - 400px);
+  img {
+    margin: 0 0 10px auto !important;
   }
-  position: absolute;
-  top: 80px;
-  right: 10px;
 }
 
 .relations {

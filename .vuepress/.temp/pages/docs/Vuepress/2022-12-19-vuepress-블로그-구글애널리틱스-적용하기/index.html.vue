@@ -4,7 +4,7 @@
 </div>
 <p>구글애널리틱스를 사용하면 블로그, 쇼핑몰과 같은 사이트의 사용자에 대한 방문, 액션 데이터를 분석해주는데요.
 사이트를 더 키워나가고싶은 분들이라면 구글애널리틱스를 사이트에 붙혀서 통계를 통해 마케팅에 이용하고 있습니다.</p>
-<p>구글 애널리틱스가 GA4 에서 GA5로 업데이트되면서 등록하는 방법이 달라졌는데요.
+<p>구글 애널리틱스가 <strong>GA4 에서 GA5로 업데이트되면서 등록하는 방법이 달라졌는데요.</strong>
 달라진 내용에 대해서 정리해보도록 하겠습니다.</p>
 <h2 id="_1-설정-추가" tabindex="-1"><a class="header-anchor" href="#_1-설정-추가" aria-hidden="true">#</a> 1. 설정 추가</h2>
 <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
@@ -41,7 +41,7 @@
 이 부분은 큰 의미는 없으니 저처럼 지정해주셔도 상관 없습니다.</p>
 <img src="@source/docs/Vuepress/2022-12-19-vuepress-블로그-구글애널리틱스-적용하기/img/5.png"  />
 <h2 id="_2-사이트-적용" tabindex="-1"><a class="header-anchor" href="#_2-사이트-적용" aria-hidden="true">#</a> 2. 사이트 적용</h2>
-<p>속서을 만들었다면 사이트를 적용해야하는데요. 아래 화면에서 웹을 눌러줍니다.</p>
+<p>속성을 만들었다면 사이트를 적용해야하는데요. 아래 화면에서 웹을 눌러줍니다.</p>
 <img src="@source/docs/Vuepress/2022-12-19-vuepress-블로그-구글애널리틱스-적용하기/img/6.png"  />
 <p>원하시는 vuepress 블로그 주소를 넣어주시면 됩니다.
 사실 vuepress 주소가 아닌 어떤 주소를 넣어주셔도 상관 없습니다.</p>
@@ -62,7 +62,7 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 <h2 id="_3-vuepress-설정" tabindex="-1"><a class="header-anchor" href="#_3-vuepress-설정" aria-hidden="true">#</a> 3. vuepress 설정</h2>
-<p>vuepress 블로그의 head에 script는 아래와 같이 적용하고 있기 때문에 위 사진에서 src값과 script 사이에 있는 html을 각각 넣어주시면 됩니다.</p>
+<p>vuepress 블로그의 head에 script는 아래와 같이 적용하고 있기 때문에 <strong>위 사진에서 src값과 script 사이에 있는 html을 각각 넣어주시면 됩니다.</strong></p>
 <div class="language-typescript ext-ts line-numbers-mode"><pre v-pre class="language-typescript"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineUserConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
   title<span class="token operator">:</span> <span class="token string">"ui-log"</span><span class="token punctuation">,</span>
   description<span class="token operator">:</span> <span class="token string">"Today I leanred"</span><span class="token punctuation">,</span>

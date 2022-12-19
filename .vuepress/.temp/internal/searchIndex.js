@@ -14,6 +14,46 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "CSS 말줄임 처리 방법 (mixin 공유)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 한 줄 말줄임",
+        "slug": "_1-한-줄-말줄임",
+        "children": [
+          {
+            "level": 3,
+            "title": "1-1. 한 줄 말줄임 처리 순서",
+            "slug": "_1-1-한-줄-말줄임-처리-순서",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 여러줄 말줄임",
+        "slug": "_2-여러줄-말줄임",
+        "children": [
+          {
+            "level": 3,
+            "title": "2-1. 여러줄 말줄임 처리 순서",
+            "slug": "_2-1-여러줄-말줄임-처리-순서",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "마무리",
+        "slug": "마무리",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2022-12-06-CSS-%EB%A7%90%EC%A4%84%EC%9E%84-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Slack API - incoming webhooks 사용해서 메세지 보내는 방법 (2022년 12월 최신)",
     "headers": [
       {
@@ -66,84 +106,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "CSS 말줄임 처리 방법 (mixin 공유)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 한 줄 말줄임",
-        "slug": "_1-한-줄-말줄임",
-        "children": [
-          {
-            "level": 3,
-            "title": "1-1. 한 줄 말줄임 처리 순서",
-            "slug": "_1-1-한-줄-말줄임-처리-순서",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 여러줄 말줄임",
-        "slug": "_2-여러줄-말줄임",
-        "children": [
-          {
-            "level": 3,
-            "title": "2-1. 여러줄 말줄임 처리 순서",
-            "slug": "_2-1-여러줄-말줄임-처리-순서",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "마무리",
-        "slug": "마무리",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2022-12-06-CSS-%EB%A7%90%EC%A4%84%EC%9E%84-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. HTML 추가",
-        "slug": "_1-html-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. CDN 추가",
-        "slug": "_2-cdn-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. css 추가",
-        "slug": "_3-css-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 스크립트 추가",
-        "slug": "_4-스크립트-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 플러그인 추가",
-        "slug": "_5-플러그인-추가",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "HTML CSS만 사용해서 슬라이더 만드는 방법",
     "headers": [
       {
@@ -191,6 +153,44 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A7%8C-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%8D%94-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. HTML 추가",
+        "slug": "_1-html-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. CDN 추가",
+        "slug": "_2-cdn-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. css 추가",
+        "slug": "_3-css-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 스크립트 추가",
+        "slug": "_4-스크립트-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 플러그인 추가",
+        "slug": "_5-플러그인-추가",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -423,6 +423,38 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. optional chaining(?.)",
+        "slug": "_1-optional-chaining",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. nullish coalescing(??)",
+        "slug": "_2-nullish-coalescing",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "정리",
+        "slug": "정리",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/Javascript/optional-chaining/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "html2canvas 사용법 - html 요소 이미지로 캡쳐해서 다운로드 받기",
     "headers": [
       {
@@ -452,38 +484,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Library/2022-12-09-html2canvas%EB%A1%9C-html-%EC%9A%94%EC%86%8C-%EC%BA%A1%EC%B3%90%ED%95%B4%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A1%9C-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%9B%EA%B8%B0/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. optional chaining(?.)",
-        "slug": "_1-optional-chaining",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. nullish coalescing(??)",
-        "slug": "_2-nullish-coalescing",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "정리",
-        "slug": "정리",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/Javascript/optional-chaining/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -892,3 +892,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

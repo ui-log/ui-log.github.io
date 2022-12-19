@@ -5,11 +5,11 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "title": "vuepress 블로그 구글애널리틱스 적용하기",
-    "description": null,
+    "description": "vuepress 블로그에 구글애널리틱스를 적용하는 방법에 대해서 정리했습니다.",
     "date": "2022-12-19 17:04",
     "sidebarDepth": 2,
     "tag": "Vuepress",
-    "thumbnail": null
+    "thumbnail": "https://user-images.githubusercontent.com/77398961/208387175-8b7f830a-0f84-4bc3-be6a-cab77880454f.png"
   },
   "excerpt": "",
   "headers": [
@@ -33,7 +33,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1671440313000
   },
   "filePathRelative": "docs/Vuepress/2022-12-19-vuepress-블로그-구글애널리틱스-적용하기/README.md"
 }

@@ -201,6 +201,8 @@ article {
     font-size: 16px;
     line-height: 20px;
     height: 60px;
+    color: #333;
+    font-weight: 700;
   }
 
   p {

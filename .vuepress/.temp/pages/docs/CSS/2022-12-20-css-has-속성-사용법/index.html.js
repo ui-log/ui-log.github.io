@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1671507266000
   },
   "filePathRelative": "docs/CSS/2022-12-20-css-has-속성-사용법/README.md"
 }

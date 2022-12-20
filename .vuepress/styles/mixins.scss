@@ -3,3 +3,11 @@
     @content;
   }
 }
+
+@mixin ellipsisMulti($line_num) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $line_num;
+  -webkit-box-orient: vertical;
+}

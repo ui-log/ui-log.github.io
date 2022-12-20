@@ -3,7 +3,7 @@ import ParentLayout from "@vuepress/theme-default/lib/client/layouts/Layout.vue"
 import { usePageData } from "@vuepress/client";
 import { computed } from "vue";
 
-import { Comment, Footer, Posts } from "../components";
+import { Comment, Footer, Posts, RelationPosts } from "../components";
 import { usePosts } from "../hooks";
 
 const posts = usePosts();
@@ -21,7 +21,7 @@ const relationPosts = computed(() => {
   const lists = posts.value.filter((v) => v.tag.includes(tag as string));
   const current = lists.find((v) => v.path === pageData.value.path);
   const index = lists.indexOf(current);
-  return lists.slice(Math.max(index - 3, 0), index + 3).filter((v) => v !== current);
+  return lists.slice(Math.max(index - 5, 0), index + 5).filter((v) => v !== current);
 });
 </script>
 
@@ -49,8 +49,8 @@ const relationPosts = computed(() => {
           <ins class="adsbygoogle" style="display: block" data-ad-format="autorelaxed" data-ad-client="ca-pub-4877378276818686" data-ad-slot="2985948964"></ins>
           <component is="script"> (adsbygoogle = window.adsbygoogle || []).push({}); </component>
         </div>
-
-        <Posts :items="relationPosts" />
+        <RelationPosts :items="relationPosts" />
+        <!-- <Posts :items="relationPosts" /> -->
       </section>
     </template>
   </ParentLayout>

@@ -5,6 +5,7 @@ date: 2022-12-20 08:44
 sidebarDepth: 2
 tag: CSS
 thumbnail:
+disabledPost: true
 ---
 
 # css :has() 속성 사용법

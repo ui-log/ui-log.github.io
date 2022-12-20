@@ -7,6 +7,8 @@ export const pagesData = {
   "v-32d21ace": () => import(/* webpackChunkName: "v-32d21ace" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/API/2022-11-24-unsplash-API-사용해서-랜덤-사진-불러오기/index.html.js").then(({ data }) => data),
   // path: /docs/API/2022-12-19-Slack-API-%EC%82%AC%EC%9A%A9%EB%B2%95-(2022%EC%B5%9C%EC%8B%A0)/
   "v-6e9e456a": () => import(/* webpackChunkName: "v-6e9e456a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/API/2022-12-19-Slack-API-사용법-(2022최신)/index.html.js").then(({ data }) => data),
+  // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
+  "v-39f3c26a": () => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/2022-12-06-CSS-%EB%A7%90%EC%A4%84%EC%9E%84-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/
   "v-3b64b9ad": () => import(/* webpackChunkName: "v-3b64b9ad" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-CSS-말줄임-처리-방법/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/
@@ -25,8 +27,6 @@ export const pagesData = {
   "v-0505b5b6": () => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/imageset/
   "v-475c08a1": () => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.js").then(({ data }) => data),
-  // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
-  "v-39f3c26a": () => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/Javascript/optional-chaining/
   "v-0fd7d848": () => import(/* webpackChunkName: "v-0fd7d848" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Javascript/optional-chaining/index.html.js").then(({ data }) => data),
   // path: /docs/Library/2022-12-09-html2canvas%EB%A1%9C-html-%EC%9A%94%EC%86%8C-%EC%BA%A1%EC%B3%90%ED%95%B4%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A1%9C-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%9B%EA%B8%B0/
@@ -59,10 +59,10 @@ export const pagesData = {
   "v-66cd1b00": () => import(/* webpackChunkName: "v-66cd1b00" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Setting/2022-12-19-Mac-hosts-파일-설정-방법/index.html.js").then(({ data }) => data),
   // path: /docs/Setting/m1-nvm/
   "v-19ae13b9": () => import(/* webpackChunkName: "v-19ae13b9" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Setting/m1-nvm/index.html.js").then(({ data }) => data),
-  // path: /docs/Vuepress/hits/
-  "v-64390c90": () => import(/* webpackChunkName: "v-64390c90" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Vuepress/hits/index.html.js").then(({ data }) => data),
   // path: /docs/Vuepress/2022-12-19-vuepress-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EA%B8%80%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/
   "v-4a5b8f64": () => import(/* webpackChunkName: "v-4a5b8f64" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Vuepress/2022-12-19-vuepress-블로그-구글애널리틱스-적용하기/index.html.js").then(({ data }) => data),
+  // path: /docs/Vuepress/hits/
+  "v-64390c90": () => import(/* webpackChunkName: "v-64390c90" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Vuepress/hits/index.html.js").then(({ data }) => data),
   // path: /docs/Vuepress/vuepress-hosting/
   "v-d8df1a64": () => import(/* webpackChunkName: "v-d8df1a64" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Vuepress/vuepress-hosting/index.html.js").then(({ data }) => data),
   // path: /404.html

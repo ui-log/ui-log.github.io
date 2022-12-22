@@ -73,6 +73,116 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "@egjs/react-grid로 Masonry레이아웃 만드는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "@egjs/react-grid 설치",
+        "slug": "egjs-react-grid-설치",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "적용",
+        "slug": "적용",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Masonry 레이아웃",
+            "slug": "_1-masonry-레이아웃",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. justifiedGrid 레이아웃",
+            "slug": "_2-justifiedgrid-레이아웃",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. PackingGrid 레이아웃",
+            "slug": "_3-packinggrid-레이아웃",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "마무리",
+        "slug": "마무리",
+        "children": []
+      }
+    ],
+    "path": "/docs/Library/2022-12-15-egjs-react-grid%EB%A1%9C-Masonry%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "html2canvas 사용법 - html 요소 이미지로 캡쳐해서 다운로드 받기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. html2canvas 설치",
+        "slug": "_1-html2canvas-설치",
+        "children": [
+          {
+            "level": 3,
+            "title": "canvas로 변환하는 함수",
+            "slug": "canvas로-변환하는-함수",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "다운로드 받는 함수",
+            "slug": "다운로드-받는-함수",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "결과 화면",
+        "slug": "결과-화면",
+        "children": []
+      }
+    ],
+    "path": "/docs/Library/2022-12-09-html2canvas%EB%A1%9C-html-%EC%9A%94%EC%86%8C-%EC%BA%A1%EC%B3%90%ED%95%B4%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A1%9C-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%9B%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. optional chaining(?.)",
+        "slug": "_1-optional-chaining",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. nullish coalescing(??)",
+        "slug": "_2-nullish-coalescing",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "정리",
+        "slug": "정리",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/Javascript/optional-chaining/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "CSS 말줄임 처리 방법 (mixin 공유)",
     "headers": [
       {
@@ -109,44 +219,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-06-CSS-%EB%A7%90%EC%A4%84%EC%9E%84-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. HTML 추가",
-        "slug": "_1-html-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. CDN 추가",
-        "slug": "_2-cdn-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. css 추가",
-        "slug": "_3-css-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 스크립트 추가",
-        "slug": "_4-스크립트-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 플러그인 추가",
-        "slug": "_5-플러그인-추가",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -202,28 +274,40 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대응)",
+    "title": "HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)",
     "headers": [
       {
         "level": 2,
-        "title": "블러처리하기",
-        "slug": "블러처리하기",
+        "title": "1. HTML 추가",
+        "slug": "_1-html-추가",
         "children": []
       },
       {
         "level": 2,
-        "title": "IE 대응",
-        "slug": "ie-대응",
+        "title": "2. CDN 추가",
+        "slug": "_2-cdn-추가",
         "children": []
       },
       {
         "level": 2,
-        "title": "텍스트 영역만 블러처리",
-        "slug": "텍스트-영역만-블러처리",
+        "title": "3. css 추가",
+        "slug": "_3-css-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 스크립트 추가",
+        "slug": "_4-스크립트-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 플러그인 추가",
+        "slug": "_5-플러그인-추가",
         "children": []
       }
     ],
-    "path": "/docs/CSS/2022-12-07-backdrop-filter-%EC%86%8D%EC%84%B1%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B8%94%EB%9F%AC%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0(IE%EB%8C%80%EC%9D%91)/",
+    "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -250,6 +334,39 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-09-lottie-react-web-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%A1%9C%EB%9D%A0-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대응)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "블러처리하기",
+        "slug": "블러처리하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "IE 대응",
+        "slug": "ie-대응",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "텍스트 영역만 블러처리",
+        "slug": "텍스트-영역만-블러처리",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2022-12-07-backdrop-filter-%EC%86%8D%EC%84%B1%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B8%94%EB%9F%AC%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0(IE%EB%8C%80%EC%9D%91)/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "css :has() 속성 사용법",
+    "headers": [],
+    "path": "/docs/CSS/2022-12-20-css-has-%EC%86%8D%EC%84%B1-%EC%82%AC%EC%9A%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -282,13 +399,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-15-scss%EC%97%90%EC%84%9C-for-each-%EB%B0%98%EB%B3%B5%EB%AC%B8-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "css :has() 속성 사용법",
-    "headers": [],
-    "path": "/docs/CSS/2022-12-20-css-has-%EC%86%8D%EC%84%B1-%EC%82%AC%EC%9A%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -350,7 +460,20 @@ export const searchIndex = [
         "level": 2,
         "title": "1. 이메일 템플릿 css 속성 확인 사이트",
         "slug": "_1-이메일-템플릿-css-속성-확인-사이트",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "absolute 가능 여부",
+            "slug": "absolute-가능-여부",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "background 가능 여부",
+            "slug": "background-가능-여부",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/docs/CSS/2022-12-22-%EC%9D%B4%EB%A9%94%EC%9D%BC-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%A7%88%ED%81%AC%EC%97%85%EC%97%90-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%8F%84-%EB%90%98%EB%8A%94-CSS-%EC%86%8D%EC%84%B1%EC%9D%B8%EC%A7%80-%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
@@ -491,116 +614,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/imageset/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. optional chaining(?.)",
-        "slug": "_1-optional-chaining",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. nullish coalescing(??)",
-        "slug": "_2-nullish-coalescing",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "정리",
-        "slug": "정리",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/Javascript/optional-chaining/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "html2canvas 사용법 - html 요소 이미지로 캡쳐해서 다운로드 받기",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. html2canvas 설치",
-        "slug": "_1-html2canvas-설치",
-        "children": [
-          {
-            "level": 3,
-            "title": "canvas로 변환하는 함수",
-            "slug": "canvas로-변환하는-함수",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "다운로드 받는 함수",
-            "slug": "다운로드-받는-함수",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "결과 화면",
-        "slug": "결과-화면",
-        "children": []
-      }
-    ],
-    "path": "/docs/Library/2022-12-09-html2canvas%EB%A1%9C-html-%EC%9A%94%EC%86%8C-%EC%BA%A1%EC%B3%90%ED%95%B4%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A1%9C-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%9B%EA%B8%B0/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "@egjs/react-grid로 Masonry레이아웃 만드는 방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "@egjs/react-grid 설치",
-        "slug": "egjs-react-grid-설치",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "적용",
-        "slug": "적용",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Masonry 레이아웃",
-            "slug": "_1-masonry-레이아웃",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. justifiedGrid 레이아웃",
-            "slug": "_2-justifiedgrid-레이아웃",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. PackingGrid 레이아웃",
-            "slug": "_3-packinggrid-레이아웃",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "마무리",
-        "slug": "마무리",
-        "children": []
-      }
-    ],
-    "path": "/docs/Library/2022-12-15-egjs-react-grid%EB%A1%9C-Masonry%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -782,16 +795,35 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Netlify에 github 저장소 연결하는 방법",
+    "title": "셀레니움(selenium)으로 자동화 프로그램 제작하기(1)",
     "headers": [
       {
         "level": 2,
-        "title": "Github 저장소 연결",
-        "slug": "github-저장소-연결",
+        "title": "1. selenium-webdriver 설치",
+        "slug": "_1-selenium-webdriver-설치",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 크롬 실행",
+        "slug": "_2-크롬-실행",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 셀레니움 파이어폭스 실행",
+        "slug": "_3-셀레니움-파이어폭스-실행",
         "children": []
       }
     ],
-    "path": "/docs/SEO/2022-11-28-Netlify%EC%97%90-github-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "path": "/docs/Selenium/2022-12-09--%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80(selenium)-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Mac에서 셀레니움 크롬드라이버 버전 이슈 해결방법(This version of ChromeDriver only supports Chrome version)",
+    "headers": [],
+    "path": "/docs/Selenium/2022-11-24-Mac-%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80-%ED%81%AC%EB%A1%AC%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EB%B2%84%EC%A0%84-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -806,6 +838,20 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/SEO/2022-11-28-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B5%AC%EA%B8%80-%EA%B2%80%EC%83%89-%EB%90%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Netlify에 github 저장소 연결하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Github 저장소 연결",
+        "slug": "github-저장소-연결",
+        "children": []
+      }
+    ],
+    "path": "/docs/SEO/2022-11-28-Netlify%EC%97%90-github-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -877,39 +923,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Setting/m1-nvm/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Mac에서 셀레니움 크롬드라이버 버전 이슈 해결방법(This version of ChromeDriver only supports Chrome version)",
-    "headers": [],
-    "path": "/docs/Selenium/2022-11-24-Mac-%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80-%ED%81%AC%EB%A1%AC%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EB%B2%84%EC%A0%84-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "셀레니움(selenium)으로 자동화 프로그램 제작하기(1)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. selenium-webdriver 설치",
-        "slug": "_1-selenium-webdriver-설치",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 크롬 실행",
-        "slug": "_2-크롬-실행",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 셀레니움 파이어폭스 실행",
-        "slug": "_3-셀레니움-파이어폭스-실행",
-        "children": []
-      }
-    ],
-    "path": "/docs/Selenium/2022-12-09--%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80(selenium)-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1017,16 +1030,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

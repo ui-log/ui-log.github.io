@@ -9,8 +9,6 @@ export const pagesData = {
   "v-6e9e456a": () => import(/* webpackChunkName: "v-6e9e456a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/API/2022-12-19-Slack-API-사용법-(2022최신)/index.html.js").then(({ data }) => data),
   // path: /docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-39f3c26a": () => import(/* webpackChunkName: "v-39f3c26a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/index.html.js").then(({ data }) => data),
-  // path: /docs/Javascript/optional-chaining/
-  "v-0fd7d848": () => import(/* webpackChunkName: "v-0fd7d848" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Javascript/optional-chaining/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/2022-12-06-CSS-%EB%A7%90%EC%A4%84%EC%9E%84-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/
   "v-3b64b9ad": () => import(/* webpackChunkName: "v-3b64b9ad" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-06-CSS-말줄임-처리-방법/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/
@@ -27,10 +25,14 @@ export const pagesData = {
   "v-18b9bb49": () => import(/* webpackChunkName: "v-18b9bb49" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-20-css-has-속성-사용법/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/2022-12-22-HTML-%EC%9D%B4%EB%A9%94%EC%9D%BC-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%A7%88%ED%81%AC%EC%97%85%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-53554167": () => import(/* webpackChunkName: "v-53554167" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-22-HTML-이메일-템플릿-마크업하는-방법/index.html.js").then(({ data }) => data),
+  // path: /docs/CSS/2022-12-22-%EC%9D%B4%EB%A9%94%EC%9D%BC-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%A7%88%ED%81%AC%EC%97%85%EC%97%90-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%8F%84-%EB%90%98%EB%8A%94-CSS-%EC%86%8D%EC%84%B1%EC%9D%B8%EC%A7%80-%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
+  "v-73655e9a": () => import(/* webpackChunkName: "v-73655e9a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-22-이메일-템플릿-마크업에-사용해도-되는-CSS-속성인지-확인하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/border-animation/
   "v-0505b5b6": () => import(/* webpackChunkName: "v-0505b5b6" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/border-animation/index.html.js").then(({ data }) => data),
   // path: /docs/CSS/imageset/
   "v-475c08a1": () => import(/* webpackChunkName: "v-475c08a1" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/imageset/index.html.js").then(({ data }) => data),
+  // path: /docs/Javascript/optional-chaining/
+  "v-0fd7d848": () => import(/* webpackChunkName: "v-0fd7d848" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Javascript/optional-chaining/index.html.js").then(({ data }) => data),
   // path: /docs/Library/2022-12-09-html2canvas%EB%A1%9C-html-%EC%9A%94%EC%86%8C-%EC%BA%A1%EC%B3%90%ED%95%B4%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A1%9C-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%9B%EA%B8%B0/
   "v-280513f3": () => import(/* webpackChunkName: "v-280513f3" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Library/2022-12-09-html2canvas로-html-요소-캡쳐해서-이미지로-다운로드-받기/index.html.js").then(({ data }) => data),
   // path: /docs/Library/2022-12-15-egjs-react-grid%EB%A1%9C-Masonry%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/
@@ -53,14 +55,14 @@ export const pagesData = {
   "v-7cba2d46": () => import(/* webpackChunkName: "v-7cba2d46" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/SEO/2022-11-28-Netlify에-github-저장소-연결하는-방법/index.html.js").then(({ data }) => data),
   // path: /docs/SEO/2022-11-28-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B5%AC%EA%B8%80-%EA%B2%80%EC%83%89-%EB%90%98%EA%B2%8C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
   "v-745f9c36": () => import(/* webpackChunkName: "v-745f9c36" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/SEO/2022-11-28-웹사이트-구글-검색-되게-하는-방법/index.html.js").then(({ data }) => data),
-  // path: /docs/Selenium/2022-11-24-Mac-%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80-%ED%81%AC%EB%A1%AC%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EB%B2%84%EC%A0%84-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/
-  "v-7fa337ba": () => import(/* webpackChunkName: "v-7fa337ba" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-11-24-Mac-셀레니움-크롬드라이버-버전-이슈-해결방법/index.html.js").then(({ data }) => data),
-  // path: /docs/Selenium/2022-12-09--%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80(selenium)-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/
-  "v-966c6478": () => import(/* webpackChunkName: "v-966c6478" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-12-09--자바스크립트-셀레니움(selenium)-시작하기/index.html.js").then(({ data }) => data),
   // path: /docs/Setting/2022-12-19-Mac-hosts-%ED%8C%8C%EC%9D%BC-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95/
   "v-66cd1b00": () => import(/* webpackChunkName: "v-66cd1b00" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Setting/2022-12-19-Mac-hosts-파일-설정-방법/index.html.js").then(({ data }) => data),
   // path: /docs/Setting/m1-nvm/
   "v-19ae13b9": () => import(/* webpackChunkName: "v-19ae13b9" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Setting/m1-nvm/index.html.js").then(({ data }) => data),
+  // path: /docs/Selenium/2022-11-24-Mac-%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80-%ED%81%AC%EB%A1%AC%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EB%B2%84%EC%A0%84-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/
+  "v-7fa337ba": () => import(/* webpackChunkName: "v-7fa337ba" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-11-24-Mac-셀레니움-크롬드라이버-버전-이슈-해결방법/index.html.js").then(({ data }) => data),
+  // path: /docs/Selenium/2022-12-09--%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80(selenium)-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/
+  "v-966c6478": () => import(/* webpackChunkName: "v-966c6478" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Selenium/2022-12-09--자바스크립트-셀레니움(selenium)-시작하기/index.html.js").then(({ data }) => data),
   // path: /docs/Vuepress/2022-12-19-vuepress-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EA%B8%80%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/
   "v-4a5b8f64": () => import(/* webpackChunkName: "v-4a5b8f64" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Vuepress/2022-12-19-vuepress-블로그-구글애널리틱스-적용하기/index.html.js").then(({ data }) => data),
   // path: /docs/Vuepress/hits/

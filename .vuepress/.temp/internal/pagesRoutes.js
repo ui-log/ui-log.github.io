@@ -38,6 +38,7 @@ const routeItems = [
   ["v-64390c90","/docs/Vuepress/hits/",{"title":"hits로 블로그에 조회수 기능 추가하는 방법"},["/docs/Vuepress/hits/index.html","/docs/Vuepress/hits/README.md"]],
   ["v-d8df1a64","/docs/Vuepress/vuepress-hosting/",{"title":"vuepress 로 GitHub pages 에 사이트 호스팅 하는 방법"},["/docs/Vuepress/vuepress-hosting/index.html","/docs/Vuepress/vuepress-hosting/README.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
+  ["v-1c2c52ab","/docs/CSS/2022-12-22-html-css%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-%EC%A4%91%EC%95%99-%EC%A0%95%EB%A0%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",{"title":"html/css로 이미지 반응형 수평 중앙 정렬하는 방법"},["/docs/CSS/2022-12-22-html-css로-이미지-반응형-중앙-정렬하는-방법/","/docs/CSS/2022-12-22-html-css%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-%EC%A4%91%EC%95%99-%EC%A0%95%EB%A0%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/index.html","/docs/CSS/2022-12-22-html-css로-이미지-반응형-중앙-정렬하는-방법/README.md","/docs/CSS/2022-12-22-html-css%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-%EC%A4%91%EC%95%99-%EC%A0%95%EB%A0%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/README.md"]],
 ]
 
 export const pagesRoutes = routeItems.reduce(

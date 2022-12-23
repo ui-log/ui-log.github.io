@@ -73,4 +73,6 @@ export const pagesData = {
   "v-d8df1a64": () => import(/* webpackChunkName: "v-d8df1a64" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/Vuepress/vuepress-hosting/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
+  // path: /docs/CSS/2022-12-22-html-css%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-%EC%A4%91%EC%95%99-%EC%A0%95%EB%A0%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/
+  "v-1c2c52ab": () => import(/* webpackChunkName: "v-1c2c52ab" */"/Users/user/Desktop/Blog/ui-log.github.io/.vuepress/.temp/pages/docs/CSS/2022-12-22-html-css로-이미지-반응형-중앙-정렬하는-방법/index.html.js").then(({ data }) => data),
 }

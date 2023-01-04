@@ -66,51 +66,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "github repository에 remote origin 연결하는 방법",
-    "headers": [],
-    "path": "/docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. HTML 추가",
-        "slug": "_1-html-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. CDN 추가",
-        "slug": "_2-cdn-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. css 추가",
-        "slug": "_3-css-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 스크립트 추가",
-        "slug": "_4-스크립트-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 플러그인 추가",
-        "slug": "_5-플러그인-추가",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "CSS 말줄임 처리 방법 (mixin 공유)",
     "headers": [
       {
@@ -147,90 +102,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-06-CSS-%EB%A7%90%EC%A4%84%EC%9E%84-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대응)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "블러처리하기",
-        "slug": "블러처리하기",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "IE 대응",
-        "slug": "ie-대응",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "텍스트 영역만 블러처리",
-        "slug": "텍스트-영역만-블러처리",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2022-12-07-backdrop-filter-%EC%86%8D%EC%84%B1%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B8%94%EB%9F%AC%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0(IE%EB%8C%80%EC%9D%91)/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "scss에서 @for @each 반복문 사용하는 방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. for ${i} from ${start} to ${end}",
-        "slug": "_1-for-i-from-start-to-end",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. for ${i} from ${start} through ${end}",
-        "slug": "_2-for-i-from-start-through-end",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. @each ${item} in ${list}",
-        "slug": "_3-each-item-in-list",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. Map 형태의 for ${a},${b} in ${map}",
-        "slug": "_4-map-형태의-for-a-b-in-map",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2022-12-15-scss%EC%97%90%EC%84%9C-for-each-%EB%B0%98%EB%B3%B5%EB%AC%B8-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "lottie-react-web를 사용해서 로띠 애니메이션 적용하기",
-    "headers": [
-      {
-        "level": 2,
-        "title": "로띠(lottie)란?",
-        "slug": "로띠-lottie-란",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1. lottie-react-web 설치",
-        "slug": "_1-lottie-react-web-설치",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. lottie-react-web 적용",
-        "slug": "_2-lottie-react-web-적용",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2022-12-09-lottie-react-web-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%A1%9C%EB%9D%A0-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -286,9 +157,124 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "css :has() 속성 사용법",
-    "headers": [],
-    "path": "/docs/CSS/2022-12-20-css-has-%EC%86%8D%EC%84%B1-%EC%82%AC%EC%9A%A9%EB%B2%95/",
+    "title": "HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. HTML 추가",
+        "slug": "_1-html-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. CDN 추가",
+        "slug": "_2-cdn-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. css 추가",
+        "slug": "_3-css-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 스크립트 추가",
+        "slug": "_4-스크립트-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 플러그인 추가",
+        "slug": "_5-플러그인-추가",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대응)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "블러처리하기",
+        "slug": "블러처리하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "IE 대응",
+        "slug": "ie-대응",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "텍스트 영역만 블러처리",
+        "slug": "텍스트-영역만-블러처리",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2022-12-07-backdrop-filter-%EC%86%8D%EC%84%B1%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B8%94%EB%9F%AC%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0(IE%EB%8C%80%EC%9D%91)/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "lottie-react-web를 사용해서 로띠 애니메이션 적용하기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "로띠(lottie)란?",
+        "slug": "로띠-lottie-란",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1. lottie-react-web 설치",
+        "slug": "_1-lottie-react-web-설치",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. lottie-react-web 적용",
+        "slug": "_2-lottie-react-web-적용",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2022-12-09-lottie-react-web-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%A1%9C%EB%9D%A0-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "scss에서 @for @each 반복문 사용하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. for ${i} from ${start} to ${end}",
+        "slug": "_1-for-i-from-start-to-end",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. for ${i} from ${start} through ${end}",
+        "slug": "_2-for-i-from-start-through-end",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. @each ${item} in ${list}",
+        "slug": "_3-each-item-in-list",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. Map 형태의 for ${a},${b} in ${map}",
+        "slug": "_4-map-형태의-for-a-b-in-map",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2022-12-15-scss%EC%97%90%EC%84%9C-for-each-%EB%B0%98%EB%B3%B5%EB%AC%B8-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -344,12 +330,19 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "html/css로 이미지 반응형 수평 중앙 정렬하는 방법",
+    "title": "css :has() 속성 사용법",
+    "headers": [],
+    "path": "/docs/CSS/2022-12-20-css-has-%EC%86%8D%EC%84%B1-%EC%82%AC%EC%9A%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "html/css로 이미지 수평 수평 중앙 정렬하는 방법",
     "headers": [
       {
         "level": 3,
-        "title": "1. Wrapper가 고정 사이즈일 경우",
-        "slug": "_1-wrapper가-고정-사이즈일-경우",
+        "title": "1. 전체 레이아웃이 고정 너비를 가지는 경우",
+        "slug": "_1-전체-레이아웃이-고정-너비를-가지는-경우",
         "children": []
       },
       {
@@ -420,6 +413,64 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-23-selenium%EC%9C%BC%EB%A1%9C-%ED%99%94%EB%A9%B4-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%B0%8D%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "image-set 속성으로 반응형 background-image 사용하기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. srcset",
+        "slug": "_1-srcset",
+        "children": [
+          {
+            "level": 3,
+            "title": "사용 방법",
+            "slug": "사용-방법",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. image-set",
+        "slug": "_2-image-set",
+        "children": [
+          {
+            "level": 3,
+            "title": "사용방법",
+            "slug": "사용방법",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "지원범위",
+        "slug": "지원범위",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/imageset/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -503,38 +554,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. optional chaining(?.)",
-        "slug": "_1-optional-chaining",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. nullish coalescing(??)",
-        "slug": "_2-nullish-coalescing",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "정리",
-        "slug": "정리",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/Javascript/optional-chaining/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "html2canvas 사용법 - html 요소 이미지로 캡쳐해서 다운로드 받기",
     "headers": [
       {
@@ -568,16 +587,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Nextjs에서 svg파일 사용하는 방법 (2022년 11월 최신)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "설정방법",
-        "slug": "설정방법",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/2022-11-24-Nextjs%EC%97%90%EC%84%9C-svg-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "title": "github repository에 remote origin 연결하는 방법",
+    "headers": [],
+    "path": "/docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -627,78 +639,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "image-set 속성으로 반응형 background-image 사용하기",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. srcset",
-        "slug": "_1-srcset",
-        "children": [
-          {
-            "level": 3,
-            "title": "사용 방법",
-            "slug": "사용-방법",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. image-set",
-        "slug": "_2-image-set",
-        "children": [
-          {
-            "level": 3,
-            "title": "사용방법",
-            "slug": "사용방법",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "지원범위",
-        "slug": "지원범위",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/imageset/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Nextjs build 에러 해결 방법 (Only set one of children or props.dangerouslySetInnerHTML react/no-danger-with-children)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "해결방법",
-        "slug": "해결방법",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/2022-11-25-Nextjs-build-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Nextjs Static HTML 사이트 배포하는 방법 (feat. Netlify)",
     "headers": [
       {
@@ -737,6 +677,53 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "[CSS] 모달 오픈시 Body 스크롤 막는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "body-scroll-lock",
+        "slug": "body-scroll-lock",
+        "children": [
+          {
+            "level": 3,
+            "title": "설치",
+            "slug": "설치",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "코드",
+        "slug": "코드",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "body에 직접 overflow: hidden을 추가하는 방식",
+        "slug": "body에-직접-overflow-hidden을-추가하는-방식",
+        "children": []
+      }
+    ],
+    "path": "/docs/Library/2023-01-05-%EB%AA%A8%EB%8B%AC-%EC%98%A4%ED%94%88%EC%8B%9C-Body-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EB%A7%89%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Nextjs에서 svg파일 사용하는 방법 (2022년 11월 최신)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "설정방법",
+        "slug": "설정방법",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/2022-11-24-Nextjs%EC%97%90%EC%84%9C-svg-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "React Hook useEffect has missing dependencies 해결 방법(exhaustive-deps Warning)",
     "headers": [
       {
@@ -747,6 +734,20 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Nextjs/2022-11-25-React-Hook-useEffect-has-missing-dependencies-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Nextjs build 에러 해결 방법 (Only set one of children or props.dangerouslySetInnerHTML react/no-danger-with-children)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "해결방법",
+        "slug": "해결방법",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/2022-11-25-Nextjs-build-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -779,6 +780,26 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Nextjs/getStaticProps-getServerSideProps/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Nextjs + Zustand, \"Text content does not match server-rendered HTML.\" 에러 해결 방법 (React Hydration Error)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Persist 제거",
+        "slug": "_1-persist-제거",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Persist name 변경",
+        "slug": "_2-persist-name-변경",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/zustand-react-hydration-error/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -889,26 +910,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Nextjs + Zustand, \"Text content does not match server-rendered HTML.\" 에러 해결 방법 (React Hydration Error)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Persist 제거",
-        "slug": "_1-persist-제거",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Persist name 변경",
-        "slug": "_2-persist-name-변경",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/zustand-react-hydration-error/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "자바스크립트로 selenium iframe에 접근하는 방법",
     "headers": [
       {
@@ -935,28 +936,61 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "vuepress 블로그 구글애널리틱스 적용하기",
+    "title": "알아두면 유용한 optional chaining(?.) 과 nullish coalescing(??)",
     "headers": [
       {
         "level": 2,
-        "title": "1. 설정 추가",
-        "slug": "_1-설정-추가",
+        "title": "1. optional chaining(?.)",
+        "slug": "_1-optional-chaining",
         "children": []
       },
       {
         "level": 2,
-        "title": "2. 사이트 적용",
-        "slug": "_2-사이트-적용",
+        "title": "2. nullish coalescing(??)",
+        "slug": "_2-nullish-coalescing",
         "children": []
       },
       {
         "level": 2,
-        "title": "3. vuepress 설정",
-        "slug": "_3-vuepress-설정",
+        "title": "정리",
+        "slug": "정리",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
         "children": []
       }
     ],
-    "path": "/docs/Vuepress/2022-12-19-vuepress-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EA%B8%80%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/",
+    "path": "/docs/Javascript/optional-chaining/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Mac hosts 파일 설정 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "hosts 설정이 필요한 경우",
+        "slug": "hosts-설정이-필요한-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "hosts 설정 방법",
+        "slug": "hosts-설정-방법",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. hosts 파일 열기",
+            "slug": "_1-hosts-파일-열기",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Setting/2022-12-19-Mac-hosts-%ED%8C%8C%EC%9D%BC-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1005,29 +1039,35 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Mac hosts 파일 설정 방법",
+    "title": "vuepress 블로그 구글애널리틱스 적용하기",
     "headers": [
       {
         "level": 2,
-        "title": "hosts 설정이 필요한 경우",
-        "slug": "hosts-설정이-필요한-경우",
+        "title": "1. 설정 추가",
+        "slug": "_1-설정-추가",
         "children": []
       },
       {
         "level": 2,
-        "title": "hosts 설정 방법",
-        "slug": "hosts-설정-방법",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. hosts 파일 열기",
-            "slug": "_1-hosts-파일-열기",
-            "children": []
-          }
-        ]
+        "title": "2. 사이트 적용",
+        "slug": "_2-사이트-적용",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. vuepress 설정",
+        "slug": "_3-vuepress-설정",
+        "children": []
       }
     ],
-    "path": "/docs/Setting/2022-12-19-Mac-hosts-%ED%8C%8C%EC%9D%BC-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95/",
+    "path": "/docs/Vuepress/2022-12-19-vuepress-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EA%B8%80%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
+    "headers": [],
+    "path": "/docs/Vuepress/hits/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1091,13 +1131,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Vuepress/vuepress-hosting/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
-    "headers": [],
-    "path": "/docs/Vuepress/hits/",
     "pathLocale": "/",
     "extraFields": []
   },

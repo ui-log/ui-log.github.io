@@ -58,7 +58,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1708410410000
+    "updatedTime": 1708411206000
   },
   "filePathRelative": "docs/React/2024-02-20-React에서-Data-URL과-sprite-이미지-성능-비교-/README.md"
 }

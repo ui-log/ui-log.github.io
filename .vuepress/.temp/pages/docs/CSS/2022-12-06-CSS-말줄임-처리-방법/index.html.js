@@ -47,7 +47,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670598985000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/CSS/2022-12-06-CSS-말줄임-처리-방법/README.md"
 }

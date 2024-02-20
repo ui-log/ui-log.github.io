@@ -33,7 +33,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670599394000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/CSS/2022-12-09-lottie-react-web-사용해서-로띠-애니메이션-적용하기/README.md"
 }

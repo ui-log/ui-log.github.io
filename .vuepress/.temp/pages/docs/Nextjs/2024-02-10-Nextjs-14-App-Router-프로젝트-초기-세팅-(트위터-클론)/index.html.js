@@ -27,7 +27,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1707565374000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Nextjs/2024-02-10-Nextjs-14-App-Router-프로젝트-초기-세팅-(트위터-클론)/README.md"
 }

@@ -43,7 +43,7 @@
 <img src="@source/docs/React/2024-02-20-React에서-Data-URL과-sprite-이미지-성능-비교-/img/1.png" width="500" alt="Data URL 이미지 성능" /></p>
 <p>Sprite를 활용한 마크업 페이지
 <img src="@source/docs/React/2024-02-20-React에서-Data-URL과-sprite-이미지-성능-비교-/img/2.png" width="500" alt="sprite 이미지 성능"/></p>
-<p>Data URL 예제의 경우, <strong>CSS 파일의 크기가 14.9kB 로 Sprite 예제의 3.3kB 보다 매우 큰 크기</strong>를 가진 것을 확인할 수 있습니다. 그 이유는 이미지 파일이 Data URL 의 형태로 CSS 파일에 포함되었기 때문입니다. 대신 Sprite 예제에선 13.8kB 의 Sprite 이미지 리소스를 따로 다운로드한 것을 확인할 수 있습니다.</p>
+<p>Data URL 예제의 경우 <strong>CSS 파일의 크기가 14.9kB 로 Sprite 예제의 3.3kB 보다 매우 큰 크기</strong>를 가진 것을 확인할 수 있습니다. 그 이유는 이미지 파일이 Data URL 의 형태로 CSS 파일에 포함되었기 때문입니다. 대신 Sprite 예제에선 13.8kB 의 Sprite 이미지 리소스를 따로 다운로드한 것을 확인할 수 있습니다.</p>
 <p>Data URL 이미지는 CSS 파일에 포함되어 CSS 파일과 함께 다운로드되어 별도의 리소스 요청이 없으며, 이미지가 요청되면 메모리 캐시의 형태로 빠르게 불려오게 됩니다.</p>
 <p>Sprite 를 사용하는 가장 큰 이유는 여러 이미지 파일을 하나로 합쳐 리소스 요청을 줄이기 위함인데, Data URL 은 이미지가 CSS 파일에 포함되어 여러 이미지 파일에 대한 리소스 요청이 일어나지 않기 때문에 Sprite 와 비슷한 성능 개선 효과를 가진다고 볼 수 있습니다.</p>
 <h2 id="주의사항" tabindex="-1"><a class="header-anchor" href="#주의사항" aria-hidden="true">#</a> 주의사항</h2>

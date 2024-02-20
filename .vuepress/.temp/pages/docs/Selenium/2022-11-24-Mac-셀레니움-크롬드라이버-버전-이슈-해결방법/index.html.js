@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1670598985000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Selenium/2022-11-24-Mac-셀레니움-크롬드라이버-버전-이슈-해결방법/README.md"
 }

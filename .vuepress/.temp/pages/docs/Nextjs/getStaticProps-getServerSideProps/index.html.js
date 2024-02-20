@@ -39,7 +39,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670598985000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Nextjs/getStaticProps-getServerSideProps/README.md"
 }

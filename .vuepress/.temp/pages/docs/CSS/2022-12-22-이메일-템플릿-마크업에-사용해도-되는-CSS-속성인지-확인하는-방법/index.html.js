@@ -34,7 +34,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1671702068000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/CSS/2022-12-22-이메일-템플릿-마크업에-사용해도-되는-CSS-속성인지-확인하는-방법/README.md"
 }

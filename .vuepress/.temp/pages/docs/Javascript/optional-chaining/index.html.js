@@ -40,7 +40,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670566184000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Javascript/optional-chaining/README.md"
 }

@@ -12,6 +12,8 @@ cd .vuepress/dist
 # gh-pages clone
 git clone -b gh-pages https://github.com/ui-log/ui-log.github.io/
 cp -rf ui-log.github.io/.git ./.git
+git config user.name "ui-log"
+git config user.email "13akstjq.blog21@gmail.com"
 rm -rf ui-log.github.io
 
 # if you are deploying to a custom domain

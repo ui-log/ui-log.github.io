@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1670566184000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Git/2022-11-25-github-repository에-remote-origin-연결하는-방법/README.md"
 }

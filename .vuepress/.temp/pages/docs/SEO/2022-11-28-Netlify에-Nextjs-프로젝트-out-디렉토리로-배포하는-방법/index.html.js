@@ -52,7 +52,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670598985000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/SEO/2022-11-28-Netlify에-Nextjs-프로젝트-out-디렉토리로-배포하는-방법/README.md"
 }

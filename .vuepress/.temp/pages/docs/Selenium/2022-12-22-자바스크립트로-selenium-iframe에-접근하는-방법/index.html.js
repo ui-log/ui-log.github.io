@@ -33,7 +33,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1671717217000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Selenium/2022-12-22-자바스크립트로-selenium-iframe에-접근하는-방법/README.md"
 }

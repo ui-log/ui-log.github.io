@@ -27,7 +27,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1671418310000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/API/2022-12-19-Slack-API-사용법-(2022최신)/README.md"
 }

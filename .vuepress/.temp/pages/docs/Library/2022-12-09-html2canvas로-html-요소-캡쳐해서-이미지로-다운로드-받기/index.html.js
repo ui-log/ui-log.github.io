@@ -40,7 +40,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670598985000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Library/2022-12-09-html2canvas로-html-요소-캡쳐해서-이미지로-다운로드-받기/README.md"
 }

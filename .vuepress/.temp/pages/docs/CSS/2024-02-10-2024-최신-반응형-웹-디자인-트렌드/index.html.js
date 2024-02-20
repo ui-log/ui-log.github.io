@@ -142,7 +142,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1707565573000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/CSS/2024-02-10-2024-최신-반응형-웹-디자인-트렌드/README.md"
 }

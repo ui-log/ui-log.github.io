@@ -70,7 +70,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670598985000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Vuepress/vuepress-hosting/README.md"
 }

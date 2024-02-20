@@ -39,7 +39,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1671035651000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/CSS/2022-12-15-scss에서-for-each-반복문-사용하는-방법/README.md"
 }

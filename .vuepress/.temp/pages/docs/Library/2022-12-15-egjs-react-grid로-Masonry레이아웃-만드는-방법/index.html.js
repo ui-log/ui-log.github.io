@@ -52,7 +52,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1671035618000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Library/2022-12-15-egjs-react-grid로-Masonry레이아웃-만드는-방법/README.md"
 }

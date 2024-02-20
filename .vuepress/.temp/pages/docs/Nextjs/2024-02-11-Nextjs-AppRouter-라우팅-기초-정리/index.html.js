@@ -69,7 +69,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1707640466000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Nextjs/2024-02-11-Nextjs-AppRouter-라우팅-기초-정리/README.md"
 }

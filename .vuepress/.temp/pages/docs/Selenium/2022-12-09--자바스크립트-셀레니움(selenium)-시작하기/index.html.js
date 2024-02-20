@@ -33,7 +33,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670598985000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Selenium/2022-12-09--자바스크립트-셀레니움(selenium)-시작하기/README.md"
 }

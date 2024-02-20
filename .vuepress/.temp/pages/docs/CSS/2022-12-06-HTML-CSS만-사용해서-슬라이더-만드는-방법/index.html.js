@@ -58,7 +58,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670598985000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/CSS/2022-12-06-HTML-CSS만-사용해서-슬라이더-만드는-방법/README.md"
 }

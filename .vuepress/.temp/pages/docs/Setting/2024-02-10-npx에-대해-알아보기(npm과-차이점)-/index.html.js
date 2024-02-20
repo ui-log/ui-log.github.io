@@ -133,7 +133,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1707554520000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/Setting/2024-02-10-npx에-대해-알아보기(npm과-차이점)-/README.md"
 }

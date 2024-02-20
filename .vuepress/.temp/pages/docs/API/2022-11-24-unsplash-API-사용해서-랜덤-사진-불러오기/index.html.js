@@ -39,7 +39,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1670598985000
+    "updatedTime": 1708410410000
   },
   "filePathRelative": "docs/API/2022-11-24-unsplash-API-사용해서-랜덤-사진-불러오기/README.md"
 }

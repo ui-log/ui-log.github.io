@@ -1,0 +1,1 @@
+const e={key:"v-3e214e9b",path:"/About/",title:"Today I Learned",lang:"ko",frontmatter:{title:"Today I Learned",date:"2020-01-01T13:00:00.000Z",sidebar:!1,next:!1,hitUrl:"https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://ui-log.github.io",disabledPost:!0},excerpt:"",headers:[],git:{updatedTime:170841041e4},filePathRelative:"About/README.md"};export{e as data};

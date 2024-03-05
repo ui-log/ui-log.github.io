@@ -37,3 +37,16 @@ export const data = {
   },
   "filePathRelative": "docs/CSS/2024-02-10-CSS-Filter로-다양한-효과-주는-방법-(블러,흑백,반전)/README.md"
 }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

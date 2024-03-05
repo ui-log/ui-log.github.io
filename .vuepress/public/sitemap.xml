@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+	<loc>http://ui-log.github.io/docs/Library/2024-03-05-console-log-제대로-알고-사용하기/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Library/2024-03-05-react-textarea-autosize-라이브러리-사용-방법-정리/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/CSS/2024-03-05-css로-border-그라데이션-적용하는-방법/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Editor/2024-03-05-VScode에-숨겨진-꿀팁-및-트릭-10가지/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Javascript/2024-03-05-초보-자바스크립트-개발자가-실수하는-9가지/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/HTML/2024-03-05-HTML-CSS로-몬드리안-아트-레이아웃-만드는-방법/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/HTML/2024-03-05-알아두면-유용한-HTML5-속성-15가지/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/CSS/2024-02-23-html-css-js로-progressbar-만드는-방법/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-02-23-Nextjs-Route-groups/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-02-23-nextjs-redirect/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-02-23-nextjs-errorhandling/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Git/2024-02-20-Git-Clone-Repository-not-found-에러-해결-방법/</loc>
+</url>
+<url>
 	<loc>http://ui-log.github.io/docs/React/2024-02-20-React에서-Data-URL과-sprite-이미지-성능-비교-/</loc>
 </url>
 <url>
@@ -37,10 +73,10 @@
 	<loc>http://ui-log.github.io/docs/CSS/2024-02-10-2024-최신-반응형-웹-디자인-트렌드/</loc>
 </url>
 <url>
-	<loc>http://ui-log.github.io/docs/Setting/2024-02-10-npx에-대해-알아보기(npm과-차이점)-/</loc>
+	<loc>http://ui-log.github.io/docs/Setting/2024-02-10-npx-npm-차이점/</loc>
 </url>
 <url>
-	<loc>http://ui-log.github.io/docs/Setting/2024-02-10-nvm-사용해서-node-버전-쉽게-바꾸는-방법/</loc>
+	<loc>http://ui-log.github.io/docs/Setting/2024-02-10-nvm-사용방법/</loc>
 </url>
 <url>
 	<loc>http://ui-log.github.io/docs/Nextjs/2024-02-10-Nextjs-14-App-Router-프로젝트-초기-세팅-(트위터-클론)/</loc>

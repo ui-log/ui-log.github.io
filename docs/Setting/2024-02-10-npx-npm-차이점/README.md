@@ -23,6 +23,18 @@ Node.js와 npm의 확산으로 JavaScript 개발 생태계는 급속도로 성�
 
 `npx`는 Node.js 환경에서 npm 패키지를 실행하는 한 가지 방법으로, npm(Node Package Manager)에 포함된 도구입니다. npm을 통해 패키지를 설치하고 관리하는 것이 일반적이지만, `npx`는 설치 과정 없이 패키지를 실행할 수 있는 기능을 제공합니다. 이는 특히 글로벌 설치를 피하면서 패키지를 실행하고 싶을 때 유용합니다.
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ### npx와 npm의 차이점
 
 - **npm**: Node.js 패키지를 설치하고 관리하기 위한 기본 도구입니다. 주로 라이브러리의 설치 및 프로젝트의 의존성 관리에 사용됩니다.
@@ -49,6 +61,18 @@ Node.js와 npm의 확산으로 JavaScript 개발 생태계는 급속도로 성�
 ### 실행할 패키지의 자동 다운로드와 캐싱
 
 `npx`는 실행하려는 패키지가 시스템에 설치되어 있지 않은 경우, 자동으로 npm 레지스트리에서 패키지를 찾아 설치하고 실행합니다. 실행 후에는 필요에 따라 캐시를 통해 패키지를 재사용할 수 있으며, 이는 네트워크 비용과 시간을 절약해줍니다.
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ### 실행 중인 Node.js 환경에 맞는 패키지 실행
 
@@ -77,6 +101,18 @@ Node.js와 npm의 확산으로 JavaScript 개발 생태계는 급속도로 성�
 CI/CD 파이프라인에서 `npx`를 사용하여 필요한 빌드 도구나 테스트 러너를 실행할 수 있습니다. 이는 파이프라인 구성을 단순화하고 도구의 버전을 쉽게 관리할 수 있게 합니다.
 
 자세한 정보와 추가적인 사용 사례에 대해서는 [Node.js 공식 문서](https://nodejs.org/en/) 및 [npm 공식 문서](https://docs.npmjs.com/)에서 찾아볼 수 있습니다.
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ## npx 사용 시 주의사항
 

@@ -1,4 +1,14 @@
 <template><div><h1 id="usequery의-isloading-isfetching-ispending-차이점" tabindex="-1"><a class="header-anchor" href="#usequery의-isloading-isfetching-ispending-차이점" aria-hidden="true">#</a> useQuery의 isLoading, isFetching, isPending 차이점</h1>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <p>tanstack react query를 사용할 때 useQuery함수를 사용하게 되면 <code v-pre>isPending</code>, <code v-pre>isFetching</code>, <code v-pre>isLoading</code> 을 볼 수 있는데, 개발할 때 이 세가지의 용도에 대해서 헷갈리기 쉽다.</p>
 <ul>
 <li><code v-pre>isPending</code>: 페이지에 처음 들어왔을 때 <code v-pre>true</code></li>

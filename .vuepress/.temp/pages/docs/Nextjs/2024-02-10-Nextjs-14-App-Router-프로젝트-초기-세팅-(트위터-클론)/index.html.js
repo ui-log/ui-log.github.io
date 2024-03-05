@@ -31,3 +31,16 @@ export const data = {
   },
   "filePathRelative": "docs/Nextjs/2024-02-10-Nextjs-14-App-Router-프로젝트-초기-세팅-(트위터-클론)/README.md"
 }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

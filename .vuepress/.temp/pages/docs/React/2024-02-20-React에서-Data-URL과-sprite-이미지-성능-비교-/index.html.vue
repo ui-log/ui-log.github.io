@@ -8,10 +8,20 @@
 <p>데이터 URL은 &quot;data:&quot;라는 프로토콜로 시작하며, 그 뒤에는 데이터의 형식과 인코딩 방식이 옵션으로 나타납니다. 일반적으로 다음과 같은 형식을 갖습니다.</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>data:<span class="token punctuation">[</span><span class="token operator">&lt;</span>mediatype<span class="token operator">></span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">;</span>base64<span class="token punctuation">]</span>,<span class="token variable"><span class="token variable">`</span><span class="token operator">&lt;</span>data<span class="token operator">></span><span class="token variable">`</span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
-<li><code v-pre>&lt;mediatype&gt;</code> :  데이터의 MIME 타입을 나타냅니다. 이것은 텍스트, 이미지, 오디오 등과 같은 데이터의 유형을 지정합니다.</li>
-<li><code v-pre>;base64</code> :  데이터가 Base64로 인코딩되었음을 나타냅니다. 이 부분은 필수는 아니지만, 데이터가 텍스트가 아닌 경우에는 종종 사용됩니다.</li>
-<li><code v-pre>&lt;data&gt;</code> :  실제 데이터입니다.</li>
+<li><code v-pre>&lt;mediatype&gt;</code> : 데이터의 MIME 타입을 나타냅니다. 이것은 텍스트, 이미지, 오디오 등과 같은 데이터의 유형을 지정합니다.</li>
+<li><code v-pre>;base64</code> : 데이터가 Base64로 인코딩되었음을 나타냅니다. 이 부분은 필수는 아니지만, 데이터가 텍스트가 아닌 경우에는 종종 사용됩니다.</li>
+<li><code v-pre>&lt;data&gt;</code> : 실제 데이터입니다.</li>
 </ul>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <h2 id="스프라이트-이미지" tabindex="-1"><a class="header-anchor" href="#스프라이트-이미지" aria-hidden="true">#</a> 스프라이트 이미지</h2>
 <p>스프라이트 이미지는 여러 개의 작은 이미지를 하나의 이미지 파일로 결합한 것입니다. 웹 개발에서 주로 사용되며, 여러 이미지를 로드하는 대신 하나의 스프라이트 이미지를 사용하여 <strong>웹 페이지의 성능을 향상</strong>시킬 수 있습니다.</p>
 <p>스프라이트 이미지를 사용하면 웹 페이지의 로딩 시간을 줄일 수 있습니다. <strong>여러 이미지를 다운로드하는 대신 단일 이미지 파일을 다운로드하기 때문에 HTTP 요청의 수를 줄여주기 때문</strong>인데요. 또한, 브라우저가 이미지를 로드하는 데 필요한 시간이 절약되므로 웹 페이지의 로딩 속도가 향상될 수 있습니다.</p>
@@ -39,6 +49,16 @@
 <p>base64 로 인코딩함으로써 <strong>기존 데이터의 용량보다 30% 증가합니다.</strong></p>
 <h2 id="data-url-sprite-직접-비교해보기" tabindex="-1"><a class="header-anchor" href="#data-url-sprite-직접-비교해보기" aria-hidden="true">#</a> Data URL, Sprite 직접 비교해보기</h2>
 <p>각각 Data URL, Sprite 를 활용해 마크업 예제를 만들어 Chrome 개발자 도구의 네트워크 툴로 서버에 요청되는 리소스를 비교해 보겠습니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <p>Data URL을 활용한 마크업 페이지
 <img src="@source/docs/React/2024-02-20-React에서-Data-URL과-sprite-이미지-성능-비교-/img/1.png" width="500" alt="Data URL 이미지 성능" /></p>
 <p>Sprite를 활용한 마크업 페이지
@@ -46,6 +66,16 @@
 <p>Data URL 예제의 경우 <strong>CSS 파일의 크기가 14.9kB 로 Sprite 예제의 3.3kB 보다 매우 큰 크기</strong>를 가진 것을 확인할 수 있습니다. 그 이유는 이미지 파일이 Data URL 의 형태로 CSS 파일에 포함되었기 때문입니다. 대신 Sprite 예제에선 13.8kB 의 Sprite 이미지 리소스를 따로 다운로드한 것을 확인할 수 있습니다.</p>
 <p>Data URL 이미지는 CSS 파일에 포함되어 CSS 파일과 함께 다운로드되어 별도의 리소스 요청이 없으며, 이미지가 요청되면 메모리 캐시의 형태로 빠르게 불려오게 됩니다.</p>
 <p>Sprite 를 사용하는 가장 큰 이유는 여러 이미지 파일을 하나로 합쳐 리소스 요청을 줄이기 위함인데, Data URL 은 이미지가 CSS 파일에 포함되어 여러 이미지 파일에 대한 리소스 요청이 일어나지 않기 때문에 Sprite 와 비슷한 성능 개선 효과를 가진다고 볼 수 있습니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <h2 id="주의사항" tabindex="-1"><a class="header-anchor" href="#주의사항" aria-hidden="true">#</a> 주의사항</h2>
 <p>Data URL 은 <code v-pre>background-image</code> 로 이미지의 경로가 아닌 파일 자체를 CSS 코드에 삽입하므로, 같은 아이콘이 여러 번 사용될 경우 코드가 중복되어 CSS 의 크기가 더욱 커지게 됩니다.</p>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">.banner_badge</span> <span class="token punctuation">{</span>

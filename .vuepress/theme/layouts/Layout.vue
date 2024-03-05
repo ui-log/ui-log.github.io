@@ -32,24 +32,24 @@ const relationPosts = computed(() => {
       <div class="hit">
         <img :src="hitUrl" alt="Hits bn" />
       </div>
-      <!-- <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component> -->
+      <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
 
       <!-- ui-log 수평형 -->
 
-      <!-- <ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-4877378276818686" data-ad-slot="9743150776" data-ad-format="auto" data-full-width-responsive="true"></ins>
-      <component is="script"> (adsbygoogle = window.adsbygoogle || []).push({}); </component> -->
+      <ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-4877378276818686" data-ad-slot="9743150776" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <component is="script"> (adsbygoogle = window.adsbygoogle || []).push({}); </component>
     </template>
     <template #page-bottom>
       <Comment />
 
       <section class="relations" v-if="relationPosts.length > 0">
         <h2>관련글</h2>
-        <div class="ad">
+        <!-- ui-log 일치 광고 -->
+        <!-- <div class="ad">
           <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
-          <!-- ui-log 일치 광고 -->
           <ins class="adsbygoogle" style="display: block" data-ad-format="autorelaxed" data-ad-client="ca-pub-4877378276818686" data-ad-slot="2985948964"></ins>
           <component is="script"> (adsbygoogle = window.adsbygoogle || []).push({}); </component>
-        </div>
+        </div> -->
         <RelationPosts :items="relationPosts" />
         <!-- <Posts :items="relationPosts" /> -->
       </section>

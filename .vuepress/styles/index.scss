@@ -133,6 +133,15 @@ em {
   .custom-container.tip {
     border-color: var(--c-brand);
     border-radius: 8px;
+
+    li p {
+      margin: 0;
+    }
+
+    ul,
+    li {
+      font-size: 14px;
+    }
   }
 }
 

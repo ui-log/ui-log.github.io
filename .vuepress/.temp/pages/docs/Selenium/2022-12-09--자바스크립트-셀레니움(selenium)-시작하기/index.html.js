@@ -7,7 +7,7 @@ export const data = {
     "title": "셀레니움(selenium)으로 자동화 프로그램 제작하기(1)",
     "description": "셀레니움으로 봇을 만들어 자동화 프로그램을 만드는 방법에 대해서 소개합니다.",
     "date": "2022-12-09 22:15",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Selenium",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/206715170-0cdb8586-b2d4-4e07-bea8-433c6d4d8096.png"
   },

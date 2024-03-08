@@ -7,7 +7,7 @@ export const data = {
     "title": "backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대응)",
     "description": "backdrop-filter 속성으로 IE대응까지 가능한 배경 이미지 블러처리하는 방법에 대해서 알아봅니다.",
     "date": "2022-12-07 11:58",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/206077139-c187c341-81c8-4828-9ca2-36eba4cd7427.png"
   },

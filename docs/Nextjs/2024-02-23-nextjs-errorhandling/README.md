@@ -2,7 +2,7 @@
 title: Nextjs의 에러 처리 방법
 description:
 date: 2024-02-23 21:37
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Nextjs
 thumbnail:
 ---

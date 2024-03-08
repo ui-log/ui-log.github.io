@@ -2,7 +2,7 @@
 title: 2024 최신 반응형 웹 디자인 트렌드
 description:
 date: 2024-02-10 19:51
-sidebarDepth: 2
+sidebarDepth: 0
 tag: CSS
 thumbnail:
 ---

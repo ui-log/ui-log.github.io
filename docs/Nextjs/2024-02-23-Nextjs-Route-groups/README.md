@@ -2,7 +2,7 @@
 title: Nextjs에서 라우터 폴더들 그룹으로 묶는 방법 (Route groups)
 description:
 date: 2024-02-23 22:52
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Nextjs
 thumbnail:
 ---

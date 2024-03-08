@@ -7,7 +7,7 @@ export const data = {
     "title": "nvm 사용해서 node 버전 쉽게 바꾸는 방법",
     "description": null,
     "date": "2024-02-10 17:09",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Setting",
     "thumbnail": null
   },
@@ -108,7 +108,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/Setting/2024-02-10-nvm-사용방법/README.md"
 }

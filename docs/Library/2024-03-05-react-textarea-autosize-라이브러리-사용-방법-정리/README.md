@@ -2,7 +2,7 @@
 title: react-textarea-autosize 라이브러리 사용 방법 정리
 description: React에서 텍스트인풋의 사이즈를 자동으로 조절해주는 react-textarea-autosize 라이브러리의 사용 방법을 정리한 것입니다.
 date: 2024-03-05 18:25
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Library
 thumbnail:
 ---

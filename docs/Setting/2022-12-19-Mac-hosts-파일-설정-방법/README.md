@@ -2,7 +2,7 @@
 title: Mac hosts 파일 설정 방법
 description: Mac 환경에서 hosts 파일 설정하는 방법에 대해서 정리합니다.
 date: 2022-12-19 15:33
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Setting
 thumbnail: https://user-images.githubusercontent.com/46010705/208364167-ee4ad94a-3182-4091-a3f4-b897677afe56.png
 ---

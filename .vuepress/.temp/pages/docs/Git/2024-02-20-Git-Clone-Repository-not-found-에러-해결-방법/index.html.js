@@ -7,14 +7,14 @@ export const data = {
     "title": "Git Clone Repository not found 에러 해결 방법",
     "description": null,
     "date": "2024-02-20 17:57",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Git",
     "thumbnail": null
   },
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/Git/2024-02-20-Git-Clone-Repository-not-found-에러-해결-방법/README.md"
 }

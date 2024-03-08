@@ -2,7 +2,7 @@
 title: React에서 Data URL과 sprite 이미지 성능 비교
 description:
 date: 2024-02-20 13:08
-sidebarDepth: 2
+sidebarDepth: 0
 tag: React
 thumbnail:
 ---

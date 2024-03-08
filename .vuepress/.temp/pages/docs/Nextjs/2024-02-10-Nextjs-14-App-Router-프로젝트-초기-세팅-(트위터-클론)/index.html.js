@@ -7,7 +7,7 @@ export const data = {
     "title": "Nextjs 14 App Router 프로젝트 초기 세팅 방법",
     "description": null,
     "date": "2024-02-10 16:26",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Nextjs, twitter",
     "thumbnail": null
   },

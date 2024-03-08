@@ -7,7 +7,7 @@ export const data = {
     "title": "scss에서 @for @each 반복문 사용하는 방법",
     "description": "sass, scss @for @each 반복문 문법에 대해서 정리했습니다",
     "date": "2022-12-15 00:44",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/207650166-fac87af4-761a-4e68-92be-04891c1df418.png"
   },

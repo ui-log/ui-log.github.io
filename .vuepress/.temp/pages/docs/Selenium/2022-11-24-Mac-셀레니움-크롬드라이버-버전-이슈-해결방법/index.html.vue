@@ -27,6 +27,16 @@ Current browser version is <span class="token number">107.0</span>.5304.87 with 
 나는 M1 mac을 사용중이니 <code v-pre>chromedriver_mac_arm64.zip</code>을 다운로드 받아준다.</p>
 <img width="306" alt="image" src="https://user-images.githubusercontent.com/46010705/199129159-69e93ba3-0563-488f-bfe1-ee40f29bd2d3.png">
 <p>다운로드 받아서 열 때는 우클릭으로 열기를 눌러준다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <img width="259" alt="image" src="https://user-images.githubusercontent.com/46010705/199129197-81f23ba0-442c-4f66-960c-56bd0497a14f.png">
 <p>우클릭 후 열기를 눌러주면 위와 같이 나오는데 여기서 열기를 눌러준다.</p>
 <img width="562" alt="image" src="https://user-images.githubusercontent.com/46010705/199129391-941e55b4-83ed-4b07-a3e5-450434ab9738.png">
@@ -34,6 +44,16 @@ Current browser version is <span class="token number">107.0</span>.5304.87 with 
 이제 설치를 마친 크롬드라이버를 환경변수 폴더로 이동시켜주어야한다.</p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>cd /usr/local/bin/
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><img width="446" alt="image" src="https://user-images.githubusercontent.com/46010705/199129295-64de6753-bc2d-4c62-82ba-f365c862122a.png">
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <p>기존 크롬드라이버 제거</p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>sudo rm chromedriver
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>크롬드라이버 이동</p>

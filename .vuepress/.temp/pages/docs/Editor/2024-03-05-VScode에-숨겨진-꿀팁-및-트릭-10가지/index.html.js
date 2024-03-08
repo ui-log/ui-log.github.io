@@ -7,7 +7,7 @@ export const data = {
     "title": "VScode에 숨겨진 꿀팁 및 트릭 10가지",
     "description": "Visual Studio Code를 더 효율적으로 활용하기 위한 꿀팁과 트릭 10가지를 소개합니다.",
     "date": "2024-03-05 12:58",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "편집기",
     "thumbnail": null
   },
@@ -81,7 +81,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/Editor/2024-03-05-VScode에-숨겨진-꿀팁-및-트릭-10가지/README.md"
 }

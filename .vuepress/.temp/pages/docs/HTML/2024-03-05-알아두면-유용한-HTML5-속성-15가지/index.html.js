@@ -7,7 +7,7 @@ export const data = {
     "title": "알아두면 유용한 HTML5 속성 15가지",
     "description": null,
     "date": "2024-03-05 11:29",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "HTML",
     "thumbnail": null
   },
@@ -105,7 +105,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/HTML/2024-03-05-알아두면-유용한-HTML5-속성-15가지/README.md"
 }

@@ -7,7 +7,7 @@ export const data = {
     "title": "자바스크립트로 selenium iframe에 접근하는 방법",
     "description": "javascript selenium 사용시 iframe 내부에 있는 요소를 처리하는 방법에 대해서 알 수 있습니다.",
     "date": "2022-12-22 19:00",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Selenium",
     "thumbnail": "https://user-images.githubusercontent.com/77398961/209148833-ca18a5b4-6009-44d0-a93d-1348e95aa614.png"
   },

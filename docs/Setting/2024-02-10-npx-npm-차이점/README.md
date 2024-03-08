@@ -2,7 +2,7 @@
 title: npx에 대해 알아보기(npm과 차이점)
 description:
 date: 2024-02-10 17:29
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Setting
 thumbnail:
 ---

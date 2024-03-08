@@ -7,7 +7,7 @@ export const data = {
     "title": "Nextjs Static HTML 사이트 배포하는 방법 (feat. Netlify)",
     "description": "Nextjs Static HTML site를 Netlify에 deploy하는 방법에 대해서 소개합니다.",
     "date": "2022-11-25 22:02",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Nextjs",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/203999035-c55621d8-9dce-4f0f-8bc4-11a0e184fe98.png"
   },

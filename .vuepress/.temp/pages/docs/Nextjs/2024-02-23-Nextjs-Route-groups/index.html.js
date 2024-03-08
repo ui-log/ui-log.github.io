@@ -7,7 +7,7 @@ export const data = {
     "title": "Nextjs에서 라우터 폴더들 그룹으로 묶는 방법 (Route groups)",
     "description": null,
     "date": "2024-02-23 22:52",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Nextjs",
     "thumbnail": null
   },
@@ -46,7 +46,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/Nextjs/2024-02-23-Nextjs-Route-groups/README.md"
 }

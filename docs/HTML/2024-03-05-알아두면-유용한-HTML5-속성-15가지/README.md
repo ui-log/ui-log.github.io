@@ -2,7 +2,7 @@
 title: 알아두면 유용한 HTML5 속성 15가지
 description:
 date: 2024-03-05 11:29
-sidebarDepth: 2
+sidebarDepth: 0
 tag: HTML
 thumbnail:
 ---

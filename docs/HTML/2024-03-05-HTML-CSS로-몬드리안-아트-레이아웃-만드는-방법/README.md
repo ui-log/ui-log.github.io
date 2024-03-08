@@ -2,7 +2,7 @@
 title: HTML CSS로 몬드리안 아트 레이아웃 만드는 방법
 description:
 date: 2024-03-05 11:40
-sidebarDepth: 2
+sidebarDepth: 0
 tag: HTML
 thumbnail:
 ---

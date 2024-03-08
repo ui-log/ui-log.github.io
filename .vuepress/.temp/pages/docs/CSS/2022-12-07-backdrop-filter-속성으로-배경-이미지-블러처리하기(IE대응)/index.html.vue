@@ -32,7 +32,17 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-scss ext-scss line-numbers-mode"><pre v-pre class="language-scss"><code><span class="token selector">.card </span><span class="token punctuation">{</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<div class="language-scss ext-scss line-numbers-mode"><pre v-pre class="language-scss"><code><span class="token selector">.card </span><span class="token punctuation">{</span>
   <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
   <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 0 20px <span class="token function">rgba</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.2<span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token property">border-radius</span><span class="token punctuation">:</span> 14px<span class="token punctuation">;</span>
@@ -60,7 +70,17 @@
   <span class="token property">line-height</span><span class="token punctuation">:</span> 18px<span class="token punctuation">;</span>
   <span class="token property">margin-top</span><span class="token punctuation">:</span> 8px<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>위와 같이 작성하면 아래 처럼 나옵니다.</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>위와 같이 작성하면 아래 처럼 나옵니다.</p>
 <p>이미지는 아무거나 사용하시면 됩니다.</p>
 <img  src="@source/docs/CSS/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기(IE대응)/img/1.png" width="300"/>
 <h2 id="블러처리하기" tabindex="-1"><a class="header-anchor" href="#블러처리하기" aria-hidden="true">#</a> 블러처리하기</h2>
@@ -120,6 +140,16 @@
 <p>이렇게 통 이미지를 전체 블러처리할 때는 backdrop-filter를 사용하지만 아래 이미지처럼 특정 영역(e.g. 텍스트 영역)만 블러처리를 하고 싶은 경우도 있습니다.</p>
 <img  src="@source/docs/CSS/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기(IE대응)/img/3.png" width="300"/>
 <p>이런 경우에는 .card 스타일을 아래와 같이 수정해주면 됩니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-scss ext-scss line-numbers-mode"><pre v-pre class="language-scss"><code><span class="token selector">.card </span><span class="token punctuation">{</span>
   <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
   <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 0 20px <span class="token function">rgba</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.2<span class="token punctuation">)</span><span class="token punctuation">;</span>

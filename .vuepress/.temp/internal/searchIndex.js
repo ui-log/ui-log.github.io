@@ -66,6 +66,165 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "github repository에 remote origin 연결하는 방법",
+    "headers": [],
+    "path": "/docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Git Clone Repository not found 에러 해결 방법",
+    "headers": [],
+    "path": "/docs/Git/2024-02-20-Git-Clone-Repository-not-found-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "VScode에 숨겨진 꿀팁 및 트릭 10가지",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 타임라인 뷰: 로컬 소스 제어",
+        "slug": "_1-타임라인-뷰-로컬-소스-제어",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 자동 저장: 더 이상 Ctrl + S를 누를 필요 없음",
+        "slug": "_2-자동-저장-더-이상-ctrl-s를-누를-필요-없음",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 명령 팔레트로 모든 작업 수행",
+        "slug": "_3-명령-팔레트로-모든-작업-수행",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 빠르게 파일로 이동",
+        "slug": "_4-빠르게-파일로-이동",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 빠르게 줄로 이동",
+        "slug": "_5-빠르게-줄로-이동",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6. 빠르게 줄 삭제",
+        "slug": "_6-빠르게-줄-삭제",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7. 부드러운 커서로 타이핑 즐기기",
+        "slug": "_7-부드러운-커서로-타이핑-즐기기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8. 코드 빠르게 서식 지정",
+        "slug": "_8-코드-빠르게-서식-지정",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9. 다중 커서 편집으로 시간 절약",
+        "slug": "_9-다중-커서-편집으로-시간-절약",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10. 빠르게 새 폴더/파일 생성",
+        "slug": "_10-빠르게-새-폴더-파일-생성",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/Editor/2024-03-05-VScode%EC%97%90-%EC%88%A8%EA%B2%A8%EC%A7%84-%EA%BF%80%ED%8C%81-%EB%B0%8F-%ED%8A%B8%EB%A6%AD-10%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "꼭 설치해야하는 VS Code 확장 프로그램 10가지",
+    "headers": [],
+    "path": "/docs/Editor/2024-03-05-%EA%BC%AD-%EC%84%A4%EC%B9%98%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-Vscode-extension-10%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Html Unclosedtag encoundtered Error 해결방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "에러 메세지",
+        "slug": "에러-메세지",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "에러 원인",
+        "slug": "에러-원인",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "해결 방법",
+        "slug": "해결-방법",
+        "children": []
+      }
+    ],
+    "path": "/docs/Error/2024-02-10-Html-Unclosedtag-encoundtered-Error-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "가장 많이 실수하는 CSS attribute Error",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. css 속성이 누락된 경우",
+        "slug": "_1-css-속성이-누락된-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 사용되지 않는 css 속성을 사용한 경우",
+        "slug": "_2-사용되지-않는-css-속성을-사용한-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. css 속성에 올바르지 않은 값을 넣었을 경우",
+        "slug": "_3-css-속성에-올바르지-않은-값을-넣었을-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. css 속성에 잘못된 문자열을 포함했을 경우",
+        "slug": "_4-css-속성에-잘못된-문자열을-포함했을-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 하나의 태그에 중복된 속성을 사용했을 때 발생하는 에러",
+        "slug": "_5-하나의-태그에-중복된-속성을-사용했을-때-발생하는-에러",
+        "children": []
+      }
+    ],
+    "path": "/docs/Error/2024-02-10-%EA%B0%80%EC%9E%A5-%EB%A7%8E%EC%9D%B4-%EC%8B%A4%EC%88%98%ED%95%98%EB%8A%94-CSS-attribute-Error/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "CSS 말줄임 처리 방법 (mixin 공유)",
     "headers": [
       {
@@ -786,154 +945,29 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "VScode에 숨겨진 꿀팁 및 트릭 10가지",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 타임라인 뷰: 로컬 소스 제어",
-        "slug": "_1-타임라인-뷰-로컬-소스-제어",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 자동 저장: 더 이상 Ctrl + S를 누를 필요 없음",
-        "slug": "_2-자동-저장-더-이상-ctrl-s를-누를-필요-없음",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 명령 팔레트로 모든 작업 수행",
-        "slug": "_3-명령-팔레트로-모든-작업-수행",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 빠르게 파일로 이동",
-        "slug": "_4-빠르게-파일로-이동",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 빠르게 줄로 이동",
-        "slug": "_5-빠르게-줄로-이동",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6. 빠르게 줄 삭제",
-        "slug": "_6-빠르게-줄-삭제",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7. 부드러운 커서로 타이핑 즐기기",
-        "slug": "_7-부드러운-커서로-타이핑-즐기기",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8. 코드 빠르게 서식 지정",
-        "slug": "_8-코드-빠르게-서식-지정",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9. 다중 커서 편집으로 시간 절약",
-        "slug": "_9-다중-커서-편집으로-시간-절약",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10. 빠르게 새 폴더/파일 생성",
-        "slug": "_10-빠르게-새-폴더-파일-생성",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/Editor/2024-03-05-VScode%EC%97%90-%EC%88%A8%EA%B2%A8%EC%A7%84-%EA%BF%80%ED%8C%81-%EB%B0%8F-%ED%8A%B8%EB%A6%AD-10%EA%B0%80%EC%A7%80/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Html Unclosedtag encoundtered Error 해결방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "에러 메세지",
-        "slug": "에러-메세지",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "에러 원인",
-        "slug": "에러-원인",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "해결 방법",
-        "slug": "해결-방법",
-        "children": []
-      }
-    ],
-    "path": "/docs/Error/2024-02-10-Html-Unclosedtag-encoundtered-Error-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "가장 많이 실수하는 CSS attribute Error",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. css 속성이 누락된 경우",
-        "slug": "_1-css-속성이-누락된-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 사용되지 않는 css 속성을 사용한 경우",
-        "slug": "_2-사용되지-않는-css-속성을-사용한-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. css 속성에 올바르지 않은 값을 넣었을 경우",
-        "slug": "_3-css-속성에-올바르지-않은-값을-넣었을-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. css 속성에 잘못된 문자열을 포함했을 경우",
-        "slug": "_4-css-속성에-잘못된-문자열을-포함했을-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 하나의 태그에 중복된 속성을 사용했을 때 발생하는 에러",
-        "slug": "_5-하나의-태그에-중복된-속성을-사용했을-때-발생하는-에러",
-        "children": []
-      }
-    ],
-    "path": "/docs/Error/2024-02-10-%EA%B0%80%EC%9E%A5-%EB%A7%8E%EC%9D%B4-%EC%8B%A4%EC%88%98%ED%95%98%EB%8A%94-CSS-attribute-Error/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "github repository에 remote origin 연결하는 방법",
+    "title": "HTML CSS로 네온사인 버튼 만드는 방법",
     "headers": [],
-    "path": "/docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "path": "/docs/HTML/2024-03-05-HTML-CSS%EB%A1%9C-%EB%84%A4%EC%98%A8%EC%82%AC%EC%9D%B8-%EB%B2%84%ED%8A%BC-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Git Clone Repository not found 에러 해결 방법",
-    "headers": [],
-    "path": "/docs/Git/2024-02-20-Git-Clone-Repository-not-found-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
+    "title": "HTML CSS로 로그인 회원가입 폼 만들기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "단계1: HTML에서 로그인 및 회원가입 폼 만들기",
+        "slug": "단계1-html에서-로그인-및-회원가입-폼-만들기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "단계2: CSS 코드로 로그인 및 회원가입 폼 스타일링",
+        "slug": "단계2-css-코드로-로그인-및-회원가입-폼-스타일링",
+        "children": []
+      }
+    ],
+    "path": "/docs/HTML/2024-03-05-HTML-CSS%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85-%ED%8F%BC-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -941,6 +975,64 @@ export const searchIndex = [
     "title": "HTML CSS로 몬드리안 아트 레이아웃 만드는 방법",
     "headers": [],
     "path": "/docs/HTML/2024-03-05-HTML-CSS%EB%A1%9C-%EB%AA%AC%EB%93%9C%EB%A6%AC%EC%95%88-%EC%95%84%ED%8A%B8-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML CSS로 포트폴리오 웹사이트 만들기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "소스 코드와 함께 포트폴리오 웹사이트",
+        "slug": "소스-코드와-함께-포트폴리오-웹사이트",
+        "children": []
+      }
+    ],
+    "path": "/docs/HTML/2024-03-05-HTML-CSS%EB%A1%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Html CSS로 로그인 페이지 비밀번호 눈 버튼 만들기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "HTML:",
+        "slug": "html",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "CSS:",
+        "slug": "css",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JavaScript:",
+        "slug": "javascript",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "구현:",
+        "slug": "구현",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "HTML 코드:",
+        "slug": "html-코드",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "CSS 코드:",
+        "slug": "css-코드",
+        "children": []
+      }
+    ],
+    "path": "/docs/HTML/2024-03-05-Html-CSS%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EB%88%88-%EB%B2%84%ED%8A%BC-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1325,7 +1417,62 @@ export const searchIndex = [
   },
   {
     "title": "console log 제대로 알고 사용하기",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "소개",
+        "slug": "소개",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Console 객체의 역할과 중요성",
+        "slug": "console-객체의-역할과-중요성",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JavaScript 개발에서 디버깅과 로깅의 필수 도구로 사용되는 이유",
+        "slug": "javascript-개발에서-디버깅과-로깅의-필수-도구로-사용되는-이유",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Console 객체의 기본 기능",
+        "slug": "console-객체의-기본-기능",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "디버깅 기능",
+        "slug": "디버깅-기능",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "로깅 기능",
+        "slug": "로깅-기능",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "고급 활용",
+        "slug": "고급-활용",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "보안 및 프로덕션 환경에서의 사용",
+        "slug": "보안-및-프로덕션-환경에서의-사용",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Console 객체의 확장",
+        "slug": "console-객체의-확장",
+        "children": []
+      }
+    ],
     "path": "/docs/Library/2024-03-05-console-log-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
@@ -1429,6 +1576,44 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Library/2024-03-05-react-textarea-autosize-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2024년 가장 인기있는 css 프레임워크 5가지",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Bootstrap",
+        "slug": "bootstrap",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tailwind CSS",
+        "slug": "tailwind-css",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Foundation",
+        "slug": "foundation",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Bulma",
+        "slug": "bulma",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "UIKit",
+        "slug": "uikit",
+        "children": []
+      }
+    ],
+    "path": "/docs/Library/2024-03-06-2024%EB%85%84-%EA%B0%80%EC%9E%A5-%EC%9D%B8%EA%B8%B0%EC%9E%88%EB%8A%94-css-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-5%EA%B0%80%EC%A7%80/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1901,6 +2086,62 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Next js + Tailwind CSS로 웹사이트 만드는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "유틸리티-퍼스트 접근 방식",
+        "slug": "유틸리티-퍼스트-접근-방식",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Next.js의 기본 구조:",
+        "slug": "next-js의-기본-구조",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tailwind가 빠르게 작업하는 몇 가지 더 예제:",
+        "slug": "tailwind가-빠르게-작업하는-몇-가지-더-예제",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1. 텍스트와 버튼 스타일링:",
+        "slug": "_1-텍스트와-버튼-스타일링",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 반응형 디자인:",
+        "slug": "_2-반응형-디자인",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 카드 생성하기:",
+        "slug": "_3-카드-생성하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 네비게이션 바 구성하기:",
+        "slug": "_4-네비게이션-바-구성하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "간소화된 스타일링:",
+        "slug": "간소화된-스타일링",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/2024-03-06-Next-js-+-Tailwind-CSS%EB%A1%9C-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "getStaticProps, getServersideProps 적절한 사용 방법",
     "headers": [
       {
@@ -2000,6 +2241,20 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/React/2024-02-20-React%EC%97%90%EC%84%9C-Data-URL%EA%B3%BC-sprite-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%84%B1%EB%8A%A5-%EB%B9%84%EA%B5%90-/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "리액트 훅 이란? 리액트 커스텀 훅 사용 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "주요 내장 훅:",
+        "slug": "주요-내장-훅",
+        "children": []
+      }
+    ],
+    "path": "/docs/React/2024-03-06-%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%9B%85-%EC%9D%B4%EB%9E%80-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%9B%85-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2430,6 +2685,502 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Setting/m1-nvm/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2024년도 AI 개발 최신 로드맵",
+    "headers": [
+      {
+        "level": 2,
+        "title": "AI를 배우고 싶으신가요?",
+        "slug": "ai를-배우고-싶으신가요",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Python",
+        "slug": "python",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "PyTorch",
+        "slug": "pytorch",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "스크래치에서 작성하기",
+        "slug": "스크래치에서-작성하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "경쟁하기",
+        "slug": "경쟁하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "사이드 프로젝트 진행하기",
+        "slug": "사이드-프로젝트-진행하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "배포하기",
+        "slug": "배포하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "보조 자료",
+        "slug": "보조-자료",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Fast.ai",
+        "slug": "fast-ai",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "더 많은 경쟁 참여하기",
+        "slug": "더-많은-경쟁-참여하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "논문 구현하기",
+        "slug": "논문-구현하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "컴퓨터 비전",
+        "slug": "컴퓨터-비전",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "강화 학습",
+        "slug": "강화-학습",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "NLP",
+        "slug": "nlp",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Neural Networks: Zero to Hero 시청",
+        "slug": "neural-networks-zero-to-hero-시청",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "",
+        "slug": "",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "LLM로 빌드하기",
+        "slug": "llm로-빌드하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "해커톤 참여하기",
+        "slug": "해커톤-참여하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "논문 읽기",
+        "slug": "논문-읽기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "스크래치에서 Transformers 작성하기",
+        "slug": "스크래치에서-transformers-작성하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "좋은 블로그들",
+        "slug": "좋은-블로그들",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Umar Jamil 시청",
+        "slug": "umar-jamil-시청",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "오픈 소스 모델 실행 방법 배우기",
+        "slug": "오픈-소스-모델-실행-방법-배우기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 엔지니어링",
+        "slug": "프롬프트-엔지니어링",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "LLM 미세 조정",
+        "slug": "llm-미세-조정",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "RAG",
+        "slug": "rag",
+        "children": []
+      }
+    ],
+    "path": "/docs/Tech/2024-03-05-2024%EB%85%84%EB%8F%84-AI-%EA%B0%9C%EB%B0%9C-%EC%B5%9C%EC%8B%A0-%EB%A1%9C%EB%93%9C%EB%A7%B5/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2024년도 최신 웹 개발 트렌드 정리",
+    "headers": [],
+    "path": "/docs/Tech/2024-03-05-2024%EB%85%84%EB%8F%84-%EC%B5%9C%EC%8B%A0-%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EC%A0%95%EB%A6%AC/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tailwind vs CSS 비교 정리",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Inline-classes VS CSS Nesting",
+        "slug": "inline-classes-vs-css-nesting",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "모든 것을 한 눈에 편집할 수 있다",
+        "slug": "모든-것을-한-눈에-편집할-수-있다",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "인라인 클래스의 장점",
+        "slug": "인라인-클래스의-장점",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "네이티브 CSS에서의 스코프",
+        "slug": "네이티브-css에서의-스코프",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "인라인 클래스의 문제점",
+        "slug": "인라인-클래스의-문제점",
+        "children": []
+      }
+    ],
+    "path": "/docs/Tech/2024-03-05-Tailwind-vs-CSS-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "API 권한 부여 방법 정리",
+    "headers": [
+      {
+        "level": 2,
+        "title": "API 권한 부여를 위한 4가지 Best Practices",
+        "slug": "api-권한-부여를-위한-4가지-best-practices",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1. 토큰 기반 권한 부여 사용(JWT, OAuth 토큰)",
+        "slug": "_1-토큰-기반-권한-부여-사용-jwt-oauth-토큰",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JWT를 사용한 토큰 기반 권한 부여 구현 방법",
+        "slug": "jwt를-사용한-토큰-기반-권한-부여-구현-방법",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 세밀한 접근 제어 구현",
+        "slug": "_2-세밀한-접근-제어-구현",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "세밀한 접근 제어 구현 방법:",
+        "slug": "세밀한-접근-제어-구현-방법",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 안전한 API 게이트웨이 구성",
+        "slug": "_3-안전한-api-게이트웨이-구성",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "안전한 API 게이트웨이 구성 방법:",
+        "slug": "안전한-api-게이트웨이-구성-방법",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 데이터의 이동과 정지 시 민감한 데이터 암호화",
+        "slug": "_4-데이터의-이동과-정지-시-민감한-데이터-암호화",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "데이터 이동 중 암호화 구현 방법",
+        "slug": "데이터-이동-중-암호화-구현-방법",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "정지 중 암호화 구현 방법",
+        "slug": "정지-중-암호화-구현-방법",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "결론",
+        "slug": "결론",
+        "children": []
+      }
+    ],
+    "path": "/docs/Tech/2024-03-05-api-%EB%B3%B4%EC%95%88-%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "모바일웹, 웹앱, 하이브리드앱, 네이티브앱 비교 정리",
+    "headers": [
+      {
+        "level": 2,
+        "title": "소개",
+        "slug": "소개",
+        "children": [
+          {
+            "level": 3,
+            "title": "모바일웹:",
+            "slug": "모바일웹",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "웹앱:",
+            "slug": "웹앱",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "하이브리드앱:",
+            "slug": "하이브리드앱",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "네이티브앱:",
+            "slug": "네이티브앱",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "특징 정리",
+        "slug": "특징-정리",
+        "children": [
+          {
+            "level": 3,
+            "title": "모바일웹",
+            "slug": "모바일웹-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "웹앱",
+            "slug": "웹앱-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "하이브리드앱",
+            "slug": "하이브리드앱-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "네이티브앱",
+            "slug": "네이티브앱-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "네이티브앱",
+            "slug": "네이티브앱-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "비교 및 결론",
+            "slug": "비교-및-결론",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Tech/2024-03-05-%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%9B%B9,-%EC%9B%B9%EC%95%B1,-%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%EC%95%B1,-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EC%95%B1-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "UI UX 최신 트렌드 정리(2024년 최신)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "레트로 그루비 타이포그래피",
+        "slug": "레트로-그루비-타이포그래피",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "해체된 히어로 섹션",
+        "slug": "해체된-히어로-섹션",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "오프 화이트는 새로운 화이트",
+        "slug": "오프-화이트는-새로운-화이트",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "커서 재발명",
+        "slug": "커서-재발명",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "데이터 시각화",
+        "slug": "데이터-시각화",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "AR/VR 몰입형 경험",
+        "slug": "ar-vr-몰입형-경험",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "음성 사용자 인터페이스(VUIs)",
+        "slug": "음성-사용자-인터페이스-vuis",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "멀티 모달 인터페이스",
+        "slug": "멀티-모달-인터페이스",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "생성적 인공 지능",
+        "slug": "생성적-인공-지능",
+        "children": []
+      }
+    ],
+    "path": "/docs/Tech/2024-03-08-UI-UX-%EC%B5%9C%EC%8B%A0-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EC%A0%95%EB%A6%AC(2024%EB%85%84-%EC%B5%9C%EC%8B%A0)/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "더 인정받는 웹 디자인을 하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "왜 내가 개발한 웹 페이지가 UX 디자인과 맞지 않는 걸까요?",
+        "slug": "왜-내가-개발한-웹-페이지가-ux-디자인과-맞지-않는-걸까요",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "내 웹 페이지가 디자인과 다르게 보이는 이유",
+        "slug": "내-웹-페이지가-디자인과-다르게-보이는-이유",
+        "children": [
+          {
+            "level": 3,
+            "title": "세부 사항에 대한 주의 부족 및 디자인 도구에 대한 부족한 지식",
+            "slug": "세부-사항에-대한-주의-부족-및-디자인-도구에-대한-부족한-지식",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "시간 및 리소스 제한",
+            "slug": "시간-및-리소스-제한",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "브라우저 호환성",
+            "slug": "브라우저-호환성",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "반응형 디자인과 장치 다양성",
+            "slug": "반응형-디자인과-장치-다양성",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "기술적 한계와 기술적 지식 부족",
+            "slug": "기술적-한계와-기술적-지식-부족",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "동적인, 확장 가능한 콘텐츠 및 미디어",
+            "slug": "동적인-확장-가능한-콘텐츠-및-미디어",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "디자인의 의사소통 부재 및 오해",
+            "slug": "디자인의-의사소통-부재-및-오해",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "디자인 시스템 제한과 일관되지 않은 디자인",
+            "slug": "디자인-시스템-제한과-일관되지-않은-디자인",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Tech/2024-03-08-%EB%8D%94-%EC%9D%B8%EC%A0%95%EB%B0%9B%EB%8A%94-%EC%9B%B9-%EB%94%94%EC%9E%90%EC%9D%B8%EC%9D%84-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },

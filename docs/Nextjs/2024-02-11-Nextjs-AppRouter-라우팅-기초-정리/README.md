@@ -2,7 +2,7 @@
 title: Nextjs AppRouter 라우팅 기초 정리
 description:
 date: 2024-02-11 17:09
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Nextjs
 thumbnail:
 ---

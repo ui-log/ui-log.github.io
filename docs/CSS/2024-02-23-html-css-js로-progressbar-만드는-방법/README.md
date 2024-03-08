@@ -2,7 +2,7 @@
 title: html css js로 progressbar 만드는 방법
 description:
 date: 2024-02-23 23:32
-sidebarDepth: 2
+sidebarDepth: 0
 tag: CSS
 thumbnail:
 ---

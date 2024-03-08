@@ -7,7 +7,7 @@ export const data = {
     "title": "Nextjs에서 svg파일 사용하는 방법 (2022년 11월 최신)",
     "description": "Nextjs에서 svg파일을 사용하는 방법에 대해서 정리합니다.",
     "date": "2022-11-24T00:00:00.000Z",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Nextjs",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/203769162-be91286a-4301-4687-87b3-f37f8792180a.png"
   },

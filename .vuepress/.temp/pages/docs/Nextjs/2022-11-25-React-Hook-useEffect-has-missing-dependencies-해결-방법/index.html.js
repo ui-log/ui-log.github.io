@@ -7,7 +7,7 @@ export const data = {
     "title": "React Hook useEffect has missing dependencies 해결 방법(exhaustive-deps Warning)",
     "description": "react-hooks/exhaustive-deps Warning 해결 방법에 대해서 정리합니다.",
     "date": "2022-11-25 17:00",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Nextjs",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/203999521-809b78ac-9c4f-415c-b4bb-970f4eacd963.png"
   },

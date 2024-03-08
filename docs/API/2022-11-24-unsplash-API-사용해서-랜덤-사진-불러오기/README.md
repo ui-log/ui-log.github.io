@@ -2,7 +2,7 @@
 title: unsplash API 사용해서 랜덤 사진 불러오는 방법
 description: unsplash의 구버전 source api와 신버전 API 사용법에 대해 알아봅니다.
 date: 2022-11-24
-sidebarDepth: 2
+sidebarDepth: 0
 tag: API
 thumbnail: https://user-images.githubusercontent.com/46010705/203776841-00e48316-87c4-4392-ae90-31a41127aff8.png
 ---

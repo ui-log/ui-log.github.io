@@ -2,7 +2,7 @@
 title: Nextjs에서 서버, 클라이언트 컴포넌트 redirect 처리하는 방법
 description:
 date: 2024-02-23 22:33
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Nextjs
 thumbnail:
 ---

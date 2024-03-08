@@ -7,7 +7,7 @@ export const data = {
     "title": "초보 자바스크립트 개발자가 실수하는 9가지",
     "description": "초보 자바스크립트 개발자가 흔히 하는 실수와 그 해결법을 알아봅시다.",
     "date": "2024-03-05 11:53",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Javascript",
     "thumbnail": null
   },
@@ -69,7 +69,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/Javascript/2024-03-05-초보-자바스크립트-개발자가-실수하는-9가지/README.md"
 }

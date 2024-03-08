@@ -7,7 +7,7 @@ export const data = {
     "title": "Netlify에 github 저장소 연결하는 방법",
     "description": "Netlify에 github 저장소를 연결하여 푸시만 하면 배포되는 방법을 알아봅니다.",
     "date": "2022-11-28 11:00",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "SEO",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/204205405-a6fbb82f-7981-476d-8597-7389b963a142.png"
   },

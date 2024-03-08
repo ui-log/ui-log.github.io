@@ -7,7 +7,7 @@ export const data = {
     "title": "getStaticProps, getServersideProps 적절한 사용 방법",
     "description": "Nextjs의 client-side props와 server-side props를 어떤 상황에 사용해야하는지 정리합니다.",
     "date": "2022-11-13T00:00:00.000Z",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Nextjs",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/201506709-726c3fb5-041a-4f31-a6f8-687a88d5acb3.png"
   },

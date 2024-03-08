@@ -7,7 +7,7 @@ export const data = {
     "title": "image-set 속성으로 반응형 background-image 사용하기",
     "description": "image-set 속성으로 디바이스에 따라 다른 이미지를 적용하는 방법에 대해서 살펴봅니다.",
     "date": "2022-11-07T00:00:00.000Z",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS, HTML",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/201070894-001d4165-25ad-4ca6-a30c-418803704a51.png"
   },

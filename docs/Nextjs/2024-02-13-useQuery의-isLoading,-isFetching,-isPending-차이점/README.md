@@ -2,7 +2,7 @@
 title: useQuery의 isLoading, isFetching, isPending 차이점
 description:
 date: 2024-02-13 11:32
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Nextjs
 thumbnail:
 ---

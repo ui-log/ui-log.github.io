@@ -2,7 +2,7 @@
 title: image-set 속성으로 반응형 background-image 사용하기
 description: image-set 속성으로 디바이스에 따라 다른 이미지를 적용하는 방법에 대해서 살펴봅니다.
 date: 2022-11-07
-sidebarDepth: 2
+sidebarDepth: 0
 tag: CSS, HTML
 thumbnail: https://user-images.githubusercontent.com/46010705/201070894-001d4165-25ad-4ca6-a30c-418803704a51.png
 ---
@@ -33,6 +33,18 @@ img {
 }
 ```
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 코드를 위와 같이 작성하면 브라우저에서 아래와 같이 보입니다.
 
 <img src="https://user-images.githubusercontent.com/46010705/199177264-f4e1c114-740c-49a1-b357-4ad8987acc16.png" width="500">
@@ -56,6 +68,18 @@ w(너비)가 750 이하인 경우에는 작은 사진을 보여주도록 작성�
 
 잘 동작하는지는 브라우저에서 확인해 보겠습니다.
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 <img src="https://user-images.githubusercontent.com/46010705/199180122-3b69bb91-75b2-4b7e-9f62-ac80bde4a81b.gif" width="700">
 
 너비에 따라서 명시한 이미지 소스대로 보이는 것을 볼 수 있습니다.
@@ -73,6 +97,18 @@ w(너비)가 750 이하인 경우에는 작은 사진을 보여주도록 작성�
 ## 2. image-set
 
 `image-set` 속성은 `srcset` 속성과 같은 목적이고 사용법도 거의 동일합니다.<br> 다만 img태그에 사용하는지 `background-image`에 사용하는지에 따라 다를 뿐 입니다.
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ### 사용방법
 
@@ -101,6 +137,18 @@ w(너비)가 750 이하인 경우에는 작은 사진을 보여주도록 작성�
 }
 ```
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ### 결과
 
 브라우저에서 테스트해보면 아래 gif처럼 PC인 경우에 large이미지가 MW인 경우에는 small 이미지가 적용되는 것을 보실 수 있습니다.
@@ -110,6 +158,18 @@ w(너비)가 750 이하인 경우에는 작은 사진을 보여주도록 작성�
 모바일 기기에서도 small 이미지가 정상적으로 적용됩니다.
 
 <img src="https://user-images.githubusercontent.com/46010705/199198274-2dfba72a-ae23-434a-803d-107ebe7da8d9.JPG" width="500">
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ## 지원범위
 

@@ -7,7 +7,7 @@ export const data = {
     "title": "CSS Filter로 다양한 효과 주는 방법 (블러,흑백,반전)",
     "description": null,
     "date": "2024-02-10 20:00",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": null
   },

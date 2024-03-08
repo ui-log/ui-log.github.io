@@ -2,7 +2,7 @@
 title: linear-gradient를 활용한 border 애니메이션 5가지 만들기
 description: linear-gradient, conic-gradient 등을 활용해 border 애니메이션을 만드는 방법에 대해서 공유합니다.
 date: 2022-11-10
-sidebarDepth: 2
+sidebarDepth: 0
 tag: CSS, HTML
 thumbnail: https://user-images.githubusercontent.com/46010705/201071658-57ebb339-2b8a-45ba-95a6-fcf6dc3575b4.png
 hitUrl: https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%ui-log.github.io%2FTIL%2Fdocs%2FCSS%2Fborder-animation%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false
@@ -25,6 +25,18 @@ hitUrl: https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%ui-
 ![4](./img/rotated_conic_box.gif)
 **5. 색깔이 변하는 border 애니메이션**
 ![5](./img/hue_box.gif)
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ---
 
@@ -78,6 +90,18 @@ hitUrl: https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%ui-
 }
 ```
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ### 결과
 
 `::before`, `::after` 가상 요소의 border와 사이즈를 변경해서 아래와 같은 길이가 변하는 border 애니메이션을 구현할 수 있습니다.
@@ -103,6 +127,18 @@ border: 1px dotted #333;
 
 하지만 border는 따로 animation을 제공하지 않기 때문에 움직이는 점선 애니메이션을 만들 수 없습니다.
 그렇기 때문에 다른 방법으로 점선을 구현해야 합니다. 점선은 `linear-gradient` 로 아래와 같이 구현할 수 있습니다.
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ```css
 .dotted_box {
@@ -140,6 +176,18 @@ border: 1px dotted #333;
 }
 ```
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ### 결과
 
 border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같이 움직이는 점선 애니메이션을 구현할 수 있습니다.
@@ -159,6 +207,18 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
 위와 같은 스펙을 지원하는 css 속성은 없으니 다른 방법으로 만들어야겠다는 생각이 듭니다.
 이번에도 테두리만 보이지만 사각형을 활용해 볼 수 있을 것 같습니다.
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ```css
 .rotated_box {
   &::before {
@@ -176,6 +236,18 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
   }
 }
 ```
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ![3](./img/rainbow_box.png)
 
@@ -219,6 +291,18 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ## 4. 빛나는 border 애니메이션
 
 ![4](./img/rotated_conic_box.gif)
@@ -247,6 +331,18 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
 ![4](./img/conic_box1.png)
 
 이제 이 `::before` 가상 요소를 무지개 애니메이션 때와 같이 회전시켜주고 `::after` 요소를 이용해 내부 컨텐츠를 채워주면 됩니다.
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ### 결과
 
@@ -280,6 +376,18 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
 
 이렇게 그라디언트 border를 적용 했으면 `hue-rotate` 속성과 애니메이션으로 색상을 변경해 주면 됩니다.
 `hue-rotate`는 각도 값을 넣어주면 되며, 아래 사진과 같은 색상환에 따라서 색상이 노출됩니다.
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ```css
 hue-ratote(angle)

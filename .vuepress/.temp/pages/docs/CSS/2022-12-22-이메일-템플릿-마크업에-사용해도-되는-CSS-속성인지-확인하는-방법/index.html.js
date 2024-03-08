@@ -7,7 +7,7 @@ export const data = {
     "title": "이메일 템플릿 마크업에 사용해도 되는 CSS 속성인지 확인하는 방법",
     "description": "까다로운 이메일 템플릿 마크업에 사용해도 되는 속성인지 확인할 수 있는 사이트를 소개합니다.",
     "date": "2022-12-22 18:27",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": "https://user-images.githubusercontent.com/77398961/209105266-75512c62-cda3-43db-a0d1-17f8f44b6ed7.png"
   },

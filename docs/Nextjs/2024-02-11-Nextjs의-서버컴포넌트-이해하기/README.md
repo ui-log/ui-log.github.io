@@ -2,7 +2,7 @@
 title: Nextjs14의 서버컴포넌트 이해하기
 description:
 date: 2024-02-11 17:22
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Nextjs
 thumbnail:
 ---

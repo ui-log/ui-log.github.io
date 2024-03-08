@@ -7,7 +7,7 @@ export const data = {
     "title": "linear-gradient를 활용한 border 애니메이션 5가지 만들기",
     "description": "linear-gradient, conic-gradient 등을 활용해 border 애니메이션을 만드는 방법에 대해서 공유합니다.",
     "date": "2022-11-10T00:00:00.000Z",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS, HTML",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/201071658-57ebb339-2b8a-45ba-95a6-fcf6dc3575b4.png",
     "hitUrl": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%ui-log.github.io%2FTIL%2Fdocs%2FCSS%2Fborder-animation%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"

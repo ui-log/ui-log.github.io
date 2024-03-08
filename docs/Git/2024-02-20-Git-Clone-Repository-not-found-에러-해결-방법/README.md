@@ -2,7 +2,7 @@
 title: Git Clone Repository not found 에러 해결 방법
 description:
 date: 2024-02-20 17:57
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Git
 thumbnail:
 ---

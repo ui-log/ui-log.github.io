@@ -7,7 +7,7 @@ export const data = {
     "title": "Slack API - incoming webhooks 사용해서 메세지 보내는 방법 (2022년 12월 최신)",
     "description": "Slack API를 사용하여 메세지를 보내는 방법에 대해서 정리합니다.",
     "date": "2022-12-19 10:52",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "API",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/208338240-ca9320a8-190b-4e02-a5f3-f4b390c95029.png"
   },

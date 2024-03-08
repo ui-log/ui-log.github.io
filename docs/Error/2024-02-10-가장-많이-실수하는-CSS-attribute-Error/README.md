@@ -2,7 +2,7 @@
 title: 가장 많이 실수하는 CSS attribute Error
 description:
 date: 2024-02-10 20:24
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Error
 thumbnail:
 ---

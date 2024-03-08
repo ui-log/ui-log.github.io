@@ -7,7 +7,7 @@ export const data = {
     "title": "Mac에서 셀레니움 크롬드라이버 버전 이슈 해결방법(This version of ChromeDriver only supports Chrome version)",
     "description": "This version of ChromeDriver only supports Chrome version 이슈 해결 방법에 대해 정리합니다.",
     "date": "2022-11-24T00:00:00.000Z",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Selenium",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/203762036-64948650-64cf-4959-800f-920af237b537.png"
   },

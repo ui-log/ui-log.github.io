@@ -7,7 +7,7 @@ export const data = {
     "title": "HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)",
     "description": "Embla Carousel라이브러리를 이용해 자동 스와이프 캐러셀을 만들어봅니다.",
     "date": "2022-12-06 21:20",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/205935117-f47aaabc-60f9-427f-bd6a-16ebda700cdb.png"
   },

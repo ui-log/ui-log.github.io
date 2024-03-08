@@ -2,7 +2,7 @@
 title: Html Unclosedtag encoundtered Error 해결방법
 description:
 date: 2024-02-10 20:19
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Error
 thumbnail:
 ---

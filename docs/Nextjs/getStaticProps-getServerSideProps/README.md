@@ -2,7 +2,7 @@
 title: getStaticProps, getServersideProps 적절한 사용 방법
 description: Nextjs의 client-side props와 server-side props를 어떤 상황에 사용해야하는지 정리합니다.
 date: 2022-11-13
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Nextjs
 thumbnail: https://user-images.githubusercontent.com/46010705/201506709-726c3fb5-041a-4f31-a6f8-687a88d5acb3.png
 ---
@@ -101,6 +101,18 @@ export async function getStaticProps() {
 세번째로는 페이지의 경로(path)가 외부 데이터에 의존하는 경우인데요.
 예를 들어 블로그 포스트들을 API요청을 통해 불러오고 해당 블로그 포스팅 id로 path를 결정해야하는 경우에 아래와 같이 `getStaticPaths`를 사용합니다.
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ```tsx
 // 이 함수는 페이지 빌드시에 호출됩니다.
 export async function getStaticPaths() {
@@ -179,6 +191,18 @@ export async function getServerSideProps() {
   return { props: { data } };
 }
 ```
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 사용방법은 위와 같이 기존 Static 함수들과 동일합니다.
 차이점은 아래와 같습니다.

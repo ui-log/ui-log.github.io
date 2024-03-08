@@ -7,14 +7,14 @@ export const data = {
     "title": "HTML CSS로 몬드리안 아트 레이아웃 만드는 방법",
     "description": null,
     "date": "2024-03-05 11:40",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "HTML",
     "thumbnail": null
   },
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/HTML/2024-03-05-HTML-CSS로-몬드리안-아트-레이아웃-만드는-방법/README.md"
 }

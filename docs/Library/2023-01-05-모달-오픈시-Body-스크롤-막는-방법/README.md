@@ -2,7 +2,7 @@
 title: "[CSS] 모달 오픈시 Body 스크롤 막는 방법"
 description: body-scroll-lock 라이브러리를 사용해서 모달 오픈시 Body 스크롤을 막는 방법에 대해서 정리합니다.
 date: 2023-01-05 07:06
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Library
 thumbnail: https://user-images.githubusercontent.com/46010705/210662758-ef5ccdf7-6ac6-4aea-a01d-c257a006f55a.png
 ---

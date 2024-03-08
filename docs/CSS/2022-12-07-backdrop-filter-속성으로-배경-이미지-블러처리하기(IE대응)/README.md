@@ -2,7 +2,7 @@
 title: backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대응)
 description: backdrop-filter 속성으로 IE대응까지 가능한 배경 이미지 블러처리하는 방법에 대해서 알아봅니다.
 date: 2022-12-07 11:58
-sidebarDepth: 2
+sidebarDepth: 0
 tag: CSS
 thumbnail: https://user-images.githubusercontent.com/46010705/206077139-c187c341-81c8-4828-9ca2-36eba4cd7427.png
 ---
@@ -50,6 +50,18 @@ backdrop-filter 속성으로 배경 이미지에 블러처리를 줄 수 있어�
 </html>
 ```
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ```scss
 .card {
   position: relative;
@@ -80,6 +92,18 @@ backdrop-filter 속성으로 배경 이미지에 블러처리를 줄 수 있어�
   margin-top: 8px;
 }
 ```
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 위와 같이 작성하면 아래 처럼 나옵니다.
 
@@ -167,6 +191,18 @@ scss에는 `@supports` 문법이 존재하는데 **`@supports not (속성)` 속�
 <img  src="./img/3.png" width="300"/>
 
 이런 경우에는 .card 스타일을 아래와 같이 수정해주면 됩니다.
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ```scss
 .card {

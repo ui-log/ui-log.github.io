@@ -7,7 +7,7 @@ export const data = {
     "title": "Nextjs App Router 라우팅 정리",
     "description": null,
     "date": "2024-02-11 10:26",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Nextjs",
     "thumbnail": null
   },

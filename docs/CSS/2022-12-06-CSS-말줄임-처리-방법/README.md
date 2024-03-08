@@ -2,7 +2,7 @@
 title: CSS 말줄임 처리 방법 (mixin 공유)
 description: CSS를 이용해서 한줄 말줄임 혹은 여러줄 말줄임 처리하는 방법에 대해서 정리합니다.
 date: 2022-12-06 18:00
-sidebarDepth: 2
+sidebarDepth: 0
 tag: CSS
 thumbnail: https://user-images.githubusercontent.com/46010705/205868626-569ca669-3582-417b-a5e3-1fd20c5a1ebb.png
 ---

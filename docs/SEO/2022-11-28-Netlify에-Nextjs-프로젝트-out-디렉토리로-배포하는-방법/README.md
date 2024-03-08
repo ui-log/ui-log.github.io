@@ -2,7 +2,7 @@
 title: Netlify에 Nextjs 프로젝트 배포하는 두 가지 방법 (.next , out)
 description: Detected that "next export" was run, but site is incorrectly publishing the ".next" directory. 에러 해결 방법
 date: 2022-11-28 14:00
-sidebarDepth: 2
+sidebarDepth: 0
 tag: SEO
 thumbnail: https://user-images.githubusercontent.com/46010705/204205482-32156435-9a1b-4585-81d8-bd0b6784cc71.png
 ---

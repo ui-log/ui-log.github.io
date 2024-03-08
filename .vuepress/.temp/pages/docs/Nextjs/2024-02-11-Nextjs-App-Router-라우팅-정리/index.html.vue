@@ -10,6 +10,16 @@
 <h2 id="_2-라우트-세그먼트용-특수-파일" tabindex="-1"><a class="header-anchor" href="#_2-라우트-세그먼트용-특수-파일" aria-hidden="true">#</a> 2. 라우트 세그먼트용 특수 파일</h2>
 <p>라우트 세그먼트를 사용하려면 <code v-pre>page.js</code>라는 특수 파일을 사용해야 합니다.
 이 파일에 있는 내용들이 사용자에게 보여지는 것입니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <h2 id="_3-파일-확장자" tabindex="-1"><a class="header-anchor" href="#_3-파일-확장자" aria-hidden="true">#</a> 3. 파일 확장자</h2>
 <p><code v-pre>page.js</code>와 같은 특수 파일은 <code v-pre>.js</code>, <code v-pre>.jsx</code>, 또는 <code v-pre>.tsx</code>와 같은 확장자를 가질 수 있습니다.
 기본적으로 Next.js 는 타입스크립트를 지원하기 때문에 별도의 설정 없이 .tsx를 사용할 수 있습니다.</p>
@@ -66,6 +76,16 @@
   <span class="token keyword">return</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span><span class="token plain-text">Hello, Home page!</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>그런 다음, 추가 페이지를 만들려면 새 폴더를 만들고 해당 폴더에 page.js 파일을 추가합니다. 예를 들어, /admin 경로에 대한 페이지를 만들려면 새로운 admin라는 폴더를 만들고 그 안에 page.js 파일을 추가합니다:</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-jsx ext-jsx line-numbers-mode"><pre v-pre class="language-jsx"><code><span class="token comment">// `app/admin/page.tsx`는 `/admin` URL의 UI입니다</span>
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">Page</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span><span class="token plain-text">Hello, admin Page!</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><span class="token punctuation">;</span>

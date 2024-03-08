@@ -7,7 +7,7 @@ export const data = {
     "title": "Tanstack ReactQuery로 무한스크롤 구현하기(react-intersection-observer)",
     "description": "tanstack react-query와 react-intersection-observer 활용해서 무한스크롤 가장 쉽게 구현하는 방법",
     "date": "2024-02-12 17:21",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Library",
     "thumbnail": null
   },

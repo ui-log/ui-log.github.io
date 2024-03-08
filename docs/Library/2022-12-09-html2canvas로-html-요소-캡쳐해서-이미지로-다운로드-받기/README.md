@@ -2,7 +2,7 @@
 title: html2canvas 사용법 - html 요소 이미지로 캡쳐해서 다운로드 받기
 description: html2canvas를 사용해 html 요소를 이미지로 캡쳐해서 다운로드 받는 방법에 대해 정리합니다.
 date: 2022-12-09 23:38
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Library
 thumbnail: https://user-images.githubusercontent.com/46010705/206728427-8cc1aaa6-42a2-4256-8657-46bdd9feacb2.png
 ---

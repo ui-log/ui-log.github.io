@@ -2,7 +2,7 @@
 title: vuepress 로 GitHub pages 에 사이트 호스팅 하는 방법
 description: vuepress를 이용해 블로그를 만들어 GitHub pages에 호스팅하는 방법에 대해서 공유합니다.
 date: 2022-11-07
-sidebarDepth: 2
+sidebarDepth: 0
 tag: vuepress
 thumbnail: https://user-images.githubusercontent.com/46010705/201074975-0028bd51-22b7-4514-b98c-59bf88173026.png
 ---

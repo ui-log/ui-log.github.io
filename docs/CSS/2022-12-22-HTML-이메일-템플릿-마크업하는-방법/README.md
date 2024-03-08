@@ -2,7 +2,7 @@
 title: HTML 이메일 템플릿 마크업하는 방법
 description: HTML을 이용해 outlook까지 대응 가능한 이메일 템플릿을 직접 마크업하는 방법에 대해서 공유합니다.
 date: 2022-12-22 16:08
-sidebarDepth: 2
+sidebarDepth: 0
 tag: CSS
 thumbnail: https://user-images.githubusercontent.com/77398961/209098045-5f2c3cb4-38ec-4f86-9f37-ee467144cb0c.png
 ---
@@ -64,6 +64,18 @@ table에 사용되는 기본적인 csse들을 넣어줍니다.
 
 그냥 웹사이트를 마크업 했다면 `padding: 0 20px`와 같은 쉬운 방식으로 했을텐데 매우 복잡하죠?
 그래서 이메일 마크업을 하는 것이 번거롭고 안되는 것들이 많은거랍니다.
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ```html
 <table align="center" style="width: 596px; table-layout: fixed; max-width: 596px" cellspacing="0" cellpadding="0">
@@ -159,6 +171,18 @@ td 요소에 `position: absolute`를 줘서 background를 지정하는 등 다�
 </table>
 ```
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 <img src="./img/3.png"  />
 
 추가로, background 속성을 사용할 때는 축약형을 사용하면 제대로 적용이 되지 않습니다. [참고 사이트](https://www.caniemail.com/search/?s=background)
@@ -176,17 +200,37 @@ table태그에서 font 값을 지정하면 하위에서 다 적용되지 않아?
   <tbody>
     <tr>
       <td style="width: 20px"></td>
-      <td style="padding-bottom: 80px; line-height: 35px; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, Dotum, sans-serif; font-weight: 700; font-size: 25px; color: #000; text-align: center">제목</td>
+      <td
+        style="padding-bottom: 80px; line-height: 35px; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, Dotum, sans-serif; font-weight: 700; font-size: 25px; color: #000; text-align: center"
+      >
+        제목
+      </td>
       <td style="width: 20px"></td>
     </tr>
     <tr>
       <td style="width: 20px"></td>
-      <td style="padding-bottom: 80px; line-height: 35px; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, Dotum, sans-serif; font-weight: 700; font-size: 25px; color: #000; text-align: center">소제목</td>
+      <td
+        style="padding-bottom: 80px; line-height: 35px; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, Dotum, sans-serif; font-weight: 700; font-size: 25px; color: #000; text-align: center"
+      >
+        소제목
+      </td>
       <td style="width: 20px"></td>
     </tr>
   </tbody>
 </table>
 ```
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ## 마무리
 

@@ -7,14 +7,14 @@ export const data = {
     "title": "useQuery의 isLoading, isFetching, isPending 차이점",
     "description": null,
     "date": "2024-02-13 11:32",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Nextjs",
     "thumbnail": null
   },
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1708410410000
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/Nextjs/2024-02-13-useQuery의-isLoading,-isFetching,-isPending-차이점/README.md"
 }

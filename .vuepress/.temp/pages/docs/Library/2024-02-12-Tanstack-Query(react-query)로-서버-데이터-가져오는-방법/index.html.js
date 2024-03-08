@@ -7,7 +7,7 @@ export const data = {
     "title": "Tanstack Query(react-query)로 서버 데이터 가져오는 방법",
     "description": null,
     "date": "2024-02-12 11:46",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Library",
     "thumbnail": null
   },

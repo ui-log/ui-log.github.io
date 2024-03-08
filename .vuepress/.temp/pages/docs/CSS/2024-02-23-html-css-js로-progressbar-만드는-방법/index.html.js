@@ -7,14 +7,14 @@ export const data = {
     "title": "html css js로 progressbar 만드는 방법",
     "description": null,
     "date": "2024-02-23 23:32",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": null
   },
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/CSS/2024-02-23-html-css-js로-progressbar-만드는-방법/README.md"
 }

@@ -7,7 +7,7 @@ export const data = {
     "title": "github repository에 remote origin 연결하는 방법",
     "description": "git remote add origin 명령어를 통해 로컬 저장소를 원격 저장소에 연결하는 방법에 대해 알아봅니다.",
     "date": "2022-11-25T00:00:00.000Z",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Git",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/204000545-74117888-0b9a-4285-bb08-4da940dc426a.png"
   },

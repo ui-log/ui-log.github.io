@@ -2,7 +2,7 @@
 title: Nextjs 14 App Router 프로젝트 초기 세팅 방법
 description:
 date: 2024-02-10 16:26
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Nextjs, twitter
 thumbnail:
 ---
@@ -46,6 +46,18 @@ node 버전을 손쉽게 변경하는 방법에 대해서는 제가 정리한 [�
 ```bash
 npx create-next-app@latest
 ```
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 초기 셋팅을 직접 하고싶으시다면 비어있는 프로젝트에 아래 명령어들로 직접 next를 설치하실 수도 있습니다.
 

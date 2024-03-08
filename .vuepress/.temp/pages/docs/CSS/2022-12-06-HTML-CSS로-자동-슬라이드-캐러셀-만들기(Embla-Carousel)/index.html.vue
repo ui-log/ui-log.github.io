@@ -109,7 +109,17 @@ CDN을 사용해서 손쉽게 라이브러리를 적용할 수 있습니다.</p>
 
   <span class="token keyword">var</span> embla <span class="token operator">=</span> <span class="token function">EmblaCarousel</span><span class="token punctuation">(</span>emblaNode<span class="token punctuation">,</span> options<span class="token punctuation">)</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>그러면 아래와 같이 마우스로 동작가능한 캐러셀이 완성됩니다.</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>그러면 아래와 같이 마우스로 동작가능한 캐러셀이 완성됩니다.</p>
 <img  src="@source/docs/CSS/2022-12-06-HTML-CSS로-자동-슬라이드-캐러셀-만들기(Embla-Carousel)/img/1.gif" width="400"/>
 <h2 id="_5-플러그인-추가" tabindex="-1"><a class="header-anchor" href="#_5-플러그인-추가" aria-hidden="true">#</a> 5. 플러그인 추가</h2>
 <p>자동으로 넘어가는 캐러셀을 만들기 위해서는 플러그인을 사용해야하는데
@@ -143,6 +153,16 @@ CDN을 사용해서 손쉽게 라이브러리를 적용할 수 있습니다.</p>
     </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>그리고 아래 스크립트 부분에 <code v-pre>EmblaCarouselAutoplay()</code>를 EmblaCarousel의 3번째 인자에 넣어주면 아래처럼 자동으로 넘어가는 캐러셀을 만들 수 있습니다.</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>그리고 아래 스크립트 부분에 <code v-pre>EmblaCarouselAutoplay()</code>를 EmblaCarousel의 3번째 인자에 넣어주면 아래처럼 자동으로 넘어가는 캐러셀을 만들 수 있습니다.</p>
 <img  src="@source/docs/CSS/2022-12-06-HTML-CSS로-자동-슬라이드-캐러셀-만들기(Embla-Carousel)/img/2.gif" width="400"/>
 </div></template>

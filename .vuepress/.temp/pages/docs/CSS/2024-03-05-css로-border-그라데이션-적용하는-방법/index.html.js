@@ -7,7 +7,7 @@ export const data = {
     "title": "css로 border 그라데이션 적용하는 방법",
     "description": null,
     "date": "2024-03-05 16:43",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": null
   },
@@ -71,7 +71,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/CSS/2024-03-05-css로-border-그라데이션-적용하는-방법/README.md"
 }

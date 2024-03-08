@@ -2,7 +2,7 @@
 title: nvm 사용해서 node 버전 쉽게 바꾸는 방법
 description:
 date: 2024-02-10 17:09
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Setting
 thumbnail:
 ---

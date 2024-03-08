@@ -7,7 +7,7 @@ export const data = {
     "title": "HTML CSS만 사용해서 슬라이더 만드는 방법",
     "description": "자바스크립트를 사용하지 않고 HTML CSS만 사용해서 슬라이더 캐러셀을 만드는 방법에 대해서 정리했습니다.",
     "date": "2022-12-06T00:00:00.000Z",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/205859319-c23e64c6-d3b3-4c33-8ebd-b6e45efc64f4.png"
   },

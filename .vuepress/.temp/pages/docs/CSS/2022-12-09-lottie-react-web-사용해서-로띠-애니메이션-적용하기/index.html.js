@@ -7,7 +7,7 @@ export const data = {
     "title": "lottie-react-web를 사용해서 로띠 애니메이션 적용하기",
     "description": "lottie-react-web로 리액트 프로젝트에서 로띠 애니메이션을 사용하는 방법에 대해서 정리합니다.",
     "date": "2022-12-09 23:12",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/206723906-9b2f9f8e-8d7b-4290-b9fa-a74427d18ae3.png"
   },

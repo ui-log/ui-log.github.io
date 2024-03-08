@@ -7,7 +7,7 @@ export const data = {
     "title": "HTML 이메일 템플릿 마크업하는 방법",
     "description": "HTML을 이용해 outlook까지 대응 가능한 이메일 템플릿을 직접 마크업하는 방법에 대해서 공유합니다.",
     "date": "2022-12-22 16:08",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": "https://user-images.githubusercontent.com/77398961/209098045-5f2c3cb4-38ec-4f86-9f37-ee467144cb0c.png"
   },

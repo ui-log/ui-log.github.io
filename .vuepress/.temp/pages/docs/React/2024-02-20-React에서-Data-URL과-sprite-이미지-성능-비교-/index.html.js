@@ -7,7 +7,7 @@ export const data = {
     "title": "React에서 Data URL과 sprite 이미지 성능 비교",
     "description": null,
     "date": "2024-02-20 13:08",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "React",
     "thumbnail": null
   },
@@ -58,7 +58,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1708411206000
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/React/2024-02-20-React에서-Data-URL과-sprite-이미지-성능-비교-/README.md"
 }

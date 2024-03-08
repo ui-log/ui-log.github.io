@@ -7,7 +7,7 @@ export const data = {
     "title": "가장 많이 실수하는 CSS attribute Error",
     "description": null,
     "date": "2024-02-10 20:24",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Error",
     "thumbnail": null
   },

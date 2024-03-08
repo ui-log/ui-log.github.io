@@ -7,7 +7,7 @@ export const data = {
     "title": "css :has() 속성 사용법",
     "description": null,
     "date": "2022-12-20 08:44",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": null,
     "disabledPost": true

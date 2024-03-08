@@ -2,7 +2,7 @@
 title: Mac에서 셀레니움 크롬드라이버 버전 이슈 해결방법(This version of ChromeDriver only supports Chrome version)
 description: This version of ChromeDriver only supports Chrome version 이슈 해결 방법에 대해 정리합니다.
 date: 2022-11-24
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Selenium
 thumbnail: https://user-images.githubusercontent.com/46010705/203762036-64948650-64cf-4959-800f-920af237b537.png
 ---
@@ -55,6 +55,18 @@ Current browser version is 107.0.5304.87 with binary path /Applications/Google C
 
 다운로드 받아서 열 때는 우클릭으로 열기를 눌러준다.
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 <img width="259" alt="image" src="https://user-images.githubusercontent.com/46010705/199129197-81f23ba0-442c-4f66-960c-56bd0497a14f.png">
 
 우클릭 후 열기를 눌러주면 위와 같이 나오는데 여기서 열기를 눌러준다.
@@ -69,6 +81,18 @@ cd /usr/local/bin/
 ```
 
 <img width="446" alt="image" src="https://user-images.githubusercontent.com/46010705/199129295-64de6753-bc2d-4c62-82ba-f365c862122a.png">
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 기존 크롬드라이버 제거
 

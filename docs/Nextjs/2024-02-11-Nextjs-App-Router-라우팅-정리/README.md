@@ -2,7 +2,7 @@
 title: Nextjs App Router 라우팅 정리
 description:
 date: 2024-02-11 10:26
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Nextjs
 thumbnail:
 ---
@@ -28,6 +28,18 @@ Next.js 애플리케이션에서 라우트를 정의하는 방법은 파일 시�
 
 라우트 세그먼트를 사용하려면 `page.js`라는 특수 파일을 사용해야 합니다.
 이 파일에 있는 내용들이 사용자에게 보여지는 것입니다.
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ## 3. 파일 확장자
 
@@ -107,6 +119,18 @@ export default function Page() {
 ```
 
 그런 다음, 추가 페이지를 만들려면 새 폴더를 만들고 해당 폴더에 page.js 파일을 추가합니다. 예를 들어, /admin 경로에 대한 페이지를 만들려면 새로운 admin라는 폴더를 만들고 그 안에 page.js 파일을 추가합니다:
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 ```jsx
 // `app/admin/page.tsx`는 `/admin` URL의 UI입니다

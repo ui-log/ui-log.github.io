@@ -7,7 +7,7 @@ export const data = {
     "title": "npx에 대해 알아보기(npm과 차이점)",
     "description": null,
     "date": "2024-02-10 17:29",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Setting",
     "thumbnail": null
   },
@@ -133,7 +133,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/Setting/2024-02-10-npx-npm-차이점/README.md"
 }

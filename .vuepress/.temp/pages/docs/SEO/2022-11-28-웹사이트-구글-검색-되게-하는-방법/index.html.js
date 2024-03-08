@@ -7,7 +7,7 @@ export const data = {
     "title": "내 웹사이트 구글 검색 되게 하는 방법(Search Console)",
     "description": "내가 만든 웹사이트가 구글 검색엔진에 걸려서 검색시 노출되게 하는 방법",
     "date": "2022-11-28 10:00",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "SEO",
     "thumbnail": "https://user-images.githubusercontent.com/46010705/204205306-55dfcb01-dfca-4031-9918-714f88864b3f.png"
   },

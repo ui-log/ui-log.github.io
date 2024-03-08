@@ -7,7 +7,7 @@ export const data = {
     "title": "selenium으로 화면 스크린샷 찍는 방법",
     "description": "셀레니움을 통해서 화면이나 특정 요소를 캡쳐하는 방법에 대해서 정리했습니다.",
     "date": "2022-12-23 14:46",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": "https://user-images.githubusercontent.com/77398961/209280981-1828fbac-6a83-44dd-b286-d7e5e37c8009.png"
   },

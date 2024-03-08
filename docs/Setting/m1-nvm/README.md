@@ -2,7 +2,7 @@
 title: M1 mac에 nvm설치하는 방법
 description: 인텔맥과는 다른 M1 mac nvm 설치방법에 대해서 소개합니다.
 date: 2022-11-13
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Nextjs
 thumbnail: https://user-images.githubusercontent.com/46010705/201511010-39dffa66-7acd-4fae-857a-5ed214f88ee8.png
 ---

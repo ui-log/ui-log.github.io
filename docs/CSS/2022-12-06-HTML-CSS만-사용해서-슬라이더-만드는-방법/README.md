@@ -2,7 +2,7 @@
 title: HTML CSS만 사용해서 슬라이더 만드는 방법
 description: 자바스크립트를 사용하지 않고 HTML CSS만 사용해서 슬라이더 캐러셀을 만드는 방법에 대해서 정리했습니다.
 date: 2022-12-06
-sidebarDepth: 2
+sidebarDepth: 0
 tag: CSS
 thumbnail: https://user-images.githubusercontent.com/46010705/205859319-c23e64c6-d3b3-4c33-8ebd-b6e45efc64f4.png
 ---
@@ -200,6 +200,18 @@ html과 css에서 주의해서 보셔야할 부분 몇가지만 정리해드리�
 
 위 코드를 보면 input요소가 .slide 보다 앞에 위치한 것을 보실 수 있는데요. 이렇게 작성한 이유는 아래와 같이 CSS의 `~` 셀렉터를 이용해야하기 때문입니다.
 
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+
 ```scss
 .radio_button {
   @for $i from 1 to 5 {
@@ -232,6 +244,18 @@ html과 css에서 주의해서 보셔야할 부분 몇가지만 정리해드리�
   transform: translateX(-300%);
 }
 ```
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 scss의 @for문을 이용하면 아래와 같이 작성할 수 있습니다.
 
@@ -279,6 +303,18 @@ scss의 @for문을 이용하면 아래와 같이 작성할 수 있습니다.
 ```
 
 <img src="./img/3.png" width="600"/>
+
+<!-- ui-log 수평형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 
 #### 넘치는 부분 가리기
 

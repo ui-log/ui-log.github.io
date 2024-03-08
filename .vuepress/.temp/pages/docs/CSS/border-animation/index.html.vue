@@ -13,6 +13,16 @@
 <img src="@source/docs/CSS/border-animation/img/rotated_conic_box.gif" alt="4">
 <strong>5. 색깔이 변하는 border 애니메이션</strong>
 <img src="@source/docs/CSS/border-animation/img/hue_box.gif" alt="5"></p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <hr>
 <h2 id="_1-길이가-변하는-border-애니메이션" tabindex="-1"><a class="header-anchor" href="#_1-길이가-변하는-border-애니메이션" aria-hidden="true">#</a> 1. 길이가 변하는 border 애니메이션</h2>
 <p><img src="@source/docs/CSS/border-animation/img/double_border.gif" alt="2">
@@ -58,7 +68,17 @@
     <span class="token property">height</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span>100% + 9px<span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="결과" tabindex="-1"><a class="header-anchor" href="#결과" aria-hidden="true">#</a> 결과</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<h3 id="결과" tabindex="-1"><a class="header-anchor" href="#결과" aria-hidden="true">#</a> 결과</h3>
 <p><code v-pre>::before</code>, <code v-pre>::after</code> 가상 요소의 border와 사이즈를 변경해서 아래와 같은 길이가 변하는 border 애니메이션을 구현할 수 있습니다.</p>
 <iframe height="307.078125" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/13akstjq/embed/yLEgPNe?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/13akstjq/pen/yLEgPNe">
@@ -73,6 +93,16 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="@source/docs/CSS/border-animation/img/dotted-box.png" alt="1"></p>
 <p>하지만 border는 따로 animation을 제공하지 않기 때문에 움직이는 점선 애니메이션을 만들 수 없습니다.
 그렇기 때문에 다른 방법으로 점선을 구현해야 합니다. 점선은 <code v-pre>linear-gradient</code> 로 아래와 같이 구현할 수 있습니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">.dotted_box</span> <span class="token punctuation">{</span>
   <span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>90deg<span class="token punctuation">,</span> #333 50%<span class="token punctuation">,</span> transparent 50%<span class="token punctuation">)</span> 0 0 / 4px 1px repeat-x<span class="token punctuation">,</span> <span class="token comment">/* 상 */</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>90deg<span class="token punctuation">,</span> #333 50%<span class="token punctuation">,</span> transparent 50%<span class="token punctuation">)</span> 0 100% / 4px 1px repeat-x<span class="token punctuation">,</span>
     <span class="token comment">/* 하 */</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> #333 50%<span class="token punctuation">,</span> transparent 50%<span class="token punctuation">)</span> 0 0 / 1px 4px repeat-y<span class="token punctuation">,</span> <span class="token comment">/* 좌 */</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> #333 50%<span class="token punctuation">,</span> transparent 50%<span class="token punctuation">)</span> 100% 0 / 1px 4px repeat-y<span class="token punctuation">;</span> <span class="token comment">/* 우 */</span>
@@ -96,7 +126,17 @@
     <span class="token property">background-position</span><span class="token punctuation">:</span> -4px 0<span class="token punctuation">,</span> 4px 100%<span class="token punctuation">,</span> 0 4px<span class="token punctuation">,</span> 100% -4px<span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="결과-1" tabindex="-1"><a class="header-anchor" href="#결과-1" aria-hidden="true">#</a> 결과</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<h3 id="결과-1" tabindex="-1"><a class="header-anchor" href="#결과-1" aria-hidden="true">#</a> 결과</h3>
 <p>border 속성으로는 지원하지 않지만 <code v-pre>linear-gradient</code>로 아래와 같이 움직이는 점선 애니메이션을 구현할 수 있습니다.</p>
 <iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/13akstjq/embed/zYaNPMR?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/13akstjq/pen/zYaNPMR">
@@ -109,6 +149,16 @@
 가장 먼저 기본적인 css 속성으로 해결할 수 있는지 판단해 볼 텐데요.
 위와 같은 스펙을 지원하는 css 속성은 없으니 다른 방법으로 만들어야겠다는 생각이 듭니다.
 이번에도 테두리만 보이지만 사각형을 활용해 볼 수 있을 것 같습니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">.rotated_box</span> <span class="token punctuation">{</span>
   <span class="token selector">&amp;::before</span> <span class="token punctuation">{</span>
     <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">;</span>
@@ -124,7 +174,17 @@
     <span class="token property">animation</span><span class="token punctuation">:</span> rotate 3s linear infinite<span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/docs/CSS/border-animation/img/rainbow_box.png" alt="3"></p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p><img src="@source/docs/CSS/border-animation/img/rainbow_box.png" alt="3"></p>
 <p><code v-pre>linear-gradient</code> 활용해 <code v-pre>::before</code> 요소에 위와 같이 4개의 사각형을 만들어줍니다.
 그리고 회전을 시켜주면 테두리가 비슷한 모습이 나올 것 같습니다.</p>
 <p><img src="@source/docs/CSS/border-animation/img/rainbow_box2.gif" alt="3"></p>
@@ -154,6 +214,16 @@
   Untitled</a> by 13akstjq (<a href="https://codepen.io/13akstjq">@13akstjq</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <h2 id="_4-빛나는-border-애니메이션" tabindex="-1"><a class="header-anchor" href="#_4-빛나는-border-애니메이션" aria-hidden="true">#</a> 4. 빛나는 border 애니메이션</h2>
 <p><img src="@source/docs/CSS/border-animation/img/rotated_conic_box.gif" alt="4"></p>
 <p>다음으로 만들어 볼 것은 테두리가 빛나는 애니메이션입니다.
@@ -173,6 +243,16 @@
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/docs/CSS/border-animation/img/conic_box1.png" alt="4"></p>
 <p>이제 이 <code v-pre>::before</code> 가상 요소를 무지개 애니메이션 때와 같이 회전시켜주고 <code v-pre>::after</code> 요소를 이용해 내부 컨텐츠를 채워주면 됩니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <h3 id="결과-3" tabindex="-1"><a class="header-anchor" href="#결과-3" aria-hidden="true">#</a> 결과</h3>
 <iframe height="300" style="width: 100%;" scrolling="no" title="conic-box" src="https://codepen.io/13akstjq/embed/GRGrVZg?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/13akstjq/pen/GRGrVZg">
@@ -196,6 +276,16 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/docs/CSS/border-animation/img/gradient-box1.png" alt="5"></p>
 <p>이렇게 그라디언트 border를 적용 했으면 <code v-pre>hue-rotate</code> 속성과 애니메이션으로 색상을 변경해 주면 됩니다.
 <code v-pre>hue-rotate</code>는 각도 값을 넣어주면 되며, 아래 사진과 같은 색상환에 따라서 색상이 노출됩니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token function">hue-ratote</span><span class="token punctuation">(</span>angle<span class="token punctuation">)</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><img src="@source/docs/CSS/border-animation/img/hue-rotate.png" alt="5"></p>
 <h3 id="결과-4" tabindex="-1"><a class="header-anchor" href="#결과-4" aria-hidden="true">#</a> 결과</h3>

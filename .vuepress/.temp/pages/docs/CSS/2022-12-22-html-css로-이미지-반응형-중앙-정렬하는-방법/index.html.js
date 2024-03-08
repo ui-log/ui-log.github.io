@@ -7,7 +7,7 @@ export const data = {
     "title": "html/css로 이미지 수평 수평 중앙 정렬하는 방법",
     "description": "left, transform 속성으로 이미지를 중앙 정렬하는 방법에 대해서 정리합니다.",
     "date": "2023-01-03 23:05",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "CSS",
     "thumbnail": "https://user-images.githubusercontent.com/77398961/210311250-717569a7-fb01-4f9b-a22b-ec57d3d14505.png"
   },

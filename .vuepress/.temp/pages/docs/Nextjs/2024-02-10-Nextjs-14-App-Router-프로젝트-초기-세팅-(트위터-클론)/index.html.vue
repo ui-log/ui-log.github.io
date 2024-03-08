@@ -21,7 +21,17 @@
 <p>node 버전을 손쉽게 변경하는 방법에 대해서는 제가 정리한 <a href="https://ui-log.github.io/docs/Setting/2024-02-10-nvm-%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A2%E1%84%89%E1%85%A5-node-%E1%84%87%E1%85%A5%E1%84%8C%E1%85%A5%E1%86%AB-%E1%84%89%E1%85%B1%E1%86%B8%E1%84%80%E1%85%A6-%E1%84%87%E1%85%A1%E1%84%81%E1%85%AE%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8/" target="_blank" rel="noopener noreferrer">이글<ExternalLinkIcon/></a>에서 확인해보세요!</p>
 <p>아래 명령어를 입력하면 기본 셋팅이 완료된 nextjs 프로젝트를 만들 수 있습니다.</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>npx create-next-app@latest
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>초기 셋팅을 직접 하고싶으시다면 비어있는 프로젝트에 아래 명령어들로 직접 next를 설치하실 수도 있습니다.</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>초기 셋팅을 직접 하고싶으시다면 비어있는 프로젝트에 아래 명령어들로 직접 next를 설치하실 수도 있습니다.</p>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>// <span class="token function">yarn</span> 사용시
 <span class="token function">yarn</span> <span class="token function">add</span> next@latest react@latest react-dom@latest
 

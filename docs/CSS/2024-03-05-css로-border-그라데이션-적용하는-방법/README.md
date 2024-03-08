@@ -2,7 +2,7 @@
 title: css로 border 그라데이션 적용하는 방법
 description:
 date: 2024-03-05 16:43
-sidebarDepth: 2
+sidebarDepth: 0
 tag: CSS
 thumbnail:
 ---

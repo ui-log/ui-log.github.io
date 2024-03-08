@@ -5,9 +5,9 @@ export const data = {
   "lang": "ko",
   "frontmatter": {
     "title": "console log 제대로 알고 사용하기",
-    "description": null,
+    "description": "이 글은 JavaScript에서 console.log() 메서드를 올바르게 활용하는 방법에 대해 소개합니다.",
     "date": "2024-03-05 19:08",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Library",
     "thumbnail": null
   },
@@ -69,7 +69,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709633784000
   },
   "filePathRelative": "docs/Library/2024-03-05-console-log-제대로-알고-사용하기/README.md"
 }

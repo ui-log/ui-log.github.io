@@ -171,7 +171,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Tech/2024-03-05-2024년도-AI-개발-최신-로드맵/README.md"
 }

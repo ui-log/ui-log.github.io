@@ -33,7 +33,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1708410410000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Error/2024-02-10-Html-Unclosedtag-encoundtered-Error-해결방법/README.md"
 }

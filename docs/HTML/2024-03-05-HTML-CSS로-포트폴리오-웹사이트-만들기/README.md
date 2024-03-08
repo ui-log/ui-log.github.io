@@ -487,8 +487,6 @@ margin-bottom: 2rem;
 }
 ```
 
-결과물을 보세요!
-
 <!-- ui-log 수평형 -->
 
 <ins class="adsbygoogle"

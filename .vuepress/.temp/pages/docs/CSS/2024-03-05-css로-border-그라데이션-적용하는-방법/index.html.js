@@ -71,7 +71,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1709633784000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/CSS/2024-03-05-css로-border-그라데이션-적용하는-방법/README.md"
 }

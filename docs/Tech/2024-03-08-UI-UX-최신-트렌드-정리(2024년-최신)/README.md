@@ -1,8 +1,8 @@
 ---
 title: UI UX 최신 트렌드 정리(2024년 최신)
-description:
+description: 2024년도 UI/UX 최신 트렌드에 대해서 정리해보았습니다.
 date: 2024-03-08 19:01
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Tech
 thumbnail:
 ---

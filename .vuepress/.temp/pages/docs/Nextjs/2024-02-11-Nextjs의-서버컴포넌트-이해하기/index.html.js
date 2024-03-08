@@ -58,7 +58,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1708410410000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Nextjs/2024-02-11-Nextjs의-서버컴포넌트-이해하기/README.md"
 }

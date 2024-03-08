@@ -81,7 +81,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Tech/2024-03-05-api-보안-방법-정리/README.md"
 }

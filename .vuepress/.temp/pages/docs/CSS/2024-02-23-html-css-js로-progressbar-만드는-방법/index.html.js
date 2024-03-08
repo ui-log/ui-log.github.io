@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1709633784000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/CSS/2024-02-23-html-css-js로-progressbar-만드는-방법/README.md"
 }

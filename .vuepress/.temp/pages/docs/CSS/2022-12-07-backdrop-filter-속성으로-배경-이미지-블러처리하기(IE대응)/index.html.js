@@ -33,7 +33,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1708410410000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/CSS/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기(IE대응)/README.md"
 }

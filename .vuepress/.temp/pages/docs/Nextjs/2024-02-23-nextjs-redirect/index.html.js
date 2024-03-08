@@ -64,7 +64,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1709633784000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Nextjs/2024-02-23-nextjs-redirect/README.md"
 }

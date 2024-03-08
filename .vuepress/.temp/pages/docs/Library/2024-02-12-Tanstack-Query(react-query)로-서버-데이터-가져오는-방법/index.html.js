@@ -51,7 +51,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1708410410000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Library/2024-02-12-Tanstack-Query(react-query)로-서버-데이터-가져오는-방법/README.md"
 }

@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Editor/2024-03-05-꼭-설치해야하는-Vscode-extension-10가지/README.md"
 }

@@ -133,7 +133,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1709633784000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Setting/2024-02-10-npx-npm-차이점/README.md"
 }

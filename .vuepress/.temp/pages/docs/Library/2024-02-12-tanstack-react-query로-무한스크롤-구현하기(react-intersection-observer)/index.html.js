@@ -39,7 +39,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1708410410000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Library/2024-02-12-tanstack-react-query로-무한스크롤-구현하기(react-intersection-observer)/README.md"
 }

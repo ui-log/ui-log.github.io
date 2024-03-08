@@ -58,7 +58,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1708410410000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/CSS/2022-12-22-HTML-이메일-템플릿-마크업하는-방법/README.md"
 }

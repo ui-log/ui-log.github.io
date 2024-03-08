@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Tech/2024-03-05-2024년도-최신-웹-개발-트렌드-정리/README.md"
 }

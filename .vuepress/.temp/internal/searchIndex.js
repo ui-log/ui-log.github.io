@@ -14,34 +14,116 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "unsplash API 사용해서 랜덤 사진 불러오는 방법",
+    "title": "AI로 서비스를 만든다면 반드시 알아야하는 AI도구 5가지",
     "headers": [
       {
-        "level": 3,
-        "title": "unsplash source API",
-        "slug": "unsplash-source-api",
+        "level": 2,
+        "title": "먼저, 판매 퍼널이란 무엇일까요?",
+        "slug": "먼저-판매-퍼널이란-무엇일까요",
         "children": []
       },
       {
-        "level": 3,
-        "title": "API",
-        "slug": "api",
+        "level": 2,
+        "title": "그러나 왜 판매 퍼널이 이렇게 중요한가요?",
+        "slug": "그러나-왜-판매-퍼널이-이렇게-중요한가요",
         "children": []
       },
       {
-        "level": 3,
-        "title": "unsplash New API (2022년 최신)",
-        "slug": "unsplash-new-api-2022년-최신",
+        "level": 2,
+        "title": "단계 1 — 인식",
+        "slug": "단계-1-—-인식",
         "children": []
       },
       {
-        "level": 3,
-        "title": "3. 앱 생성",
-        "slug": "_3-앱-생성",
+        "level": 2,
+        "title": "도구 —",
+        "slug": "도구-—",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "단계 2 — 관심",
+        "slug": "단계-2-—-관심",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "단계 3 — 욕망",
+        "slug": "단계-3-—-욕망",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "단계 4 — 행동",
+        "slug": "단계-4-—-행동",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "단계 5 — 충성",
+        "slug": "단계-5-—-충성",
         "children": []
       }
     ],
-    "path": "/docs/API/2022-11-24-unsplash-API-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%9E%9C%EB%8D%A4-%EC%82%AC%EC%A7%84-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0/",
+    "path": "/docs/AI/2024-03-08-%EB%8B%B9%EC%8B%A0%EB%A7%8C%EC%9D%98-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%9C%84%ED%95%9C-AI-%EB%8F%84%EA%B5%AC-5%EA%B0%80%EC%A7%80-2024%EB%85%84/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "당신의 작업속도를 대폭 줄여줄 AI기반 크롬 확장프로그램 10가지",
+    "headers": [],
+    "path": "/docs/AI/2024-03-08-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EC%9E%91%EC%97%85%EC%86%8D%EB%8F%84%EB%A5%BC-%EB%8C%80%ED%8F%AD-%EC%A4%84%EC%97%AC%EC%A4%84-AI%EA%B8%B0%EB%B0%98-%ED%81%AC%EB%A1%AC-%ED%99%95%EC%9E%A5%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-10%EA%B0%80%EC%A7%80-/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "AI 서비스 5가지로 5분만에 숏폼 비디오 만들기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "먼저, 숏폼 비디오를 왜 해야할까?",
+        "slug": "먼저-숏폼-비디오를-왜-해야할까",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1. Biteable",
+        "slug": "_1-biteable",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. VEED IO",
+        "slug": "_2-veed-io",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. QuickVid",
+        "slug": "_3-quickvid",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. OpusClip",
+        "slug": "_4-opusclip",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. Steve AI",
+        "slug": "_5-steve-ai",
+        "children": []
+      }
+    ],
+    "path": "/docs/AI/2024-03-08-%EC%88%8F%ED%8F%BC-%EB%B9%84%EB%94%94%EC%98%A4%EB%A5%BC-5%EB%B6%84%EB%A7%8C%EC%97%90-%EB%A7%8C%EB%93%A4-%EC%88%98-%EC%9E%88%EB%8A%94-AI-%EC%84%9C%EB%B9%84%EC%8A%A4-5%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "크리에이터를 위한 필수 AI 서비스 5가지",
+    "headers": [],
+    "path": "/docs/AI/2024-03-08-%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%ED%84%B0%EB%9D%BC%EB%A9%B4-%EC%95%8C%EC%95%84%EC%95%BC%ED%95%98%EB%8A%94-AI-%EC%84%9C%EB%B9%84%EC%8A%A4-5%EA%B0%80%EC%A7%80/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -62,165 +144,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/API/2022-12-19-Slack-API-%EC%82%AC%EC%9A%A9%EB%B2%95-(2022%EC%B5%9C%EC%8B%A0)/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "github repository에 remote origin 연결하는 방법",
-    "headers": [],
-    "path": "/docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Git Clone Repository not found 에러 해결 방법",
-    "headers": [],
-    "path": "/docs/Git/2024-02-20-Git-Clone-Repository-not-found-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "VScode에 숨겨진 꿀팁 및 트릭 10가지",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 타임라인 뷰: 로컬 소스 제어",
-        "slug": "_1-타임라인-뷰-로컬-소스-제어",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 자동 저장: 더 이상 Ctrl + S를 누를 필요 없음",
-        "slug": "_2-자동-저장-더-이상-ctrl-s를-누를-필요-없음",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 명령 팔레트로 모든 작업 수행",
-        "slug": "_3-명령-팔레트로-모든-작업-수행",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 빠르게 파일로 이동",
-        "slug": "_4-빠르게-파일로-이동",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 빠르게 줄로 이동",
-        "slug": "_5-빠르게-줄로-이동",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6. 빠르게 줄 삭제",
-        "slug": "_6-빠르게-줄-삭제",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7. 부드러운 커서로 타이핑 즐기기",
-        "slug": "_7-부드러운-커서로-타이핑-즐기기",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8. 코드 빠르게 서식 지정",
-        "slug": "_8-코드-빠르게-서식-지정",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9. 다중 커서 편집으로 시간 절약",
-        "slug": "_9-다중-커서-편집으로-시간-절약",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10. 빠르게 새 폴더/파일 생성",
-        "slug": "_10-빠르게-새-폴더-파일-생성",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/Editor/2024-03-05-VScode%EC%97%90-%EC%88%A8%EA%B2%A8%EC%A7%84-%EA%BF%80%ED%8C%81-%EB%B0%8F-%ED%8A%B8%EB%A6%AD-10%EA%B0%80%EC%A7%80/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "꼭 설치해야하는 VS Code 확장 프로그램 10가지",
-    "headers": [],
-    "path": "/docs/Editor/2024-03-05-%EA%BC%AD-%EC%84%A4%EC%B9%98%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-Vscode-extension-10%EA%B0%80%EC%A7%80/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Html Unclosedtag encoundtered Error 해결방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "에러 메세지",
-        "slug": "에러-메세지",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "에러 원인",
-        "slug": "에러-원인",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "해결 방법",
-        "slug": "해결-방법",
-        "children": []
-      }
-    ],
-    "path": "/docs/Error/2024-02-10-Html-Unclosedtag-encoundtered-Error-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "가장 많이 실수하는 CSS attribute Error",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. css 속성이 누락된 경우",
-        "slug": "_1-css-속성이-누락된-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 사용되지 않는 css 속성을 사용한 경우",
-        "slug": "_2-사용되지-않는-css-속성을-사용한-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. css 속성에 올바르지 않은 값을 넣었을 경우",
-        "slug": "_3-css-속성에-올바르지-않은-값을-넣었을-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. css 속성에 잘못된 문자열을 포함했을 경우",
-        "slug": "_4-css-속성에-잘못된-문자열을-포함했을-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 하나의 태그에 중복된 속성을 사용했을 때 발생하는 에러",
-        "slug": "_5-하나의-태그에-중복된-속성을-사용했을-때-발생하는-에러",
-        "children": []
-      }
-    ],
-    "path": "/docs/Error/2024-02-10-%EA%B0%80%EC%9E%A5-%EB%A7%8E%EC%9D%B4-%EC%8B%A4%EC%88%98%ED%95%98%EB%8A%94-CSS-attribute-Error/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -299,6 +222,38 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "unsplash API 사용해서 랜덤 사진 불러오는 방법",
+    "headers": [
+      {
+        "level": 3,
+        "title": "unsplash source API",
+        "slug": "unsplash-source-api",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "API",
+        "slug": "api",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "unsplash New API (2022년 최신)",
+        "slug": "unsplash-new-api-2022년-최신",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3. 앱 생성",
+        "slug": "_3-앱-생성",
+        "children": []
+      }
+    ],
+    "path": "/docs/API/2022-11-24-unsplash-API-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%9E%9C%EB%8D%A4-%EC%82%AC%EC%A7%84-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -445,6 +400,26 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "html/css로 이미지 수평 수평 중앙 정렬하는 방법",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1. 전체 레이아웃이 고정 너비를 가지는 경우",
+        "slug": "_1-전체-레이아웃이-고정-너비를-가지는-경우",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2. wrapper의 사이즈에 상관 없는 정렬방법",
+        "slug": "_2-wrapper의-사이즈에-상관-없는-정렬방법",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2022-12-22-html-css%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-%EC%A4%91%EC%95%99-%EC%A0%95%EB%A0%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "HTML 이메일 템플릿 마크업하는 방법",
     "headers": [
       {
@@ -492,26 +467,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-22-HTML-%EC%9D%B4%EB%A9%94%EC%9D%BC-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%A7%88%ED%81%AC%EC%97%85%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "html/css로 이미지 수평 수평 중앙 정렬하는 방법",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1. 전체 레이아웃이 고정 너비를 가지는 경우",
-        "slug": "_1-전체-레이아웃이-고정-너비를-가지는-경우",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2. wrapper의 사이즈에 상관 없는 정렬방법",
-        "slug": "_2-wrapper의-사이즈에-상관-없는-정렬방법",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2022-12-22-html-css%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-%EC%A4%91%EC%95%99-%EC%A0%95%EB%A0%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -945,6 +900,165 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "VScode에 숨겨진 꿀팁 및 트릭 10가지",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 타임라인 뷰: 로컬 소스 제어",
+        "slug": "_1-타임라인-뷰-로컬-소스-제어",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 자동 저장: 더 이상 Ctrl + S를 누를 필요 없음",
+        "slug": "_2-자동-저장-더-이상-ctrl-s를-누를-필요-없음",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 명령 팔레트로 모든 작업 수행",
+        "slug": "_3-명령-팔레트로-모든-작업-수행",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 빠르게 파일로 이동",
+        "slug": "_4-빠르게-파일로-이동",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 빠르게 줄로 이동",
+        "slug": "_5-빠르게-줄로-이동",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6. 빠르게 줄 삭제",
+        "slug": "_6-빠르게-줄-삭제",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7. 부드러운 커서로 타이핑 즐기기",
+        "slug": "_7-부드러운-커서로-타이핑-즐기기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8. 코드 빠르게 서식 지정",
+        "slug": "_8-코드-빠르게-서식-지정",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9. 다중 커서 편집으로 시간 절약",
+        "slug": "_9-다중-커서-편집으로-시간-절약",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10. 빠르게 새 폴더/파일 생성",
+        "slug": "_10-빠르게-새-폴더-파일-생성",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/Editor/2024-03-05-VScode%EC%97%90-%EC%88%A8%EA%B2%A8%EC%A7%84-%EA%BF%80%ED%8C%81-%EB%B0%8F-%ED%8A%B8%EB%A6%AD-10%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "꼭 설치해야하는 VS Code 확장 프로그램 10가지",
+    "headers": [],
+    "path": "/docs/Editor/2024-03-05-%EA%BC%AD-%EC%84%A4%EC%B9%98%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-Vscode-extension-10%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Html Unclosedtag encoundtered Error 해결방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "에러 메세지",
+        "slug": "에러-메세지",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "에러 원인",
+        "slug": "에러-원인",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "해결 방법",
+        "slug": "해결-방법",
+        "children": []
+      }
+    ],
+    "path": "/docs/Error/2024-02-10-Html-Unclosedtag-encoundtered-Error-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "가장 많이 실수하는 CSS attribute Error",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. css 속성이 누락된 경우",
+        "slug": "_1-css-속성이-누락된-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 사용되지 않는 css 속성을 사용한 경우",
+        "slug": "_2-사용되지-않는-css-속성을-사용한-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. css 속성에 올바르지 않은 값을 넣었을 경우",
+        "slug": "_3-css-속성에-올바르지-않은-값을-넣었을-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. css 속성에 잘못된 문자열을 포함했을 경우",
+        "slug": "_4-css-속성에-잘못된-문자열을-포함했을-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 하나의 태그에 중복된 속성을 사용했을 때 발생하는 에러",
+        "slug": "_5-하나의-태그에-중복된-속성을-사용했을-때-발생하는-에러",
+        "children": []
+      }
+    ],
+    "path": "/docs/Error/2024-02-10-%EA%B0%80%EC%9E%A5-%EB%A7%8E%EC%9D%B4-%EC%8B%A4%EC%88%98%ED%95%98%EB%8A%94-CSS-attribute-Error/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "github repository에 remote origin 연결하는 방법",
+    "headers": [],
+    "path": "/docs/Git/2022-11-25-github-repository%EC%97%90-remote-origin-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Git Clone Repository not found 에러 해결 방법",
+    "headers": [],
+    "path": "/docs/Git/2024-02-20-Git-Clone-Repository-not-found-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "HTML CSS로 네온사인 버튼 만드는 방법",
     "headers": [],
     "path": "/docs/HTML/2024-03-05-HTML-CSS%EB%A1%9C-%EB%84%A4%EC%98%A8%EC%82%AC%EC%9D%B8-%EB%B2%84%ED%8A%BC-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
@@ -1131,6 +1245,13 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/HTML/2024-03-05-%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4-%EC%9C%A0%EC%9A%A9%ED%95%9C-HTML5-%EC%86%8D%EC%84%B1-15%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML CSS로 퀴즈 앱 만들기",
+    "headers": [],
+    "path": "/docs/HTML/2024-03-08-HTML-CSS-%EB%A1%9C-%ED%80%B4%EC%A6%88%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1614,6 +1735,26 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Library/2024-03-06-2024%EB%85%84-%EA%B0%80%EC%9E%A5-%EC%9D%B8%EA%B8%B0%EC%9E%88%EB%8A%94-css-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-5%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "웹 개발자가 알아두면 좋은 리소스 웹 사이트 100가지 (2024년 반영)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "개발 레퍼런스 웹사이트",
+        "slug": "개발-레퍼런스-웹사이트",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "유튜브 채널",
+        "slug": "유튜브-채널",
+        "children": []
+      }
+    ],
+    "path": "/docs/Library/2024-03-08-%EC%9B%B9-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EB%A6%AC%EC%86%8C%EC%8A%A4-%EC%82%AC%EC%9D%B4%ED%8A%B8-100%EA%B0%80%EC%A7%80/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2689,6 +2830,102 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "vuepress 블로그 구글애널리틱스 적용하기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 설정 추가",
+        "slug": "_1-설정-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 사이트 적용",
+        "slug": "_2-사이트-적용",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. vuepress 설정",
+        "slug": "_3-vuepress-설정",
+        "children": []
+      }
+    ],
+    "path": "/docs/Vuepress/2022-12-19-vuepress-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EA%B8%80%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
+    "headers": [],
+    "path": "/docs/Vuepress/hits/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vuepress 로 GitHub pages 에 사이트 호스팅 하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "github 저장소 생성",
+        "slug": "github-저장소-생성",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "vuepress 설치",
+        "slug": "vuepress-설치",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Npm 설치",
+            "slug": "_1-npm-설치",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. vuepress 설치",
+            "slug": "_2-vuepress-설치",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 포스트 작성",
+            "slug": "_3-포스트-작성",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. Package.json 작성",
+            "slug": "_4-package-json-작성",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. vuepress 설정",
+            "slug": "_5-vuepress-설정",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6. 로컬 실행",
+            "slug": "_6-로컬-실행",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7. GitHub pages 호스팅",
+            "slug": "_7-github-pages-호스팅",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Vuepress/vuepress-hosting/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "2024년도 AI 개발 최신 로드맵",
     "headers": [
       {
@@ -3185,98 +3422,28 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "vuepress 블로그 구글애널리틱스 적용하기",
+    "title": "애플 IOS17에 추가된 새로운 UI UX 디자인",
     "headers": [
       {
         "level": 2,
-        "title": "1. 설정 추가",
-        "slug": "_1-설정-추가",
+        "title": "몰입감",
+        "slug": "몰입감",
         "children": []
       },
       {
         "level": 2,
-        "title": "2. 사이트 적용",
-        "slug": "_2-사이트-적용",
+        "title": "물리적인 감각",
+        "slug": "물리적인-감각",
         "children": []
       },
       {
         "level": 2,
-        "title": "3. vuepress 설정",
-        "slug": "_3-vuepress-설정",
+        "title": "완전히 새로운 정교한 동작 수준",
+        "slug": "완전히-새로운-정교한-동작-수준",
         "children": []
       }
     ],
-    "path": "/docs/Vuepress/2022-12-19-vuepress-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EA%B8%80%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
-    "headers": [],
-    "path": "/docs/Vuepress/hits/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vuepress 로 GitHub pages 에 사이트 호스팅 하는 방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "github 저장소 생성",
-        "slug": "github-저장소-생성",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "vuepress 설치",
-        "slug": "vuepress-설치",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Npm 설치",
-            "slug": "_1-npm-설치",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. vuepress 설치",
-            "slug": "_2-vuepress-설치",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 포스트 작성",
-            "slug": "_3-포스트-작성",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. Package.json 작성",
-            "slug": "_4-package-json-작성",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5. vuepress 설정",
-            "slug": "_5-vuepress-설정",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6. 로컬 실행",
-            "slug": "_6-로컬-실행",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7. GitHub pages 호스팅",
-            "slug": "_7-github-pages-호스팅",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Vuepress/vuepress-hosting/",
+    "path": "/docs/Tech/2024-03-08-%EC%95%A0%ED%94%8C-IOS17%EC%97%90-%EC%B6%94%EA%B0%80%EB%90%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-UI-UX-%EB%94%94%EC%9E%90%EC%9D%B8/",
     "pathLocale": "/",
     "extraFields": []
   },

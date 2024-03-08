@@ -45,7 +45,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Tech/2024-03-05-Tailwind-vs-CSS-비교-정리/README.md"
 }

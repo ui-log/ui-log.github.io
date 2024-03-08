@@ -89,7 +89,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Tech/2024-03-05-모바일웹,-웹앱,-하이브리드앱,-네이티브앱-비교-정리/README.md"
 }

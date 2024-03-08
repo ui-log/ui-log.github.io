@@ -45,7 +45,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1708410410000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Error/2024-02-10-가장-많이-실수하는-CSS-attribute-Error/README.md"
 }

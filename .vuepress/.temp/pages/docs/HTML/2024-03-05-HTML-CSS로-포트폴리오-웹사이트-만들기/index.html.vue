@@ -373,8 +373,7 @@
   <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
   <span class="token property">margin-bottom</span><span class="token punctuation">:</span> 2rem<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>결과물을 보세요!</p>
-<!-- ui-log 수평형 -->
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"

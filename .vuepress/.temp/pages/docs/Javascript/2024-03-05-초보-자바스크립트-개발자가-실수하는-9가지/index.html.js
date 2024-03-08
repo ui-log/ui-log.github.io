@@ -69,7 +69,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1709633784000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Javascript/2024-03-05-초보-자바스크립트-개발자가-실수하는-9가지/README.md"
 }

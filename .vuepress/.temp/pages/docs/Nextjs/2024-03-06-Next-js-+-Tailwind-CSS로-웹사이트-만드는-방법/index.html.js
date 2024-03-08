@@ -63,7 +63,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Nextjs/2024-03-06-Next-js-+-Tailwind-CSS로-웹사이트-만드는-방법/README.md"
 }

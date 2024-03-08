@@ -105,7 +105,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1709633784000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/HTML/2024-03-05-알아두면-유용한-HTML5-속성-15가지/README.md"
 }

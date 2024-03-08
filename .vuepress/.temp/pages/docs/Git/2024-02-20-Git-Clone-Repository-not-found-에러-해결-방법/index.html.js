@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1709633784000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Git/2024-02-20-Git-Clone-Repository-not-found-에러-해결-방법/README.md"
 }

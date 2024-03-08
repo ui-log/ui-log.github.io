@@ -5,9 +5,9 @@ export const data = {
   "lang": "ko",
   "frontmatter": {
     "title": "더 인정받는 웹 디자인을 하는 방법",
-    "description": null,
+    "description": "웹 디자인을 할 때 완벽하게 디자인 하는 방법에 대해서 정리했습니다.",
     "date": "2024-03-08 19:03",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Tech",
     "thumbnail": null
   },
@@ -76,7 +76,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Tech/2024-03-08-더-인정받는-웹-디자인을-하는-방법/README.md"
 }

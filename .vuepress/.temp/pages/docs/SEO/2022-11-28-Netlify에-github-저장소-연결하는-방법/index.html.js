@@ -21,7 +21,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1708410410000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/SEO/2022-11-28-Netlify에-github-저장소-연결하는-방법/README.md"
 }

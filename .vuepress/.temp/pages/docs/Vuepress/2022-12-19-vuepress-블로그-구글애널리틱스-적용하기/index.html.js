@@ -33,7 +33,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1708410410000
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Vuepress/2022-12-19-vuepress-블로그-구글애널리틱스-적용하기/README.md"
 }

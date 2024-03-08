@@ -5,9 +5,9 @@ export const data = {
   "lang": "ko",
   "frontmatter": {
     "title": "UI UX 최신 트렌드 정리(2024년 최신)",
-    "description": null,
+    "description": "2024년도 UI/UX 최신 트렌드에 대해서 정리해보았습니다.",
     "date": "2024-03-08 19:01",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Tech",
     "thumbnail": null
   },
@@ -69,7 +69,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1709893134000
   },
   "filePathRelative": "docs/Tech/2024-03-08-UI-UX-최신-트렌드-정리(2024년-최신)/README.md"
 }

@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1709907022000
+    "updatedTime": 1710050789000
   },
   "filePathRelative": "docs/AI/2024-03-08-크리에이터라면-알아야하는-AI-서비스-5가지/README.md"
 }

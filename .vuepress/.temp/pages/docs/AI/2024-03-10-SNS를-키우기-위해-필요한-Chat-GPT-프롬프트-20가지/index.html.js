@@ -135,7 +135,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710050789000
   },
   "filePathRelative": "docs/AI/2024-03-10-SNS를-키우기-위해-필요한-Chat-GPT-프롬프트-20가지/README.md"
 }

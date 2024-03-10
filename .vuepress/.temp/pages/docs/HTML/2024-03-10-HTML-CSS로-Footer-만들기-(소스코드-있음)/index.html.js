@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710050789000
   },
   "filePathRelative": "docs/HTML/2024-03-10-HTML-CSS로-Footer-만들기-(소스코드-있음)/README.md"
 }

@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710050789000
   },
   "filePathRelative": "docs/Tech/2024-03-10-코딩-공부하기에-좋은-사이트-및-유튜브-10가지/README.md"
 }

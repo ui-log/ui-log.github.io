@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710050789000
   },
   "filePathRelative": "docs/React/2024-03-10-React-Native로-레이아웃-잡는-장법/README.md"
 }

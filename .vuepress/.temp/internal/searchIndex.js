@@ -308,6 +308,87 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "VScode에 숨겨진 꿀팁 및 트릭 10가지",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 타임라인 뷰: 로컬 소스 제어",
+        "slug": "_1-타임라인-뷰-로컬-소스-제어",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 자동 저장: 더 이상 Ctrl + S를 누를 필요 없음",
+        "slug": "_2-자동-저장-더-이상-ctrl-s를-누를-필요-없음",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 명령 팔레트로 모든 작업 수행",
+        "slug": "_3-명령-팔레트로-모든-작업-수행",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 빠르게 파일로 이동",
+        "slug": "_4-빠르게-파일로-이동",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 빠르게 줄로 이동",
+        "slug": "_5-빠르게-줄로-이동",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6. 빠르게 줄 삭제",
+        "slug": "_6-빠르게-줄-삭제",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7. 부드러운 커서로 타이핑 즐기기",
+        "slug": "_7-부드러운-커서로-타이핑-즐기기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8. 코드 빠르게 서식 지정",
+        "slug": "_8-코드-빠르게-서식-지정",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9. 다중 커서 편집으로 시간 절약",
+        "slug": "_9-다중-커서-편집으로-시간-절약",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10. 빠르게 새 폴더/파일 생성",
+        "slug": "_10-빠르게-새-폴더-파일-생성",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/Editor/2024-03-05-VScode%EC%97%90-%EC%88%A8%EA%B2%A8%EC%A7%84-%EA%BF%80%ED%8C%81-%EB%B0%8F-%ED%8A%B8%EB%A6%AD-10%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "꼭 설치해야하는 VS Code 확장 프로그램 10가지",
+    "headers": [],
+    "path": "/docs/Editor/2024-03-05-%EA%BC%AD-%EC%84%A4%EC%B9%98%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-Vscode-extension-10%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "CSS 말줄임 처리 방법 (mixin 공유)",
     "headers": [
       {
@@ -1109,87 +1190,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "VScode에 숨겨진 꿀팁 및 트릭 10가지",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 타임라인 뷰: 로컬 소스 제어",
-        "slug": "_1-타임라인-뷰-로컬-소스-제어",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 자동 저장: 더 이상 Ctrl + S를 누를 필요 없음",
-        "slug": "_2-자동-저장-더-이상-ctrl-s를-누를-필요-없음",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 명령 팔레트로 모든 작업 수행",
-        "slug": "_3-명령-팔레트로-모든-작업-수행",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 빠르게 파일로 이동",
-        "slug": "_4-빠르게-파일로-이동",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 빠르게 줄로 이동",
-        "slug": "_5-빠르게-줄로-이동",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6. 빠르게 줄 삭제",
-        "slug": "_6-빠르게-줄-삭제",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7. 부드러운 커서로 타이핑 즐기기",
-        "slug": "_7-부드러운-커서로-타이핑-즐기기",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8. 코드 빠르게 서식 지정",
-        "slug": "_8-코드-빠르게-서식-지정",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9. 다중 커서 편집으로 시간 절약",
-        "slug": "_9-다중-커서-편집으로-시간-절약",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10. 빠르게 새 폴더/파일 생성",
-        "slug": "_10-빠르게-새-폴더-파일-생성",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/Editor/2024-03-05-VScode%EC%97%90-%EC%88%A8%EA%B2%A8%EC%A7%84-%EA%BF%80%ED%8C%81-%EB%B0%8F-%ED%8A%B8%EB%A6%AD-10%EA%B0%80%EC%A7%80/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "꼭 설치해야하는 VS Code 확장 프로그램 10가지",
-    "headers": [],
-    "path": "/docs/Editor/2024-03-05-%EA%BC%AD-%EC%84%A4%EC%B9%98%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-Vscode-extension-10%EA%B0%80%EC%A7%80/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Html Unclosedtag encoundtered Error 해결방법",
     "headers": [
       {
@@ -1264,13 +1264,6 @@ export const searchIndex = [
     "title": "Git Clone Repository not found 에러 해결 방법",
     "headers": [],
     "path": "/docs/Git/2024-02-20-Git-Clone-Repository-not-found-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "HTML CSS로 네온사인 버튼 만드는 방법",
-    "headers": [],
-    "path": "/docs/HTML/2024-03-05-HTML-CSS%EB%A1%9C-%EB%84%A4%EC%98%A8%EC%82%AC%EC%9D%B8-%EB%B2%84%ED%8A%BC-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1356,6 +1349,13 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/HTML/2024-03-05-Html-CSS%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EB%88%88-%EB%B2%84%ED%8A%BC-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML CSS로 퀴즈 앱 만들기",
+    "headers": [],
+    "path": "/docs/HTML/2024-03-08-HTML-CSS-%EB%A1%9C-%ED%80%B4%EC%A6%88%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1454,13 +1454,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/HTML/2024-03-05-%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4-%EC%9C%A0%EC%9A%A9%ED%95%9C-HTML5-%EC%86%8D%EC%84%B1-15%EA%B0%80%EC%A7%80/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "HTML CSS로 퀴즈 앱 만들기",
-    "headers": [],
-    "path": "/docs/HTML/2024-03-08-HTML-CSS-%EB%A1%9C-%ED%80%B4%EC%A6%88%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1602,6 +1595,13 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Library/2022-12-09-html2canvas%EB%A1%9C-html-%EC%9A%94%EC%86%8C-%EC%BA%A1%EC%B3%90%ED%95%B4%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A1%9C-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%9B%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML CSS로 네온사인 버튼 만드는 방법",
+    "headers": [],
+    "path": "/docs/HTML/2024-03-05-HTML-CSS%EB%A1%9C-%EB%84%A4%EC%98%A8%EC%82%AC%EC%9D%B8-%EB%B2%84%ED%8A%BC-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1996,6 +1996,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Nextjs build 에러 해결 방법 (Only set one of children or props.dangerouslySetInnerHTML react/no-danger-with-children)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "해결방법",
+        "slug": "해결방법",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/2022-11-25-Nextjs-build-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Nextjs Static HTML 사이트 배포하는 방법 (feat. Netlify)",
     "headers": [
       {
@@ -2034,20 +2048,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Nextjs build 에러 해결 방법 (Only set one of children or props.dangerouslySetInnerHTML react/no-danger-with-children)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "해결방법",
-        "slug": "해결방법",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/2022-11-25-Nextjs-build-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "React Hook useEffect has missing dependencies 해결 방법(exhaustive-deps Warning)",
     "headers": [
       {
@@ -2078,69 +2078,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Nextjs/2024-02-10-Nextjs-14-App-Router-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B4%88%EA%B8%B0-%EC%84%B8%ED%8C%85-(%ED%8A%B8%EC%9C%84%ED%84%B0-%ED%81%B4%EB%A1%A0)/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Nextjs App Router 라우팅 정리",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 폴더 구조",
-        "slug": "_1-폴더-구조",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 라우트 세그먼트용 특수 파일",
-        "slug": "_2-라우트-세그먼트용-특수-파일",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 파일 확장자",
-        "slug": "_3-파일-확장자",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. UI 만들기",
-        "slug": "_4-ui-만들기",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 라우트 만들기",
-            "slug": "_1-라우트-만들기",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. UI 정의",
-            "slug": "_2-ui-정의",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "index 페이지 만들기",
-        "slug": "index-페이지-만들기",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "레이아웃",
-        "slug": "레이아웃",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "레이아웃 중첩",
-        "slug": "레이아웃-중첩",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/2024-02-11-Nextjs-App-Router-%EB%9D%BC%EC%9A%B0%ED%8C%85-%EC%A0%95%EB%A6%AC/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2349,50 +2286,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Nextjs의 에러 처리 방법",
-    "headers": [
-      {
-        "level": 3,
-        "title": "error.js 동작 방식",
-        "slug": "error-js-동작-방식",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "에러에서 복구하기",
-        "slug": "에러에서-복구하기",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "중첩된 경로",
-        "slug": "중첩된-경로",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "레이아웃에서의 오류 처리",
-        "slug": "레이아웃에서의-오류-처리",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "루트",
-        "slug": "루트",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "서버 오류 처리",
-        "slug": "서버-오류-처리",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/2024-02-23-nextjs-errorhandling/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Nextjs에서 서버, 클라이언트 컴포넌트 redirect 처리하는 방법",
     "headers": [
       {
@@ -2450,6 +2343,50 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Nextjs의 에러 처리 방법",
+    "headers": [
+      {
+        "level": 3,
+        "title": "error.js 동작 방식",
+        "slug": "error-js-동작-방식",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "에러에서 복구하기",
+        "slug": "에러에서-복구하기",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "중첩된 경로",
+        "slug": "중첩된-경로",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "레이아웃에서의 오류 처리",
+        "slug": "레이아웃에서의-오류-처리",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "루트",
+        "slug": "루트",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "서버 오류 처리",
+        "slug": "서버-오류-처리",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/2024-02-23-nextjs-errorhandling/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Next js + Tailwind CSS로 웹사이트 만드는 방법",
     "headers": [
       {
@@ -2502,6 +2439,107 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Nextjs/2024-03-06-Next-js-+-Tailwind-CSS%EB%A1%9C-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Next js에서 html css로 슬라이더 만드는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "단계 1: 프로젝트 설정하기",
+        "slug": "단계-1-프로젝트-설정하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "단계 2: 트렌드 제품 슬라이더 구축하기",
+        "slug": "단계-2-트렌드-제품-슬라이더-구축하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "단계 3: TrendingSlider 컴포넌트 통합하기",
+        "slug": "단계-3-trendingslider-컴포넌트-통합하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "단계 4: 어플리케이션 실행하기",
+        "slug": "단계-4-어플리케이션-실행하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "결론",
+        "slug": "결론",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/2024-03-10-Next-js%EC%97%90%EC%84%9C-html-css%EB%A1%9C-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%8D%94-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Nextjs App Router 라우팅 정리",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 폴더 구조",
+        "slug": "_1-폴더-구조",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 라우트 세그먼트용 특수 파일",
+        "slug": "_2-라우트-세그먼트용-특수-파일",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 파일 확장자",
+        "slug": "_3-파일-확장자",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. UI 만들기",
+        "slug": "_4-ui-만들기",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 라우트 만들기",
+            "slug": "_1-라우트-만들기",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. UI 정의",
+            "slug": "_2-ui-정의",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "index 페이지 만들기",
+        "slug": "index-페이지-만들기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "레이아웃",
+        "slug": "레이아웃",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "레이아웃 중첩",
+        "slug": "레이아웃-중첩",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/2024-02-11-Nextjs-App-Router-%EB%9D%BC%EC%9A%B0%ED%8C%85-%EC%A0%95%EB%A6%AC/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3231,44 +3269,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Tailwind vs CSS 비교 정리",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Inline-classes VS CSS Nesting",
-        "slug": "inline-classes-vs-css-nesting",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "모든 것을 한 눈에 편집할 수 있다",
-        "slug": "모든-것을-한-눈에-편집할-수-있다",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "인라인 클래스의 장점",
-        "slug": "인라인-클래스의-장점",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "네이티브 CSS에서의 스코프",
-        "slug": "네이티브-css에서의-스코프",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "인라인 클래스의 문제점",
-        "slug": "인라인-클래스의-문제점",
-        "children": []
-      }
-    ],
-    "path": "/docs/Tech/2024-03-05-Tailwind-vs-CSS-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "API 권한 부여 방법 정리",
     "headers": [
       {
@@ -3339,6 +3339,44 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Tech/2024-03-05-api-%EB%B3%B4%EC%95%88-%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tailwind vs CSS 비교 정리",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Inline-classes VS CSS Nesting",
+        "slug": "inline-classes-vs-css-nesting",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "모든 것을 한 눈에 편집할 수 있다",
+        "slug": "모든-것을-한-눈에-편집할-수-있다",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "인라인 클래스의 장점",
+        "slug": "인라인-클래스의-장점",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "네이티브 CSS에서의 스코프",
+        "slug": "네이티브-css에서의-스코프",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "인라인 클래스의 문제점",
+        "slug": "인라인-클래스의-문제점",
+        "children": []
+      }
+    ],
+    "path": "/docs/Tech/2024-03-05-Tailwind-vs-CSS-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC/",
     "pathLocale": "/",
     "extraFields": []
   },

@@ -38,16 +38,3 @@ export const data = {
   },
   "filePathRelative": "docs/CSS/2022-12-22-이메일-템플릿-마크업에-사용해도-되는-CSS-속성인지-확인하는-방법/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

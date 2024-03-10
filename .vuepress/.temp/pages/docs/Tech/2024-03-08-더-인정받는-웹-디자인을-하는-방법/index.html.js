@@ -76,20 +76,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1709893134000
+    "updatedTime": 1709907022000
   },
   "filePathRelative": "docs/Tech/2024-03-08-더-인정받는-웹-디자인을-하는-방법/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

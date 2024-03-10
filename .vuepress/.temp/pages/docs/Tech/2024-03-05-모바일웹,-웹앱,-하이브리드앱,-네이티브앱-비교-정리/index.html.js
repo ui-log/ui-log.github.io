@@ -93,16 +93,3 @@ export const data = {
   },
   "filePathRelative": "docs/Tech/2024-03-05-모바일웹,-웹앱,-하이브리드앱,-네이티브앱-비교-정리/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

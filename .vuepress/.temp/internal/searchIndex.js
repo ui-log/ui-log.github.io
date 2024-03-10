@@ -128,6 +128,166 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "SNS를 키우기 위해 필요한 Chat GPT 프롬프트 20가지",
+    "headers": [
+      {
+        "level": 2,
+        "title": "프롬프트 번호 1",
+        "slug": "프롬프트-번호-1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 2",
+        "slug": "프롬프트-번호-2",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 3",
+        "slug": "프롬프트-번호-3",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 4",
+        "slug": "프롬프트-번호-4",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 5",
+        "slug": "프롬프트-번호-5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 6",
+        "slug": "프롬프트-번호-6",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 7",
+        "slug": "프롬프트-번호-7",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 8",
+        "slug": "프롬프트-번호-8",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 9",
+        "slug": "프롬프트-번호-9",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 10",
+        "slug": "프롬프트-번호-10",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 11",
+        "slug": "프롬프트-번호-11",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 12",
+        "slug": "프롬프트-번호-12",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 13",
+        "slug": "프롬프트-번호-13",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 14",
+        "slug": "프롬프트-번호-14",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 15",
+        "slug": "프롬프트-번호-15",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 16",
+        "slug": "프롬프트-번호-16",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 17",
+        "slug": "프롬프트-번호-17",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 18",
+        "slug": "프롬프트-번호-18",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 19",
+        "slug": "프롬프트-번호-19",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "프롬프트 번호 20",
+        "slug": "프롬프트-번호-20",
+        "children": []
+      }
+    ],
+    "path": "/docs/AI/2024-03-10-SNS%EB%A5%BC-%ED%82%A4%EC%9A%B0%EA%B8%B0-%EC%9C%84%ED%95%B4-%ED%95%84%EC%9A%94%ED%95%9C-Chat-GPT-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-20%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "unsplash API 사용해서 랜덤 사진 불러오는 방법",
+    "headers": [
+      {
+        "level": 3,
+        "title": "unsplash source API",
+        "slug": "unsplash-source-api",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "API",
+        "slug": "api",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "unsplash New API (2022년 최신)",
+        "slug": "unsplash-new-api-2022년-최신",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3. 앱 생성",
+        "slug": "_3-앱-생성",
+        "children": []
+      }
+    ],
+    "path": "/docs/API/2022-11-24-unsplash-API-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%9E%9C%EB%8D%A4-%EC%82%AC%EC%A7%84-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Slack API - incoming webhooks 사용해서 메세지 보내는 방법 (2022년 12월 최신)",
     "headers": [
       {
@@ -222,38 +382,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "unsplash API 사용해서 랜덤 사진 불러오는 방법",
-    "headers": [
-      {
-        "level": 3,
-        "title": "unsplash source API",
-        "slug": "unsplash-source-api",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "API",
-        "slug": "api",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "unsplash New API (2022년 최신)",
-        "slug": "unsplash-new-api-2022년-최신",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "3. 앱 생성",
-        "slug": "_3-앱-생성",
-        "children": []
-      }
-    ],
-    "path": "/docs/API/2022-11-24-unsplash-API-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%9E%9C%EB%8D%A4-%EC%82%AC%EC%A7%84-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -400,26 +528,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "html/css로 이미지 수평 수평 중앙 정렬하는 방법",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1. 전체 레이아웃이 고정 너비를 가지는 경우",
-        "slug": "_1-전체-레이아웃이-고정-너비를-가지는-경우",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2. wrapper의 사이즈에 상관 없는 정렬방법",
-        "slug": "_2-wrapper의-사이즈에-상관-없는-정렬방법",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2022-12-22-html-css%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-%EC%A4%91%EC%95%99-%EC%A0%95%EB%A0%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "HTML 이메일 템플릿 마크업하는 방법",
     "headers": [
       {
@@ -467,6 +575,26 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-22-HTML-%EC%9D%B4%EB%A9%94%EC%9D%BC-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%A7%88%ED%81%AC%EC%97%85%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "html/css로 이미지 수평 수평 중앙 정렬하는 방법",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1. 전체 레이아웃이 고정 너비를 가지는 경우",
+        "slug": "_1-전체-레이아웃이-고정-너비를-가지는-경우",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2. wrapper의 사이즈에 상관 없는 정렬방법",
+        "slug": "_2-wrapper의-사이즈에-상관-없는-정렬방법",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2022-12-22-html-css%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%98%EC%9D%91%ED%98%95-%EC%A4%91%EC%95%99-%EC%A0%95%EB%A0%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -759,6 +887,87 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2024-03-05-css%EB%A1%9C-border-%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98-%EC%A0%81%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML CSS로 레이아웃 잡는 방법 10가지",
+    "headers": [
+      {
+        "level": 2,
+        "title": "목차",
+        "slug": "목차",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1) Flexbox 가운데 정렬:",
+        "slug": "_1-flexbox-가운데-정렬",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2) Grid 가운데 정렬:",
+        "slug": "_2-grid-가운데-정렬",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3) 전체 페이지 이미지 배경:",
+        "slug": "_3-전체-페이지-이미지-배경",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4) 반응형 정사각형:",
+        "slug": "_4-반응형-정사각형",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5) 고정 푸터:",
+        "slug": "_5-고정-푸터",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6) 동일한 너비의 열:",
+        "slug": "_6-동일한-너비의-열",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7) 원형 요소:",
+        "slug": "_7-원형-요소",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8) 너비에 따라 변하는 폰트 사이즈:",
+        "slug": "_8-너비에-따라-변하는-폰트-사이즈",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9) 다중 열 텍스트:",
+        "slug": "_9-다중-열-텍스트",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10) 반응형 정사각형 그리드:",
+        "slug": "_10-반응형-정사각형-그리드",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2024-03-10-HTML-CSS%EB%A1%9C-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EC%9E%A1%EB%8A%94-%EB%B0%A9%EB%B2%95-10%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML CSS로 원형 프로그레스바 만드는 방법",
+    "headers": [],
+    "path": "/docs/CSS/2024-03-10-HTML-CSS%EB%A1%9C-%EC%9B%90%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8A%A4%EB%B0%94-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1252,6 +1461,20 @@ export const searchIndex = [
     "title": "HTML CSS로 퀴즈 앱 만들기",
     "headers": [],
     "path": "/docs/HTML/2024-03-08-HTML-CSS-%EB%A1%9C-%ED%80%B4%EC%A6%88%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML, CSS, JS를 활용한 음악 플레이어 만들기",
+    "headers": [],
+    "path": "/docs/HTML/2024-03-10-HTML-CSS-JS%EB%A1%9C-%EC%9D%8C%EC%95%85-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML CSS로 푸터 만들기 (소스코드 포함)",
+    "headers": [],
+    "path": "/docs/HTML/2024-03-10-HTML-CSS%EB%A1%9C-Footer-%EB%A7%8C%EB%93%A4%EA%B8%B0-(%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C-%EC%9E%88%EC%9D%8C)/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2400,6 +2623,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "React Native로 레이아웃 디자인하기 고급 기술 소개",
+    "headers": [],
+    "path": "/docs/React/2024-03-10-React-Native%EB%A1%9C-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EC%9E%A1%EB%8A%94-%EC%9E%A5%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Netlify에 Nextjs 프로젝트 배포하는 두 가지 방법 (.next , out)",
     "headers": [
       {
@@ -2826,102 +3056,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Setting/m1-nvm/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vuepress 블로그 구글애널리틱스 적용하기",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 설정 추가",
-        "slug": "_1-설정-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 사이트 적용",
-        "slug": "_2-사이트-적용",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. vuepress 설정",
-        "slug": "_3-vuepress-설정",
-        "children": []
-      }
-    ],
-    "path": "/docs/Vuepress/2022-12-19-vuepress-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EA%B8%80%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
-    "headers": [],
-    "path": "/docs/Vuepress/hits/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "vuepress 로 GitHub pages 에 사이트 호스팅 하는 방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "github 저장소 생성",
-        "slug": "github-저장소-생성",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "vuepress 설치",
-        "slug": "vuepress-설치",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Npm 설치",
-            "slug": "_1-npm-설치",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. vuepress 설치",
-            "slug": "_2-vuepress-설치",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 포스트 작성",
-            "slug": "_3-포스트-작성",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. Package.json 작성",
-            "slug": "_4-package-json-작성",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5. vuepress 설정",
-            "slug": "_5-vuepress-설정",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6. 로컬 실행",
-            "slug": "_6-로컬-실행",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7. GitHub pages 호스팅",
-            "slug": "_7-github-pages-호스팅",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Vuepress/vuepress-hosting/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3448,6 +3582,109 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "코딩 공부하기에 좋은 사이트 및 유튜브 10가지",
+    "headers": [],
+    "path": "/docs/Tech/2024-03-10-%EC%BD%94%EB%94%A9-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0%EC%97%90-%EC%A2%8B%EC%9D%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%9C%A0%ED%8A%9C%EB%B8%8C-10%EA%B0%80%EC%A7%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vuepress 블로그 구글애널리틱스 적용하기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 설정 추가",
+        "slug": "_1-설정-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 사이트 적용",
+        "slug": "_2-사이트-적용",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. vuepress 설정",
+        "slug": "_3-vuepress-설정",
+        "children": []
+      }
+    ],
+    "path": "/docs/Vuepress/2022-12-19-vuepress-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EA%B8%80%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
+    "headers": [],
+    "path": "/docs/Vuepress/hits/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vuepress 로 GitHub pages 에 사이트 호스팅 하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "github 저장소 생성",
+        "slug": "github-저장소-생성",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "vuepress 설치",
+        "slug": "vuepress-설치",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Npm 설치",
+            "slug": "_1-npm-설치",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. vuepress 설치",
+            "slug": "_2-vuepress-설치",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 포스트 작성",
+            "slug": "_3-포스트-작성",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. Package.json 작성",
+            "slug": "_4-package-json-작성",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. vuepress 설정",
+            "slug": "_5-vuepress-설정",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6. 로컬 실행",
+            "slug": "_6-로컬-실행",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7. GitHub pages 호스팅",
+            "slug": "_7-github-pages-호스팅",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Vuepress/vuepress-hosting/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -3455,16 +3692,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

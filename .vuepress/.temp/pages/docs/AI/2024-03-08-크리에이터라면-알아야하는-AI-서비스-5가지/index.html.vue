@@ -5,6 +5,16 @@
 <p>예를 들어, 이번 분기 목표는 비디오 편집을 배우는 것입니다. 1월, 2월 및 3월은 이 기술의 분기입니다. 그리고 정말 즐겁게 배우고 있습니다.</p>
 <p>그러나 크리에이터로서, 24시간도 부족합니다. 비즈니스의 모든 분야에서 할 일이 너무 많지만 AI 도구 덕분에 매일 시간을 많이 절약합니다.</p>
 <p>안녕하세요, 여러분의 패시브 소득 코치인 Kanika입니다. 여기 크리에이터 여러분의 여정을 돕기 위한 5가지 추천 사항입니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
 <ol>
 <li>
 <p><strong>Acoust AI</strong></p>
@@ -28,16 +38,21 @@
 </li>
 </ol>
 <img src="@source/docs/AI/2024-03-08-크리에이터라면-알아야하는-AI-서비스-5가지/img/5-AI-Tools-That-Every-Creator-Must-Have_2.png" />
-<ol start="3">
-<li>
-<p><strong>Stock Music App</strong></p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component> 3. **Stock Music App**
 <ul>
 <li><a href="https://www.stockmusic.app/" target="_blank" rel="noopener noreferrer">Stock Music App<ExternalLinkIcon/></a>를 방문하세요.</li>
 <li>70여 개 이상의 장르에서 AI의 도움을 받아 저작권이 없는 배경 음악을 생성합니다.</li>
 <li>프리미엄 모델로 시작할 수 있습니다.</li>
 </ul>
-</li>
-</ol>
 <img src="@source/docs/AI/2024-03-08-크리에이터라면-알아야하는-AI-서비스-5가지/img/5-AI-Tools-That-Every-Creator-Must-Have_3.png" />
 <ol start="4">
 <li>
@@ -50,15 +65,20 @@
 </li>
 </ol>
 <img src="@source/docs/AI/2024-03-08-크리에이터라면-알아야하는-AI-서비스-5가지/img/5-AI-Tools-That-Every-Creator-Must-Have_4.png" />
-<ol start="5">
-<li>
-<p><strong>Murf AI</strong></p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="9743150776"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component> 5. **Murf AI**
 <ul>
 <li><a href="https://murf.ai/?lmref=alPPlg" target="_blank" rel="noopener noreferrer">Murf AI<ExternalLinkIcon/></a>를 방문하세요. (이는 제 소개링크입니다. 여러분에게 추가 비용이 발생하지는 않지만 이 링크를 통해 구매하면 제가 목표를 달성하는 데 도움이 될 수 있는 수수료를 얻을 수 있습니다.)</li>
 <li>인간과 같은 음성을 비디오에 생성하는 AI 음성 생성 플랫폼입니다.</li>
 <li>필요한 곳에 일시 정지, 발음 및 강조를 추가하여 AI 음성을 사용자 정의할 수 있습니다.</li>
 </ul>
-</li>
-</ol>
 <img src="@source/docs/AI/2024-03-08-크리에이터라면-알아야하는-AI-서비스-5가지/img/5-AI-Tools-That-Every-Creator-Must-Have_5.png" />
 </div></template>

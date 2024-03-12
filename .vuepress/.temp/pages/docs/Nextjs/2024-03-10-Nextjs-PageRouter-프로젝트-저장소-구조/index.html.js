@@ -95,7 +95,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710057545000
   },
   "filePathRelative": "docs/Nextjs/2024-03-10-Nextjs-PageRouter-프로젝트-저장소-구조/README.md"
 }

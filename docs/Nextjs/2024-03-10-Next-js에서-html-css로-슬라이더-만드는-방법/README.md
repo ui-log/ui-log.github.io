@@ -2,7 +2,7 @@
 title: Next js에서 html css로 슬라이더 만드는 방법
 description:
 date: 2024-03-10 15:07
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Nextjs
 thumbnail:
 ---

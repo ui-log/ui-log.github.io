@@ -117,7 +117,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710251299000
   },
   "filePathRelative": "docs/Design/2024-03-12-웹-서비스-디자인-시스템-컬러-설계-하는-방법/README.md"
 }

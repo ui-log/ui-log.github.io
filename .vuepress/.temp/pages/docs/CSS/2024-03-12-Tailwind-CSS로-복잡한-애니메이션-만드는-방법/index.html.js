@@ -51,7 +51,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710251299000
   },
   "filePathRelative": "docs/CSS/2024-03-12-Tailwind-CSS로-복잡한-애니메이션-만드는-방법/README.md"
 }

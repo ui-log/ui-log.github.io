@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710251299000
   },
   "filePathRelative": "docs/CSS/2024-03-12-html-css로-반응형-테이블-만드는-방법/README.md"
 }

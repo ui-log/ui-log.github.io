@@ -45,7 +45,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1710056333000
+    "updatedTime": 1710251299000
   },
   "filePathRelative": "docs/Nextjs/2024-03-10-Next-js에서-html-css로-슬라이더-만드는-방법/README.md"
 }

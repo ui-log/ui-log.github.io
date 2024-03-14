@@ -256,6 +256,58 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "unsplash API 사용해서 랜덤 사진 불러오는 방법",
+    "headers": [
+      {
+        "level": 3,
+        "title": "unsplash source API",
+        "slug": "unsplash-source-api",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "API",
+        "slug": "api",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "unsplash New API (2022년 최신)",
+        "slug": "unsplash-new-api-2022년-최신",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3. 앱 생성",
+        "slug": "_3-앱-생성",
+        "children": []
+      }
+    ],
+    "path": "/docs/API/2022-11-24-unsplash-API-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%9E%9C%EB%8D%A4-%EC%82%AC%EC%A7%84-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Slack API - incoming webhooks 사용해서 메세지 보내는 방법 (2022년 12월 최신)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 슬랙 앱 만들기",
+        "slug": "_1-슬랙-앱-만들기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "결과",
+        "slug": "결과",
+        "children": []
+      }
+    ],
+    "path": "/docs/API/2022-12-19-Slack-API-%EC%82%AC%EC%9A%A9%EB%B2%95-(2022%EC%B5%9C%EC%8B%A0)/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "웹 서비스 디자인 시스템 컬러 설계하는 방법",
     "headers": [
       {
@@ -366,58 +418,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "unsplash API 사용해서 랜덤 사진 불러오는 방법",
-    "headers": [
-      {
-        "level": 3,
-        "title": "unsplash source API",
-        "slug": "unsplash-source-api",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "API",
-        "slug": "api",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "unsplash New API (2022년 최신)",
-        "slug": "unsplash-new-api-2022년-최신",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "3. 앱 생성",
-        "slug": "_3-앱-생성",
-        "children": []
-      }
-    ],
-    "path": "/docs/API/2022-11-24-unsplash-API-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%9E%9C%EB%8D%A4-%EC%82%AC%EC%A7%84-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Slack API - incoming webhooks 사용해서 메세지 보내는 방법 (2022년 12월 최신)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 슬랙 앱 만들기",
-        "slug": "_1-슬랙-앱-만들기",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "결과",
-        "slug": "결과",
-        "children": []
-      }
-    ],
-    "path": "/docs/API/2022-12-19-Slack-API-%EC%82%AC%EC%9A%A9%EB%B2%95-(2022%EC%B5%9C%EC%8B%A0)/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "CSS 말줄임 처리 방법 (mixin 공유)",
     "headers": [
       {
@@ -454,44 +454,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-06-CSS-%EB%A7%90%EC%A4%84%EC%9E%84-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. HTML 추가",
-        "slug": "_1-html-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. CDN 추가",
-        "slug": "_2-cdn-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. css 추가",
-        "slug": "_3-css-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 스크립트 추가",
-        "slug": "_4-스크립트-추가",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 플러그인 추가",
-        "slug": "_5-플러그인-추가",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -543,6 +505,44 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A7%8C-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%8D%94-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. HTML 추가",
+        "slug": "_1-html-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. CDN 추가",
+        "slug": "_2-cdn-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. css 추가",
+        "slug": "_3-css-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 스크립트 추가",
+        "slug": "_4-스크립트-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 플러그인 추가",
+        "slug": "_5-플러그인-추가",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2022-12-06-HTML-CSS%EB%A1%9C-%EC%9E%90%EB%8F%99-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%BA%90%EB%9F%AC%EC%85%80-%EB%A7%8C%EB%93%A4%EA%B8%B0(Embla-Carousel)/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -599,13 +599,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "css :has() 속성 사용법",
-    "headers": [],
-    "path": "/docs/CSS/2022-12-20-css-has-%EC%86%8D%EC%84%B1-%EC%82%AC%EC%9A%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "scss에서 @for @each 반복문 사용하는 방법",
     "headers": [
       {
@@ -634,6 +627,13 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/2022-12-15-scss%EC%97%90%EC%84%9C-for-each-%EB%B0%98%EB%B3%B5%EB%AC%B8-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "css :has() 속성 사용법",
+    "headers": [],
+    "path": "/docs/CSS/2022-12-20-css-has-%EC%86%8D%EC%84%B1-%EC%82%AC%EC%9A%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1082,6 +1082,50 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Tailwind CSS로 복잡한 애니메이션 만드는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "TailwindCSS 소개",
+        "slug": "tailwindcss-소개",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "준비물",
+        "slug": "준비물",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "우리가 만들 것",
+        "slug": "우리가-만들-것",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tailwind CSS 애니메이션 시작하기",
+        "slug": "tailwind-css-애니메이션-시작하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "애니메이션 적용하기",
+        "slug": "애니메이션-적용하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "사용자 정의 애니메이션 정의하기",
+        "slug": "사용자-정의-애니메이션-정의하기",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/2024-03-12-Tailwind-CSS%EB%A1%9C-%EB%B3%B5%EC%9E%A1%ED%95%9C-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "HTML CSS로 반응형 테이블 만드는 방법",
     "headers": [],
     "path": "/docs/CSS/2024-03-12-html-css%EB%A1%9C-%EB%B0%98%EC%9D%91%ED%98%95-%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
@@ -1164,6 +1208,64 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/CSS/border-animation/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "image-set 속성으로 반응형 background-image 사용하기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. srcset",
+        "slug": "_1-srcset",
+        "children": [
+          {
+            "level": 3,
+            "title": "사용 방법",
+            "slug": "사용-방법",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. image-set",
+        "slug": "_2-image-set",
+        "children": [
+          {
+            "level": 3,
+            "title": "사용방법",
+            "slug": "사용방법",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "결과",
+            "slug": "결과-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "지원범위",
+        "slug": "지원범위",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "마치며",
+        "slug": "마치며",
+        "children": []
+      }
+    ],
+    "path": "/docs/CSS/imageset/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1419,50 +1521,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Tailwind CSS로 복잡한 애니메이션 만드는 방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "TailwindCSS 소개",
-        "slug": "tailwindcss-소개",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "준비물",
-        "slug": "준비물",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "우리가 만들 것",
-        "slug": "우리가-만들-것",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tailwind CSS 애니메이션 시작하기",
-        "slug": "tailwind-css-애니메이션-시작하기",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "애니메이션 적용하기",
-        "slug": "애니메이션-적용하기",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "사용자 정의 애니메이션 정의하기",
-        "slug": "사용자-정의-애니메이션-정의하기",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/2024-03-12-Tailwind-CSS%EB%A1%9C-%EB%B3%B5%EC%9E%A1%ED%95%9C-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "알아두면 유용한 HTML5 속성 15가지",
     "headers": [
       {
@@ -1564,64 +1622,6 @@ export const searchIndex = [
     "title": "HTML CSS로 퀴즈 앱 만들기",
     "headers": [],
     "path": "/docs/HTML/2024-03-08-HTML-CSS-%EB%A1%9C-%ED%80%B4%EC%A6%88%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "image-set 속성으로 반응형 background-image 사용하기",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. srcset",
-        "slug": "_1-srcset",
-        "children": [
-          {
-            "level": 3,
-            "title": "사용 방법",
-            "slug": "사용-방법",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. image-set",
-        "slug": "_2-image-set",
-        "children": [
-          {
-            "level": 3,
-            "title": "사용방법",
-            "slug": "사용방법",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "결과",
-            "slug": "결과-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "지원범위",
-        "slug": "지원범위",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "마치며",
-        "slug": "마치며",
-        "children": []
-      }
-    ],
-    "path": "/docs/CSS/imageset/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1889,6 +1889,100 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Tanstack ReactQuery로 무한스크롤 구현하기(react-intersection-observer)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. prefetchInfiniteQuery로 변경",
+        "slug": "_1-prefetchinfinitequery로-변경",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. useInfiniteQuery 적용",
+        "slug": "_2-useinfinitequery-적용",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. react-intersection-observer로 무한스크롤 적용",
+        "slug": "_3-react-intersection-observer로-무한스크롤-적용",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "결과",
+        "slug": "결과",
+        "children": []
+      }
+    ],
+    "path": "/docs/Library/2024-02-12-tanstack-react-query%EB%A1%9C-%EB%AC%B4%ED%95%9C%EC%8A%A4%ED%81%AC%EB%A1%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0(react-intersection-observer)/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "console log 제대로 알고 사용하기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "소개",
+        "slug": "소개",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Console 객체의 역할과 중요성",
+        "slug": "console-객체의-역할과-중요성",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JavaScript 개발에서 디버깅과 로깅의 필수 도구로 사용되는 이유",
+        "slug": "javascript-개발에서-디버깅과-로깅의-필수-도구로-사용되는-이유",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Console 객체의 기본 기능",
+        "slug": "console-객체의-기본-기능",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "디버깅 기능",
+        "slug": "디버깅-기능",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "로깅 기능",
+        "slug": "로깅-기능",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "고급 활용",
+        "slug": "고급-활용",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "보안 및 프로덕션 환경에서의 사용",
+        "slug": "보안-및-프로덕션-환경에서의-사용",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Console 객체의 확장",
+        "slug": "console-객체의-확장",
+        "children": []
+      }
+    ],
+    "path": "/docs/Library/2024-03-05-console-log-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "react-textarea-autosize 라이브러리 사용 방법 정리",
     "headers": [
       {
@@ -1987,100 +2081,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Library/2024-03-05-react-textarea-autosize-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Tanstack ReactQuery로 무한스크롤 구현하기(react-intersection-observer)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. prefetchInfiniteQuery로 변경",
-        "slug": "_1-prefetchinfinitequery로-변경",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. useInfiniteQuery 적용",
-        "slug": "_2-useinfinitequery-적용",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. react-intersection-observer로 무한스크롤 적용",
-        "slug": "_3-react-intersection-observer로-무한스크롤-적용",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "결과",
-        "slug": "결과",
-        "children": []
-      }
-    ],
-    "path": "/docs/Library/2024-02-12-tanstack-react-query%EB%A1%9C-%EB%AC%B4%ED%95%9C%EC%8A%A4%ED%81%AC%EB%A1%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0(react-intersection-observer)/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "console log 제대로 알고 사용하기",
-    "headers": [
-      {
-        "level": 2,
-        "title": "소개",
-        "slug": "소개",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Console 객체의 역할과 중요성",
-        "slug": "console-객체의-역할과-중요성",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "JavaScript 개발에서 디버깅과 로깅의 필수 도구로 사용되는 이유",
-        "slug": "javascript-개발에서-디버깅과-로깅의-필수-도구로-사용되는-이유",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Console 객체의 기본 기능",
-        "slug": "console-객체의-기본-기능",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "디버깅 기능",
-        "slug": "디버깅-기능",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "로깅 기능",
-        "slug": "로깅-기능",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "고급 활용",
-        "slug": "고급-활용",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "보안 및 프로덕션 환경에서의 사용",
-        "slug": "보안-및-프로덕션-환경에서의-사용",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Console 객체의 확장",
-        "slug": "console-객체의-확장",
-        "children": []
-      }
-    ],
-    "path": "/docs/Library/2024-03-05-console-log-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2368,47 +2368,48 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Nextjs14의 클라이언트 컴포넌트 이해하기",
+    "title": "Nextjs에서 라우터 폴더들 그룹으로 묶는 방법 (Route groups)",
     "headers": [
       {
         "level": 2,
-        "title": "클라이언트 렌더링의 장점",
-        "slug": "클라이언트-렌더링의-장점",
+        "title": "규칙",
+        "slug": "규칙",
         "children": []
       },
       {
         "level": 2,
-        "title": "Next.js에서 클라이언트 컴포넌트 사용하기",
-        "slug": "next-js에서-클라이언트-컴포넌트-사용하기",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "클라이언트 컴포넌트는 어떻게 렌더링되나요?",
-        "slug": "클라이언트-컴포넌트는-어떻게-렌더링되나요",
+        "title": "예시",
+        "slug": "예시",
         "children": [
           {
             "level": 3,
-            "title": "전체 페이지 로드",
-            "slug": "전체-페이지-로드",
+            "title": "URL 경로에 영향을 주지 않고 라우트 구성",
+            "slug": "url-경로에-영향을-주지-않고-라우트-구성",
             "children": []
           },
           {
             "level": 3,
-            "title": "후속 탐색",
-            "slug": "후속-탐색",
+            "title": "특정 세그먼트를 레이아웃에 포함",
+            "slug": "특정-세그먼트를-레이아웃에-포함",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "다중 루트 레이아웃 생성",
+            "slug": "다중-루트-레이아웃-생성",
             "children": []
           }
         ]
-      },
-      {
-        "level": 2,
-        "title": "서버 환경으로 되돌아가기",
-        "slug": "서버-환경으로-되돌아가기",
-        "children": []
       }
     ],
-    "path": "/docs/Nextjs/2024-02-11-Nextjs14%EC%9D%98-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/",
+    "path": "/docs/Nextjs/2024-02-23-Nextjs-Route-groups/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "useQuery의 isLoading, isFetching, isPending 차이점",
+    "headers": [],
+    "path": "/docs/Nextjs/2024-02-13-useQuery%EC%9D%98-isLoading,-isFetching,-isPending-%EC%B0%A8%EC%9D%B4%EC%A0%90/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2464,48 +2465,47 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Nextjs에서 라우터 폴더들 그룹으로 묶는 방법 (Route groups)",
+    "title": "Nextjs14의 클라이언트 컴포넌트 이해하기",
     "headers": [
       {
         "level": 2,
-        "title": "규칙",
-        "slug": "규칙",
+        "title": "클라이언트 렌더링의 장점",
+        "slug": "클라이언트-렌더링의-장점",
         "children": []
       },
       {
         "level": 2,
-        "title": "예시",
-        "slug": "예시",
+        "title": "Next.js에서 클라이언트 컴포넌트 사용하기",
+        "slug": "next-js에서-클라이언트-컴포넌트-사용하기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "클라이언트 컴포넌트는 어떻게 렌더링되나요?",
+        "slug": "클라이언트-컴포넌트는-어떻게-렌더링되나요",
         "children": [
           {
             "level": 3,
-            "title": "URL 경로에 영향을 주지 않고 라우트 구성",
-            "slug": "url-경로에-영향을-주지-않고-라우트-구성",
+            "title": "전체 페이지 로드",
+            "slug": "전체-페이지-로드",
             "children": []
           },
           {
             "level": 3,
-            "title": "특정 세그먼트를 레이아웃에 포함",
-            "slug": "특정-세그먼트를-레이아웃에-포함",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "다중 루트 레이아웃 생성",
-            "slug": "다중-루트-레이아웃-생성",
+            "title": "후속 탐색",
+            "slug": "후속-탐색",
             "children": []
           }
         ]
+      },
+      {
+        "level": 2,
+        "title": "서버 환경으로 되돌아가기",
+        "slug": "서버-환경으로-되돌아가기",
+        "children": []
       }
     ],
-    "path": "/docs/Nextjs/2024-02-23-Nextjs-Route-groups/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "useQuery의 isLoading, isFetching, isPending 차이점",
-    "headers": [],
-    "path": "/docs/Nextjs/2024-02-13-useQuery%EC%9D%98-isLoading,-isFetching,-isPending-%EC%B0%A8%EC%9D%B4%EC%A0%90/",
+    "path": "/docs/Nextjs/2024-02-11-Nextjs14%EC%9D%98-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2705,38 +2705,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "getStaticProps, getServersideProps 적절한 사용 방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 외부 데이터가 필요 없는 경우",
-        "slug": "_1-외부-데이터가-필요-없는-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 페이지 내용이 외부 데이터에 의존하는 경우",
-        "slug": "_2-페이지-내용이-외부-데이터에-의존하는-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 페이지 경로가 외부 데이터에 의존하는 경우",
-        "slug": "_3-페이지-경로가-외부-데이터에-의존하는-경우",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "getServerSideProps",
-        "slug": "getserversideprops",
-        "children": []
-      }
-    ],
-    "path": "/docs/Nextjs/getStaticProps-getServerSideProps/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Next.js 페이지 라우터 프로젝트 저장소 구조",
     "headers": [
       {
@@ -2821,6 +2789,38 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Nextjs/2024-03-10-Nextjs-PageRouter-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C-%EA%B5%AC%EC%A1%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "getStaticProps, getServersideProps 적절한 사용 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 외부 데이터가 필요 없는 경우",
+        "slug": "_1-외부-데이터가-필요-없는-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 페이지 내용이 외부 데이터에 의존하는 경우",
+        "slug": "_2-페이지-내용이-외부-데이터에-의존하는-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 페이지 경로가 외부 데이터에 의존하는 경우",
+        "slug": "_3-페이지-경로가-외부-데이터에-의존하는-경우",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "getServerSideProps",
+        "slug": "getserversideprops",
+        "children": []
+      }
+    ],
+    "path": "/docs/Nextjs/getStaticProps-getServerSideProps/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3023,6 +3023,32 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "자바스크립트로 selenium iframe에 접근하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "switchTo()",
+        "slug": "switchto",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "defaultContent()",
+        "slug": "defaultcontent",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "정리",
+        "slug": "정리",
+        "children": []
+      }
+    ],
+    "path": "/docs/Selenium/2022-12-22-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A1%9C-selenium-iframe%EC%97%90-%EC%A0%91%EA%B7%BC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Mac hosts 파일 설정 방법",
     "headers": [
       {
@@ -3176,32 +3202,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "자바스크립트로 selenium iframe에 접근하는 방법",
-    "headers": [
-      {
-        "level": 2,
-        "title": "switchTo()",
-        "slug": "switchto",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "defaultContent()",
-        "slug": "defaultcontent",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "정리",
-        "slug": "정리",
-        "children": []
-      }
-    ],
-    "path": "/docs/Selenium/2022-12-22-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A1%9C-selenium-iframe%EC%97%90-%EC%A0%91%EA%B7%BC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "nvm 사용해서 node 버전 쉽게 바꾸는 방법",
     "headers": [
       {
@@ -3343,6 +3343,102 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Setting/m1-nvm/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vuepress 블로그 구글애널리틱스 적용하기",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 설정 추가",
+        "slug": "_1-설정-추가",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 사이트 적용",
+        "slug": "_2-사이트-적용",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. vuepress 설정",
+        "slug": "_3-vuepress-설정",
+        "children": []
+      }
+    ],
+    "path": "/docs/Vuepress/2022-12-19-vuepress-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EA%B8%80%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
+    "headers": [],
+    "path": "/docs/Vuepress/hits/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vuepress 로 GitHub pages 에 사이트 호스팅 하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "github 저장소 생성",
+        "slug": "github-저장소-생성",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "vuepress 설치",
+        "slug": "vuepress-설치",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Npm 설치",
+            "slug": "_1-npm-설치",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. vuepress 설치",
+            "slug": "_2-vuepress-설치",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 포스트 작성",
+            "slug": "_3-포스트-작성",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. Package.json 작성",
+            "slug": "_4-package-json-작성",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. vuepress 설정",
+            "slug": "_5-vuepress-설정",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6. 로컬 실행",
+            "slug": "_6-로컬-실행",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7. GitHub pages 호스팅",
+            "slug": "_7-github-pages-호스팅",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Vuepress/vuepress-hosting/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3511,6 +3607,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "2024년도 최신 웹 개발 트렌드 정리",
+    "headers": [],
+    "path": "/docs/Tech/2024-03-05-2024%EB%85%84%EB%8F%84-%EC%B5%9C%EC%8B%A0-%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EC%A0%95%EB%A6%AC/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Tailwind vs CSS 비교 정리",
     "headers": [
       {
@@ -3545,6 +3648,80 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Tech/2024-03-05-Tailwind-vs-CSS-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "API 권한 부여 방법 정리",
+    "headers": [
+      {
+        "level": 2,
+        "title": "API 권한 부여를 위한 4가지 Best Practices",
+        "slug": "api-권한-부여를-위한-4가지-best-practices",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1. 토큰 기반 권한 부여 사용(JWT, OAuth 토큰)",
+        "slug": "_1-토큰-기반-권한-부여-사용-jwt-oauth-토큰",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JWT를 사용한 토큰 기반 권한 부여 구현 방법",
+        "slug": "jwt를-사용한-토큰-기반-권한-부여-구현-방법",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 세밀한 접근 제어 구현",
+        "slug": "_2-세밀한-접근-제어-구현",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "세밀한 접근 제어 구현 방법:",
+        "slug": "세밀한-접근-제어-구현-방법",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 안전한 API 게이트웨이 구성",
+        "slug": "_3-안전한-api-게이트웨이-구성",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "안전한 API 게이트웨이 구성 방법:",
+        "slug": "안전한-api-게이트웨이-구성-방법",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 데이터의 이동과 정지 시 민감한 데이터 암호화",
+        "slug": "_4-데이터의-이동과-정지-시-민감한-데이터-암호화",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "데이터 이동 중 암호화 구현 방법",
+        "slug": "데이터-이동-중-암호화-구현-방법",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "정지 중 암호화 구현 방법",
+        "slug": "정지-중-암호화-구현-방법",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "결론",
+        "slug": "결론",
+        "children": []
+      }
+    ],
+    "path": "/docs/Tech/2024-03-05-api-%EB%B3%B4%EC%95%88-%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3631,83 +3808,64 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "2024년도 최신 웹 개발 트렌드 정리",
-    "headers": [],
-    "path": "/docs/Tech/2024-03-05-2024%EB%85%84%EB%8F%84-%EC%B5%9C%EC%8B%A0-%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EC%A0%95%EB%A6%AC/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "API 권한 부여 방법 정리",
+    "title": "UI UX 최신 트렌드 정리(2024년 최신)",
     "headers": [
       {
         "level": 2,
-        "title": "API 권한 부여를 위한 4가지 Best Practices",
-        "slug": "api-권한-부여를-위한-4가지-best-practices",
+        "title": "레트로 그루비 타이포그래피",
+        "slug": "레트로-그루비-타이포그래피",
         "children": []
       },
       {
         "level": 2,
-        "title": "1. 토큰 기반 권한 부여 사용(JWT, OAuth 토큰)",
-        "slug": "_1-토큰-기반-권한-부여-사용-jwt-oauth-토큰",
+        "title": "해체된 히어로 섹션",
+        "slug": "해체된-히어로-섹션",
         "children": []
       },
       {
         "level": 2,
-        "title": "JWT를 사용한 토큰 기반 권한 부여 구현 방법",
-        "slug": "jwt를-사용한-토큰-기반-권한-부여-구현-방법",
+        "title": "오프 화이트는 새로운 화이트",
+        "slug": "오프-화이트는-새로운-화이트",
         "children": []
       },
       {
         "level": 2,
-        "title": "2. 세밀한 접근 제어 구현",
-        "slug": "_2-세밀한-접근-제어-구현",
+        "title": "커서 재발명",
+        "slug": "커서-재발명",
         "children": []
       },
       {
         "level": 2,
-        "title": "세밀한 접근 제어 구현 방법:",
-        "slug": "세밀한-접근-제어-구현-방법",
+        "title": "데이터 시각화",
+        "slug": "데이터-시각화",
         "children": []
       },
       {
         "level": 2,
-        "title": "3. 안전한 API 게이트웨이 구성",
-        "slug": "_3-안전한-api-게이트웨이-구성",
+        "title": "AR/VR 몰입형 경험",
+        "slug": "ar-vr-몰입형-경험",
         "children": []
       },
       {
         "level": 2,
-        "title": "안전한 API 게이트웨이 구성 방법:",
-        "slug": "안전한-api-게이트웨이-구성-방법",
+        "title": "음성 사용자 인터페이스(VUIs)",
+        "slug": "음성-사용자-인터페이스-vuis",
         "children": []
       },
       {
         "level": 2,
-        "title": "4. 데이터의 이동과 정지 시 민감한 데이터 암호화",
-        "slug": "_4-데이터의-이동과-정지-시-민감한-데이터-암호화",
+        "title": "멀티 모달 인터페이스",
+        "slug": "멀티-모달-인터페이스",
         "children": []
       },
       {
         "level": 2,
-        "title": "데이터 이동 중 암호화 구현 방법",
-        "slug": "데이터-이동-중-암호화-구현-방법",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "정지 중 암호화 구현 방법",
-        "slug": "정지-중-암호화-구현-방법",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "결론",
-        "slug": "결론",
+        "title": "생성적 인공 지능",
+        "slug": "생성적-인공-지능",
         "children": []
       }
     ],
-    "path": "/docs/Tech/2024-03-05-api-%EB%B3%B4%EC%95%88-%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC/",
+    "path": "/docs/Tech/2024-03-08-UI-UX-%EC%B5%9C%EC%8B%A0-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EC%A0%95%EB%A6%AC(2024%EB%85%84-%EC%B5%9C%EC%8B%A0)/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3814,160 +3972,351 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "UI UX 최신 트렌드 정리(2024년 최신)",
-    "headers": [
-      {
-        "level": 2,
-        "title": "레트로 그루비 타이포그래피",
-        "slug": "레트로-그루비-타이포그래피",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "해체된 히어로 섹션",
-        "slug": "해체된-히어로-섹션",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "오프 화이트는 새로운 화이트",
-        "slug": "오프-화이트는-새로운-화이트",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "커서 재발명",
-        "slug": "커서-재발명",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "데이터 시각화",
-        "slug": "데이터-시각화",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "AR/VR 몰입형 경험",
-        "slug": "ar-vr-몰입형-경험",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "음성 사용자 인터페이스(VUIs)",
-        "slug": "음성-사용자-인터페이스-vuis",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "멀티 모달 인터페이스",
-        "slug": "멀티-모달-인터페이스",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "생성적 인공 지능",
-        "slug": "생성적-인공-지능",
-        "children": []
-      }
-    ],
-    "path": "/docs/Tech/2024-03-08-UI-UX-%EC%B5%9C%EC%8B%A0-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EC%A0%95%EB%A6%AC(2024%EB%85%84-%EC%B5%9C%EC%8B%A0)/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "hits로 블로그에 조회수 기능 추가하는 방법",
+    "title": "구글 크롬 최소 폰트 사이즈 10px 제한 풀리다",
     "headers": [],
-    "path": "/docs/Vuepress/hits/",
+    "path": "/docs/Tech/2024-03-13-%EA%B5%AC%EA%B8%80-%ED%81%AC%EB%A1%AC-%EC%B5%9C%EC%86%8C-%ED%8F%B0%ED%8A%B8-%EC%82%AC%EC%9D%B4%EC%A6%88-10px-%EB%93%9C%EB%94%94%EC%96%B4-%ED%95%B4%EC%A0%9C!/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "vuepress 로 GitHub pages 에 사이트 호스팅 하는 방법",
+    "title": "반드시 알아야하는 피그마 플러그인 45가지(2024년 최신)",
     "headers": [
       {
         "level": 2,
-        "title": "github 저장소 생성",
-        "slug": "github-저장소-생성",
+        "title": "Figma to Webflow (HTML, CSS and Website)",
+        "slug": "figma-to-webflow-html-css-and-website",
         "children": []
       },
       {
         "level": 2,
-        "title": "vuepress 설치",
-        "slug": "vuepress-설치",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Npm 설치",
-            "slug": "_1-npm-설치",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. vuepress 설치",
-            "slug": "_2-vuepress-설치",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 포스트 작성",
-            "slug": "_3-포스트-작성",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. Package.json 작성",
-            "slug": "_4-package-json-작성",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5. vuepress 설정",
-            "slug": "_5-vuepress-설정",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6. 로컬 실행",
-            "slug": "_6-로컬-실행",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7. GitHub pages 호스팅",
-            "slug": "_7-github-pages-호스팅",
-            "children": []
-          }
-        ]
+        "title": "Figma to HTML with Framer",
+        "slug": "figma-to-html-with-framer",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Fast Isometric",
+        "slug": "fast-isometric",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Breakpoints",
+        "slug": "breakpoints",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Relume",
+        "slug": "relume",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Musho AI",
+        "slug": "musho-ai",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "ARC — Bend your type!",
+        "slug": "arc-—-bend-your-type",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Unsplash",
+        "slug": "unsplash",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Jitter · Animation for Figma",
+        "slug": "jitter-·-animation-for-figma",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Magician",
+        "slug": "magician",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Remove BG",
+        "slug": "remove-bg",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Anima — Figma to Code: React, HTML, Vue, CSS, Tailwind",
+        "slug": "anima-—-figma-to-code-react-html-vue-css-tailwind",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Icons8 — 아이콘, 일러스트, 사진",
+        "slug": "icons8-—-아이콘-일러스트-사진",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Content Reel",
+        "slug": "content-reel",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Vector to 3D",
+        "slug": "vector-to-3d",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mockup",
+        "slug": "mockup",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Autoflow",
+        "slug": "autoflow",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Blobs",
+        "slug": "blobs",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Glow",
+        "slug": "glow",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "LottieFiles — 애니메이션 생성 및 Figma에서 Lottie로 내보내기",
+        "slug": "lottiefiles-—-애니메이션-생성-및-figma에서-lottie로-내보내기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "To Path",
+        "slug": "to-path",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Noise",
+        "slug": "noise",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Table Creator",
+        "slug": "table-creator",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Chart",
+        "slug": "chart",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Stark — 대비 및 접근성 도구",
+        "slug": "stark-—-대비-및-접근성-도구",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3D Wave: Fabric과 같이 모든 것을 부드럽게 만들기",
+        "slug": "_3d-wave-fabric과-같이-모든-것을-부드럽게-만들기",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Get Waves",
+        "slug": "get-waves",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "User Profile | Avatar",
+        "slug": "user-profile-avatar",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "UI Faces — 무료 AI 아바타",
+        "slug": "ui-faces-—-무료-ai-아바타",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Noise & Texture",
+        "slug": "noise-texture",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mesh Gradient",
+        "slug": "mesh-gradient",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Beautiful Shadows",
+        "slug": "beautiful-shadows",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Ruri Splines",
+        "slug": "ruri-splines",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Pixels",
+        "slug": "pixels",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Drawkit 3D Builder",
+        "slug": "drawkit-3d-builder",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Sine wave",
+        "slug": "sine-wave",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Fit Curve",
+        "slug": "fit-curve",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Figma To Elementor",
+        "slug": "figma-to-elementor",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Repeater effect",
+        "slug": "repeater-effect",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Illustration Maker",
+        "slug": "illustration-maker",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Free Image Converter",
+        "slug": "free-image-converter",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Arabesque",
+        "slug": "arabesque",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Button Resizer",
+        "slug": "button-resizer",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Audio",
+        "slug": "audio",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Theme Change",
+        "slug": "theme-change",
+        "children": []
       }
     ],
-    "path": "/docs/Vuepress/vuepress-hosting/",
+    "path": "/docs/Tech/2024-03-14-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC%ED%95%98%EB%8A%94-%ED%94%BC%EA%B7%B8%EB%A7%88-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-45%EA%B0%80%EC%A7%80-2024%EB%85%84-%EC%B5%9C%EC%8B%A0/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "vuepress 블로그 구글애널리틱스 적용하기",
+    "title": "플러터 앱에 Firebase 추가하는 방법",
     "headers": [
       {
         "level": 2,
-        "title": "1. 설정 추가",
-        "slug": "_1-설정-추가",
+        "title": "단계 1: Firebase CLI 설치하기",
+        "slug": "단계-1-firebase-cli-설치하기",
         "children": []
       },
       {
         "level": 2,
-        "title": "2. 사이트 적용",
-        "slug": "_2-사이트-적용",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. vuepress 설정",
-        "slug": "_3-vuepress-설정",
+        "title": "단계 2: 새로운 또는 기존 Flutter 앱에 Firebase 추가하기",
+        "slug": "단계-2-새로운-또는-기존-flutter-앱에-firebase-추가하기",
         "children": []
       }
     ],
-    "path": "/docs/Vuepress/2022-12-19-vuepress-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EA%B8%80%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/",
+    "path": "/docs/Tech/2024-03-14-%ED%94%8C%EB%9F%AC%ED%84%B0-%EC%95%B1%EC%97%90-firebase-%EC%B6%94%EA%B0%80%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "React Native에서 lazy loading으로 성능 개선하는 방법",
+    "headers": [
+      {
+        "level": 2,
+        "title": "단계 1: React Native 프로젝트 설정",
+        "slug": "단계-1-react-native-프로젝트-설정",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "단계 2: React Navigation 설치",
+        "slug": "단계-2-react-navigation-설치",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "단계 3: 스크린 생성",
+        "slug": "단계-3-스크린-생성",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "HomeScreen.js:",
+        "slug": "homescreen-js",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "ProfileScreen.js:",
+        "slug": "profilescreen-js",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "단계 4: Lazy Loading으로 네비게이션 설정",
+        "slug": "단계-4-lazy-loading으로-네비게이션-설정",
+        "children": []
+      }
+    ],
+    "path": "/docs/Tech/2024-03-15-React-Native%EC%97%90%EC%84%9C-lazy-loading%EC%9C%BC%EB%A1%9C-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
     "pathLocale": "/",
     "extraFields": []
   },

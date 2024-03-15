@@ -285,7 +285,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710428800000
   },
   "filePathRelative": "docs/Tech/2024-03-14-반드시-알아야하는-피그마-플러그인-45가지-2024년-최신/README.md"
 }

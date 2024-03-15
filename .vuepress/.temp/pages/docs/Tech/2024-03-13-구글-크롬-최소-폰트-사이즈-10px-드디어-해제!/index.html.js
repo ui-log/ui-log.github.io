@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710428800000
   },
   "filePathRelative": "docs/Tech/2024-03-13-구글-크롬-최소-폰트-사이즈-10px-드디어-해제!/README.md"
 }

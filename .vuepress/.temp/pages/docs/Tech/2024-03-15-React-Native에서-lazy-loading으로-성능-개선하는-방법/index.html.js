@@ -51,7 +51,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710428800000
   },
   "filePathRelative": "docs/Tech/2024-03-15-React-Native에서-lazy-loading으로-성능-개선하는-방법/README.md"
 }

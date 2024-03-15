@@ -1,6 +1,4 @@
 <template><div><h1 id="react-native에서-lazy-loading으로-성능-개선하는-방법" tabindex="-1"><a class="header-anchor" href="#react-native에서-lazy-loading으로-성능-개선하는-방법" aria-hidden="true">#</a> React Native에서 lazy loading으로 성능 개선하는 방법</h1>
-<div class="custom-container tip"><p class="custom-container-title">💡이 포스팅ㅠ을 읽으면</p>
-</div>
 <img src="@source/docs/Tech/2024-03-15-React-Native에서-lazy-loading으로-성능-개선하는-방법/img/Boosting-React-Native-Performance-with-Lazy-Loading-and-Code-Splitting_0.png" />
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"

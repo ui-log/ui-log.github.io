@@ -9,10 +9,6 @@ thumbnail:
 
 # React Native에서 lazy loading으로 성능 개선하는 방법
 
-::: tip 💡이 포스팅ㅠ을 읽으면
-
-:::
-
 <img src="./img/Boosting-React-Native-Performance-with-Lazy-Loading-and-Code-Splitting_0.png" />
 
 <!-- ui-log 수평형 -->

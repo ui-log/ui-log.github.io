@@ -7,7 +7,7 @@ export const data = {
     "title": "웹디자이너를 위한 16가지 디자인 규칙",
     "description": "웹디자이너가 알아야할 디자인 규칙 16가지에 대한 번역과 함께 웹디자인의 핵심 가이드라인을 제공합니다.",
     "date": "2024-03-15 17:08",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Tech",
     "thumbnail": null
   },
@@ -117,20 +117,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710492661000
   },
   "filePathRelative": "docs/Tech/2024-03-15-웹디자이너가-알아야할-디자인-규칙-16가지/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

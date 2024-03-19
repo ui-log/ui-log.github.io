@@ -2,7 +2,7 @@
 title: React Native에서 lazy loading으로 성능 개선하는 방법
 description:
 date: 2024-03-15 00:02
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Tech
 thumbnail:
 ---

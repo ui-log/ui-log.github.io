@@ -7,7 +7,7 @@ export const data = {
     "title": "Html CSS JS로 틱택토(tic-tac-toe)게임 만들기",
     "description": "HTML, CSS, JavaScript를 사용하여 틱택토 게임을 만드는 방법을 알아봅니다.",
     "date": "2024-03-15 16:11",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Tech",
     "thumbnail": null
   },
@@ -42,17 +42,4 @@ export const data = {
     "updatedTime": 1710487559000
   },
   "filePathRelative": "docs/Tech/2024-03-15-Html-CSS-JS로-틱택토(tic-tac-toe)게임-만들기/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

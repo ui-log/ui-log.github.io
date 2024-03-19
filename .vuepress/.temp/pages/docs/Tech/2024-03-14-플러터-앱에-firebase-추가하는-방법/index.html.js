@@ -7,7 +7,7 @@ export const data = {
     "title": "플러터 앱에 Firebase 추가하는 방법",
     "description": null,
     "date": "2024-03-14 22:52",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Tech",
     "thumbnail": null
   },
@@ -30,17 +30,4 @@ export const data = {
     "updatedTime": 1710428800000
   },
   "filePathRelative": "docs/Tech/2024-03-14-플러터-앱에-firebase-추가하는-방법/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

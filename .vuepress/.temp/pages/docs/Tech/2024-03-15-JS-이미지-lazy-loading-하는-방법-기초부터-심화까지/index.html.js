@@ -7,7 +7,7 @@ export const data = {
     "title": "JS 이미지 lazy loading 하는 방법 기초부터 심화까지",
     "description": null,
     "date": "2024-03-15 08:48",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Tech",
     "thumbnail": null
   },
@@ -17,17 +17,4 @@ export const data = {
     "updatedTime": 1710487559000
   },
   "filePathRelative": "docs/Tech/2024-03-15-JS-이미지-lazy-loading-하는-방법-기초부터-심화까지/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

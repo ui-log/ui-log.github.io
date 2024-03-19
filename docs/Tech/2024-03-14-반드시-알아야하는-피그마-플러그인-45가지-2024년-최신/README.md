@@ -2,7 +2,7 @@
 title: 반드시 알아야하는 피그마 플러그인 45가지(2024년 최신)
 description: 2024년 최신 피그마 플러그인 45가지를 소개합니다.
 date: 2024-03-14 23:53
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Tech
 thumbnail:
 ---

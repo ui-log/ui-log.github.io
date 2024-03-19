@@ -73,16 +73,3 @@ export const data = {
   },
   "filePathRelative": "docs/Tech/2024-03-08-UI-UX-최신-트렌드-정리(2024년-최신)/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

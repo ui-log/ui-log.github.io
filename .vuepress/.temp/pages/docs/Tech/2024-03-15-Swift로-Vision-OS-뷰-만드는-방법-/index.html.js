@@ -7,27 +7,14 @@ export const data = {
     "title": "Swift로 Vision OS 뷰 만드는 방법",
     "description": null,
     "date": "2024-03-15 17:31",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Tech",
     "thumbnail": null
   },
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710492661000
   },
   "filePathRelative": "docs/Tech/2024-03-15-Swift로-Vision-OS-뷰-만드는-방법-/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

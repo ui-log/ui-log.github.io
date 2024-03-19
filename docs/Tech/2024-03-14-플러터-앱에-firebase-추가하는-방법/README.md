@@ -2,7 +2,7 @@
 title: 플러터 앱에 Firebase 추가하는 방법
 description:
 date: 2024-03-14 22:52
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Tech
 thumbnail:
 ---

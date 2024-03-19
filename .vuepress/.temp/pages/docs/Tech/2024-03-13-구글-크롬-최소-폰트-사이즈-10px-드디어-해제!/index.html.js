@@ -18,16 +18,3 @@ export const data = {
   },
   "filePathRelative": "docs/Tech/2024-03-13-구글-크롬-최소-폰트-사이즈-10px-드디어-해제!/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

@@ -1,13 +1,13 @@
 ---
-title: Taliwind CSS로 Progressbar 쉽게 만드는 방법
+title: Taliwind CSS로 Progressbar 10가지 만들기
 description:
 date: 2024-03-15 17:35
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Tech
 thumbnail:
 ---
 
-# Tailwind CSS로 Progress bar 만들기
+# Tailwind CSS로 Progress bar 10가지 만들기
 
 <img src="./img/Designing-Stunning-Progress-Bars-Made-Easy-with-Tailwind-CSS_0.png" />
 

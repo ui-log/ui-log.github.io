@@ -2,7 +2,7 @@
 title: Swift로 Vision OS 뷰 만드는 방법
 description:
 date: 2024-03-15 17:31
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Tech
 thumbnail:
 ---

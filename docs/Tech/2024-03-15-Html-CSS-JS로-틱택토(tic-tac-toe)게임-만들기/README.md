@@ -2,7 +2,7 @@
 title: Html CSS JS로 틱택토(tic-tac-toe)게임 만들기
 description: HTML, CSS, JavaScript를 사용하여 틱택토 게임을 만드는 방법을 알아봅니다.
 date: 2024-03-15 16:11
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Tech
 thumbnail:
 ---

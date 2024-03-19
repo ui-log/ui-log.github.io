@@ -7,7 +7,7 @@ export const data = {
     "title": "React Native에서 lazy loading으로 성능 개선하는 방법",
     "description": null,
     "date": "2024-03-15 00:02",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Tech",
     "thumbnail": null
   },
@@ -51,20 +51,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1710428800000
+    "updatedTime": 1710492661000
   },
   "filePathRelative": "docs/Tech/2024-03-15-React-Native에서-lazy-loading으로-성능-개선하는-방법/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

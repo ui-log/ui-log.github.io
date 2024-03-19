@@ -7,7 +7,7 @@ export const data = {
     "title": "React 개발할 때 참고하면 좋은 레포지토리 8가지",
     "description": "React 개발 시 유용한 8가지 레포지토리를 살펴보세요.",
     "date": "2024-03-15 15:50",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Tech",
     "thumbnail": null
   },
@@ -17,17 +17,4 @@ export const data = {
     "updatedTime": 1710487559000
   },
   "filePathRelative": "docs/Tech/2024-03-15-React-개발-참고-레포지토리/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

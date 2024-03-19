@@ -2,7 +2,7 @@
 title: React 개발할 때 참고하면 좋은 레포지토리 8가지
 description: React 개발 시 유용한 8가지 레포지토리를 살펴보세요.
 date: 2024-03-15 15:50
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Tech
 thumbnail:
 ---

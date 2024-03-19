@@ -2,7 +2,7 @@
 title: 비즈니스를 할 때 꼭 필요한 AI 도구
 description:
 date: 2024-03-15 17:10
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Tech
 thumbnail:
 ---

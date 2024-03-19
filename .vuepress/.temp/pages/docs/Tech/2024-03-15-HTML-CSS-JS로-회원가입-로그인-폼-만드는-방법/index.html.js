@@ -7,27 +7,14 @@ export const data = {
     "title": "HTML CSS JS로 회원가입 로그인 폼 만드는 방법",
     "description": "HTML, CSS 및 JavaScript를 사용하여 간단한 회원가입 및 로그인 폼을 만드는 방법에 대한 튜토리얼입니다.",
     "date": "2024-03-15 17:33",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Tech",
     "thumbnail": null
   },
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710492661000
   },
   "filePathRelative": "docs/Tech/2024-03-15-HTML-CSS-JS로-회원가입-로그인-폼-만드는-방법/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

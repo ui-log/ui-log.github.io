@@ -1,13 +1,13 @@
 export const data = {
   "key": "v-8bdcb59c",
   "path": "/docs/Tech/2024-03-15-Taliwind-CSS%EB%A1%9C-Progressbar-%EC%89%BD%EA%B2%8C-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95/",
-  "title": "Taliwind CSS로 Progressbar 쉽게 만드는 방법",
+  "title": "Taliwind CSS로 Progressbar 10가지 만들기",
   "lang": "ko",
   "frontmatter": {
-    "title": "Taliwind CSS로 Progressbar 쉽게 만드는 방법",
+    "title": "Taliwind CSS로 Progressbar 10가지 만들기",
     "description": null,
     "date": "2024-03-15 17:35",
-    "sidebarDepth": 2,
+    "sidebarDepth": 0,
     "tag": "Tech",
     "thumbnail": null
   },
@@ -81,20 +81,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710492661000
   },
   "filePathRelative": "docs/Tech/2024-03-15-Taliwind-CSS로-Progressbar-쉽게-만드는-방법/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

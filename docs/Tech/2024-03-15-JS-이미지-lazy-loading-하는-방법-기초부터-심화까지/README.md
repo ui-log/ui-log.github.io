@@ -2,7 +2,7 @@
 title: JS 이미지 lazy loading 하는 방법 기초부터 심화까지
 description:
 date: 2024-03-15 08:48
-sidebarDepth: 2
+sidebarDepth: 0
 tag: Tech
 thumbnail:
 ---

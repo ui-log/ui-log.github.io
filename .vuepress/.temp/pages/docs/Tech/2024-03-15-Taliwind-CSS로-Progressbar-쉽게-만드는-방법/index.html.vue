@@ -1,4 +1,4 @@
-<template><div><h1 id="tailwind-css로-progress-bar-만들기" tabindex="-1"><a class="header-anchor" href="#tailwind-css로-progress-bar-만들기" aria-hidden="true">#</a> Tailwind CSS로 Progress bar 만들기</h1>
+<template><div><h1 id="tailwind-css로-progress-bar-10가지-만들기" tabindex="-1"><a class="header-anchor" href="#tailwind-css로-progress-bar-10가지-만들기" aria-hidden="true">#</a> Tailwind CSS로 Progress bar 10가지 만들기</h1>
 <img src="@source/docs/Tech/2024-03-15-Taliwind-CSS로-Progressbar-쉽게-만드는-방법/img/Designing-Stunning-Progress-Bars-Made-Easy-with-Tailwind-CSS_0.png" />
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"

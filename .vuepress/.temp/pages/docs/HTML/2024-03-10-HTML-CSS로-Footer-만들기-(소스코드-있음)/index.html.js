@@ -18,16 +18,3 @@ export const data = {
   },
   "filePathRelative": "docs/HTML/2024-03-10-HTML-CSS로-Footer-만들기-(소스코드-있음)/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

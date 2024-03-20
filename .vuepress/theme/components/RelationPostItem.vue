@@ -101,7 +101,7 @@ article {
   box-shadow: 0 4px 16px 0 var(--c-bg-box-shadow);
   border: 1px solid transparent;
   border-radius: 3px;
-  max-height: 227.5px;
+  // max-height: 227.5px;
   flex-direction: column;
 
   &::before {
@@ -136,7 +136,8 @@ article {
     display: block;
     margin: 0;
     position: relative;
-    min-height: 111px;
+    aspect-ratio: 3/2;
+    // min-height: 111px;
     overflow: hidden;
     border-radius: 3px 3px 0 0;
 

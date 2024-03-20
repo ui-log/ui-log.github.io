@@ -34,7 +34,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710827145000
   },
   "filePathRelative": "docs/Tech/2024-03-19-Nextjs-14-CSS-in-JS-라이브러리/README.md"
 }

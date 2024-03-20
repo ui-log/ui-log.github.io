@@ -51,7 +51,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1710487559000
+    "updatedTime": 1710827145000
   },
   "filePathRelative": "docs/Tech/2024-03-15-CSS로-햄버거-메뉴-만드는-방법/README.md"
 }

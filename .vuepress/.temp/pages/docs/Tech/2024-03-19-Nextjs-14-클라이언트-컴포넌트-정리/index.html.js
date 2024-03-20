@@ -52,7 +52,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710827145000
   },
   "filePathRelative": "docs/Tech/2024-03-19-Nextjs-14-클라이언트-컴포넌트-정리/README.md"
 }

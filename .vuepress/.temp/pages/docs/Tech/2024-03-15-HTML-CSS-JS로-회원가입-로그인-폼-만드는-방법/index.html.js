@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1710492661000
+    "updatedTime": 1710827145000
   },
   "filePathRelative": "docs/Tech/2024-03-15-HTML-CSS-JS로-회원가입-로그인-폼-만드는-방법/README.md"
 }

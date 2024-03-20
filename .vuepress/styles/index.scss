@@ -92,14 +92,19 @@ em {
   }
 
   code {
-    color: #ff3860;
-    background: #f9f1f3;
-    padding: 4px;
+    color: #000;
+    padding: 0.12em 0.25em;
+    background: #f7f7f7;
+    border: 1px solid #ededed;
 
     .dark & {
       color: var(--c-text-lighter);
       background-color: var(--c-bg-light);
     }
+  }
+
+  pre code {
+    border: none;
   }
 
   strong {

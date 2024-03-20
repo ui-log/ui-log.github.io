@@ -39,7 +39,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710827145000
   },
   "filePathRelative": "docs/Tech/2024-03-19-Nextjs-14-CSS-Modules-사용-방법/README.md"
 }

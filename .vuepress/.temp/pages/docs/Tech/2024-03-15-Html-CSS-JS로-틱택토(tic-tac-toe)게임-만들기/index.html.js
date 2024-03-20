@@ -39,7 +39,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1710487559000
+    "updatedTime": 1710827145000
   },
   "filePathRelative": "docs/Tech/2024-03-15-Html-CSS-JS로-틱택토(tic-tac-toe)게임-만들기/README.md"
 }

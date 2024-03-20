@@ -117,7 +117,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1710492661000
+    "updatedTime": 1710827145000
   },
   "filePathRelative": "docs/Tech/2024-03-15-웹디자이너가-알아야할-디자인-규칙-16가지/README.md"
 }

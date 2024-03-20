@@ -69,12 +69,9 @@ const relationPosts = computed(() => {
 }
 
 .relations {
-  @include only-pc {
-    width: 800px;
-    margin: 50px auto;
-  }
-
-  margin: 50px 0;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
 
   h2 {
     margin: 0 10px;

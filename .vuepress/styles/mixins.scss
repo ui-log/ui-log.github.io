@@ -4,6 +4,18 @@
   }
 }
 
+@mixin only-tablet {
+  @media (min-width: 800px) {
+    @content;
+  }
+}
+
+@mixin only-mobile {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
 @mixin ellipsisMulti($line_num) {
   display: -webkit-box;
   overflow: hidden;

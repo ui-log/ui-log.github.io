@@ -27,7 +27,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1710428800000
+    "updatedTime": 1710827145000
   },
   "filePathRelative": "docs/Tech/2024-03-14-플러터-앱에-firebase-추가하는-방법/README.md"
 }

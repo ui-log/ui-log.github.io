@@ -39,14 +39,18 @@ ul {
 }
 
 li {
-  width: 25%;
+  width: 50%;
   padding: 5px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
 
+  @include only-tablet {
+    width: 33%;
+  }
+
   @include only-pc {
-    // width: calc(100% / 3);
+    width: 25%;
   }
 }
 </style>

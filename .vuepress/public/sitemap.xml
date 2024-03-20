@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Metadata/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Font-Optimization/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Video-Optimization/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-19-CSS-@property를-사용해-CSS-변수-타입-지정하기/</loc>
+</url>
+<url>
 	<loc>http://ui-log.github.io/docs/Tech/2024-03-19-Nextjs-14-Parallel-Routes(병렬-라우트)정리/</loc>
 </url>
 <url>

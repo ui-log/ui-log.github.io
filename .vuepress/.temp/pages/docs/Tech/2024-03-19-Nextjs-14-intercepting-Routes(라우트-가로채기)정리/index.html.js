@@ -34,7 +34,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710827145000
   },
   "filePathRelative": "docs/Tech/2024-03-19-Nextjs-14-intercepting-Routes(라우트-가로채기)정리/README.md"
 }

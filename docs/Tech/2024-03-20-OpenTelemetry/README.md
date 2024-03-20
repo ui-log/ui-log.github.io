@@ -7,7 +7,7 @@ tag: Tech
 thumbnail:
 ---
 
-# OpenTelemetry
+# Nextjs 사이트 성능 측정을 위한 OpenTelemetry
 
 > 좋은 정보: 이 기능은 실험적이며, 다음과 같이 experimental.instrumentationHook = true;을 제공하여 명시적으로 참여해야 합니다.  
 > Next.js 앱의 동작과 성능을 이해하고 최적화하는 데 관측 가능성은 중요합니다.  

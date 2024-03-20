@@ -1,4 +1,4 @@
-<template><div><h1 id="public-폴더-안의-정적-자산" tabindex="-1"><a class="header-anchor" href="#public-폴더-안의-정적-자산" aria-hidden="true">#</a> <code v-pre>public</code> 폴더 안의 정적 자산</h1>
+<template><div><h1 id="nextjs14-정적-public-파일-적용-방법" tabindex="-1"><a class="header-anchor" href="#nextjs14-정적-public-파일-적용-방법" aria-hidden="true">#</a> Nextjs14 정적(public) 파일 적용 방법</h1>
 <p>Next.js는 루트 디렉토리에있는 public이라는 폴더 아래에있는 이미지와 같은 정적 파일을 제공할 수 있습니다. public 폴더 내의 파일은 기본 URL(/)부터 코드에서 참조할 수 있습니다.
 예를 들어, public/avatars/me.png 파일은 /avatars/me.png 경로를 방문하여 볼 수 있습니다. 해당 이미지를 표시하는 코드는 아래와 같을 수 있습니다:</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> Image <span class="token keyword">from</span> <span class="token string">"next/image"</span><span class="token punctuation">;</span>

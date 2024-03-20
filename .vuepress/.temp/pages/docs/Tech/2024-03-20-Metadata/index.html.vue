@@ -1,4 +1,4 @@
-<template><div><h1 id="메타데이터" tabindex="-1"><a class="header-anchor" href="#메타데이터" aria-hidden="true">#</a> 메타데이터</h1>
+<template><div><h1 id="nextjs-14-메타데이터-metadata-사용방법-정리" tabindex="-1"><a class="header-anchor" href="#nextjs-14-메타데이터-metadata-사용방법-정리" aria-hidden="true">#</a> Nextjs 14 메타데이터(metadata) 사용방법 정리</h1>
 <p>Next.js에는 향상된 SEO 및 웹 공유 기능을 위해 사용할 수 있는 메타데이터 API가 있습니다. 애플리케이션 메타데이터(예: HTML head 요소 내의 메타 및 링크 태그)를 정의하는 데 사용됩니다.
 애플리케이션에 메타데이터를 추가하는 두 가지 방법이 있습니다:</p>
 <ul>

@@ -1,4 +1,4 @@
-<template><div><h1 id="스크립트-최적화" tabindex="-1"><a class="header-anchor" href="#스크립트-최적화" aria-hidden="true">#</a> 스크립트 최적화</h1>
+<template><div><h1 id="nextjs-14-스크립트-최적화하는-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-스크립트-최적화하는-방법" aria-hidden="true">#</a> Nextjs 14 스크립트 최적화하는 방법</h1>
 <h3 id="레이아웃-스크립트" tabindex="-1"><a class="header-anchor" href="#레이아웃-스크립트" aria-hidden="true">#</a> 레이아웃 스크립트</h3>
 <p>여러 루트에 대해 제3 자 스크립트를로드하려면 next/script를 가져와 레이아웃 구성 요소에 직접 스크립트를 포함하십시오:</p>
 <div class="language-typescript ext-ts line-numbers-mode"><pre v-pre class="language-typescript"><code><span class="token keyword">import</span> Script <span class="token keyword">from</span> <span class="token string">"next/script"</span><span class="token punctuation">;</span>

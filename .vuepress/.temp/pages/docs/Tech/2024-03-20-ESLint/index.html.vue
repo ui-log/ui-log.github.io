@@ -1,4 +1,4 @@
-<template><div><h1 id="eslint" tabindex="-1"><a class="header-anchor" href="#eslint" aria-hidden="true">#</a> ESLint</h1>
+<template><div><h1 id="nextjs-14-eslint-설정-및-사용-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-eslint-설정-및-사용-방법" aria-hidden="true">#</a> Nextjs 14 ESLint 설정 및 사용 방법</h1>
 <p>Next.js는 기본적으로 통합된 ESLint 경험을 제공합니다. package.json에 next lint를 스크립트로 추가하세요:</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token punctuation">{</span>
   <span class="token string-property property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>

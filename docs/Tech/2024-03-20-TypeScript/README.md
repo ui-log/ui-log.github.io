@@ -7,7 +7,7 @@ tag: Tech
 thumbnail:
 ---
 
-# TypeScript
+# Nextjs 14 타입스크립트 사용 방법
 
 Next.js는 React 애플리케이션을 구축하는 데 TypeScript를 우선으로 하는 개발 경험을 제공합니다.
 필요한 패키지를 자동으로 설치하고 적절한 설정을 구성하기 위한 기본 TypeScript 지원이 제공됩니다.

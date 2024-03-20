@@ -1,4 +1,4 @@
-<template><div><h1 id="src-디렉토리" tabindex="-1"><a class="header-anchor" href="#src-디렉토리" aria-hidden="true">#</a> src 디렉토리</h1>
+<template><div><h1 id="nextjs-14-저장소-src-디렉토리-특징" tabindex="-1"><a class="header-anchor" href="#nextjs-14-저장소-src-디렉토리-특징" aria-hidden="true">#</a> Nextjs 14 저장소 src 디렉토리 특징</h1>
 <p>당신의 프로젝트 루트에 특별한 Next.js 앱 또는 페이지 디렉토리를 갖는 대신, Next.js는 또한 src 디렉토리 아래에 애플리케이션 코드를 배치하는 일반적인 패턴을 지원합니다.
 이는 대부분 프로젝트 루트에 위치하는 프로젝트 구성 파일과 애플리케이션 코드를 분리하며, 일부 개인 및 팀에서 선호하는 방식입니다.</p>
 <p>src 디렉토리를 사용하려면, 앱 라우터 폴더 또는 페이지 라우터 폴더를 각각 src/app 또는 src/pages로 이동시키세요.</p>

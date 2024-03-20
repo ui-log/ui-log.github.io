@@ -7,7 +7,7 @@ tag: Tech
 thumbnail:
 ---
 
-# Next.js에서 Jest 설정하기
+# Nextjs 14 jest로 코드 테스트 하기
 
 Jest와 React Testing Library는 유닛 테스팅과 스냅샷 테스팅을 함께 자주 사용됩니다. 이 안내서에서는 Next.js에서 Jest를 설정하고 첫 번째 테스트를 작성하는 방법을 안내해 드릴 겁니다.
 

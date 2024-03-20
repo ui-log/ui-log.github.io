@@ -7,7 +7,7 @@ tag: Tech
 thumbnail:
 ---
 
-# Next.js와 함께 Playwright 설정하기
+# Playwright를 Next.js와 함께 설정하는 방법
 
 Playwright는 Chromium, Firefox 및 WebKit을 단일 API로 자동화할 수 있는 테스팅 프레임워크입니다. Playwright를 사용하면 End-to-End(E2E) 테스트를 작성할 수 있습니다. 이 안내서는 Next.js와 함께 Playwright를 설정하고 첫 번째 테스트를 작성하는 방법을 안내합니다.
 

@@ -1,4 +1,4 @@
-<template><div><h1 id="next-js와-함께-playwright-설정하기" tabindex="-1"><a class="header-anchor" href="#next-js와-함께-playwright-설정하기" aria-hidden="true">#</a> Next.js와 함께 Playwright 설정하기</h1>
+<template><div><h1 id="playwright를-next-js와-함께-설정하는-방법" tabindex="-1"><a class="header-anchor" href="#playwright를-next-js와-함께-설정하는-방법" aria-hidden="true">#</a> Playwright를 Next.js와 함께 설정하는 방법</h1>
 <p>Playwright는 Chromium, Firefox 및 WebKit을 단일 API로 자동화할 수 있는 테스팅 프레임워크입니다. Playwright를 사용하면 End-to-End(E2E) 테스트를 작성할 수 있습니다. 이 안내서는 Next.js와 함께 Playwright를 설정하고 첫 번째 테스트를 작성하는 방법을 안내합니다.</p>
 <h2 id="빠른-시작" tabindex="-1"><a class="header-anchor" href="#빠른-시작" aria-hidden="true">#</a> 빠른 시작</h2>
 <p>가장 빠르게 시작하는 방법은 with-playwright 예제를 사용하여 create-next-app을 사용하는 것입니다. 이렇게 하면 Playwright가 구성된 Next.js 프로젝트가 생성됩니다.</p>

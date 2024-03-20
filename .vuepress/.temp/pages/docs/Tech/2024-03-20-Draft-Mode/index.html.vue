@@ -1,4 +1,4 @@
-<template><div><h1 id="초안-모드" tabindex="-1"><a class="header-anchor" href="#초안-모드" aria-hidden="true">#</a> 초안 모드</h1>
+<template><div><h1 id="nextjs-14-draft-mode-방법-정리" tabindex="-1"><a class="header-anchor" href="#nextjs-14-draft-mode-방법-정리" aria-hidden="true">#</a> Nextjs 14 Draft Mode 방법 정리</h1>
 <p>정적 렌더링은 페이지가 헤드리스 CMS에서 데이터를 가져올 때 유용합니다. 그러나 헤드리스 CMS에서 초안을 작성하고 바로 페이지에서 확인하고 싶은 경우에 이상적이지 않습니다. 이럴 때 Next.js가 이러한 페이지를 빌드 시간이 아니라 요청 시간에 렌더링하고 게시된 콘텐츠가 아니라 초안 콘텐츠를 가져오도록 하고 싶을 것입니다. 이 특별한 경우에만 Next.js가 동적 렌더링으로 전환될 수 있도록 하고 싶을 것입니다.
 Next.js에는 이 문제를 해결하는 Draft Mode라는 기능이 있습니다. 사용 방법은 다음과 같습니다.</p>
 <h2 id="단계-1-라우트-핸들러-생성-및-접근" tabindex="-1"><a class="header-anchor" href="#단계-1-라우트-핸들러-생성-및-접근" aria-hidden="true">#</a> 단계 1: 라우트 핸들러 생성 및 접근</h2>

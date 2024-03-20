@@ -1,4 +1,4 @@
-<template><div><h1 id="써드파티-라이브러리" tabindex="-1"><a class="header-anchor" href="#써드파티-라이브러리" aria-hidden="true">#</a> 써드파티 라이브러리</h1>
+<template><div><h1 id="nextjs-14-써드파티-라이브러리-사용-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-써드파티-라이브러리-사용-방법" aria-hidden="true">#</a> Nextjs 14 써드파티 라이브러리 사용 방법</h1>
 <p><code v-pre>@next/third-parties</code>는 Next.js 애플리케이션에서 인기 있는 써드파티 라이브러리를 더 빠르게 로드하고 개발자 경험을 향상시키는 컴포넌트 및 유틸리티 모음을 제공하는 라이브러리입니다.
 <code v-pre>@next/third-parties</code>에 의해 제공되는 모든 써드파티 통합은 성능과 사용 편의성을 최적화했습니다.</p>
 <h2 id="시작하기" tabindex="-1"><a class="header-anchor" href="#시작하기" aria-hidden="true">#</a> 시작하기</h2>

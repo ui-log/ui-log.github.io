@@ -7,7 +7,7 @@ tag: Tech
 thumbnail:
 ---
 
-# ESLint
+# Nextjs 14 ESLint 설정 및 사용 방법
 
 Next.js는 기본적으로 통합된 ESLint 경험을 제공합니다. package.json에 next lint를 스크립트로 추가하세요:
 

@@ -1,4 +1,4 @@
-<template><div><h1 id="번들-분석기" tabindex="-1"><a class="header-anchor" href="#번들-분석기" aria-hidden="true">#</a> 번들 분석기</h1>
+<template><div><h1 id="nextjs-14-next-bundle-analyzer-플러그인으로-효율적으로-번들링하는-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-next-bundle-analyzer-플러그인으로-효율적으로-번들링하는-방법" aria-hidden="true">#</a> Nextjs 14 @next/bundle-analyzer 플러그인으로 효율적으로 번들링하는 방법</h1>
 <p>@next/bundle-analyzer는 Next.js용 플러그인으로, JavaScript 모듈의 크기를 관리하는 데 도움을 줍니다. 각 모듈과 그 종속성의 크기에 대한 시각적 보고서를 생성합니다. 이 정보를 사용하여 큰 종속성을 제거하거나 코드를 분할하거나 필요할 때 일부 부분만 로드하여 클라이언트로 전송되는 데이터 양을 줄일 수 있습니다.</p>
 <h2 id="설치" tabindex="-1"><a class="header-anchor" href="#설치" aria-hidden="true">#</a> 설치</h2>
 <p>다음 명령을 실행하여 플러그인을 설치하세요:</p>

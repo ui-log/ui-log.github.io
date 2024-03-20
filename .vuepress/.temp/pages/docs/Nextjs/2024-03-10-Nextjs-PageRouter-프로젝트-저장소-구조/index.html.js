@@ -8,7 +8,7 @@ export const data = {
     "description": "Next.js 애플리케이션의 프로젝트 구조에 대한 개요를 제공합니다. 상위 수준의 파일 및 폴더, 구성 파일 및 앱 및 페이지 디렉터리 내에서의 라우팅 규칙에 대해 다룹니다.",
     "date": "2024-03-10 16:50",
     "sidebarDepth": 0,
-    "tag": "Next.js",
+    "tag": "Nextjs",
     "thumbnail": null
   },
   "excerpt": "",
@@ -98,4 +98,17 @@ export const data = {
     "updatedTime": 1710057545000
   },
   "filePathRelative": "docs/Nextjs/2024-03-10-Nextjs-PageRouter-프로젝트-저장소-구조/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

@@ -1,4 +1,4 @@
-<template><div><h1 id="폰트-최적화" tabindex="-1"><a class="header-anchor" href="#폰트-최적화" aria-hidden="true">#</a> 폰트 최적화</h1>
+<template><div><h1 id="nextjs-14-폰트-최적화하는-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-폰트-최적화하는-방법" aria-hidden="true">#</a> Nextjs 14 폰트 최적화하는 방법</h1>
 <p>next/font는 자동으로 폰트를 최적화하고 (사용자 정의 폰트 포함) 개인 정보 보호 및 성능 향상을 위해 외부 네트워크 요청을 제거합니다.</p>
 <blockquote>
 <p>🎥 시청: next/font 사용에 대해 자세히 알아보기 → YouTube (6 분)

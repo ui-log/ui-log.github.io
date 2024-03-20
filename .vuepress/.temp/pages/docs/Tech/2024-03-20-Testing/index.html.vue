@@ -1,4 +1,4 @@
-<template><div><h1 id="테스트" tabindex="-1"><a class="header-anchor" href="#테스트" aria-hidden="true">#</a> 테스트</h1>
+<template><div><h1 id="nextjs-14-프로젝트-testing-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-프로젝트-testing-방법" aria-hidden="true">#</a> Nextjs 14 프로젝트 Testing 방법</h1>
 <p>React와 Next.js에서는 작성할 수 있는 몇 가지 다른 종류의 테스트가 있습니다. 각 테스트에는 고유한 목적과 사용 사례가 있습니다. 이 페이지는 응용 프로그램을 테스트하는 데 사용할 수 있는 유형 및 일반적으로 사용되는 도구에 대한 개요를 제공합니다.</p>
 <h2 id="테스트-유형" tabindex="-1"><a class="header-anchor" href="#테스트-유형" aria-hidden="true">#</a> 테스트 유형</h2>
 <ul>

@@ -7,7 +7,7 @@ tag: Tech
 thumbnail:
 ---
 
-# 통계 분석
+# Nextjs 14 사이트 통계 측정 방법
 
 Next.js에는 성능 지표를 측정하고 보고하는 내장 지원이 있습니다. useReportWebVitals 훅을 사용하여 직접 보고를 관리하거나 Vercel은 대신 성능 지표를 자동으로 수집하고 시각화하는 관리 서비스를 제공합니다.
 

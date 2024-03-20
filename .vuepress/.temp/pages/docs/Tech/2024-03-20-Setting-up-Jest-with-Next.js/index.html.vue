@@ -1,4 +1,4 @@
-<template><div><h1 id="next-js에서-jest-설정하기" tabindex="-1"><a class="header-anchor" href="#next-js에서-jest-설정하기" aria-hidden="true">#</a> Next.js에서 Jest 설정하기</h1>
+<template><div><h1 id="nextjs-14-jest로-코드-테스트-하기" tabindex="-1"><a class="header-anchor" href="#nextjs-14-jest로-코드-테스트-하기" aria-hidden="true">#</a> Nextjs 14 jest로 코드 테스트 하기</h1>
 <p>Jest와 React Testing Library는 유닛 테스팅과 스냅샷 테스팅을 함께 자주 사용됩니다. 이 안내서에서는 Next.js에서 Jest를 설정하고 첫 번째 테스트를 작성하는 방법을 안내해 드릴 겁니다.</p>
 <blockquote>
 <p>참고: 비동기 서버 컴포넌트가 React 생태계에 새롭게 도입되었기 때문에, Jest는 현재 그것들을 지원하지 않습니다. 동기적인 서버 및 클라이언트 컴포넌트에 대한 단위 테스트는 여전히 실행할 수 있지만, 비동기 컴포넌트에 대해서는 E2E 테스트를 권장합니다.</p>

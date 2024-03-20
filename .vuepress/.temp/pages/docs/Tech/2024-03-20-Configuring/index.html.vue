@@ -1,4 +1,4 @@
-<template><div><h1 id="설정하기" tabindex="-1"><a class="header-anchor" href="#설정하기" aria-hidden="true">#</a> 설정하기</h1>
+<template><div><h1 id="nextjs-14-프로젝트-설정-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-프로젝트-설정-방법" aria-hidden="true">#</a> Nextjs 14 프로젝트 설정 방법</h1>
 <p>Next.js를 사용하면 프로젝트를 특정 요구 사항에 맞게 사용자 정의할 수 있습니다. TypeScript, ESlint 및 기타 내부 구성 옵션과 같은 통합뿐만 아니라 절대 임포트 및 환경 변수와 같은 내부 구성 옵션을 포함합니다.</p>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"

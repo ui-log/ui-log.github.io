@@ -7,7 +7,7 @@ tag: Tech
 thumbnail:
 ---
 
-# 환경 변수
+# Nextjs 14 환경변수 설정 방법
 
 Next.js에는 환경 변수를 내장 지원하여 다음을 수행할 수 있습니다:
 

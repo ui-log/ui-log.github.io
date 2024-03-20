@@ -1,4 +1,4 @@
-<template><div><h1 id="계측" tabindex="-1"><a class="header-anchor" href="#계측" aria-hidden="true">#</a> 계측</h1>
+<template><div><h1 id="nextjs-14-instrumentation-정리" tabindex="-1"><a class="header-anchor" href="#nextjs-14-instrumentation-정리" aria-hidden="true">#</a> Nextjs 14 instrumentation 정리</h1>
 <p>계측은 코드를 사용하여 모니터링 및 로깅 도구를 응용 프로그램에 통합하는 프로세스입니다. 이를 통해 응용 프로그램의 성능과 동작을 추적하고 프로덕션 환경에서 문제를 해결할 수 있습니다.</p>
 <h2 id="규칙" tabindex="-1"><a class="header-anchor" href="#규칙" aria-hidden="true">#</a> 규칙</h2>
 <p>계측을 설정하려면 프로젝트의 루트 디렉토리에 instrumentation.ts|js 파일을 만드세요 (또는 사용 중인 경우 src 폴더 안에).</p>

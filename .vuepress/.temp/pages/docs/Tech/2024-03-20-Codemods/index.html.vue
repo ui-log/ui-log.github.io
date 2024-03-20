@@ -1,4 +1,4 @@
-<template><div><h1 id="코드모드" tabindex="-1"><a class="header-anchor" href="#코드모드" aria-hidden="true">#</a> 코드모드</h1>
+<template><div><h1 id="nextjs-14-codemod-사용-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-codemod-사용-방법" aria-hidden="true">#</a> Nextjs 14 codemod 사용 방법</h1>
 <p>코드모드는 코드베이스에 프로그래밍적으로 실행되는 변환을 의미합니다. 이를 통해 많은 변경 사항을 수작업으로 모든 파일을 일일이 훑지 않고도 프로그래밍적으로 적용할 수 있습니다.</p>
 <p>Next.js는 API가 업데이트되거나 사용이 중단된 경우 Next.js 코드베이스를 업그레이드하는 데 도움이 되는 코드모드 변환을 제공합니다.</p>
 <h2 id="사용법" tabindex="-1"><a class="header-anchor" href="#사용법" aria-hidden="true">#</a> 사용법</h2>

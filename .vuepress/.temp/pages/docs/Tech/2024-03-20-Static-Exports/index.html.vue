@@ -1,4 +1,4 @@
-<template><div><h1 id="정적-익스포트" tabindex="-1"><a class="header-anchor" href="#정적-익스포트" aria-hidden="true">#</a> 정적 익스포트</h1>
+<template><div><h1 id="nextjs-14-정적-사이트-export-하는-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-정적-사이트-export-하는-방법" aria-hidden="true">#</a> Nextjs 14 정적 사이트 export 하는 방법</h1>
 <p>Next.js를 사용하면 정적 사이트 또는 Single-Page Application (SPA)으로 시작한 다음 나중에 서버가 필요한 기능을 사용하기로 선택적 업그레이드할 수 있습니다.
 <code v-pre>next build</code>를 실행하면 Next.js가 각 루트마다 HTML 파일을 생성합니다. 엄격한 SPA를 개별 HTML 파일로 분할함으로써 Next.js는 클라이언트 측에서 불필요한 JavaScript 코드를 로드하지 않아도 되어 번들 크기를 줄이고 페이지 로드 속도를 높일 수 있습니다.
 Next.js는 이 정적 익스포트를 지원하기 때문에 HTML/CSS/JS 정적 에셋을 제공할 수 있는 웹 서버에 배포하고 호스팅할 수 있습니다.</p>

@@ -7,7 +7,7 @@ tag: Tech
 thumbnail:
 ---
 
-# 인증(Authentication)
+# Nextjs 14 인증 구현 방법
 
 Next.js에서 인증을 구현하려면 세 가지 기본 개념에 익숙해져야 합니다:
 

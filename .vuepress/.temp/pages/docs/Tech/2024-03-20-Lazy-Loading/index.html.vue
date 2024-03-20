@@ -1,4 +1,4 @@
-<template><div><h1 id="lazy-loading" tabindex="-1"><a class="header-anchor" href="#lazy-loading" aria-hidden="true">#</a> Lazy Loading</h1>
+<template><div><h1 id="nextjs-14에서-lazy-loading으로-렌더링-하는-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14에서-lazy-loading으로-렌더링-하는-방법" aria-hidden="true">#</a> Nextjs 14에서 lazy loading으로 렌더링 하는 방법</h1>
 <p>Next.js의 'Lazy Loading'은 라우트를 렌더링하기 위해 필요한 JavaScript 양을 줄여 애플리케이션의 초기 로딩 성능을 향상시키는 데 도움이 됩니다.
 클라이언트 컴포넌트와 가져온 라이브러리의 로딩을 지연시키고, 사용자가 필요할 때에만 클라이언트 번들에 포함시킬 수 있습니다. 예를 들어, 사용자가 모달을 열 때까지 모달의 로딩을 지연시킬 수 있습니다.
 Next.js에서 'Lazy Loading'을 구현하는 두 가지 방법이 있습니다:</p>

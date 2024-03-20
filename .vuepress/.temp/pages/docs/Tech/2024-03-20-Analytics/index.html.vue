@@ -1,4 +1,4 @@
-<template><div><h1 id="통계-분석" tabindex="-1"><a class="header-anchor" href="#통계-분석" aria-hidden="true">#</a> 통계 분석</h1>
+<template><div><h1 id="nextjs-14-사이트-통계-측정-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-사이트-통계-측정-방법" aria-hidden="true">#</a> Nextjs 14 사이트 통계 측정 방법</h1>
 <p>Next.js에는 성능 지표를 측정하고 보고하는 내장 지원이 있습니다. useReportWebVitals 훅을 사용하여 직접 보고를 관리하거나 Vercel은 대신 성능 지표를 자동으로 수집하고 시각화하는 관리 서비스를 제공합니다.</p>
 <h2 id="직접-만들기" tabindex="-1"><a class="header-anchor" href="#직접-만들기" aria-hidden="true">#</a> 직접 만들기</h2>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token string">"use client"</span><span class="token punctuation">;</span>

@@ -1,4 +1,4 @@
-<template><div><h1 id="환경-변수" tabindex="-1"><a class="header-anchor" href="#환경-변수" aria-hidden="true">#</a> 환경 변수</h1>
+<template><div><h1 id="nextjs-14-환경변수-설정-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-환경변수-설정-방법" aria-hidden="true">#</a> Nextjs 14 환경변수 설정 방법</h1>
 <p>Next.js에는 환경 변수를 내장 지원하여 다음을 수행할 수 있습니다:</p>
 <ul>
 <li>.env.local을 사용하여 환경 변수 로드하기</li>

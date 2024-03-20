@@ -7,7 +7,7 @@ tag: Tech
 thumbnail:
 ---
 
-# 번들 분석기
+# Nextjs 14 @next/bundle-analyzer 플러그인으로 효율적으로 번들링하는 방법
 
 @next/bundle-analyzer는 Next.js용 플러그인으로, JavaScript 모듈의 크기를 관리하는 데 도움을 줍니다. 각 모듈과 그 종속성의 크기에 대한 시각적 보고서를 생성합니다. 이 정보를 사용하여 큰 종속성을 제거하거나 코드를 분할하거나 필요할 때 일부 부분만 로드하여 클라이언트로 전송되는 데이터 양을 줄일 수 있습니다.
 

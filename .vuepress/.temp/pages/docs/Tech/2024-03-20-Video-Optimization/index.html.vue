@@ -1,4 +1,4 @@
-<template><div><h1 id="비디오-최적화" tabindex="-1"><a class="header-anchor" href="#비디오-최적화" aria-hidden="true">#</a> 비디오 최적화</h1>
+<template><div><h1 id="nextjs-14-비디오-최적화-video-optimization-정리" tabindex="-1"><a class="header-anchor" href="#nextjs-14-비디오-최적화-video-optimization-정리" aria-hidden="true">#</a> Nextjs 14 비디오 최적화(Video Optimization) 정리</h1>
 <p>이 페이지에서는 Next.js 애플리케이션에서 비디오를 사용하는 방법을 안내하며, 성능에 영향을주지 않고 비디오 파일을 저장하고 표시하는 방법을 보여줍니다.</p>
 <h2 id="video-및-iframe-사용하기" tabindex="-1"><a class="header-anchor" href="#video-및-iframe-사용하기" aria-hidden="true">#</a> <code v-pre>&lt;video&gt;</code> 및 <code v-pre>&lt;iframe&gt;</code> 사용하기</h2>
 <p>비디오를 페이지에 임베드하려면 직접 비디오 파일에는 HTML <code v-pre>&lt;video&gt;</code> 태그를, 외부 플랫폼 호스팅 비디오에는 <code v-pre>&lt;iframe&gt;</code>을 사용할 수 있습니다.</p>

@@ -1,4 +1,4 @@
-<template><div><h1 id="typescript" tabindex="-1"><a class="header-anchor" href="#typescript" aria-hidden="true">#</a> TypeScript</h1>
+<template><div><h1 id="nextjs-14-타입스크립트-사용-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-타입스크립트-사용-방법" aria-hidden="true">#</a> Nextjs 14 타입스크립트 사용 방법</h1>
 <p>Next.js는 React 애플리케이션을 구축하는 데 TypeScript를 우선으로 하는 개발 경험을 제공합니다.
 필요한 패키지를 자동으로 설치하고 적절한 설정을 구성하기 위한 기본 TypeScript 지원이 제공됩니다.
 또한 편집기용 TypeScript 플러그인도 포함되어 있습니다.</p>

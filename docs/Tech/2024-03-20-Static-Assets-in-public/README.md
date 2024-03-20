@@ -7,7 +7,7 @@ tag: Tech
 thumbnail:
 ---
 
-# `public` 폴더 안의 정적 자산
+# Nextjs14 정적(public) 파일 적용 방법
 
 Next.js는 루트 디렉토리에있는 public이라는 폴더 아래에있는 이미지와 같은 정적 파일을 제공할 수 있습니다. public 폴더 내의 파일은 기본 URL(/)부터 코드에서 참조할 수 있습니다.
 예를 들어, public/avatars/me.png 파일은 /avatars/me.png 경로를 방문하여 볼 수 있습니다. 해당 이미지를 표시하는 코드는 아래와 같을 수 있습니다:

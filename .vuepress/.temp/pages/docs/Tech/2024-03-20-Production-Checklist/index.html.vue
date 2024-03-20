@@ -1,4 +1,4 @@
-<template><div><h1 id="프로덕션-체크리스트" tabindex="-1"><a class="header-anchor" href="#프로덕션-체크리스트" aria-hidden="true">#</a> 프로덕션 체크리스트</h1>
+<template><div><h1 id="nextjs-14-사이트-배포시-체크해야하는-것들" tabindex="-1"><a class="header-anchor" href="#nextjs-14-사이트-배포시-체크해야하는-것들" aria-hidden="true">#</a> Nextjs 14 사이트 배포시 체크해야하는 것들</h1>
 <p>Next.js 애플리케이션을 프로덕션 환경으로 이동하기 전에 사용자 경험, 성능 및 보안을 위해 고려해야 할 최적화 및 패턴이 있습니다.
 이 페이지는 애플리케이션을 구축할 때 참고할 수 있는 모범 사례를 제공합니다. 배포 전과 배포 후에 고려해야 할 자동 Next.js 최적화도 함께 제공됩니다.</p>
 <h2 id="자동-최적화" tabindex="-1"><a class="header-anchor" href="#자동-최적화" aria-hidden="true">#</a> 자동 최적화</h2>

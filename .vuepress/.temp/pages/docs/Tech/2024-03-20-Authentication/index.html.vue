@@ -1,4 +1,4 @@
-<template><div><h1 id="인증-authentication" tabindex="-1"><a class="header-anchor" href="#인증-authentication" aria-hidden="true">#</a> 인증(Authentication)</h1>
+<template><div><h1 id="nextjs-14-인증-구현-방법" tabindex="-1"><a class="header-anchor" href="#nextjs-14-인증-구현-방법" aria-hidden="true">#</a> Nextjs 14 인증 구현 방법</h1>
 <p>Next.js에서 인증을 구현하려면 세 가지 기본 개념에 익숙해져야 합니다:</p>
 <ul>
 <li>**인증(Authentication)**은 사용자가 자신이 말하는 대로인지 확인하는 것을 의미합니다. 사용자는 사용자 이름과 비밀번호와 같은 것으로 자신의 신원을 증명해야 합니다.</li>

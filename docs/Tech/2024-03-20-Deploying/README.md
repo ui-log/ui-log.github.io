@@ -7,7 +7,7 @@ tag: Tech
 thumbnail:
 ---
 
-# 배포하기
+# Nextjs 14 사이트 배포 방법 정리
 
 축하합니다, 이제 프로덕션 환경으로 배포할 때입니다.
 Vercel을 사용하여 Next.js를 관리되는 상태로 배포하거나 Node.js 서버, Docker 이미지 또는 정적 HTML 파일에 직접 호스팅할 수 있습니다. next start를 사용하여 배포할 때는 모든 Next.js 기능이 지원됩니다.

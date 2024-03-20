@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Environment-Variables/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-ESLint/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Configuring/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-TypeScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Static-Assets-in-public/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Third-Party-Libraries/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-OpenTelemetry/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Analytics/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Instrumentation/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Bundle-Analyzer/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Lazy-Loading/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Script-Optimization/</loc>
+</url>
+<url>
 	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Metadata/</loc>
 </url>
 <url>

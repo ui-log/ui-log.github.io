@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Codemods/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Static-Exports/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Production-Checklist/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Deploying/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Authentication/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Setting-up-Cypress-with-Next.js/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Setting-up-Playwright-with-Next.js/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Setting-up-Jest-with-Next.js/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Setting-up-Vitest-with-Next.js/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Testing/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Content-Security-Policy/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Draft-Mode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-src-Directory/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Markdown-and-MDX/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Absolute-Imports-and-Module-Path-Aliases/</loc>
+</url>
+<url>
 	<loc>http://ui-log.github.io/docs/Tech/2024-03-20-Environment-Variables/</loc>
 </url>
 <url>

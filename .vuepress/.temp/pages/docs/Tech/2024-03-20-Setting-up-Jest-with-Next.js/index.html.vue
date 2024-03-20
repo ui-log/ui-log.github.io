@@ -1,0 +1,259 @@
+<template><div><h1 id="next-js에서-jest-설정하기" tabindex="-1"><a class="header-anchor" href="#next-js에서-jest-설정하기" aria-hidden="true">#</a> Next.js에서 Jest 설정하기</h1>
+<p>Jest와 React Testing Library는 유닛 테스팅과 스냅샷 테스팅을 함께 자주 사용됩니다. 이 안내서에서는 Next.js에서 Jest를 설정하고 첫 번째 테스트를 작성하는 방법을 안내해 드릴 겁니다.</p>
+<blockquote>
+<p>참고: 비동기 서버 컴포넌트가 React 생태계에 새롭게 도입되었기 때문에, Jest는 현재 그것들을 지원하지 않습니다. 동기적인 서버 및 클라이언트 컴포넌트에 대한 단위 테스트는 여전히 실행할 수 있지만, 비동기 컴포넌트에 대해서는 E2E 테스트를 권장합니다.</p>
+</blockquote>
+<h2 id="빠른-시작" tabindex="-1"><a class="header-anchor" href="#빠른-시작" aria-hidden="true">#</a> 빠른 시작</h2>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>빠르게 시작하려면 Next.js with-jest 예제와 함께 create-next-app을 사용할 수 있어요:</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>npx create<span class="token operator">-</span>next<span class="token operator">-</span>app@latest <span class="token operator">--</span>example <span class="token keyword">with</span><span class="token operator">-</span>jest <span class="token keyword">with</span><span class="token operator">-</span>jest<span class="token operator">-</span>app
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="수동-설정" tabindex="-1"><a class="header-anchor" href="#수동-설정" aria-hidden="true">#</a> 수동 설정</h2>
+<p>Next.js 12 버전부터는 Jest에 대한 내장 구성이 있기 때문에 따로 설정할 필요가 없어요.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>Jest를 설정하려면 jest 및 다음 패키지를 개발 의존성으로 설치하세요:</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>npm install <span class="token operator">-</span><span class="token constant">D</span> jest jest<span class="token operator">-</span>environment<span class="token operator">-</span>jsdom @testing<span class="token operator">-</span>library<span class="token operator">/</span>react @testing<span class="token operator">-</span>library<span class="token operator">/</span>jest<span class="token operator">-</span>dom
+# 또는
+yarn add <span class="token operator">-</span><span class="token constant">D</span> jest jest<span class="token operator">-</span>environment<span class="token operator">-</span>jsdom @testing<span class="token operator">-</span>library<span class="token operator">/</span>react @testing<span class="token operator">-</span>library<span class="token operator">/</span>jest<span class="token operator">-</span>dom
+# 또는
+pnpm install <span class="token operator">-</span><span class="token constant">D</span> jest jest<span class="token operator">-</span>environment<span class="token operator">-</span>jsdom @testing<span class="token operator">-</span>library<span class="token operator">/</span>react @testing<span class="token operator">-</span>library<span class="token operator">/</span>jest<span class="token operator">-</span>dom
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>다음 명령어를 실행하여 기본 Jest 구성 파일을 생성하세요:</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>npm init jest@latest
+# 또는
+yarn create jest@latest
+# 또는
+pnpm create jest@latest
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>이 프로젝트를 위해 Jest를 설정하는 일련의 프롬프트를 진행하게 될 거예요. 이 과정에서 jest.config.ts|js 파일을 자동으로 생성할 거에요.
+구성 파일을 업데이트하여 next/jest를 사용하세요. 이 변환기에는 Next.js와 함께 Jest가 작동할 수 있도록 필요한 모든 구성 옵션이 포함되어 있어요:</p>
+<div class="language-typescript ext-ts line-numbers-mode"><pre v-pre class="language-typescript"><code><span class="token keyword">import</span> <span class="token keyword">type</span> <span class="token punctuation">{</span> Config <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"jest"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> nextJest <span class="token keyword">from</span> <span class="token string">"next/jest.js"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> createJestConfig <span class="token operator">=</span> <span class="token function">nextJest</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token comment">// 테스트 환경에서 next.config.js 및 .env 파일을 로드하기 위해 Next.js 앱의 경로를 제공하세요</span>
+  dir<span class="token operator">:</span> <span class="token string">"./"</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Jest에 전달할 사용자 정의 구성 추가</span>
+<span class="token keyword">const</span> config<span class="token operator">:</span> Config <span class="token operator">=</span> <span class="token punctuation">{</span>
+  coverageProvider<span class="token operator">:</span> <span class="token string">"v8"</span><span class="token punctuation">,</span>
+  testEnvironment<span class="token operator">:</span> <span class="token string">"jsdom"</span><span class="token punctuation">,</span>
+  <span class="token comment">// 각 테스트가 실행되기 전에 더 많은 설정 옵션을 추가하세요</span>
+  <span class="token comment">// setupFilesAfterEnv: ['&lt;rootDir>/jest.setup.ts'],</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// createJestConfig을 이렇게 내보내는 것은 async인 Next.js 구성을 로드할 수 있도록 next/jest가 이를 처리할 수 있도록 하기 위한 것이에요</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">createJestConfig</span><span class="token punctuation">(</span>config<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>내부적으로 next/jest는 Jest를 자동으로 구성하는데, 이 과정에는 다음과 같은 작업이 포함되어 있어요:</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<ul>
+<li>Next.js 컴파일러를 사용하여 변환 설정하기</li>
+<li>.css, .module.css 및 그들의 scss 변형, 이미지 가져오기 및 next/font의 스타일시트를 자동으로 모의하기</li>
+<li>.env (및 모든 변형)를 process.env에 로드하기</li>
+<li>테스트 해결 및 변환에서 node_modules를 무시하기</li>
+<li>테스트 해결에서 .next를 무시하기</li>
+<li>SWC 변환을 활성화하는 플래그를 위해 next.config.js를 로드하기
+<blockquote>
+<p>참고: 환경 변수를 직접 테스트하려면 별도의 설정 스크립트나 jest.config.ts 파일에 수동으로 로드하십시오. 자세한 내용은 테스트 환경 변수를 참조하십시오.</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="선택-사항-절대-경로-및-모듈-경로-별칭-다루기" tabindex="-1"><a class="header-anchor" href="#선택-사항-절대-경로-및-모듈-경로-별칭-다루기" aria-hidden="true">#</a> 선택 사항: 절대 경로 및 모듈 경로 별칭 다루기</h2>
+<p>프로젝트에서 모듈 경로 별칭을 사용하는 경우 Jest를 구성하여 jsconfig.json 파일의 paths 옵션과 jest.config.js 파일의 moduleNameMapper 옵션을 일치시킵니다. 예를 들면:</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token punctuation">{</span>
+  <span class="token string-property property">"compilerOptions"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">"module"</span><span class="token operator">:</span> <span class="token string">"esnext"</span><span class="token punctuation">,</span>
+    <span class="token string-property property">"moduleResolution"</span><span class="token operator">:</span> <span class="token string">"bundler"</span><span class="token punctuation">,</span>
+    <span class="token string-property property">"baseUrl"</span><span class="token operator">:</span> <span class="token string">"./"</span><span class="token punctuation">,</span>
+    <span class="token string-property property">"paths"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string-property property">"@/components/*"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"components/*"</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token literal-property property">moduleNameMapper</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token string-property property">'^@/components/(.*)$'</span><span class="token operator">:</span> <span class="token string">'&lt;rootDir>/components/$1'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="선택-사항-사용자-정의-일치자를-사용하여-jest-확장하기" tabindex="-1"><a class="header-anchor" href="#선택-사항-사용자-정의-일치자를-사용하여-jest-확장하기" aria-hidden="true">#</a> 선택 사항: 사용자 정의 일치자를 사용하여 Jest 확장하기</h2>
+<p>@testing-library/jest-dom에는 .toBeInTheDocument()와 같은 편리한 사용자 정의 일치자 집합이 포함되어 있어 테스트 작성이 더 쉬워집니다. Jest 구성 파일에 다음 옵션을 추가하여 모든 테스트에 사용자 정의 일치자를 가져올 수 있습니다:```</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<div class="language-typescript ext-ts line-numbers-mode"><pre v-pre class="language-typescript"><code>setupFilesAfterEnv<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"&lt;rootDir>/jest.setup.ts"</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>그런 다음, jest.setup.ts 파일 내부에 다음 import를 추가하세요:</p>
+<div class="language-typescript ext-ts line-numbers-mode"><pre v-pre class="language-typescript"><code><span class="token keyword">import</span> <span class="token string">"@testing-library/jest-dom"</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p>알아두세요: v6.0에서 extend-expect가 제거되었습니다. 따라서 버전 6 이전에 @testing-library/jest-dom을 사용 중이라면, @testing-library/jest-dom/extend-expect를 가져와야 합니다.</p>
+</blockquote>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>테스트 전에 더 많은 설정 옵션을 추가해야하는 경우 jest.setup.js 파일에 추가할 수 있어요.
+그리고 마지막으로 package.json 파일에 Jest 테스트 스크립트를 추가해주세요:</p>
+<div class="language-json ext-json line-numbers-mode"><pre v-pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"dev"</span><span class="token operator">:</span> <span class="token string">"next dev"</span><span class="token punctuation">,</span>
+    <span class="token property">"build"</span><span class="token operator">:</span> <span class="token string">"next build"</span><span class="token punctuation">,</span>
+    <span class="token property">"start"</span><span class="token operator">:</span> <span class="token string">"next start"</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>jest --watch를 사용하면 파일이 변경될 때마다 테스트를 다시 실행할 수 있어요. 더 많은 Jest CLI 옵션을 확인하려면 Jest 문서를 참조해주세요.</p>
+<h3 id="첫-번째-테스트-만들기" tabindex="-1"><a class="header-anchor" href="#첫-번째-테스트-만들기" aria-hidden="true">#</a> 첫 번째 테스트 만들기:</h3>
+<p>이제 프로젝트가 준비되었어요. 프로젝트의 루트 디렉토리에 <strong>tests</strong>라는 폴더를 만들어주세요. 예를 들면, <code v-pre>&lt;Page /&gt;</code> 컴포넌트가 제대로 제목을 렌더링하는지 확인하는 테스트를 추가할 수 있어요.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> Link <span class="token keyword">from</span> <span class="token string">"next/link"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">Home</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">></span>
+      <span class="token operator">&lt;</span>h1<span class="token operator">></span>홈<span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">></span>
+      <span class="token operator">&lt;</span>Link href<span class="token operator">=</span><span class="token string">"/about"</span><span class="token operator">></span>소개<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">></span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token string">'@testing-library/jest-dom'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> render<span class="token punctuation">,</span> screen <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@testing-library/react'</span>
+<span class="token keyword">import</span> Page <span class="token keyword">from</span> <span class="token string">'../app/page'</span>
+
+<span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'페이지'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">'헤딩을 렌더링합니다'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token function">render</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>Page <span class="token operator">/</span><span class="token operator">></span><span class="token punctuation">)</span>
+
+    <span class="token keyword">const</span> heading <span class="token operator">=</span> screen<span class="token punctuation">.</span><span class="token function">getByRole</span><span class="token punctuation">(</span><span class="token string">'heading'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token literal-property property">level</span><span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+    <span class="token function">expect</span><span class="token punctuation">(</span>heading<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBeInTheDocument</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>객체 변경을 추적하기 위해 스냅샷 테스트를 추가하실 수도 있습니다:</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> render <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@testing-library/react'</span>
+<span class="token keyword">import</span> Page <span class="token keyword">from</span> <span class="token string">'../app/page'</span>
+
+<span class="token function">it</span><span class="token punctuation">(</span><span class="token string">'홈페이지가 변경되지 않고 렌더링됩니다'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span> container <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">render</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>Page <span class="token operator">/</span><span class="token operator">></span><span class="token punctuation">)</span>
+  <span class="token function">expect</span><span class="token punctuation">(</span>container<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toMatchSnapshot</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<h2 id="테스트-실행하기" tabindex="-1"><a class="header-anchor" href="#테스트-실행하기" aria-hidden="true">#</a> 테스트 실행하기</h2>
+<p>이제 다음 명령어를 실행하여 테스트를 실행하세요:</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>npm run test
+# 또는
+yarn test
+# 또는
+pnpm test
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="추가-자료" tabindex="-1"><a class="header-anchor" href="#추가-자료" aria-hidden="true">#</a> 추가 자료</h2>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>더 많은 정보를 원하시면, 다음 자료들이 도움이 될 수 있습니다:</p>
+<ul>
+<li>Next.js와 Jest 예제</li>
+<li>Jest 문서</li>
+<li>React Testing Library 문서</li>
+<li>Testing Playground</li>
+<li>요소를 일치시키기 위해 좋은 테스트 관행 사용하기</li>
+</ul>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4877378276818686"
+      data-ad-slot="9743150776"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+</div></template>

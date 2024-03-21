@@ -43,16 +43,3 @@ export const data = {
   },
   "filePathRelative": "docs/Tech/2024-03-15-Html-CSS-JS로-틱택토(tic-tac-toe)게임-만들기/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

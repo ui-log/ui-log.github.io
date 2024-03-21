@@ -67,16 +67,3 @@ export const data = {
   },
   "filePathRelative": "docs/AI/2024-03-08-당신만의-서비스를-만들기-위한-AI-도구-5가지-2024년/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

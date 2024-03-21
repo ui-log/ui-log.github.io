@@ -289,16 +289,3 @@ export const data = {
   },
   "filePathRelative": "docs/Tech/2024-03-14-반드시-알아야하는-피그마-플러그인-45가지-2024년-최신/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

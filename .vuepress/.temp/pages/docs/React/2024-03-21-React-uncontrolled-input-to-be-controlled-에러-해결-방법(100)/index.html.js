@@ -33,7 +33,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1710991029000
   },
   "filePathRelative": "docs/React/2024-03-21-React-uncontrolled-input-to-be-controlled-에러-해결-방법(100)/README.md"
 }

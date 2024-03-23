@@ -302,13 +302,11 @@ Markdown 형식으로 변경한 테이블입니다.
 
 이미지의 메타데이터를 구성할 수 있습니다. opengraph-image 또는 twitter-image 경로에서 alt, size 및 contentType 변수를 내보내는 방식으로 설정할 수 있습니다.
 
-```markdown
 | Option                      | Type                                                                                                             |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | [alt](#alt)                 | `string`                                                                                                         |
 | [size](#size)               | `{ width: number; height: number }`                                                                              |
 | [contentType](#contenttype) | `string` - [이미지 MIME 타입](https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/MIME_types#image_types) |
-```
 
 #### alt
 

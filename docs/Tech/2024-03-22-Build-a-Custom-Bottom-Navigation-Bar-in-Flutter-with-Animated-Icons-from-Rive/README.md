@@ -525,21 +525,3 @@ class AnimatedBar extends StatelessWidget {
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-
-## 더 탐험할 것이 많아요!
-
-이 하단 네비게이션 바는 Rive와 함께 사용하는 Animated Flutter 앱의 구성 요소 중 하나예요. Flutter에서 더 고급 애니메이션을 원하신다면 꼭 확인해보세요.
-
-읽어 주셔서 정말 감사합니다. 이 내용이 도움이 되었으면 좋겠어요. 제안이나 피드백이 있다면 언제든 알려주세요. 여러분을 위해 더 나은 콘텐츠를 만드는 데 도움이 되는 소중한 의견이에요.
-
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-4877378276818686"
-      data-ad-slot="9743150776"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>

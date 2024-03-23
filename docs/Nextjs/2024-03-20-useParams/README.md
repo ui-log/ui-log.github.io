@@ -95,11 +95,9 @@ useParams 함수는 현재 라우트의 동적 매개변수가 채워진 객체�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 | Version   | Changes                |
 | --------- | ---------------------- |
 | `v13.3.0` | `useParams` introduced |
-```
 
 <!-- ui-log 수평형 -->
 

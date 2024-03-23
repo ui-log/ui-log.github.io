@@ -41,12 +41,11 @@
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code>User-Agent: \*
+<p>User-Agent: *
 Allow: /
-Disallow: /private/
-
-Sitemap: https://acme.com/sitemap.xml
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="특정-사용자-에이전트-사용자-정의" tabindex="-1"><a class="header-anchor" href="#특정-사용자-에이전트-사용자-정의" aria-hidden="true">#</a> 특정 사용자 에이전트 사용자 정의</h3>
+Disallow: /private/</p>
+<p>Sitemap: https://acme.com/sitemap.xml</p>
+<h3 id="특정-사용자-에이전트-사용자-정의" tabindex="-1"><a class="header-anchor" href="#특정-사용자-에이전트-사용자-정의" aria-hidden="true">#</a> 특정 사용자 에이전트 사용자 정의</h3>
 <p>개별 검색 엔진 봇이 사이트를 크롤하는 방법을 배열 형태의 사용자 에이전트를 rules 속성에 전달하여 사용자 정의할 수 있습니다. 예를 들어:</p>
 <div class="language-typescript ext-ts line-numbers-mode"><pre v-pre class="language-typescript"><code><span class="token keyword">import</span> <span class="token keyword">type</span> <span class="token punctuation">{</span> MetadataRoute <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"next"</span><span class="token punctuation">;</span>
 

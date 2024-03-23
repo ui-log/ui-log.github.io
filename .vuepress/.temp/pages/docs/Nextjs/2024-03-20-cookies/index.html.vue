@@ -153,16 +153,14 @@
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token code"><span class="token punctuation">```</span><span class="token code-language">js</span>
-<span class="token code-block language-js"><span class="token string">'use server'</span>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token string">'use server'</span>
 
 <span class="token keyword">import</span> <span class="token punctuation">{</span> cookies <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'next/headers'</span>
 
 <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token keyword">delete</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">cookies</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token string">'name'</span><span class="token punctuation">,</span> <span class="token string">'value'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token literal-property property">maxAge</span><span class="token operator">:</span> <span class="token number">0</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span></span>
-<span class="token punctuation">```</span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="cookies-set-name-value-expires-timestamp" tabindex="-1"><a class="header-anchor" href="#cookies-set-name-value-expires-timestamp" aria-hidden="true">#</a> cookies().set(name, value, { expires: timestamp })</h3>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="cookies-set-name-value-expires-timestamp" tabindex="-1"><a class="header-anchor" href="#cookies-set-name-value-expires-timestamp" aria-hidden="true">#</a> cookies().set(name, value, { expires: timestamp })</h3>
 <p>Setting expires to any value in the past will immediately expire a cookie.</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token string">'use server'</span>
 

@@ -277,12 +277,29 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token table"><span class="token table-header-row"><span class="token punctuation">|</span><span class="token table-header important"> Version   </span><span class="token punctuation">|</span><span class="token table-header important"> Changes                                                                                                              </span><span class="token punctuation">|</span>
-</span><span class="token table-line"><span class="token punctuation">|</span> <span class="token punctuation">---------</span> <span class="token punctuation">|</span> <span class="token punctuation">--------------------------------------------------------------------------------------------------------------------</span> <span class="token punctuation">|</span>
-</span><span class="token table-data-rows"><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`v14.0.0`</span> </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`next export`</span>가 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>"output": "export"<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span>으로 대체되어 제거되었습니다.                                         </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`v13.4.0`</span> </span><span class="token punctuation">|</span><span class="token table-data"> App Router (Stable)이 향상된 정적 내보내기 지원을 추가했습니다. React Server Components 및 Route Handlers 사용 가능. </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`v13.3.0`</span> </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`next export`</span>가 폐기되고 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>"output": "export"<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span>으로 대체되었습니다.                                         </span><span class="token punctuation">|</span>
-</span></span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>v14.0.0</code></td>
+<td><code v-pre>next export</code>가 <code>&quot;output&quot;: &quot;export&quot;</code>으로 대체되어 제거되었습니다.</td>
+</tr>
+<tr>
+<td><code v-pre>v13.4.0</code></td>
+<td>App Router (Stable)이 향상된 정적 내보내기 지원을 추가했습니다. React Server Components 및 Route Handlers 사용 가능.</td>
+</tr>
+<tr>
+<td><code v-pre>v13.3.0</code></td>
+<td><code v-pre>next export</code>가 폐기되고 <code>&quot;output&quot;: &quot;export&quot;</code>으로 대체되었습니다.</td>
+</tr>
+</tbody>
+</table>
+<!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
       style="display:block"
       data-ad-client="ca-pub-4877378276818686"

@@ -136,11 +136,9 @@ module.exports = {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-````markdown
 ```js
 npm run dev
 ```
-````
 
 이렇게 명령어가 나올 것입니다: npm install @builder.io/partytown을 실행하여 Partytown을 설치하세요.
 설정이 완료되면 strategy="worker"를 정의하면 Partytown이 자동으로 앱에 인스턴스화되고 스크립트가 웹 워커로 오프로드됩니다.

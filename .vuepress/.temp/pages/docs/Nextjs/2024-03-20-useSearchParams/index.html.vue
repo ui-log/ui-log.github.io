@@ -256,9 +256,9 @@ useSearchParams는 클라이언트 컴포넌트 후크이며 서버 컴포넌트
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code>Version Changes
-v13.0.0 useSearchParams introduced.
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p>Version Changes
+v13.0.0 useSearchParams introduced.</p>
+<!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
       style="display:block"
       data-ad-client="ca-pub-4877378276818686"

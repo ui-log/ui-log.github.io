@@ -66,13 +66,11 @@ export default function robots(): MetadataRoute.Robots {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 User-Agent: \*
 Allow: /
 Disallow: /private/
 
 Sitemap: https://acme.com/sitemap.xml
-```
 
 ### 특정 사용자 에이전트 사용자 정의
 

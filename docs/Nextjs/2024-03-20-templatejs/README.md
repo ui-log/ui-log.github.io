@@ -79,11 +79,9 @@ export default function Template({ children }: { children: React.ReactNode }) {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 | Version   | Changes                |
 | --------- | ---------------------- |
 | `v13.0.0` | `template` introduced. |
-```
 
 <!-- ui-log 수평형 -->
 

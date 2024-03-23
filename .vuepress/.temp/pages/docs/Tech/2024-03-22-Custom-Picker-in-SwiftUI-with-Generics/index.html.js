@@ -9,8 +9,7 @@ export const data = {
     "date": "2024-03-22 22:50",
     "sidebarDepth": 0,
     "tag": "Tech",
-    "thumbnail": null,
-    "originalTitle": "undefined"
+    "thumbnail": null
   },
   "excerpt": "",
   "headers": [
@@ -22,7 +21,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1711116296000
   },
   "filePathRelative": "docs/Tech/2024-03-22-Custom-Picker-in-SwiftUI-with-Generics/README.md"
 }

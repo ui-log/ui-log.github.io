@@ -306,12 +306,29 @@ next.config.js 파일을 열고 typescript 구성에서 ignoreBuildErrors 옵션
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token table"><span class="token table-header-row"><span class="token punctuation">|</span><span class="token table-header important"> Version   </span><span class="token punctuation">|</span><span class="token table-header important"> Changes                                                                                                                              </span><span class="token punctuation">|</span>
-</span><span class="token table-line"><span class="token punctuation">|</span> <span class="token punctuation">---------</span> <span class="token punctuation">|</span> <span class="token punctuation">------------------------------------------------------------------------------------------------------------------------------------</span> <span class="token punctuation">|</span>
-</span><span class="token table-data-rows"><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`v13.2.0`</span> </span><span class="token punctuation">|</span><span class="token table-data"> Statically typed links are available in beta.                                                                                        </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`v12.0.0`</span> </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token url">[<span class="token content">SWC</span>](<span class="token url">/docs/architecture/nextjs-compiler</span>)</span> is now used by default to compile TypeScript and TSX for faster builds.                    </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`v10.2.1`</span> </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token url">[<span class="token content">Incremental type checking</span>](<span class="token url">https://www.typescriptlang.org/tsconfig#incremental</span>)</span> support added when enabled in your <span class="token code-snippet code keyword">`tsconfig.json`</span>. </span><span class="token punctuation">|</span>
-</span></span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>v13.2.0</code></td>
+<td>Statically typed links are available in beta.</td>
+</tr>
+<tr>
+<td><code v-pre>v12.0.0</code></td>
+<td><a href="/docs/architecture/nextjs-compiler">SWC</a> is now used by default to compile TypeScript and TSX for faster builds.</td>
+</tr>
+<tr>
+<td><code v-pre>v10.2.1</code></td>
+<td><a href="https://www.typescriptlang.org/tsconfig#incremental" target="_blank" rel="noopener noreferrer">Incremental type checking<ExternalLinkIcon/></a> support added when enabled in your <code v-pre>tsconfig.json</code>.</td>
+</tr>
+</tbody>
+</table>
+<!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
       style="display:block"
       data-ad-client="ca-pub-4877378276818686"

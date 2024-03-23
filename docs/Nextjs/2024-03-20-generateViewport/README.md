@@ -300,11 +300,9 @@ export const viewport = {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 | Version   | Changes                                       |
 | --------- | --------------------------------------------- |
 | `v14.0.0` | `viewport` and `generateViewport` introduced. |
-```
 
 <!-- ui-log 수평형 -->
 

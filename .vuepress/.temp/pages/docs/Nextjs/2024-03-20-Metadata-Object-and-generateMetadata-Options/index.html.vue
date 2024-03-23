@@ -401,16 +401,45 @@ Next.js는 metadataBase(예: https://acme.com/)와 상대 필드(예: /path) 사
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 <p>위의 metadataBase를 상속하고 자체 값을 설정하는 모든 메타데이터 필드는 다음과 같이 해결됩니다:</p>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token table"><span class="token table-header-row"><span class="token punctuation">|</span><span class="token table-header important"> metadata 필드                     </span><span class="token punctuation">|</span><span class="token table-header important"> 해결된 URL                       </span><span class="token punctuation">|</span>
-</span><span class="token table-line"><span class="token punctuation">|</span> <span class="token punctuation">---------------------------------</span> <span class="token punctuation">|</span> <span class="token punctuation">--------------------------------</span> <span class="token punctuation">|</span>
-</span><span class="token table-data-rows"><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`/`</span>                               </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`https://acme.com`</span>               </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`./`</span>                              </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`https://acme.com`</span>               </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`payments`</span>                        </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`https://acme.com/payments`</span>      </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`/payments`</span>                       </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`https://acme.com/payments`</span>      </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`./payments`</span>                      </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`https://acme.com/payments`</span>      </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`../payments`</span>                     </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`https://acme.com/payments`</span>      </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`https://beata.acme.com/payments`</span> </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`https://beta.acme.com/payments`</span> </span><span class="token punctuation">|</span>
-</span></span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="opengraph" tabindex="-1"><a class="header-anchor" href="#opengraph" aria-hidden="true">#</a> openGraph</h3>
+<table>
+<thead>
+<tr>
+<th>metadata 필드</th>
+<th>해결된 URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/</code></td>
+<td><code v-pre>https://acme.com</code></td>
+</tr>
+<tr>
+<td><code v-pre>./</code></td>
+<td><code v-pre>https://acme.com</code></td>
+</tr>
+<tr>
+<td><code v-pre>payments</code></td>
+<td><code v-pre>https://acme.com/payments</code></td>
+</tr>
+<tr>
+<td><code v-pre>/payments</code></td>
+<td><code v-pre>https://acme.com/payments</code></td>
+</tr>
+<tr>
+<td><code v-pre>./payments</code></td>
+<td><code v-pre>https://acme.com/payments</code></td>
+</tr>
+<tr>
+<td><code v-pre>../payments</code></td>
+<td><code v-pre>https://acme.com/payments</code></td>
+</tr>
+<tr>
+<td><code v-pre>https://beata.acme.com/payments</code></td>
+<td><code v-pre>https://beta.acme.com/payments</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="opengraph" tabindex="-1"><a class="header-anchor" href="#opengraph" aria-hidden="true">#</a> openGraph</h3>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">export</span> <span class="token keyword">const</span> metadata <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token literal-property property">openGraph</span><span class="token operator">:</span> <span class="token punctuation">{</span>
     <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">"Next.js"</span><span class="token punctuation">,</span>
@@ -627,40 +656,40 @@ Open Graph 이미지를 위한 파일 기반 메타데이터 API를 사용하는
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:card<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>summary_large_image<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:card<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>summary_large_image<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:site:id<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1467726470533754880<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:creator<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@nextjs<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:creator:id<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1467726470533754880<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Next.js<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>The React Framework for the Web<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://nextjs.org/og.png<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code>export const metadata = {
-twitter: {
-card: 'app',
-title: 'Next.js',
-description: 'The React Framework for the Web',
-siteId: '1467726470533754880',
-creator: '@nextjs',
-creatorId: '1467726470533754880',
-images: {
-url: 'https://nextjs.org/og.png',
-alt: 'Next.js Logo',
-},
-app: {
-name: 'twitter_app',
-id: {
-iphone: 'twitter_app://iphone',
-ipad: 'twitter_app://ipad',
-googleplay: 'twitter_app://googleplay',
-},
-url: {
-iphone: 'https://iphone_url',
-ipad: 'https://ipad_url',
-},
-},
-},
-}
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:site:id<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1467726470533754880<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">export</span> <span class="token keyword">const</span> metadata <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">twitter</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">card</span><span class="token operator">:</span> <span class="token string">"app"</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">"Next.js"</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">description</span><span class="token operator">:</span> <span class="token string">"The React Framework for the Web"</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">siteId</span><span class="token operator">:</span> <span class="token string">"1467726470533754880"</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">creator</span><span class="token operator">:</span> <span class="token string">"@nextjs"</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">creatorId</span><span class="token operator">:</span> <span class="token string">"1467726470533754880"</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">images</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">url</span><span class="token operator">:</span> <span class="token string">"https://nextjs.org/og.png"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">alt</span><span class="token operator">:</span> <span class="token string">"Next.js Logo"</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">app</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">"twitter_app"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">iphone</span><span class="token operator">:</span> <span class="token string">"twitter_app://iphone"</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">ipad</span><span class="token operator">:</span> <span class="token string">"twitter_app://ipad"</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">googleplay</span><span class="token operator">:</span> <span class="token string">"twitter_app://googleplay"</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">url</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">iphone</span><span class="token operator">:</span> <span class="token string">"https://iphone_url"</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">ipad</span><span class="token operator">:</span> <span class="token string">"https://ipad_url"</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:site:id<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1467726470533754880<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:creator<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@nextjs<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:creator:id<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1467726470533754880<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Next.js<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
@@ -819,16 +848,12 @@ ipad: 'https://ipad_url',
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token title important"><span class="token punctuation">###</span> 아카이브</span>
-
-아카이브는 역사적 흥미를 끌 수 있는 레코드, 문서 또는 다른 자료의 모음을 설명합니다.
-
-<span class="token code"><span class="token punctuation">```</span><span class="token code-language">js</span>
-<span class="token code-block language-js"><span class="token keyword">export</span> <span class="token keyword">const</span> metadata <span class="token operator">=</span> <span class="token punctuation">{</span>
+<h3 id="아카이브" tabindex="-1"><a class="header-anchor" href="#아카이브" aria-hidden="true">#</a> 아카이브</h3>
+<p>아카이브는 역사적 흥미를 끌 수 있는 레코드, 문서 또는 다른 자료의 모음을 설명합니다.</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">export</span> <span class="token keyword">const</span> metadata <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token literal-property property">archives</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"https://nextjs.org/13"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span></span>
-<span class="token punctuation">```</span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
       style="display:block"
       data-ad-client="ca-pub-4877378276818686"

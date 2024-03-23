@@ -327,10 +327,8 @@ export default function ExampleClientComponent() {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 Version Changes
 v13.0.0 useSearchParams introduced.
-```
 
 <!-- ui-log 수평형 -->
 

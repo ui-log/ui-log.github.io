@@ -396,7 +396,7 @@ CSS 및 JavaScript가 추가된 음악 플레이어의 최종 출력입니다.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```javascript
+```js
 // Designed by: Mauricio Bucardo
 // Original image: https://dribbble.com/shots/6957353-Music-Player-Widget
 "use strict";

@@ -208,7 +208,6 @@ maxAge를 0으로 설정하면 쿠키를 즉시 만료시킬 수 있습니다.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-````markdown
 ```js
 'use server'
 
@@ -218,7 +217,6 @@ async function delete(data) {
   cookies().set('name', 'value', { maxAge: 0 })
 }
 ```
-````
 
 ### cookies().set(name, value, { expires: timestamp })
 

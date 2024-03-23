@@ -364,13 +364,11 @@ server {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 | Version   | Changes                                                                                                              |
 | --------- | -------------------------------------------------------------------------------------------------------------------- |
 | `v14.0.0` | `next export`가 <code>"output": "export"</code>으로 대체되어 제거되었습니다.                                         |
 | `v13.4.0` | App Router (Stable)이 향상된 정적 내보내기 지원을 추가했습니다. React Server Components 및 Route Handlers 사용 가능. |
 | `v13.3.0` | `next export`가 폐기되고 <code>"output": "export"</code>으로 대체되었습니다.                                         |
-```
 
 <!-- ui-log 수평형 -->
 

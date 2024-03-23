@@ -175,5 +175,4 @@ struct ContentView<span class="token operator">:</span> View <span class="token 
 </component>
 <img src="@source/docs/Tech/2024-03-22-Custom-Picker-in-SwiftUI-with-Generics/img/Custom-Picker-in-SwiftUI-with-Generics_5.png" />
 <p>저는 전체 Xcode 프로젝트를 깃허브에 업로드했어요. 마음껏 사용해보세요.</p>
-<p>제네릭에 대해 더 알고 싶다면, 닉 사르노의 이 비디오를 추천해요. 사실, 플레이리스트 전체를 시청하는 걸 강력히 추천합니다. 매우 가치 있는 내용이에요.</p>
 </div></template>

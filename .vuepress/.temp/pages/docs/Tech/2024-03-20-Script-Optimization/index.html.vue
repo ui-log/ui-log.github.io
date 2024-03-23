@@ -99,10 +99,8 @@
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token code"><span class="token punctuation">```</span><span class="token code-language">js</span>
-<span class="token code-block language-js">npm run dev</span>
-<span class="token punctuation">```</span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>이렇게 명령어가 나올 것입니다: npm install @builder.io/partytown을 실행하여 Partytown을 설치하세요.
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>npm run dev
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>이렇게 명령어가 나올 것입니다: npm install @builder.io/partytown을 실행하여 Partytown을 설치하세요.
 설정이 완료되면 strategy=&quot;worker&quot;를 정의하면 Partytown이 자동으로 앱에 인스턴스화되고 스크립트가 웹 워커로 오프로드됩니다.</p>
 <div class="language-typescript ext-ts line-numbers-mode"><pre v-pre class="language-typescript"><code><span class="token keyword">import</span> Script <span class="token keyword">from</span> <span class="token string">"next/script"</span><span class="token punctuation">;</span>
 

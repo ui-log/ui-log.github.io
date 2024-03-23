@@ -241,12 +241,29 @@
 </component>
 <h3 id="설정-내보내기" tabindex="-1"><a class="header-anchor" href="#설정-내보내기" aria-hidden="true">#</a> 설정 내보내기</h3>
 <p>이미지의 메타데이터를 구성할 수 있습니다. opengraph-image 또는 twitter-image 경로에서 alt, size 및 contentType 변수를 내보내는 방식으로 설정할 수 있습니다.</p>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token table"><span class="token table-header-row"><span class="token punctuation">|</span><span class="token table-header important"> Option                      </span><span class="token punctuation">|</span><span class="token table-header important"> Type                                                                                                             </span><span class="token punctuation">|</span>
-</span><span class="token table-line"><span class="token punctuation">|</span> <span class="token punctuation">---------------------------</span> <span class="token punctuation">|</span> <span class="token punctuation">----------------------------------------------------------------------------------------------------------------</span> <span class="token punctuation">|</span>
-</span><span class="token table-data-rows"><span class="token punctuation">|</span><span class="token table-data"> <span class="token url">[<span class="token content">alt</span>](<span class="token url">#alt</span>)</span>                 </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`string`</span>                                                                                                         </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token url">[<span class="token content">size</span>](<span class="token url">#size</span>)</span>               </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`{ width: number; height: number }`</span>                                                                              </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> <span class="token url">[<span class="token content">contentType</span>](<span class="token url">#contenttype</span>)</span> </span><span class="token punctuation">|</span><span class="token table-data"> <span class="token code-snippet code keyword">`string`</span> - <span class="token url">[<span class="token content">이미지 MIME 타입</span>](<span class="token url">https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/MIME_types#image_types</span>)</span> </span><span class="token punctuation">|</span>
-</span></span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="alt" tabindex="-1"><a class="header-anchor" href="#alt" aria-hidden="true">#</a> alt</h4>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#alt">alt</a></td>
+<td><code v-pre>string</code></td>
+</tr>
+<tr>
+<td><a href="#size">size</a></td>
+<td><code v-pre>{ width: number; height: number }</code></td>
+</tr>
+<tr>
+<td><a href="#contenttype">contentType</a></td>
+<td><code v-pre>string</code> - <a href="https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/MIME_types#image_types" target="_blank" rel="noopener noreferrer">이미지 MIME 타입<ExternalLinkIcon/></a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="alt" tabindex="-1"><a class="header-anchor" href="#alt" aria-hidden="true">#</a> alt</h4>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
       style="display:block"

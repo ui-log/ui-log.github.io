@@ -5,7 +5,6 @@ date: 2024-03-22 22:50
 sidebarDepth: 0
 tag: Tech
 thumbnail:
-originalTitle: undefined
 ---
 
 우리는 Apple의 구현을 모방한 자체 Picker를 만들 것입니다. 이 Picker는 미리 정의된 모델이 필요하지 않아 더 유연하고 재사용 가능합니다.
@@ -228,5 +227,3 @@ CustomPicker(selection: $selectedFruit) {
 <img src="./img/Custom-Picker-in-SwiftUI-with-Generics_5.png" />
 
 저는 전체 Xcode 프로젝트를 깃허브에 업로드했어요. 마음껏 사용해보세요.
-
-제네릭에 대해 더 알고 싶다면, 닉 사르노의 이 비디오를 추천해요. 사실, 플레이리스트 전체를 시청하는 걸 강력히 추천합니다. 매우 가치 있는 내용이에요.

@@ -30,11 +30,28 @@
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token table"><span class="token table-header-row"><span class="token punctuation">|</span><span class="token table-header important"> Parameter </span><span class="token punctuation">|</span><span class="token table-header important"> Type                                                      </span><span class="token punctuation">|</span><span class="token table-header important"> Description                                                 </span><span class="token punctuation">|</span>
-</span><span class="token table-line"><span class="token punctuation">|</span> <span class="token punctuation">---------</span> <span class="token punctuation">|</span> <span class="token punctuation">---------------------------------------------------------</span> <span class="token punctuation">|</span> <span class="token punctuation">-----------------------------------------------------------</span> <span class="token punctuation">|</span>
-</span><span class="token table-data-rows"><span class="token punctuation">|</span><span class="token table-data"> path      </span><span class="token punctuation">|</span><span class="token table-data"> string                                                    </span><span class="token punctuation">|</span><span class="token table-data"> The URL to redirect to. Can be a relative or absolute path. </span><span class="token punctuation">|</span>
-<span class="token punctuation">|</span><span class="token table-data"> type      </span><span class="token punctuation">|</span><span class="token table-data"> 'replace' (default) or 'push' (default in Server Actions) </span><span class="token punctuation">|</span><span class="token table-data"> The type of redirect to perform.                            </span><span class="token punctuation">|</span>
-</span></span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>기본적으로, 리디렉트는 서버 액션에서 push(브라우저 히스토리 스택에 새 항목 추가)를 사용하고, 다른 곳에서는 replace(브라우저 히스토리 스택의 현재 URL을 대체)을 사용합니다. 이 동작은 type 매개변수를 지정하여 재정의할 수 있습니다.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>path</td>
+<td>string</td>
+<td>The URL to redirect to. Can be a relative or absolute path.</td>
+</tr>
+<tr>
+<td>type</td>
+<td>'replace' (default) or 'push' (default in Server Actions)</td>
+<td>The type of redirect to perform.</td>
+</tr>
+</tbody>
+</table>
+<p>기본적으로, 리디렉트는 서버 액션에서 push(브라우저 히스토리 스택에 새 항목 추가)를 사용하고, 다른 곳에서는 replace(브라우저 히스토리 스택의 현재 URL을 대체)을 사용합니다. 이 동작은 type 매개변수를 지정하여 재정의할 수 있습니다.</p>
 <p>type 매개변수는 서버 컴포넌트에서 사용될 때 효과가 없습니다.</p>
 <h2 id="반환값" tabindex="-1"><a class="header-anchor" href="#반환값" aria-hidden="true">#</a> 반환값</h2>
 <!-- ui-log 수평형 -->

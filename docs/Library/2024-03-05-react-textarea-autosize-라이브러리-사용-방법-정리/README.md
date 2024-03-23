@@ -125,13 +125,13 @@ yarn add react-textarea-autosize
 
 예를 들어, React 애플리케이션에서 `react-textarea-autosize`를 사용하려면 해당 컴포넌트 파일에서 라이브러리를 가져와야 합니다.
 
-```javascript
+```js
 import TextareaAutosize from "react-textarea-autosize";
 ```
 
 그런 다음, 필요한 곳에서 이 컴포넌트를 사용할 수 있습니다.
 
-```javascript
+```js
 function MyComponent() {
   return (
     <div>
@@ -162,13 +162,13 @@ function MyComponent() {
 
 1. **라이브러리 가져오기**: 먼저 `react-textarea-autosize`를 사용할 컴포넌트에서 가져와야 합니다.
 
-```javascript
+```js
 import TextareaAutosize from "react-textarea-autosize";
 ```
 
 2. **TextareaAutosize 컴포넌트 사용하기**: JSX 내에서 `<TextareaAutosize>` 컴포넌트를 사용하여 자동으로 크기가 조절되는 `<textarea>`를 생성합니다.
 
-```javascript
+```js
 function MyComponent() {
   return (
     <div>
@@ -181,7 +181,7 @@ function MyComponent() {
 
 3. **옵션 설정하기**: 필요한 경우 컴포넌트에 속성을 추가하여 옵션을 설정할 수 있습니다. 예를 들어, 최소 및 최대 행 수를 설정할 수 있습니다.
 
-```javascript
+```js
 function MyComponent() {
   return (
     <div>
@@ -194,7 +194,7 @@ function MyComponent() {
 
 4. **이벤트 처리하기**: 필요에 따라 이벤트를 처리할 수 있습니다. 예를 들어, 텍스트가 변경될 때마다 이벤트를 처리할 수 있습니다.
 
-```javascript
+```js
 function MyComponent() {
   const handleTextChange = (event) => {
     console.log("Text changed:", event.target.value);
@@ -215,7 +215,7 @@ function MyComponent() {
 
 `<TextareaAutosize>` 컴포넌트는 자동으로 크기가 조절되는 `<textarea>`를 생성합니다.
 
-```javascript
+```js
 import TextareaAutosize from "react-textarea-autosize";
 
 function MyComponent() {
@@ -234,7 +234,7 @@ function MyComponent() {
 
 `placeholder` 속성을 사용하여 입력 필드에 기본 텍스트를 설정할 수 있습니다. 이 기본 텍스트는 사용자가 입력하기 전까지 표시되며, 사용자가 텍스트를 입력하면 자동으로 사라집니다.
 
-```javascript
+```js
 <TextareaAutosize placeholder="내용을 입력하세요..." />
 ```
 
@@ -248,7 +248,7 @@ function MyComponent() {
 
 `<TextareaAutosize>` 컴포넌트에는 `style` 속성을 통해 커스텀 스타일을 적용할 수 있습니다. 이를 사용하여 텍스트 영역의 모양과 크기를 조정할 수 있습니다.
 
-```javascript
+```js
 <TextareaAutosize style={{ width: "100%", minHeight: "100px", padding: "10px", fontSize: "16px" }} />
 ```
 
@@ -256,7 +256,7 @@ function MyComponent() {
 
 `<TextareaAutosize>` 컴포넌트에서는 다양한 이벤트를 처리할 수 있습니다. 예를 들어, 텍스트가 변경될 때마다 `onChange` 이벤트를 사용하여 처리할 수 있습니다.
 
-```javascript
+```js
 const handleChange = (event) => {
   console.log("Text changed:", event.target.value);
 };
@@ -266,7 +266,7 @@ const handleChange = (event) => {
 
 그리고 포커스가 들어오거나 빠져나갈 때마다 `onFocus`, `onBlur` 이벤트를 사용하여 처리할 수도 있습니다.
 
-```javascript
+```js
 const handleFocus = () => {
   console.log("Textarea focused");
 };
@@ -282,7 +282,7 @@ const handleBlur = () => {
 
 `<TextareaAutosize>` 컴포넌트의 크기를 프로그래밍 방식으로 제어할 수 있습니다. 이를 위해서는 `ref`를 사용하여 컴포넌트에 접근한 후, `scrollHeight` 속성을 이용하여 텍스트 영역의 높이를 조절할 수 있습니다.
 
-```javascript
+```js
 import { useRef } from "react";
 
 function MyComponent() {
@@ -323,7 +323,7 @@ function MyComponent() {
 
 ### 간단한 예제를 통한 실습
 
-```javascript
+```js
 import React from "react";
 import TextareaAutosize from "react-textarea-autosize";
 

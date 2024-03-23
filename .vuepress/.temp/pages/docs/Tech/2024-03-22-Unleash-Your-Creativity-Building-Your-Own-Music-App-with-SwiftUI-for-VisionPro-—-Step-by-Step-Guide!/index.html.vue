@@ -337,19 +337,6 @@ struct SideMenuView<span class="token operator">:</span> View <span class="token
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><img src="@source/docs/Tech/2024-03-22-Unleash-Your-Creativity-Building-Your-Own-Music-App-with-SwiftUI-for-VisionPro-—-Step-by-Step-Guide!/img/Unleash-Your-Creativity:-Building-Your-Own-Music-App-with-SwiftUI-for-VisionPro-—-Step-by-Step-Guide!_7.png" />
-<p>우리 함께 해냈어요 🥳! 즐거운 새로운 것을 배울 수 있기를 바라며.</p>
-<!-- ui-log 수평형 -->
-<p><ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-4877378276818686"
-      data-ad-slot="9743150776"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins></p>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-<p>그게 잘못된 게 있다면? 댓글로 알려주세요. 나는 개선하고 싶어요.</p>
-<p>이 게시물이 도움이 되었다면 👏 박수를 쳐주세요.</p>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
       style="display:block"

@@ -514,7 +514,6 @@ export const metadata: Metadata = {
 
 위의 metadataBase를 상속하고 자체 값을 설정하는 모든 메타데이터 필드는 다음과 같이 해결됩니다:
 
-```markdown
 | metadata 필드                     | 해결된 URL                       |
 | --------------------------------- | -------------------------------- |
 | `/`                               | `https://acme.com`               |
@@ -524,7 +523,6 @@ export const metadata: Metadata = {
 | `./payments`                      | `https://acme.com/payments`      |
 | `../payments`                     | `https://acme.com/payments`      |
 | `https://beata.acme.com/payments` | `https://beta.acme.com/payments` |
-```
 
 ### openGraph
 
@@ -801,7 +799,7 @@ export const metadata = {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+```html
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site:id" content="1467726470533754880" />
 <meta name="twitter:creator" content="@nextjs" />
@@ -811,36 +809,36 @@ export const metadata = {
 <meta name="twitter:image" content="https://nextjs.org/og.png" />
 ```
 
-```markdown
+```js
 export const metadata = {
-twitter: {
-card: 'app',
-title: 'Next.js',
-description: 'The React Framework for the Web',
-siteId: '1467726470533754880',
-creator: '@nextjs',
-creatorId: '1467726470533754880',
-images: {
-url: 'https://nextjs.org/og.png',
-alt: 'Next.js Logo',
-},
-app: {
-name: 'twitter_app',
-id: {
-iphone: 'twitter_app://iphone',
-ipad: 'twitter_app://ipad',
-googleplay: 'twitter_app://googleplay',
-},
-url: {
-iphone: 'https://iphone_url',
-ipad: 'https://ipad_url',
-},
-},
-},
-}
+  twitter: {
+    card: "app",
+    title: "Next.js",
+    description: "The React Framework for the Web",
+    siteId: "1467726470533754880",
+    creator: "@nextjs",
+    creatorId: "1467726470533754880",
+    images: {
+      url: "https://nextjs.org/og.png",
+      alt: "Next.js Logo",
+    },
+    app: {
+      name: "twitter_app",
+      id: {
+        iphone: "twitter_app://iphone",
+        ipad: "twitter_app://ipad",
+        googleplay: "twitter_app://googleplay",
+      },
+      url: {
+        iphone: "https://iphone_url",
+        ipad: "https://ipad_url",
+      },
+    },
+  },
+};
 ```
 
-```markdown
+```html
 <meta name="twitter:site:id" content="1467726470533754880" />
 <meta name="twitter:creator" content="@nextjs" />
 <meta name="twitter:creator:id" content="1467726470533754880" />
@@ -1035,7 +1033,6 @@ export const metadata = {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-````markdown
 ### 아카이브
 
 아카이브는 역사적 흥미를 끌 수 있는 레코드, 문서 또는 다른 자료의 모음을 설명합니다.
@@ -1045,7 +1042,6 @@ export const metadata = {
   archives: ["https://nextjs.org/13"],
 };
 ```
-````
 
 <!-- ui-log 수평형 -->
 

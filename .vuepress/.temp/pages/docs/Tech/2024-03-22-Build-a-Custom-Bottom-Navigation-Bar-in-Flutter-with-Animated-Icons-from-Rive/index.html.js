@@ -54,16 +54,10 @@ export const data = {
       "title": "완성된 코드",
       "slug": "완성된-코드",
       "children": []
-    },
-    {
-      "level": 2,
-      "title": "더 탐험할 것이 많아요!",
-      "slug": "더-탐험할-것이-많아요",
-      "children": []
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1711116296000
   },
   "filePathRelative": "docs/Tech/2024-03-22-Build-a-Custom-Bottom-Navigation-Bar-in-Flutter-with-Animated-Icons-from-Rive/README.md"
 }

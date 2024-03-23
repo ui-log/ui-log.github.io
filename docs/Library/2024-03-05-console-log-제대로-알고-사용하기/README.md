@@ -51,7 +51,7 @@ Console 객체는 JavaScript에서 디버깅과 로깅을 위한 핵심 도구�
 
    - 기본적인 로깅 메서드로, 일반적인 정보를 출력합니다.
    - 사용 예시:
-     ```javascript
+     ```js
      console.log("Hello, world!");
      console.log("The answer is", 42);
      ```
@@ -63,7 +63,7 @@ Console 객체는 JavaScript에서 디버깅과 로깅을 위한 핵심 도구�
 
    - 정보성 메시지를 출력할 때 사용됩니다.
    - 사용 예시:
-     ```javascript
+     ```js
      console.info("This is an informational message.");
      ```
    - 특징:
@@ -74,7 +74,7 @@ Console 객체는 JavaScript에서 디버깅과 로깅을 위한 핵심 도구�
 
    - 경고 메시지를 출력할 때 사용됩니다.
    - 사용 예시:
-     ```javascript
+     ```js
      console.warn("This is a warning message.");
      ```
    - 특징:
@@ -84,7 +84,7 @@ Console 객체는 JavaScript에서 디버깅과 로깅을 위한 핵심 도구�
 4. **error() 메서드**
    - 오류 메시지를 출력할 때 사용됩니다.
    - 사용 예시:
-     ```javascript
+     ```js
      console.error("This is an error message.");
      ```
    - 특징:
@@ -113,7 +113,7 @@ Console 객체는 JavaScript 코드를 디버깅하는 데 매우 유용한 도�
 
    - 코드 실행 중 특정 시점에서 변수의 값을 확인하기 위해 Console 객체를 사용합니다.
    - 사용 예시:
-     ```javascript
+     ```js
      let x = 10;
      console.log("x:", x); // 변수 x의 값을 출력
      ```
@@ -124,7 +124,7 @@ Console 객체는 JavaScript 코드를 디버깅하는 데 매우 유용한 도�
 
    - 조건문과 반복문 내부에서 Console을 사용하여 조건이 충족되는지 또는 반복이 올바르게 이루어지는지 확인할 수 있습니다.
    - 사용 예시:
-     ```javascript
+     ```js
      for (let i = 0; i < 5; i++) {
        console.log("Index:", i);
        if (i === 3) {
@@ -141,7 +141,7 @@ Console 객체는 JavaScript 코드를 디버깅하는 데 매우 유용한 도�
    - 코드 실행 중 발생한 오류의 원인을 찾기 위해 스택 트레이스를 추적할 수 있습니다.
    - 사용 예시:
 
-     ```javascript
+     ```js
      function foo() {
        throw new Error("Something went wrong!");
      }
@@ -167,7 +167,7 @@ Console 객체를 사용하여 JavaScript 애플리케이션에서 로그를 작
 
    - 사용자가 애플리케이션 내에서 수행하는 활동을 기록하기 위해 Console 객체를 사용합니다.
    - 사용 예시:
-     ```javascript
+     ```js
      function handleButtonClick() {
        console.log("사용자가 버튼을 클릭했습니다.");
        // 추가적인 로직 수행
@@ -180,7 +180,7 @@ Console 객체를 사용하여 JavaScript 애플리케이션에서 로그를 작
 
    - 애플리케이션이 서버와 통신할 때 요청과 응답을 기록하기 위해 Console 객체를 사용합니다.
    - 사용 예시:
-     ```javascript
+     ```js
      function fetchData() {
        console.log("서버로 데이터 요청을 보냅니다.");
        // 서버 요청 보내기
@@ -196,7 +196,7 @@ Console 객체를 사용하여 JavaScript 애플리케이션에서 로그를 작
    - 애플리케이션의 상태 변경이나 중요한 이벤트를 기록하기 위해 Console 객체를 사용합니다.
    - 사용 예시:
 
-     ```javascript
+     ```js
      function updateStatus(status) {
        console.log("애플리케이션 상태가 변경되었습니다:", status);
      }
@@ -231,7 +231,7 @@ Console 객체는 JavaScript 개발자가 디버깅 및 로깅 작업을 보다 
 
    - Console 객체는 특수 문자와 서식 지정을 통해 출력 메시지를 보다 의미 있게 표현할 수 있습니다.
    - 사용 예시:
-     ```javascript
+     ```js
      console.log("문자열:", "%s", "Hello");
      console.log("숫자:", "%d", 42);
      console.log("스타일 적용:", "%c", "Hello, world!", "color: blue; font-size: 16px;");
@@ -245,7 +245,7 @@ Console 객체는 JavaScript 개발자가 디버깅 및 로깅 작업을 보다 
    - Console 객체는 그룹화 및 타이머 기능을 제공하여 복잡한 코드의 디버깅을 보다 체계적으로 수행할 수 있습니다.
    - 사용 예시:
 
-     ```javascript
+     ```js
      console.group("그룹 이름");
      console.log("그룹 내부 로그");
      console.groupEnd();
@@ -264,7 +264,7 @@ Console 객체는 JavaScript 개발자가 디버깅 및 로깅 작업을 보다 
    - Console 객체는 객체 및 배열의 내부 구조를 보기 쉽게 출력할 수 있는 기능을 제공합니다.
    - 사용 예시:
 
-     ```javascript
+     ```js
      const obj = { name: "John", age: 30 };
      console.dir(obj);
 

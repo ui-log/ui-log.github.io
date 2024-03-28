@@ -90,7 +90,7 @@ export default function ThemeProvider({ children }) {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-````js
+```js
 // 제공자 사용하기
 function App() {
   return (
@@ -99,7 +99,7 @@ function App() {
     </ThemeProvider>
   );
 }
-
+```
 
 여기서 페이지 컴포넌트는 React의 useContext 훅을 사용하여 테마 콘텍스트를 소비하며, 현재 테마에 액세스하고 테마를 토글하는 함수에 액세스할 수 있습니다. 이 함수는 버튼의 onClick 이벤트 핸들러에 의해 트리거 될 것입니다.
 
@@ -115,7 +115,7 @@ export default function Page() {
     </header>
   );
 }
-````
+```
 
 # Context API를 언제 사용해야 하나요?
 

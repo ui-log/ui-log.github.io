@@ -170,7 +170,7 @@ export default function Page({ params }: { params: { slug: string[] } }) {
 
 두 번째 패턴을 사용하면 루트 디렉터리를 캐치할 수도 있어요. 디렉터리를 [[...slug]]와 3개의 점 주석으로 만든 다음, 그 폴더에 page.tsx를 추가할 거에요:
 
-````js
+```js
 nextjs-routing-patterns
 ├── apps
 │   └── blog
@@ -180,7 +180,7 @@ nextjs-routing-patterns
 │                   └── [[...slug]]
 │                       └── page.tsx
 └── libs
-
+```
 
 page.tsx 코드는 다음과 같아요:
 
@@ -196,7 +196,7 @@ export default function Page({ params }: { params: { slug: string[] } }) {
     </ContentWrapper>
   );
 }
-````
+```
 
 <!-- ui-log 수평형 -->
 
@@ -584,15 +584,11 @@ export default function Layout({ children, modal }: { children: ReactNode, modal
 js
 /[photoId]/page.tsx 페이지 코드:
 
-````js
-import { ContentWrapper, Title } from '@nrp/components/server';
-import { Photo } from '../../components/photo';
+```js
+import { ContentWrapper, Title } from "@nrp/components/server";
+import { Photo } from "../../components/photo";
 
-export default async function Page({
-  params,
-}: {
-  params: { imageId: string };
-}) {
+export default async function Page({ params }: { params: { imageId: string } }) {
   return (
     <ContentWrapper>
       <Title>가로채인 라우트</Title>
@@ -603,7 +599,7 @@ export default async function Page({
     </ContentWrapper>
   );
 }
-
+```
 
 가로채인 /@modal/(..)intercepted/[photoId]/page.tsx 페이지 코드:
 
@@ -624,7 +620,7 @@ export default async function Page({ params }: { params: { imageId: string } }) 
     </Modal>
   );
 }
-````
+```
 
 <!-- ui-log 수평형 -->
 

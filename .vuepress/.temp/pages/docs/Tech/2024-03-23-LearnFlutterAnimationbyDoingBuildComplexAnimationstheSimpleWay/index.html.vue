@@ -111,12 +111,8 @@ double <span class="token keyword">get</span> holeSize <span class="token operat
     <span class="token punctuation">)</span><span class="token punctuation">,</span>
   <span class="token punctuation">)</span><span class="token punctuation">,</span>
 <span class="token punctuation">)</span><span class="token punctuation">,</span>
-
-
-시작할 시간이에요<span class="token operator">!</span> 마이너스 플로팅 액션 버튼으로 돌아가서 onPressed 함수를 비동기로 만들어 봅시다<span class="token punctuation">.</span>
-
-<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token template-punctuation string">`</span></span>`js
-<span class="token function">FloatingActionButton</span><span class="token punctuation">(</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>시작할 시간이에요! 마이너스 플로팅 액션 버튼으로 돌아가서 onPressed 함수를 비동기로 만들어 봅시다.</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token function">FloatingActionButton</span><span class="token punctuation">(</span>
   <span class="token literal-property property">onPressed</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> async <span class="token punctuation">{</span>
     <span class="token keyword">await</span> holeAnimationController<span class="token punctuation">.</span><span class="token function">forward</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     Future<span class="token punctuation">.</span><span class="token function">delayed</span><span class="token punctuation">(</span><span class="token keyword">const</span> <span class="token function">Duration</span><span class="token punctuation">(</span>milliseconds<span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
@@ -124,7 +120,7 @@ double <span class="token keyword">get</span> holeSize <span class="token operat
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
   <span class="token operator">...</span><span class="token punctuation">.</span>
 <span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>여기서 해야 할 것은 애니메이션이 먼저 끝나도록 하고, 200밀리초를 기다린 후에 애니메이션을 역방향으로 실행하는 것입니다.</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>여기서 해야 할 것은 애니메이션이 먼저 끝나도록 하고, 200밀리초를 기다린 후에 애니메이션을 역방향으로 실행하는 것입니다.</p>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
       style="display:block"

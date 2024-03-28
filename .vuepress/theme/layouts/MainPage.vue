@@ -6,11 +6,14 @@ import { Footer, Posts } from "../components";
 import { usePosts } from "../hooks";
 
 const PAGE_SIZE = 9;
+const PER_PAGE_SIZE = 20;
 const PAGE_KEY = "__CURRENT_PAGE__";
+const PAGEGROUP_KEY = "__CURRENT_PAGE_GROUP__";
 
 const state = reactive({
   currentPage: 1,
   selectedTag: "전체",
+  currentPageGroup: 0,
 });
 
 const posts = usePosts();
@@ -40,10 +43,27 @@ const currentItems = computed(() => {
 });
 
 const lastPage = computed(() => Math.ceil(selectedTagItems.value.length / PAGE_SIZE));
+const lastPageGroup = computed(() => {
+  // const num = Math.ceil(selectedTagItems.value.length / PAGE_SIZE) / ((state.currentPageGroup + 1) * PER_PAGE_SIZE);
+  const num = Math.floor(Math.ceil(selectedTagItems.value.length / PAGE_SIZE) / PER_PAGE_SIZE);
+  if (state.currentPageGroup === num) {
+    return Math.ceil(selectedTagItems.value.length / PAGE_SIZE) % 10;
+  } else {
+    return PER_PAGE_SIZE;
+  }
+  // return num >= 1 ? 10 : +(num * 10);
+});
+const pageGroupCount = computed(() => Math.ceil(Math.ceil(selectedTagItems.value.length / PAGE_SIZE) / PER_PAGE_SIZE));
 
 function selectPage(page: number) {
   state.currentPage = page;
   sessionStorage.setItem(PAGE_KEY, String(page));
+}
+
+function selectPageGroup(nextPageGroup: number, pageGroupCount) {
+  nextPageGroup = nextPageGroup < 0 ? 0 : nextPageGroup;
+  state.currentPageGroup = nextPageGroup % pageGroupCount;
+  sessionStorage.setItem(PAGEGROUP_KEY, String(nextPageGroup));
 }
 
 function selectTag(tag: string) {
@@ -54,6 +74,9 @@ function selectTag(tag: string) {
 onMounted(async () => {
   state.currentPage = Number(sessionStorage.getItem(PAGE_KEY) || 1);
 });
+onMounted(async () => {
+  state.currentPageGroup = Number(sessionStorage.getItem(PAGEGROUP_KEY) || 1);
+});
 </script>
 
 <template>
@@ -61,13 +84,23 @@ onMounted(async () => {
     <template #page-content-top>
       <section>
         <div class="tags">
-          <a v-for="(count, tag) in tagsAndCount" :key="tag" href="#" :class="{ active: tag === state.selectedTag }" @click.prevent="selectTag(tag)"> #{{ tag.toUpperCase() }} <strong v-html="count" /> </a>
+          <a v-for="(count, tag) in tagsAndCount" :key="tag" href="#" :class="{ active: tag === state.selectedTag }" @click.prevent="selectTag(tag)">
+            #{{ tag.toUpperCase() }} <strong v-html="count" />
+          </a>
         </div>
 
         <Posts :items="currentItems" @select-tag="selectTag" />
 
         <div class="pagination">
-          <button v-for="i in lastPage" :key="i" :class="{ active: i === state.currentPage }" v-html="i" @click="selectPage(i)" />
+          <button @click="selectPageGroup(state.currentPageGroup - 1, pageGroupCount)">&lt;</button>
+          <button
+            v-for="i in lastPageGroup"
+            :key="PER_PAGE_SIZE * state.currentPageGroup + i"
+            :class="{ active: PER_PAGE_SIZE * state.currentPageGroup + i === state.currentPage }"
+            v-html="PER_PAGE_SIZE * state.currentPageGroup + i"
+            @click="selectPage(PER_PAGE_SIZE * state.currentPageGroup + i)"
+          />
+          <button @click="selectPageGroup(state.currentPageGroup + 1, pageGroupCount)">></button>
         </div>
       </section>
     </template>

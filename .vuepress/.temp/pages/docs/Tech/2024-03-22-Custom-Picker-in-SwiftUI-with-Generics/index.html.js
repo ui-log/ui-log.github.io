@@ -21,7 +21,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1711116296000
+    "updatedTime": 1711171735000
   },
   "filePathRelative": "docs/Tech/2024-03-22-Custom-Picker-in-SwiftUI-with-Generics/README.md"
 }

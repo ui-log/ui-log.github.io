@@ -325,10 +325,10 @@ import { CircleButton } from "buttons";
 
 먼저 개발자 의존성으로 babel-plugin-module-resolver를 설치해주세요.
 
-````js
+```js
 yarn add - dev babel-plugin-module-resolver
 npm install babel-plugin-module-resolver --save-dev
-
+```
 
 이제 babel.config.js 파일을 업데이트하여 **module-resolver** 플러그인을 사용하고 디렉토리를 가리킬 수 있습니다.
 
@@ -352,7 +352,7 @@ module.exports = function (api) {
     ],
   };
 };
-````
+```
 
 <!-- ui-log 수평형 -->
 

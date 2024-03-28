@@ -205,7 +205,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1710930996000
+    "updatedTime": 1711171735000
   },
   "filePathRelative": "docs/Nextjs/2024-03-20-Metadata-Object-and-generateMetadata-Options/README.md"
 }

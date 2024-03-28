@@ -351,124 +351,120 @@ iOS appId를 'Secret'로 표시된 텍스트 상자에 붙여넣으세요.</p>
         <span class="token constant">PASSWORD</span><span class="token operator">:</span> $<span class="token punctuation">{</span> secrets<span class="token punctuation">.</span><span class="token constant">APPLE_DEVELOPER_PASSWORD</span> <span class="token punctuation">}</span>
      <span class="token literal-property property">run</span><span class="token operator">:</span> <span class="token operator">|</span>
         cd ios <span class="token operator">&amp;&amp;</span> xcrun altool <span class="token operator">--</span>upload<span class="token operator">-</span>app <span class="token operator">-</span>f $<span class="token constant">RUNNER_TEMP</span><span class="token operator">/</span>build<span class="token operator">/</span>Apps<span class="token operator">/</span>your_app<span class="token punctuation">.</span>ipa <span class="token operator">-</span>t ios <span class="token operator">-</span>u $<span class="token constant">USERNAME</span> <span class="token operator">-</span>p $<span class="token constant">PASSWORD</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>그리고 전체 YAML 파일은 다음과 같습니다:</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">"iOS 제품 앱 빌드"</span>
 
+<span class="token literal-property property">on</span><span class="token operator">:</span>
+  <span class="token literal-property property">push</span><span class="token operator">:</span>
+    <span class="token literal-property property">branches</span><span class="token operator">:</span>
+      <span class="token operator">-</span> main
 
-그리고 전체 <span class="token constant">YAML</span> 파일은 다음과 같습니다<span class="token operator">:</span>
+<span class="token literal-property property">jobs</span><span class="token operator">:</span>
+  <span class="token literal-property property">build_with_signing</span><span class="token operator">:</span>
+    runs<span class="token operator">-</span>on<span class="token operator">:</span> macos<span class="token operator">-</span>latest
+    <span class="token literal-property property">steps</span><span class="token operator">:</span>
+        <span class="token operator">-</span> name<span class="token operator">:</span> Xcode 버전 확인
+          <span class="token literal-property property">run</span><span class="token operator">:</span> <span class="token operator">/</span>usr<span class="token operator">/</span>bin<span class="token operator">/</span>xcodebuild <span class="token operator">-</span>version
+        <span class="token operator">-</span> name<span class="token operator">:</span> 저장소 체크아웃
+          <span class="token literal-property property">uses</span><span class="token operator">:</span> actions<span class="token operator">/</span>checkout@v3
+        <span class="token operator">-</span> name<span class="token operator">:</span> 디버그 워크플로 변수
+          <span class="token literal-property property">run</span><span class="token operator">:</span> <span class="token operator">|</span>
+            echo <span class="token string">"CERTIFICATE_PATH: $CERTIFICATE_PATH"</span>
+            echo <span class="token string">"PP_PATH: $PP_PATH"</span>
+            echo <span class="token string">"KEYCHAIN_PATH: $KEYCHAIN_PATH"</span>
+            echo <span class="token string">"P12_PASSWORD: $P12_PASSWORD"</span>
+        <span class="token operator">-</span> name<span class="token operator">:</span> Apple 인증서 및 프로비전 프로필 설치
+          <span class="token literal-property property">env</span><span class="token operator">:</span>
+            <span class="token constant">BUILD_CERTIFICATE_BASE64</span><span class="token operator">:</span> $<span class="token punctuation">{</span> secrets<span class="token punctuation">.</span><span class="token constant">BUILD_CERTIFICATE_BASE64</span> <span class="token punctuation">}</span>
+            <span class="token constant">P12_PASSWORD</span><span class="token operator">:</span> $<span class="token punctuation">{</span> secrets<span class="token punctuation">.</span><span class="token constant">P12_PASSWORD</span> <span class="token punctuation">}</span>
+            <span class="token constant">PROVISION_PROFILES_BASE64</span><span class="token operator">:</span> $<span class="token punctuation">{</span> secrets<span class="token punctuation">.</span><span class="token constant">PROVISION_PROFILES_BASE64</span> <span class="token punctuation">}</span>
+            <span class="token constant">KEYCHAIN_PASSWORD</span><span class="token operator">:</span> $<span class="token punctuation">{</span> secrets<span class="token punctuation">.</span><span class="token constant">KEYCHAIN_PASSWORD</span> <span class="token punctuation">}</span>
+          <span class="token literal-property property">run</span><span class="token operator">:</span> <span class="token operator">|</span>
+            <span class="token constant">CERTIFICATE_PATH</span><span class="token operator">=</span>$<span class="token constant">RUNNER_TEMP</span><span class="token operator">/</span>build_certificate<span class="token punctuation">.</span>p12
+            <span class="token constant">PP_ARCHIVE</span><span class="token operator">=</span>$<span class="token constant">RUNNER_TEMP</span><span class="token operator">/</span>mobile_pp<span class="token punctuation">.</span>tgz
+            <span class="token constant">KEYCHAIN_PATH</span><span class="token operator">=</span>$<span class="token constant">RUNNER_TEMP</span><span class="token operator">/</span>app<span class="token operator">-</span>signing<span class="token punctuation">.</span>keychain<span class="token operator">-</span>db
 
-<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token template-punctuation string">`</span></span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">js
-name: "iOS 제품 앱 빌드"
+            echo <span class="token operator">-</span>n <span class="token string">"$BUILD_CERTIFICATE_BASE64"</span> <span class="token operator">|</span> base64 <span class="token operator">--</span>decode <span class="token operator">-</span>o $<span class="token constant">CERTIFICATE_PATH</span>
+            echo <span class="token operator">-</span>n <span class="token string">"$PROVISION_PROFILES_BASE64"</span> <span class="token operator">|</span> base64 <span class="token operator">--</span>decode <span class="token operator">-</span>o $<span class="token constant">PP_ARCHIVE</span>
 
-on:
-  push:
-    branches:
-      - main
+            security create<span class="token operator">-</span>keychain <span class="token operator">-</span>p <span class="token string">"$KEYCHAIN_PASSWORD"</span> $<span class="token constant">KEYCHAIN_PATH</span>
+            security set<span class="token operator">-</span>keychain<span class="token operator">-</span>settings <span class="token operator">-</span>lut <span class="token number">21600</span> $<span class="token constant">KEYCHAIN_PATH</span>
+            security unlock<span class="token operator">-</span>keychain <span class="token operator">-</span>p <span class="token string">"$KEYCHAIN_PASSWORD"</span> $<span class="token constant">KEYCHAIN_PATH</span>
 
-jobs:
-  build_with_signing:
-    runs-on: macos-latest
-    steps:
-        - name: Xcode 버전 확인
-          run: /usr/bin/xcodebuild -version
-        - name: 저장소 체크아웃
-          uses: actions/checkout@v3
-        - name: 디버그 워크플로 변수
-          run: |
-            echo "CERTIFICATE_PATH: $CERTIFICATE_PATH"
-            echo "PP_PATH: $PP_PATH"
-            echo "KEYCHAIN_PATH: $KEYCHAIN_PATH"
-            echo "P12_PASSWORD: $P12_PASSWORD"
-        - name: Apple 인증서 및 프로비전 프로필 설치
-          env:
-            BUILD_CERTIFICATE_BASE64: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> secrets<span class="token punctuation">.</span><span class="token constant">BUILD_CERTIFICATE_BASE64</span> <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">
-            P12_PASSWORD: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> secrets<span class="token punctuation">.</span><span class="token constant">P12_PASSWORD</span> <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">
-            PROVISION_PROFILES_BASE64: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> secrets<span class="token punctuation">.</span><span class="token constant">PROVISION_PROFILES_BASE64</span> <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">
-            KEYCHAIN_PASSWORD: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span> secrets<span class="token punctuation">.</span><span class="token constant">KEYCHAIN_PASSWORD</span> <span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">
-          run: |
-            CERTIFICATE_PATH=$RUNNER_TEMP/build_certificate.p12
-            PP_ARCHIVE=$RUNNER_TEMP/mobile_pp.tgz
-            KEYCHAIN_PATH=$RUNNER_TEMP/app-signing.keychain-db
+            echo <span class="token string">"P12_PASSWORD: $P12_PASSWORD"</span>
+            security <span class="token keyword">import</span> $<span class="token constant">CERTIFICATE_PATH</span> <span class="token operator">-</span><span class="token constant">P</span> <span class="token string">"$P12_PASSWORD"</span> <span class="token operator">-</span><span class="token constant">A</span> <span class="token operator">-</span>t cert <span class="token operator">-</span>f pkcs12 <span class="token operator">-</span>k $<span class="token constant">KEYCHAIN_PATH</span>
+            security list<span class="token operator">-</span>keychain <span class="token operator">-</span>d user <span class="token operator">-</span>s $<span class="token constant">KEYCHAIN_PATH</span>
 
-            echo -n "$BUILD_CERTIFICATE_BASE64" | base64 --decode -o $CERTIFICATE_PATH
-            echo -n "$PROVISION_PROFILES_BASE64" | base64 --decode -o $PP_ARCHIVE
-
-            security create-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
-            security set-keychain-settings -lut 21600 $KEYCHAIN_PATH
-            security unlock-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
-
-            echo "P12_PASSWORD: $P12_PASSWORD"
-            security import $CERTIFICATE_PATH -P "$P12_PASSWORD" -A -t cert -f pkcs12 -k $KEYCHAIN_PATH
-            security list-keychain -d user -s $KEYCHAIN_PATH
-
-            mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
-            tar xzvf $PP_ARCHIVE -C $RUNNER_TEMP
-            for PROVISION in </span><span class="token template-punctuation string">`</span></span>ls $<span class="token constant">RUNNER_TEMP</span><span class="token comment">/*.mobileprovision`
-            do
-              UUID=`/usr/libexec/PlistBuddy -c 'Print :UUID' /dev/stdin &lt;&lt;&lt; $(security cms -D -i $PROVISION)`
-              cp $PROVISION ~/Library/MobileDevice/Provisioning\ Profiles/$UUID.mobileprovision
+            mkdir <span class="token operator">-</span>p <span class="token operator">~</span><span class="token operator">/</span>Library<span class="token operator">/</span>MobileDevice<span class="token operator">/</span>Provisioning\ Profiles
+            tar xzvf $<span class="token constant">PP_ARCHIVE</span> <span class="token operator">-</span><span class="token constant">C</span> $<span class="token constant">RUNNER_TEMP</span>
+            <span class="token keyword">for</span> <span class="token constant">PROVISION</span> <span class="token keyword">in</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">ls $RUNNER_TEMP/*.mobileprovision</span><span class="token template-punctuation string">`</span></span>
+            <span class="token keyword">do</span>
+              <span class="token constant">UUID</span><span class="token operator">=</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">/usr/libexec/PlistBuddy -c 'Print :UUID' /dev/stdin &lt;&lt;&lt; $(security cms -D -i $PROVISION)</span><span class="token template-punctuation string">`</span></span>
+              cp $<span class="token constant">PROVISION</span> <span class="token operator">~</span><span class="token operator">/</span>Library<span class="token operator">/</span>MobileDevice<span class="token operator">/</span>Provisioning\ Profiles<span class="token operator">/</span>$<span class="token constant">UUID</span><span class="token punctuation">.</span>mobileprovision
             done
 
-            security find-identity -v -p codesigning
-            ls -l ~/Library/MobileDevice/Provisioning\ Profiles
+            security find<span class="token operator">-</span>identity <span class="token operator">-</span>v <span class="token operator">-</span>p codesigning
+            ls <span class="token operator">-</span>l <span class="token operator">~</span><span class="token operator">/</span>Library<span class="token operator">/</span>MobileDevice<span class="token operator">/</span>Provisioning\ Profiles
 
-        - uses: actions/setup-node@v3
-          with:
-            node-version: '18'
-            cache: 'yarn'
+        <span class="token operator">-</span> uses<span class="token operator">:</span> actions<span class="token operator">/</span>setup<span class="token operator">-</span>node@v3
+          <span class="token keyword">with</span><span class="token operator">:</span>
+            node<span class="token operator">-</span>version<span class="token operator">:</span> <span class="token string">'18'</span>
+            <span class="token literal-property property">cache</span><span class="token operator">:</span> <span class="token string">'yarn'</span>
 
-        - name: 작업 공간 정리
-          run: |
-            git clean -ffdx
-            npm cache clean --force
+        <span class="token operator">-</span> name<span class="token operator">:</span> 작업 공간 정리
+          <span class="token literal-property property">run</span><span class="token operator">:</span> <span class="token operator">|</span>
+            git clean <span class="token operator">-</span>ffdx
+            npm cache clean <span class="token operator">--</span>force
 
-        - name: Xcode 빌드 정리
-          run: |
+        <span class="token operator">-</span> name<span class="token operator">:</span> Xcode 빌드 정리
+          <span class="token literal-property property">run</span><span class="token operator">:</span> <span class="token operator">|</span>
             cd ios
-            xcodebuild clean -workspace your_app.xcworkspace -scheme your_app
+            xcodebuild clean <span class="token operator">-</span>workspace your_app<span class="token punctuation">.</span>xcworkspace <span class="token operator">-</span>scheme your_app
 
-        - name: yarn 종속성 설치
-          run: |
+        <span class="token operator">-</span> name<span class="token operator">:</span> yarn 종속성 설치
+          <span class="token literal-property property">run</span><span class="token operator">:</span> <span class="token operator">|</span>
             cd ios
             yarn install
 
-        - name: CocoaPod 종속성 설치
-          run: |
+        <span class="token operator">-</span> name<span class="token operator">:</span> CocoaPod 종속성 설치
+          <span class="token literal-property property">run</span><span class="token operator">:</span> <span class="token operator">|</span>
             cd ios
             pod repo update
             pod install
 
-        - name: 아카이브 빌드
-          run: |
+        <span class="token operator">-</span> name<span class="token operator">:</span> 아카이브 빌드
+          <span class="token literal-property property">run</span><span class="token operator">:</span> <span class="token operator">|</span>
             cd ios
-            xcodebuild -workspace your_app.xcworkspace \
-            -scheme "your_app" \
-            -sdk iphoneos \
-            -configuration Debug \
-            -destination generic/platform=iOS \
-            -archivePath $RUNNER_TEMP/your_app.xcarchive \
+            xcodebuild <span class="token operator">-</span>workspace your_app<span class="token punctuation">.</span>xcworkspace \
+            <span class="token operator">-</span>scheme <span class="token string">"your_app"</span> \
+            <span class="token operator">-</span>sdk iphoneos \
+            <span class="token operator">-</span>configuration Debug \
+            <span class="token operator">-</span>destination generic<span class="token operator">/</span>platform<span class="token operator">=</span>iOS \
+            <span class="token operator">-</span>archivePath $<span class="token constant">RUNNER_TEMP</span><span class="token operator">/</span>your_app<span class="token punctuation">.</span>xcarchive \
             archive
 
-        - name: ipa 내보내기
-          env:
-            EXPORT_OPTIONS_PLIST: ${ secrets.EXPORT_OPTIONS_PLIST }
-          run: |
-            EXPORT_OPTS_PATH=$RUNNER_TEMP/ExportOptions.plist
-            echo -n "$EXPORT_OPTIONS_PLIST" | base64 --decode -o $EXPORT_OPTS_PATH
-            xcodebuild -exportArchive -archivePath $RUNNER_TEMP/your_app.xcarchive -exportOptionsPlist $EXPORT_OPTS_PATH -exportPath $RUNNER_TEMP/build
+        <span class="token operator">-</span> name<span class="token operator">:</span> ipa 내보내기
+          <span class="token literal-property property">env</span><span class="token operator">:</span>
+            <span class="token constant">EXPORT_OPTIONS_PLIST</span><span class="token operator">:</span> $<span class="token punctuation">{</span> secrets<span class="token punctuation">.</span><span class="token constant">EXPORT_OPTIONS_PLIST</span> <span class="token punctuation">}</span>
+          <span class="token literal-property property">run</span><span class="token operator">:</span> <span class="token operator">|</span>
+            <span class="token constant">EXPORT_OPTS_PATH</span><span class="token operator">=</span>$<span class="token constant">RUNNER_TEMP</span><span class="token operator">/</span>ExportOptions<span class="token punctuation">.</span>plist
+            echo <span class="token operator">-</span>n <span class="token string">"$EXPORT_OPTIONS_PLIST"</span> <span class="token operator">|</span> base64 <span class="token operator">--</span>decode <span class="token operator">-</span>o $<span class="token constant">EXPORT_OPTS_PATH</span>
+            xcodebuild <span class="token operator">-</span>exportArchive <span class="token operator">-</span>archivePath $<span class="token constant">RUNNER_TEMP</span><span class="token operator">/</span>your_app<span class="token punctuation">.</span>xcarchive <span class="token operator">-</span>exportOptionsPlist $<span class="token constant">EXPORT_OPTS_PATH</span> <span class="token operator">-</span>exportPath $<span class="token constant">RUNNER_TEMP</span><span class="token operator">/</span>build
 
-        - name: 애플리케이션 업로드
-          uses: actions/upload-artifact@v3
-          with:
-            name: app
-            path: ${ runner.temp }/build
-            retention-days: 3
+        <span class="token operator">-</span> name<span class="token operator">:</span> 애플리케이션 업로드
+          <span class="token literal-property property">uses</span><span class="token operator">:</span> actions<span class="token operator">/</span>upload<span class="token operator">-</span>artifact@v3
+          <span class="token keyword">with</span><span class="token operator">:</span>
+            <span class="token literal-property property">name</span><span class="token operator">:</span> app
+            <span class="token literal-property property">path</span><span class="token operator">:</span> $<span class="token punctuation">{</span> runner<span class="token punctuation">.</span>temp <span class="token punctuation">}</span><span class="token operator">/</span>build
+            retention<span class="token operator">-</span>days<span class="token operator">:</span> <span class="token number">3</span>
 
-        - name: TestFlight에 발행하기
-          env:
-            USERNAME: ${ secrets.APPLE_DEVELOPER_USERNAME }
-            PASSWORD: ${ secrets.APPLE_DEVELOPER_PASSWORD }
-          run: |
-            cd ios &amp;&amp; xcrun altool --upload-app -f $RUNNER_TEMP/build/Apps/your_app.ipa -t ios -u $USERNAME -p $PASSWORD
-</span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="안드로이드-앱-play-스토어-내부-테스트로-업로드하기" tabindex="-1"><a class="header-anchor" href="#안드로이드-앱-play-스토어-내부-테스트로-업로드하기" aria-hidden="true">#</a> 안드로이드 앱 Play 스토어 내부 테스트로 업로드하기```</h2>
+        <span class="token operator">-</span> name<span class="token operator">:</span> TestFlight에 발행하기
+          <span class="token literal-property property">env</span><span class="token operator">:</span>
+            <span class="token constant">USERNAME</span><span class="token operator">:</span> $<span class="token punctuation">{</span> secrets<span class="token punctuation">.</span><span class="token constant">APPLE_DEVELOPER_USERNAME</span> <span class="token punctuation">}</span>
+            <span class="token constant">PASSWORD</span><span class="token operator">:</span> $<span class="token punctuation">{</span> secrets<span class="token punctuation">.</span><span class="token constant">APPLE_DEVELOPER_PASSWORD</span> <span class="token punctuation">}</span>
+          <span class="token literal-property property">run</span><span class="token operator">:</span> <span class="token operator">|</span>
+            cd ios <span class="token operator">&amp;&amp;</span> xcrun altool <span class="token operator">--</span>upload<span class="token operator">-</span>app <span class="token operator">-</span>f $<span class="token constant">RUNNER_TEMP</span><span class="token operator">/</span>build<span class="token operator">/</span>Apps<span class="token operator">/</span>your_app<span class="token punctuation">.</span>ipa <span class="token operator">-</span>t ios <span class="token operator">-</span>u $<span class="token constant">USERNAME</span> <span class="token operator">-</span>p $<span class="token constant">PASSWORD</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="안드로이드-앱-play-스토어-내부-테스트로-업로드하기" tabindex="-1"><a class="header-anchor" href="#안드로이드-앱-play-스토어-내부-테스트로-업로드하기" aria-hidden="true">#</a> 안드로이드 앱 Play 스토어 내부 테스트로 업로드하기```</h2>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
       style="display:block"

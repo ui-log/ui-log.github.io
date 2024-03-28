@@ -36,7 +36,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1711171735000
   },
   "filePathRelative": "docs/Tech/2024-03-23-WhyyourUXPortfolioisnotgettinginterviewsin2024DosDonts/README.md"
 }

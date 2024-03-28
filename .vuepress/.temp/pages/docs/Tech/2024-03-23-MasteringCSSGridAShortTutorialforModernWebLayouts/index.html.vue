@@ -730,16 +730,12 @@ grid<span class="token operator">-</span>auto<span class="token operator">-</spa
   grid<span class="token operator">-</span>column<span class="token operator">:</span> <span class="token operator">&lt;</span>시작<span class="token operator">-</span>라인<span class="token operator">></span> <span class="token operator">/</span> <span class="token operator">&lt;</span>끝<span class="token operator">-</span>라인<span class="token operator">></span> <span class="token operator">|</span> <span class="token operator">&lt;</span>시작<span class="token operator">-</span>라인<span class="token operator">></span> <span class="token operator">/</span> span <span class="token operator">&lt;</span>값<span class="token operator">></span><span class="token punctuation">;</span>
   grid<span class="token operator">-</span>row<span class="token operator">:</span> <span class="token operator">&lt;</span>시작<span class="token operator">-</span>라인<span class="token operator">></span> <span class="token operator">/</span> <span class="token operator">&lt;</span>끝<span class="token operator">-</span>라인<span class="token operator">></span> <span class="token operator">|</span> <span class="token operator">&lt;</span>시작<span class="token operator">-</span>라인<span class="token operator">></span> <span class="token operator">/</span> span <span class="token operator">&lt;</span>값<span class="token operator">></span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-
-
-예시 코드<span class="token operator">:</span>
-
-<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token template-punctuation string">`</span></span>`js
-<span class="token punctuation">.</span>item<span class="token operator">-</span>a <span class="token punctuation">{</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>예시 코드:</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token punctuation">.</span>item<span class="token operator">-</span>a <span class="token punctuation">{</span>
   grid<span class="token operator">-</span>column<span class="token operator">:</span> <span class="token number">2</span><span class="token operator">/</span> span <span class="token number">3</span><span class="token punctuation">;</span>
   grid<span class="token operator">-</span>row<span class="token operator">:</span> third<span class="token operator">-</span>line <span class="token operator">/</span> <span class="token number">5</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
 <li>grid-area: 이 속성은 grid 템플릿에 지정된 그리드 영역 이름을 사용하여 그리드 항목의 크기와 위치를 단일 압축형 선언으로 지정할 수 있습니다.```</li>
 </ol>
 <!-- ui-log 수평형 -->

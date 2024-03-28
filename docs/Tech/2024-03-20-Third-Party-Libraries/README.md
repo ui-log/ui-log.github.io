@@ -351,15 +351,3 @@ export default function Page() {
 | `playlabel` | Optional | 접근성을 위해 플레이 버튼의 시각적으로 숨긴 레이블입니다.                                                                                                                                                                                                                                                |
 | `params`    | Optional | <a href="https://developers.google.com/youtube/player_parameters#Parameters" rel="noopener noreferrer nofollow" target="_blank">여기</a>에서 정의된 비디오 플레이어 매개변수입니다. <br> 매개변수는 쿼리 매개변수 문자열로 전달됩니다. <br> 예: <code>params="controls=0&amp;start=10&amp;end=30"</code> |
 | `style`     | Optional | 영상 컨테이너에 스타일을 적용하는 데 사용됩니다.                                                                                                                                                                                                                                                         |
-
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-4877378276818686"
-      data-ad-slot="9743150776"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>

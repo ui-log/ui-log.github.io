@@ -877,12 +877,12 @@ CSS 그리드 레이아웃 내의 자식 요소 (그리드 항목)에 대해 자
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-````js
+```js
 .item {
   grid-column: <시작-라인> / <끝-라인> | <시작-라인> / span <값>;
   grid-row: <시작-라인> / <끝-라인> | <시작-라인> / span <값>;
 }
-
+```
 
 예시 코드:
 
@@ -891,7 +891,7 @@ CSS 그리드 레이아웃 내의 자식 요소 (그리드 항목)에 대해 자
   grid-column: 2/ span 3;
   grid-row: third-line / 5;
 }
-````
+```
 
 2. grid-area: 이 속성은 grid 템플릿에 지정된 그리드 영역 이름을 사용하여 그리드 항목의 크기와 위치를 단일 압축형 선언으로 지정할 수 있습니다.```
 

@@ -57,7 +57,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1711116296000
+    "updatedTime": 1711171735000
   },
   "filePathRelative": "docs/Tech/2024-03-22-Build-a-Custom-Bottom-Navigation-Bar-in-Flutter-with-Animated-Icons-from-Rive/README.md"
 }

@@ -418,14 +418,14 @@ needs: [build_with_signing];
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-````js
+```js
    - name: TestFlight에 발행하기
      env:
         USERNAME: ${ secrets.APPLE_DEVELOPER_USERNAME }
         PASSWORD: ${ secrets.APPLE_DEVELOPER_PASSWORD }
      run: |
         cd ios && xcrun altool --upload-app -f $RUNNER_TEMP/build/Apps/your_app.ipa -t ios -u $USERNAME -p $PASSWORD
-
+```
 
 그리고 전체 YAML 파일은 다음과 같습니다:
 
@@ -542,7 +542,7 @@ jobs:
             PASSWORD: ${ secrets.APPLE_DEVELOPER_PASSWORD }
           run: |
             cd ios && xcrun altool --upload-app -f $RUNNER_TEMP/build/Apps/your_app.ipa -t ios -u $USERNAME -p $PASSWORD
-````
+```
 
 ## 안드로이드 앱 Play 스토어 내부 테스트로 업로드하기```
 

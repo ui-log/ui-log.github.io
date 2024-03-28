@@ -69,7 +69,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1709893134000
+    "updatedTime": 1711171735000
   },
   "filePathRelative": "docs/Library/2024-03-05-console-log-제대로-알고-사용하기/README.md"
 }

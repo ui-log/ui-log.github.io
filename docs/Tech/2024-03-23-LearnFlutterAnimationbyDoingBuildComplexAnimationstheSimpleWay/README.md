@@ -125,7 +125,7 @@ void dispose() {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-````js
+```js
 body: Center(
   child: SizedBox(
     height: cardSize * 1.25,
@@ -147,7 +147,7 @@ body: Center(
     ),
   ),
 ),
-
+```
 
 시작할 시간이에요! 마이너스 플로팅 액션 버튼으로 돌아가서 onPressed 함수를 비동기로 만들어 봅시다.
 
@@ -160,7 +160,7 @@ FloatingActionButton(
   },
   ....
 )
-````
+```
 
 여기서 해야 할 것은 애니메이션이 먼저 끝나도록 하고, 200밀리초를 기다린 후에 애니메이션을 역방향으로 실행하는 것입니다.
 

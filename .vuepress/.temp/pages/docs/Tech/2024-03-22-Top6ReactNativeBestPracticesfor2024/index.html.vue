@@ -247,12 +247,8 @@
 <p>먼저 개발자 의존성으로 babel-plugin-module-resolver를 설치해주세요.</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>yarn add <span class="token operator">-</span> dev babel<span class="token operator">-</span>plugin<span class="token operator">-</span>module<span class="token operator">-</span>resolver
 npm install babel<span class="token operator">-</span>plugin<span class="token operator">-</span>module<span class="token operator">-</span>resolver <span class="token operator">--</span>save<span class="token operator">-</span>dev
-
-
-이제 babel<span class="token punctuation">.</span>config<span class="token punctuation">.</span>js 파일을 업데이트하여 <span class="token operator">**</span>module<span class="token operator">-</span>resolver<span class="token operator">**</span> 플러그인을 사용하고 디렉토리를 가리킬 수 있습니다<span class="token punctuation">.</span>
-
-<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token template-punctuation string">`</span></span>`js
-<span class="token comment">// babel.config.js</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>이제 babel.config.js 파일을 업데이트하여 <strong>module-resolver</strong> 플러그인을 사용하고 디렉토리를 가리킬 수 있습니다.</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token comment">// babel.config.js</span>
 module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">api</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   api<span class="token punctuation">.</span><span class="token function">cache</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token keyword">return</span> <span class="token punctuation">{</span>
@@ -271,7 +267,7 @@ module<span class="token punctuation">.</span><span class="token function-variab
     <span class="token punctuation">]</span><span class="token punctuation">,</span>
   <span class="token punctuation">}</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
       style="display:block"
       data-ad-client="ca-pub-4877378276818686"

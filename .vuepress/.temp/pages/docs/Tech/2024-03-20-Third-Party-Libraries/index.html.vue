@@ -398,14 +398,4 @@
 </tr>
 </tbody>
 </table>
-<!-- ui-log 수평형 -->
-<p><ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-4877378276818686"
-      data-ad-slot="9743150776"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins></p>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 </div></template>

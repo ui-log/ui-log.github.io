@@ -67,12 +67,8 @@ Context API 이전에는 데이터를 컴포넌트 트리 아래로 전달하는
     <span class="token operator">&lt;</span><span class="token operator">/</span>ThemeProvider<span class="token operator">></span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-
-
-여기서 페이지 컴포넌트는 React의 useContext 훅을 사용하여 테마 콘텍스트를 소비하며<span class="token punctuation">,</span> 현재 테마에 액세스하고 테마를 토글하는 함수에 액세스할 수 있습니다<span class="token punctuation">.</span> 이 함수는 버튼의 onClick 이벤트 핸들러에 의해 트리거 될 것입니다<span class="token punctuation">.</span>
-
-<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token template-punctuation string">`</span></span>`js
-<span class="token comment">// useContext 훅을 사용하여 테마 콘텍스트에 액세스하기</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>여기서 페이지 컴포넌트는 React의 useContext 훅을 사용하여 테마 콘텍스트를 소비하며, 현재 테마에 액세스하고 테마를 토글하는 함수에 액세스할 수 있습니다. 이 함수는 버튼의 onClick 이벤트 핸들러에 의해 트리거 될 것입니다.</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token comment">// useContext 훅을 사용하여 테마 콘텍스트에 액세스하기</span>
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">Page</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">const</span> themeCtx <span class="token operator">=</span> React<span class="token punctuation">.</span><span class="token function">useContext</span><span class="token punctuation">(</span>ThemeContext<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
@@ -83,7 +79,7 @@ Context API 이전에는 데이터를 컴포넌트 트리 아래로 전달하는
     <span class="token operator">&lt;</span><span class="token operator">/</span>header<span class="token operator">></span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h1 id="context-api를-언제-사용해야-하나요" tabindex="-1"><a class="header-anchor" href="#context-api를-언제-사용해야-하나요" aria-hidden="true">#</a> Context API를 언제 사용해야 하나요?</h1>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h1 id="context-api를-언제-사용해야-하나요" tabindex="-1"><a class="header-anchor" href="#context-api를-언제-사용해야-하나요" aria-hidden="true">#</a> Context API를 언제 사용해야 하나요?</h1>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
       style="display:block"

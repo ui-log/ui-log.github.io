@@ -16,7 +16,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1711171735000
+    "updatedTime": 1711616337000
   },
   "filePathRelative": "docs/Tech/2024-03-22-Top6ReactNativeBestPracticesfor2024/README.md"
 }

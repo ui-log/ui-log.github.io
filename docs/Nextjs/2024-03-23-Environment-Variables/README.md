@@ -356,11 +356,9 @@ export default async () => {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 | Version | Changes                                       |
 | ------- | --------------------------------------------- |
 | v9.4.0  | Support `.env` and `NEXT_PUBLIC_` introduced. |
-```
 
 <!-- ui-log 수평형 -->
 

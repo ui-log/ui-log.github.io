@@ -44,10 +44,9 @@ const currentItems = computed(() => {
 
 const lastPage = computed(() => Math.ceil(selectedTagItems.value.length / PAGE_SIZE));
 const lastPageGroup = computed(() => {
-  // const num = Math.ceil(selectedTagItems.value.length / PAGE_SIZE) / ((state.currentPageGroup + 1) * PER_PAGE_SIZE);
   const num = Math.floor(Math.ceil(selectedTagItems.value.length / PAGE_SIZE) / PER_PAGE_SIZE);
   if (state.currentPageGroup === num) {
-    return Math.ceil(selectedTagItems.value.length / PAGE_SIZE) % 10;
+    return Math.ceil(selectedTagItems.value.length / PAGE_SIZE) % PER_PAGE_SIZE;
   } else {
     return PER_PAGE_SIZE;
   }

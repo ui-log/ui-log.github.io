@@ -14,7 +14,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1711616337000
   },
   "filePathRelative": "docs/Nextjs/2024-03-22-Custom-Webpack-Config/README.md"
 }

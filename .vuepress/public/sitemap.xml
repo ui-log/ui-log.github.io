@@ -1,6 +1,288 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-HowtobuildanOpenAI-compatibleAPI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-ForgetpipinstallUseThisInstead/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-NextAuthCredentialseasysignuploginwithemailpasswordNextjs14ApprouterandZodresolver/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-JWTAuthenticationADeepDiveintoAccessTokensandRefreshTokens/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-PythonDevsShockedMultithreadingAhead/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-CSSContainerquerieswhywemustconsidertheminFigmaandhowtoimplementthem/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-LeverageOpenAIToolcallingBuildingareliableAIAgentfromScratch/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-DesigningNativelyResponsiveInterfaceswithCSSFlexbox/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-FeedingAIModelswithSlackData/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-CSSvSCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-MonteCarloSimulationforTimeSeriesProbabilisticForecasts/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-CraftingaProfessional-LookingCarouselwithReactandMUI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-TwoTeenagersFoundaNewProofofthePythagoreanTheoremHeresHow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-BoxPlotExplainedAPreciseGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-CSSbackgroundanimations/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-NvidiaCEOAdvisesAgainstLearningtoCodeIsCodingStillaWorthwhileSkilltoLearn/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-RsponsiveAnimatedLoginForminHTMLCSSJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-FantasticCSSeffectsbuttonNeonButtonusingbox-shadow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-PythonTipsApplicationPackagingIntroduction/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-CSSPositioning/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-Fontcolorsforuiuxdesigninsteadofpureblack000000/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-MyBossLaughedatPythonThenIShowedHimThis/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-AdvancedStylingwithSass/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-YoureDecentAtPythonIfYouCanAnswerThese7QuestionsCorrectly/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-CSSFlexboxFundamentals/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-FeatureEngineeringWithLatitudeandLongitude/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-PyPiIsUnderAttackProjectCreationandUserRegistrationSuspendedHeresthedetails/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-IndexedDBWhatitisComparisonwithLocalStorageHowtouseitandWrappers/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-NavigatingtheChallengesofCSSGridLayout/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-CSSGridGallery/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-CSS5BlockPaddingIDs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-Ten-minuteFlexboxGridLayout/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-CSSFLEXBOXMADESIMPLE/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-ExploringFlexboxandCSSGridLayout/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-PublishFlutterApptoPlayStore2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-ListviewbuilderinFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-HarnesstheGeminiAPIinyourDartandFlutterApps/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-Neverhaveseparatesign-inroutes/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-MasteringThemeExtensionsElevatingFlutterAppCustomizationtotheNextLevel/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-ComposeMultiplatformVSFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-BuildingDesignSystemsinFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-FlutterAppDevelopmentAComprehensiveGuidetoCreatingandPublishingYourFirstApp/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-FlutterWeatherappwithCleanArchitectureandBlocStateManagement/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-WhatsnewinFlutter37/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-StackWidgetinFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-Fluttergo_routerTheEssentialGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-WhatsnextforFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-FlutterPackageoftheDayPercentIndicator/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-LoginSignUpPageinFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-GenerativeArtinFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-BuildingScalableMobileAppswithGoFlutterandFirebase/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-WhatsNewInFlutter319/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-WhatsnewinFlutter313/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-CleanArchitectureinFlutterMVVMBloCDio/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-WhyWeNeverManageStatewithGlobalVariableinFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-WheretoHostFlutterWebAppAComprehensiveGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-Top100FlutterInterviewQuestions/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-FlutterfordataengineeringanddatascienceFletdevrunningFlutterappsbuiltinPythononGoogleCloudwithCloudRun/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-OptimizingFlutterWebApplicationsforEnhancedSEOPerformance/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-HowtoListentotheAppLifecycleEventafterFlutter313/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-DemystifyingStateManagementinFlutterAPracticalGuidewithExamplesPart2/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-ReduceBoilerplateCodebyusingwarped_blocinFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-GoogleCalendarAPIintegrationusingFlutterforAndroidIOSWEBFlutterflow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-RowsColumnsContainersandImagesinFlutterversion3193/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-TitleSecureYourFlutterAppwithBiometricAuthenticationFingerprint/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-Flutterblocforbeginners/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-TheFlutterForestDemystifyingFluttertrees/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-DotEnvInFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-TheMostDownloadedFlutterAppsIFoundonPlayStoreandtheStateManagementTheyUse/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-SplashScreen/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-CLEANandAgileFlutterProjectswiththeCLEANFeature-SlicedScalableModel/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-WhatsnewinFlutter316/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-UploadingFilesPhotoandGettingBase64RepresentationinFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-IntroducingtheRedactedWidgetforFlutterEnhanceYourLoadingExperience/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-DartFlutterDevToolsExtensions/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-DemystifyingStateManagementinFlutterAPracticalGuidewithExamplesPart4/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-Starting2024strongwithFlutterandDart/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-Majorstepsthisyearonthejourneytomultiplatformdevelopment/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-Whataredependenciesdev_dependenciesinaflutterprojectHowtheyaredifferentfromeachother/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-ItstimefortheNATIVEmobiledevelopmenttoend/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-OrganizeYourGlobalProvidersinFlutterRiverpodwithMixinClass/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-EfficientAPIDataHandlinginFlutterImplementingPaginationwithProvider/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-FluttertakesthestageatGDC/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-WhyImbettingonFlutterFlow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-HowtoLogininFlutterAppwithFirebaseAuthentication2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-TheRightWayToUseRiverpodinFlutter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-ExtremeUIAdaptabilityinFlutterHowGoogleEarthsupportseveryusecaseonearth/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-FlutterFlow2024ourproductvisionandroadmap/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-BuildingaFlutterSDKPart1BreakingDownaFlutterPackage/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-FlutterWhatactuallyisDartRecords/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-AdvancedThemingTechniquesinFlutterLeveragingExtensionsforDynamicUIs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-BuildingaFlutterSDKPart2ADeepDiveIntopubdev/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-DemystifyingStateManagementinFlutterAPracticalGuidewithExamplesPart1/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-EfficientlyDisplayCroppedFacesinFlutterAMemoryandPerformanceOptimizedApproach/</loc>
+</url>
+<url>
 	<loc>http://ui-log.github.io/docs/Tech/2024-03-28-BackbonejsanditsAdvantages/</loc>
 </url>
 <url>

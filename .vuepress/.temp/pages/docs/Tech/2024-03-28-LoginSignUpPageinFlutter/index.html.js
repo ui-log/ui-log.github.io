@@ -1,0 +1,22 @@
+export const data = {
+  "key": "v-59e8f408",
+  "path": "/docs/Tech/2024-03-28-LoginSignUpPageinFlutter/",
+  "title": "플러터에서 로그인 및 회원가입 페이지 만드는 방법",
+  "lang": "ko",
+  "frontmatter": {
+    "title": "플러터에서 로그인 및 회원가입 페이지 만드는 방법",
+    "description": "",
+    "date": "2024-03-28 21:22",
+    "sidebarDepth": 0,
+    "tag": "Tech",
+    "thumbnail": null,
+    "originalTitle": "Login SignUp Page in Flutter",
+    "link": "https://medium.com/@flutterdynasty/login-signup-page-design-with-code-c593e7c82a4c"
+  },
+  "excerpt": "",
+  "headers": [],
+  "git": {
+    "updatedTime": null
+  },
+  "filePathRelative": "docs/Tech/2024-03-28-LoginSignUpPageinFlutter/README.md"
+}

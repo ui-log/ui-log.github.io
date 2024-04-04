@@ -79,7 +79,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1711616337000
+    "updatedTime": 1711677261000
   },
   "filePathRelative": "docs/Nextjs/2024-03-23-Environment-Variables/README.md"
 }

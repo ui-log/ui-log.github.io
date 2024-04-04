@@ -74,7 +74,7 @@ onMounted(async () => {
   state.currentPage = Number(sessionStorage.getItem(PAGE_KEY) || 1);
 });
 onMounted(async () => {
-  state.currentPageGroup = Number(sessionStorage.getItem(PAGEGROUP_KEY) || 1);
+  state.currentPageGroup = Number(sessionStorage.getItem(PAGEGROUP_KEY) || 0);
 });
 </script>
 
@@ -83,7 +83,13 @@ onMounted(async () => {
     <template #page-content-top>
       <section>
         <div class="tags">
-          <a v-for="(count, tag) in tagsAndCount" :key="tag" href="#" :class="{ active: tag === state.selectedTag }" @click.prevent="selectTag(tag)">
+          <a
+            v-for="(count, tag) in tagsAndCount"
+            :key="tag"
+            href="#"
+            :class="{ active: tag === state.selectedTag }"
+            @click.prevent="selectTag(tag)"
+          >
             #{{ tag.toUpperCase() }} <strong v-html="count" />
           </a>
         </div>

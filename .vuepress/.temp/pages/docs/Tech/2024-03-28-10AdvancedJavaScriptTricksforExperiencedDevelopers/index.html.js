@@ -16,7 +16,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1711677261000
   },
   "filePathRelative": "docs/Tech/2024-03-28-10AdvancedJavaScriptTricksforExperiencedDevelopers/README.md"
 }

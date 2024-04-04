@@ -157,8 +157,6 @@ ng generate service item
 </component>
 <p>http://localhost:4200/ 으로 이동하면 부트스트랩으로 스타일이 적용된 양식을 볼 수 있습니다.</p>
 <p>이 예제는 항목을 추가하기 위해 양식을 생성하고 제출하는 내용을 다룹니다. 전체 CRUD 기능을 구현하려면 서비스를 확장하여 항목을 읽기, 수정 및 삭제할 수 있도록 처리하고 필요에 따라 추가 컴포넌트나 메소드를 생성해야 합니다. 실제 데이터의 영속성(예: 데이터베이스)은 서버 측 통합이 필요하며, 이 예제에서 다루지 않는 부분입니다.</p>
-<h1 id="stackademic-🎓" tabindex="-1"><a class="header-anchor" href="#stackademic-🎓" aria-hidden="true">#</a> Stackademic 🎓</h1>
-<p>끝까지 읽어주셔서 감사합니다. 마지막으로 가기 전에:</p>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"
   style="display:block"

@@ -29,7 +29,7 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 <p>답변 수정:</p>
-<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code>Change the table tag to Markdown format.
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>Change the table tag to Markdown format.
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>한국어로 번역한 내용입니다. 혹시 더 궁금한 점이 있으시면 언제든지 물어봐 주세요.</p>
 <!-- ui-log 수평형 -->
 <p><ins class="adsbygoogle"

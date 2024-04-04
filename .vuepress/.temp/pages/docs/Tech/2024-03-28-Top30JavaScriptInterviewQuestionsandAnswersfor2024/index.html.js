@@ -221,7 +221,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1711677261000
   },
   "filePathRelative": "docs/Tech/2024-03-28-Top30JavaScriptInterviewQuestionsandAnswersfor2024/README.md"
 }

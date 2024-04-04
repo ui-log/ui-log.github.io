@@ -51,7 +51,7 @@ Next.js 캐싱은 자동으로 구성되어 있습니다. 여러분이 할 일�
 
 답변 수정:
 
-```markdown
+```bash
 Change the table tag to Markdown format.
 ```
 

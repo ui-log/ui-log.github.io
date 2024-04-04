@@ -244,12 +244,4 @@ HTML 관련 W3C 문서에 액세스할 수 있습니다. 이 문서는 웹 세�
 
 이번 주제는 여기까지입니다. 읽어 주셔서 감사합니다!
 
-# Stackademic 🎓
 
-끝까지 읽어 주셔서 감사합니다. 가기 전에:
-
-- 작가를 칭찬하고 팔로우해 주세요! 👏
-- 팔로우하기: X | LinkedIn | YouTube | Discord
-- 다른 플랫폼 방문: In Plain English | CoFeed | Venture | Cubed
-- Stackademic.com에서 더 많은 콘텐츠 확인하기
-```

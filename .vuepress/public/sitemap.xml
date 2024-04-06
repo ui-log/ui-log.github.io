@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<<<<<<< HEAD
 	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-MigrationguidefromStorybook6xto80/</loc>
 </url>
 <url>
@@ -359,6 +360,1134 @@
 </url>
 <url>
 	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-WhyStorybook/</loc>
+=======
+	<loc>http://ui-log.github.io/docs/Design/2024-04-07-WhyStorybook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoCreateaPrivateRouteinReactTypeScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-EmbeddingSupersetdashboardsinyourReactapplication/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-FormValidationinReactAGuidewithExamples5bestlibraries/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactHooksCheatSheet/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnderstandingtheuseReducerHook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HandlingBrowserRefreshinReactBestPracticesandPitfalls/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnderstandingtheErrorInvalidhookcallHookscanonlybecalledinsideofthebodyofafunctioncomponent/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HTMXorBacktoTheStoneEdge/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactNativeMasters-2BestPracticesforReactNativeApplications/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-EmpoweringReactDevelopmentwithRestParametersandSpreadSyntax/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CreatingaDrag-and-DropFileUploadComponentinReactAStep-by-StepGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactDevelopmentUnleashingtheinPowerofHooks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-8WaystoImplementConditionalRenderingTechniquesinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-GoogleAuthenticationMadeEasyStep-by-StepIntegrationwithSupabaseinSSRNextjsReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CreateasimpleReactappTypeScriptwithLoginRegisterpagesusingcreate-react-app/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtopassstatedatafromonecomponenttoanotherinReactjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-FolderStructuresinReactProjects/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoinstallNVMNodeVersionManageronmacOS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheBestVscodeSnippetsforReactTypescriptNextjsReduxToolkit/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ImplementingGoogleLogininaNodejsApplication/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-SettingUpaReactProjectFolderStructurein2024BestPractices/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-OptimizingSEOinNextjsAdvancedTechniquesforBetterSearchEngineVisibility/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowNextjscanenhanceitsfetchfunctionalitybydrawinginspirationfromNuxtjsandVuejsecosystem/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactDesignPatternsLayoutComponentsPattern/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Top30FreeReactAdminTemplatesforStunningReactDashboardProjects/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-PatternsinJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoUseOpenAIAPIinReactJStoCreateaTextSummarizationTool/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactDesignPatternsProviderPattern/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-OptimizingReduxApplicationsLeverageReduxToolkitReselectThunkSagaandEffectiveDebugging/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BootstrapaSaaSProjectinMinuteswithNextjsSupabaseandStripe/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ExcitingInnovationsinReactVersion19ASneakPeekintotheFuture/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactTestingLibraryUnderstandingactandwhentouseit/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-5TrickyIssuesWithReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactDontgiveupontestingwhenusingMaterialUIwithReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactNativeInfinitescrollwithReactQuery/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactjsUnitTestingBestPracticesandToolswithexamples/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MasteringDynamicRoutinginNextjsAComprehensiveGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TechnicalFoundationsofProgressiveWebApps/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MasteringFormValidationinReactwithFormikandYupwithTypeScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-React19EnhancementsExploredwithDetailedCodeExamples/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-PushNotificationinReactandNextjsappusingNodejs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactCompilerSayGoodbyetoManualMemoization/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-6CoolModernJavaScriptFeaturesMostDevelopersDontKnowAbout/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DecodinguseMemoandmemoinReactUnderstandingTheirTrueDistinction/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AStep-by-StepGuidetoPublishingYourOwnReactNPMPackage/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheFutureinreactjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CallingParentComponentsFunctionfromChildComponentinReactjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ShadcnhasDoneitAgain/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CreatingaReactFormUsingReactHookFormandYupinTypeScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Whatdoes123toStringlength123PrintOutinJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HandlingerrorslikeaproinTypeScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhyIveSwitchedfromReacttoAngularforMyProjects/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-StylingcheckboxwithTailwind/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactNativeNewsReactNative073WhatsNew/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoStructureYourNextjsAppWiththeNewAppRouter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildingaSingleSign-OnSSOApplicationwithReactAStep-by-StepGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-25KillerWebsitesforWebDevelopersYouShouldKnowAbout/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-RenderingpaginateddatainReactwithuseInfiniteQuery/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactJSAStep-by-StepGuidetoGoogleAuthentication/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CreateaResponsiveAnimatedSidebarUsingReactNextjsandTailwindCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtosetupJestandReactTestingLibraryinViteproject/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactDataBindingAComprehensiveGuidetoOne-WayandTwo-WayBinding/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtodoquicklyaText-InputReactNativecomponent/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactRouterV6SimplifiedProtectedRoutes/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtouseReactSuspensefordataloading/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Buildthese5ProjectstoGetBetteratTypeScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoChangetheDefaultPortNumberinReactReactTips/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnlockingCommunicationinReactAJourneyintothePowerofSignals/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Top10ES6Features/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DockerizeaReactapplicationwithNodejsPostgresandNginx/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Przelewy24P24integrationwithNextjsAppRouternolibraryinuse/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtotestyourReacthookswithReactTestingLibraryandJest/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-SimplifyingReactDevelopmentWhyNestingComponentsCanTripYouUp/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ScreamingArchitectureandReducingbundlesizeofreact-apps/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-useQueryhookinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MasteringTestinginReactEssentialConceptsandTechniques/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Top10ReactJSCodingInterviewChallengeFor2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtouseflyioandTigristodeployaNextjsapp/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildResponsiveNavbarwithTailwindCSSandReactIcons/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoInstallReactTestingLibrarywithYarnandNPM/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowIHandleCodeReviewsinReactCodeReviewChecklist/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheFiberArchitecturePoweringReactsEfficientRendering/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnderstandinguseImperativeHandleAPowerfulHookforReactDevelopment/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-4CustomReactHooksEveryDeveloperShouldKnow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildingaBloggingWebsitewithReactAStep-by-StepGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-StoringTokensinCookieswithReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WHYDOESMYCHILDHAVEASTRONGREACTIONTOCERTAINSITUATIONS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UseChromeDevToolsLikeaSeniorFrontendDeveloper/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowIUseAdapterPatterninReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-5BestTablesinReactProsandCons/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-LoadUnloadandBeforeUnloadEventListenersinReactSignificanceUseCasesBestPracticesandPitfalls/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MasteringResponsiveWebDesignwithTailwindCSSAComprehensiveGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-RepeatingFailedRequestsAfterTokenRefreshinAxiosInterceptorsforReactjsApps/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Server-sidePaginationandSortingwithTanStackTableandReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-NextJSAuthenticationwithNextAuthPrismaandPostgres/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AdoptaDogFlatironPhase2Project/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-SessionTimeOutinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WorkingwithReactAStep-by-StepGuidetoControlledForms/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AddingESLintandPrettiertoaViteJSReactproject/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Step-by-StepGuideforDeployingaReactApplicationonAzureAppServiceDockerAzureContainerRegistryAzureDevOpsPipelinePart1/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-EnhanceReactNativePerformanceADeepDiveintoHooks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Privateroutesinreact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildingaMicroFrontendArchitecturewithNxWorkspace/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactHookFormvsFormikAFriendlyComparison/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AnnouncingAngulardev/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactRouterAstep-by-stepguide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ServiceWorkersandCachingtotheRescue/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-RenamingYourReactNativeAppAStep-by-StepGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-5RulestowritemaintainableReactunittestswithtesting-libraryCodeCraftsmanship6/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildaShoppingCartwithNextjs14ServerActions/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhyStickingwithTypeScriptsprivateKeywordTrumpsUsingJavaScriptsPrefixforPrivacy/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactJavascriptOptimizationTechniques/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ChoosingtheRightFrontendFrameworkAGuideforBusinessLeaders/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtomanuallydeployaReactapptoAzureAppService/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnleashingthePowerofReactandMaterial-UIforMesmerizingBackgroundAnimationsPart-3/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-React19HowReactCompilerWillTakeYourCodetotheNextLevel/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ThemagicbehindApollosuseQueryhook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReduxVsContext-API/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-SuperchargingYourApp2024sComprehensiveGuidetoReactNativePerformanceCodeOptimisationandBestPractices/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MasteringReactQueryFromInstallationtoAdvancedFeatures/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactMicroFrontendApplicationWithModuleFederationAStep-By-StepGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TutorialTestDrivenDevelopmentTDDforaCalculatorAppinReactJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Buildthese5ProjectstoGetBetteratNextjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ThefastestwaytodeployyourownOllamaLLMchatbotfrontendonVercel/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildingThePerfectReactTable/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Lessonsfromopen-sourceAlgorithmusedtocomputeerrordigestinNextjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Reactrendermultiplelayoutswithreact-router-domv6/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheSlenderManStabbingAChillingEncounterwithFiction/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoimplementReduxSagawithReactredux-toolkit/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowToDeployAReactAppToAWSS3/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Clientsidepageperformancecheck-list/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoinstallWebpackandconfigureinReactJS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-LocalLibraryDevelopmentwithNxReleaseandVerdaccio/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ExploringReact19ThePowerofuseOptimistichookforInstantUIFeedback/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-9BadReactHabitstoAvoidinYourDailyWork/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BeyondtheBasics3Lesser-UsedReactNativeHooksforAdvancedDevelopers/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WebGPUTutorial1HelloWorld/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Reactjshowtoaddanimageabeginnersguide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Top20FreeReactWebsiteTemplatesforImpressiveandStunningProjects/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Howtouploadfilesonans3bucketinReactjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MasteringReactEssentialsExploringuseStateHooksonClickandonChangeEvents/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Step-by-StepGuideConnectingMongoDBwithReactjsforSeamlessFullStackDevelopment/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-VirtueVampirismCompassionExploitationTheDarkSideofHelping/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactHowReactWorksUnderTheHood/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DockerizeReactapplicationswithNginx/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Quickbasicsofredux/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UsinguseNavigateinReactRouter6ACompleteGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BoostingPerformanceMigratingfromCreate-React-ApptoViteatEdstruments/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DeployingViteDeployingViteApptoGitHubPages/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnderstandingwindowpostMessageandwindowparentpostMessageinJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Lessonsfromopen-sourceDescribewhatyourregexdoeswithacommentedexample/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactQueryAComprehensiveGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-PracticaloverviewofJWT/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ILostaJobOpportunityJustBecauseofPromiseall/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Top20ReactTemplatesThemesforDiverseNeedseCommerceLandingPagesPersonalPortfoliosAgencyBusinessWebsitesandBeyond/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildingaModernReactComponentLibraryAGuidewithViteTypeScriptandTailwindCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DocumentingyourOwnComponent/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DeployingYourReactApponanNginxServerAStep-by-StepGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowIImprovedCodeFlexibilitywiththeCommandPattern/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildYourFirstAIVoiceChatbotfromScratchwithOpenAIWhisperGPT-4TTSFlaskReactJS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheimmutabilityunchangeabilitystaticityinJSandReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TwelveFullStackProjectIdeasfor2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CreateanImagemagnifierwithTailwindCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CallbacksvsPromisesvsAsyncAwaitDetailedComparison/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowToGetStartedwithReactsCustomHooks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnderstandingbetweenAngularReactPart1DumbSmartComponents/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CompleteGuidetoAutomatedTestingUsingSeleniumWebDriver/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhichoneisthemostactivelydevelopedFront-Endframeworkin2024ReactvsAngularvsVuevsSveltevsEmber/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MasteringReactTipstoAvoidCommonBeginnerErrors/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildMicroFrontendsInReactIn3EasySteps/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnderstandingLifecycleEventsinReactandPerformanceOptimization/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ACompleteGuidetoAuthenticationinNextjs14/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoChangetheFaviconTitleofYourReactAppin5Minutes/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ConvertingFigmaToReacttheFastandEasyWay/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoIntegrateExternalJWTwithNextauthCredentialProvider/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-PushDataMaybeYouDontNeedWebSocket/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AllAboutReactHooksandTheirUseCases/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhentoUseContextAPIvsReduxinYourNextReactProject/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtouseReactqueryAxiosandacustomrequestprocessortotransformyourdata/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-FirebaseCloudMessaginginReactAComprehensiveGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-LaravelInertiajsReactSimpleCRUDExample/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Top40ReactJSInterviewQuestionsandAnswersfor2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheLifecycleofaReactComponentFromMountingtoUnmounting/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoinstallNodejsbyNVM/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-PaginatedvsVirtualizedList/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-PassingDataviaLinksinReactAGuidetoEffectiveDataTransfer/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AdvancedReactPatternsandOptimizationReusabilityRenderPropsHOCsSuspenseandCodeSplitting/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildingMicroFrontendsWithReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ElevateYourReactApplicationswithInteractiveStarRatingsUsingmil-rlibreactjs-star-rating/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DB64FixingIndexedDBsUglinessinJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ThebestwaytofetchdatainReactandNextjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AngularvsReactChoosingtherightFrontendforyournextproduct/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-GoogleAnalytics4GA4inNextjs14andReactWitheventtracking/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactRoutertopassdatabetweenpages/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildingaChromeExtensionwithReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnderstandingtheintersectioninTypescriptmightbeharderthanyouthink/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DownloadingReactComponentsasPDFFiles/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CreatingaChromeExtensionwithReactAStep-by-StepGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HTMXvsReactwithexamples/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Step-by-StepGuideDeployingaReactApponAWSEC2/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoDebounceThrottleaCallbackwithReactHooks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ElevatingReactDevelopmentChoosingBetweenCreateReactAppCRAandVite/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-50BeginnerandIntermediatelevelReactProjectIdeas/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ImplementaFacialRecognitionAuthenticationUsingReactjsandTailwindCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-SetupGuideforNextAuthwithGoogleandCredentialsProvidersinNextjs13/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UseObservablestoRenderReactComponents/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnderstandingBlockchainRevolutionizingIndustries/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AuthenticationwithNextjs13andNextAuth/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhichDatabaseShouldYouUseforYourNextjsApp/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-EpicNextjs14TutorialPart1LearnNextjsbybuildingareal-lifeproject/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CreatingaResponsiveNavbarinReactABeginnersGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ABetterWaytouseMemoanduseCallback/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactArchitecturevsMVCUnidirectionalFlowAdvantage/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Top9mostpopularjavascriptlibrariesforfrontendandbackenddeveloperin2023/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactjsComprehensiveGuidetoinRoutesandRouting/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildingaComponentLibrarywithReactTypescriptandStorybookAComprehensiveGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-4DifferentExamplesoftheuseStateHookinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MasteringRTKQueryAComprehensiveGuideforEfficientServer-SideDataManagementinReactNativeApps/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtosetupaReactProjectwithVite/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildingaTreeTableUsingAntDesignSystem/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactNativeInstagramNavigation/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-InfiniteScrollwithNextjsServerActionsASimpleGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ThisComponentLibraryPromisestoReduceDevelopmentTimes/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DeployingaNextjs14apptoGoogleCloudRun/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ITriedtoBuildaWebAppWithoutSpinnersLoadersUsingReplicache/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheDarkSideofuseEffectinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DemystifyingJSXbuildingyourownJSXparserfromscratch/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ManageReactStateWithReducer/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AmIOverreactingOrisReactOver-Reacting/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhyYouShouldUseIslandsArchitecture/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-EnhancingUserEngagementLeveragingPubNubforSeamlessReal-TimeMobilePush/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildLLMAgentcombiningReasoningandActionReActframeworkusingLangChain/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TestyourReactComponentswithNightwatchandTestingLibrary/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ImplementingFeatureTogglingin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ImplementingaQRCodeScannerinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactJSBestPracticesFromTheNewDocs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhatistheSpreadOperatorInReactJS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CreateamodalthatcanbeopenedfromanywhereinNextjs13/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoAuthLoginwithGitHubandGoogleinaReactandBackendApp/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ENReactNativeAPKCreation/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AuthenticationinNextjs14AppRouterusingNextAuthwithCredentialprovider/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Theyshouldntbuildhousesonhighhills/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhyIUseRTKQueryforAPICallsinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ExpoSDK49/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtohandleerrorsinReactfullguide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MasteringReactsRe-usabilityforBeginnersAGuidetoConditionalRenderingforHighlyReusableComponents/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Top6BestReactComponentLibrariesforYourProjects/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactistheNewIBM/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TopReactLibrariesEveryDeveloperShouldKnow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-5ReactInterviewQuestionsIBettheSeniorFront-endDeveloperCantAnswer/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-SeniorEngineeringStrategiesforAdvancedReactandTypeScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-EffortlesscontenteditinghowPuckmakesthecomplexsimpleandflexible/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MasteringDesignPatternsinJava/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DeclarativeUIProgramminginRustforNativeApplications/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-LessonsFromTheReactMiamiChatBundle/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CRUDCreateReadUpdateDeleteapplicationinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-FirebasesPasswordResetisInsecureHeresHowtoFixIt/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CraftingDynamicUIsNavigatingChakraUIwithReactinEvolvingWebTrends/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DisplayPDFdocumentsinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AddaDynamicSitemaptoNextjsWebsiteUsingPagesorAppDirectory/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheComprehensiveGuidetoComponentsinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnderstandingReactQuery/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactLikeLEGO/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ExploringtheFuturewithReactsuseOptimisticHook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtoGettheCurrentRouteURLinReactRouter/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AnOpenSourcePhotogrammetryPipeline/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowReactuseCallbackworks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HTMXvsReactACompleteComparison/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TestingSelectComponentswithReactTestingLibrary/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Lessonsfromopen-sourceHowobsessedareyouwithfollowingSingleResponsibilityPrinciple/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-YoudontneedReactin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-LearnNextjsByBuildingYourFirstNextjsAppFromScratch/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-EfficientDeploymentofReactNextJSonAWSEC2withBitBucketCICD/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ImplementingAutomaticRedirectsAfterLogininReactProtectedRoutes/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ExcitingReactFeaturesin2023ALookintotheFutureofWebDevelopment/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactNativesubscriptiontipsandtricks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CompleteAuthenticationGuideUsingNext-Authv5inNextjs14/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildingaComposableMaterialUIDesignSystemwithBit/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CreatingDesktopApplicationswithElectronandReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-SomeFirstThoughtsonNext13/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-FromNgRxtoReduxToolkit/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-FantasticclosuresandhowtofindtheminReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtostyleyourReactAppswithReact-Bootstrap/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Top14LibrariesforAnyReactApp/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhyWebUIDevelopmentIsSoHard/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Type-SafeFetchwithNextjsStrapiandOpenAPI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Vite-ReactReact-Router-DomThelatestway/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-SOLIDinReactthegoodthebadandtheawesome/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CustomizingfontsinViteProjects/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Its2024andNativeCSSNestingIsComing/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BeyondJavaScriptExploringNETBlazorsChallengetoReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-SetupupJestReactTestingLibrarywithPre-CommitsCircleCI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-envfileinReactjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhyyoushoulduseAVIFoverJPEGWebPPNGandGIFIn2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MetasNewOpenSourceReactSolutionforWebandNativePlatforms/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Resolvingerror0308010CdigitalenveloperoutinesunsupportedinNodejsv1990/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-FrontendMastersSolidPrinciplesinReactReactNative/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowToDragDropLikeTrello/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReactYouareUsinguseEffectWrongDoThisInstead/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Its2024youshouldbeusingReactServerComponentsalready/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BlueprintofModernReactNativeAppArchitecture/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ThePerfectMatchHowtoIntegrateReactJSwithDjangoFrameworkforStunningWebApps/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AnimatedBarChartwithD3jsandReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhatFiredMyuseEffect/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UnderstandingbetweenAngularReactPart2Lifecyclehooks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-YoudontneedtopayforSaaSboilerplatesOpenSaaS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-NewFlowLanguageFeaturesforReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-20Cheatcodesforlife/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ReadingBooksIsUselessHeresaBetterWaytoRead/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-10JavaScriptTricksYouDidntKnow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BuildThese5ProjectstogetbetteratWebDevelopment/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-PHPObfuscation/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-9MinimalistHabitsThatWillSaveYouHours/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-StopusingNgRxinAngular/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-5waysdeepfakesorsyntheticimage-basedabuseisusedagainstwomen/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheManifestoofaPassionateUXResearcher/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-CanProductDesignersbeDesignSystemDesigners/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowtobecomeaselftaughtUIUXdesigner/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-10EssentialUXToolsforDesignersEnhanceYourDesignProcess/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheFutureofDesignBuckleUpforTheseUXUITrendsin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ExploringDesignMyDailyUIChallengeDays2140/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Inconsistentconsistencywithindesignsystems/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-KonnectDesignSystem/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DesignSystem-Groupingandnamingcomponents/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-90ofdesignersareunhirable/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ComplexSystemsForms/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-DisplayingUXResearchinyourDesignPortfolio4mistakesyoudontwanttomake/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UIDesignTrendsin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-10WebsitesWithExceptionalButtonDesignThatWillDefinitelyInspireYou/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheMissingHumanFlawsTheTellingFlawofAI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Neurodesign7tipsfordeeperemotionalengagement/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheriseofovernightAIexpertsopportunitiespitfalls/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhatIlearnedfromThinkingFastandSlow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-NielsenandNormanShouldBeIgnored/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TopUXUIDesignAgency2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowIknowwhentoquitmydesignjobeverysingletime/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Howmetaimprovedtheircacheconsistencyto9999999999/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-shadcnuiadditionalcomponentsandresources/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-KeepyourReactComponentsmaintainablewithSOLIDReactCompositionCodeCraftsmanship4/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AwesomeFreeMacApplicationstoSolveAnnoyingmacOSIssues/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Buildingabetteruserinterfacesystem/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-EnhancingAngularComponentFlexibilitywithFallbackContentinng-content/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HowWillTRC20TokensShapetheFutureofCryptocurrencywithTheirSpeed/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-10PhrasesDevelopersShouldQuitUsingImmediately/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MySQLvsPostgresin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Laravel11RESTAPICRUDwithbestpractices/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-BestPracticesforVueDevelopersin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Top5LaravelPackagesfor2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-HandlingEnvironmentVariablesinVue/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TerminalProductivityBoosterZshPlugins/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhydidwechoosePHPandLaravelforournextprojectin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-WhyIChoseVueOverReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-ProtectyourAngularappfrominfinitechangedetectionloops/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-OvercomingtheImplementationChallengesofMicro-Frontends/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AngularSignal-basedcomponentstutorial/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Angular17NewChangesYouShouldKnow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Holdonbutshoulddesignmanagersdesign/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UsefulUIUXdesignbooks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-FigmaVariablesatVodafoneUKhowwestructuredtaxonomyforacomplexmulti-branddesignsystem/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-UXDesignPsychologyaguidetohumanexperience/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Promptsshouldbedesignednotengineered/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-10CoreProductDesignPrinciples/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TheArchitectureofaModernFrontendDesignSystem/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Vue3DesignSystemSeries-1/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-MasteringCSSLayoutFromDisplaytoGridAComprehensiveGuideforWebDevelopers/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-VueFormBuilder/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Understandingv-memoinVue3/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-AngularandWizaremerging/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-10FactsAboutColorinDesign/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-TopSitesOfTheMonthThatYouMustSeeMarch2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-Vue3DesignSystemSeries-3/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Nextjs/2024-04-05-StartingtowriteCSSin2023willbedifferent/</loc>
+>>>>>>> dfeef6b9 (add post)
 </url>
 <url>
 	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-WhyIKeepFailingCandidatesDuringGoogleInterviews/</loc>

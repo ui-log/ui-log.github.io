@@ -1,6 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-WhyIKeepFailingCandidatesDuringGoogleInterviews/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-YourBestTechStacksforWebAppDevelopmentin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-ReactjsCheatsheet/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-GitvsGitHubUnderstandingtheCoreDifferences/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-AStep-by-StepGuideToLearnReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-CSSFlexboxKullanm/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-30EssentialCSSHacksforWordPressNewbies/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-SundaeIceCreamCSSArtChallenge/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-CombiningthePowersofCSSGridandFlexboxAUnifiedApproachforDynamicWebLayouts/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-TailwindCSSvsBootstrap2024Edition/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-HowLongDoesItTakeToLearnWebDevelopmentin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-MasteringCSSFlexboxAdvancedTechniquesforFlexibleWebLayouts/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-MasteringFlexboxLayoutsEssentialTipsandTricks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-04-BuildingaPingPongGamewithHTMLCSSandJavaScriptAStep-by-StepGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-04-TheArtofFlexboxMasteringModernWebDesignTechniques/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-04-Day3MasteringCSSBasics/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-04-HowtoEnhanceYourPerlWebApplicationswithHTMLandCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-04-BuildingaCurrencyConverterWebAppAHands-OnTutorial/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-04-SharedTailwindSetupForMicroFrontendApplicationwithNxWorkspace/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-04-Top10easyandveryusefulanimationsusingCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-04-Tailwind40isComingandLooksInteresting/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-04-TailwindCSSColorPreview/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-04-Top10JavaScriptAlgorithmsforCodingChallenges/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-04-HowLongDoesItTakeToLearnWebDevelopmentin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-30-8CSSFrameworksin2024forReactDevelopers/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-30-ConvertExceltoPDFinPythonAComprehensiveGuideUpdated/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-AGlimpseintoTheFutureofFront-EndEngineering/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-AutofillonBrowsersADeepDive/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-HammeringpopupissuesinSimplCheckout/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-DevelopingmaturecomponentswiththeComponentCohesionPrinciplesinVuejs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-FrontendPerformanceOptimization6stepstogettingyourpageripped/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-DesigningaBannerforContentPreviewModewithNextjsandContentful/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-RemoteContractSeniorFrontendEngineernolongeropen/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-5MicrofrontendPractices/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-WheretoStartwithDesignTokens/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-Createhigh-performanceUIstylingusingTailwindCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-IsthereaplaceforFrontendEngineeringinOutSystems/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-MonorepoAlittleonthesubject/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-7OnlinetoolsforFront-EndDevelopment/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-SuperchargeYourReactAppTipsandTricksforOptimalPerformance/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-FrontendEngineeringsimplified/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-Howtoquicklycheckifafront-endprojecthasacache/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-WhatamIfront-endidentitycrisis/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-EmpoweringUIWorkflowCreationonthegoIntroducingState-of-the-artOmniWidget/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-WhentoUseReactQueryvsuseEffectforDataFetching/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-HumanCentricUI2023/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-HowIWentFrom0to80kOvernight/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-DemystifyingURLParametersAGuideforDevelopers/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-EmpowerYourSkillsWithLatestJavascriptFeaturesYouDidNotKnowAbout/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-MicroFrontendsinOutSystems/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-Top5NPMLibrariesForYourJavascriptProjectClearly/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-FromFrontendEngineertoEngineeringTeamLeadmyGetGroundJourneysofar/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-HowToWriteCleanCodeWithThese5JavascriptTipsAndTricks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-HowtoscaledatafetchingwithSWR/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-Top4ReactLibrariesTrendingIn2024YouShouldUse/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-CompareReactvsVuejsDeterminingTheBestbyFrontendDeveloper/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-HowMakingMyOwnJavascriptFrontedFrameworkMovedMeAhead/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-WhyReactFrameworkIsNotGoingToMakeYouaBetterWebDeveloper/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-WhatIsTheBestNodeJsExpressShortcutthatwillblowyourmind/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-IsJQueryarelicofthepast/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-3UsefulHTMLCSSTricksForDevelopersandNon-DevelopersOfAllLevels/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-WhatisJSX/</loc>
+</url>
+<url>
 	<loc>http://ui-log.github.io/docs/Tech/2024-03-29-HowtobuildanOpenAI-compatibleAPI/</loc>
 </url>
 <url>

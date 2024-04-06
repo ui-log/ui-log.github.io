@@ -16,7 +16,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1711616337000
+    "updatedTime": 1712272432000
   },
   "filePathRelative": "docs/Tech/2024-03-28-CreatingaCRUDCreateReadUpdateDeleteFORMinAngularandBootstrap/README.md"
 }

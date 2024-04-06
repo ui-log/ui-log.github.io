@@ -242,18 +242,7 @@ BlocListener<HomeActionCubit, BlocState>(
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-표 태그를 Markdown 형식으로 변경하세요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 
 ```js
 class PaginationParam {

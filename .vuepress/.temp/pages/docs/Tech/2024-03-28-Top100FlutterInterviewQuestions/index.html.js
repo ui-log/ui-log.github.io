@@ -30,7 +30,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1712272432000
   },
   "filePathRelative": "docs/Tech/2024-03-28-Top100FlutterInterviewQuestions/README.md"
 }

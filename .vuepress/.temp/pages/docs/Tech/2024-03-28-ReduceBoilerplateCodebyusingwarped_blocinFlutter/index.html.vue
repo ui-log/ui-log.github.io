@@ -191,17 +191,6 @@
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-<p>표 태그를 Markdown 형식으로 변경하세요.</p>
-<!-- ui-log 수평형 -->
-<p><ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins></p>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">class</span> <span class="token class-name">PaginationParam</span> <span class="token punctuation">{</span>
   final int page<span class="token punctuation">;</span>
   final int perPage<span class="token punctuation">;</span>

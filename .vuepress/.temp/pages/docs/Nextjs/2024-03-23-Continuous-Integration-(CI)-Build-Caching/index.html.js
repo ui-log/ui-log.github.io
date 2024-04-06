@@ -77,7 +77,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1711616337000
+    "updatedTime": 1712272432000
   },
   "filePathRelative": "docs/Nextjs/2024-03-23-Continuous-Integration-(CI)-Build-Caching/README.md"
 }

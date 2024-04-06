@@ -1209,7 +1209,7 @@ CSS 사용자 지정 속성과 SVG는 잘 호환이 됩니다.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+```md
 <table>
     <tr>
         <th>English</th>

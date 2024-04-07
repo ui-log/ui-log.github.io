@@ -78,7 +78,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1711616337000
+    "updatedTime": 1712370253000
   },
   "filePathRelative": "docs/Tech/2024-03-28-IllustratedCSSCSSCustomProperties/README.md"
 }

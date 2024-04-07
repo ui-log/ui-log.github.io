@@ -56,7 +56,6 @@ const generateSitemap = (posts) => {
   return sitemap;
 };
 
-console.log(generateSitemap(posts));
 fs.writeFileSync(path.join(__dirname, "/public/sitemap.xml"), generateSitemap(posts));
 fs.writeFileSync(path.join(__dirname, "/public/posts.json"), JSON.stringify(posts));
 
@@ -87,7 +86,14 @@ export default defineUserConfig({
     ["meta", { name: "msapplication-TileColor", content: "#3a0839" }],
     ["meta", { name: "msapplication-config", content: "/browserconfig.xml" }],
     ["meta", { name: "theme-color", content: "#ffffff" }],
-    ["script", { async: true, crossorigin: "anonymous", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" }],
+    [
+      "script",
+      {
+        async: true,
+        crossorigin: "anonymous",
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686",
+      },
+    ],
     ["script", { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-VYKVD4LR7J" }],
     [
       "script",

@@ -2,7 +2,8 @@
 @import "mixins";
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
 }
 
 em {
@@ -11,6 +12,11 @@ em {
 
 .theme-default-content :not(.hit) .medium-zoom-image {
   width: 100%;
+}
+
+.theme-default-content video {
+  width: 100%;
+  height: auto;
 }
 
 .medium-zoom-image + .medium-zoom-image {

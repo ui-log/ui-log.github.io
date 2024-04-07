@@ -29,7 +29,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1712272432000
+    "updatedTime": 1712370253000
   },
   "filePathRelative": "docs/Tech/2024-03-28-ReduceBoilerplateCodebyusingwarped_blocinFlutter/README.md"
 }

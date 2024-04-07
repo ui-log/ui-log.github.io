@@ -89,7 +89,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1712370253000
   },
   "filePathRelative": "docs/Tech/2024-03-29-FrontendPerformanceOptimization6stepstogettingyourpageripped/README.md"
 }

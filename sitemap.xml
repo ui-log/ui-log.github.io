@@ -1,6 +1,366 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-MigrationguidefromStorybook6xto80/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-MigrationguideforStorybook80/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-FrequentlyAskedQuestions/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Createareproduction/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Codesnippetscontributions/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-ContributingaStorybookframework/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Documentationupdates/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Codecontributions/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Howtocontribute/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-RFCprocess/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-CLIoptions/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Frameworks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Unstyled/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-useOf/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Subtitle/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Title/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Typeset/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Story/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Primary/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Source/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-IconGallery/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Markdown/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Meta/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Description/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Canvas/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-ColorPalette/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-ArgTypes/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-ComponentStoryFormatCSF/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-webpackFinal/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-refs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-staticDirs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-previewAnnotations/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-previewBody/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-previewHead/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-managerHead/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-features/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-indexers/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-docs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-env/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-babelDefault/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-build/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-core/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-addons/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-babel/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-stories/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-BuilderAPI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Webpack/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Vite/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Environmentvariables/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-StorybookAddons/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-SidebarURLS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Theming/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Storylayout/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Storyrendering/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Imagesfontsandassets/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Compilersupport/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-TypeScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Featuresupportforframeworks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Frameworksupport/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Telemetry/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-UpgradingStorybook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-StylingandCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-AddonmigrationguideforStorybook80/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-ConfigureStorybook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-AddonAPI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Addonknowledgebase/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Addtotheintegrationcatalog/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Typesofaddons/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Writeapresetaddon/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Configureandcommunicatewithanaddon/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Writeanaddon/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Installaddons/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Introductiontoaddons/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Viewport/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Toolbarsglobals/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Interactions/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Measureoutline/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Highlight/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Controls/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Backgrounds/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Actions/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Essentialaddons/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-PackageComposition/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-StorybookComposition/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Designintegrations/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Embedstories/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-PublishStorybook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Sharing/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Unittests/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-End-to-endtesting/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Storyshotsmigrationguide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Writesnapshottests/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Testcoverage/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Interactiontests/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Accessibilitytests/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Visualtests/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-HowtotestUIswithStorybook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Testrunner/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Previewandbuilddocs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Docblocks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-MDX/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-AutomaticdocumentationandStorybook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-WritingstoriesinTypeScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Storiesformultiplecomponents/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-BuildingpageswithStorybook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Namingcomponentsandhierarchy/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Loaders/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Playfunction/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Decorators/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Parameters/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Args/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Howtowritestories/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-SetupStorybook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-BrowseStories/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-Whatsastory/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-StorybookforReactWebpack/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-StorybookforNextjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-InstallStorybook/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-StorybookforReactVite/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-WhyStorybook/</loc>
+</url>
+<url>
 	<loc>http://ui-log.github.io/docs/Tech/2024-04-05-WhyIKeepFailingCandidatesDuringGoogleInterviews/</loc>
 </url>
 <url>

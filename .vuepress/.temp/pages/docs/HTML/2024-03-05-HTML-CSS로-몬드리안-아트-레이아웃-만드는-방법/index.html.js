@@ -18,3 +18,16 @@ export const data = {
   },
   "filePathRelative": "docs/HTML/2024-03-05-HTML-CSS로-몬드리안-아트-레이아웃-만드는-방법/README.md"
 }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

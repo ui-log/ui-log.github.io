@@ -139,3 +139,16 @@ export const data = {
   },
   "filePathRelative": "docs/AI/2024-03-10-SNS를-키우기-위해-필요한-Chat-GPT-프롬프트-20가지/README.md"
 }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

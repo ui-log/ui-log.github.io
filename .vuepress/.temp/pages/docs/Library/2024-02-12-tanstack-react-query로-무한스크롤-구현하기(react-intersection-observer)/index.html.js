@@ -43,3 +43,16 @@ export const data = {
   },
   "filePathRelative": "docs/Library/2024-02-12-tanstack-react-query로-무한스크롤-구현하기(react-intersection-observer)/README.md"
 }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

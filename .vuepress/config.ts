@@ -71,7 +71,23 @@ export default defineUserConfig({
     darkMode: false,
   }),
   lang: "ko",
-  bundler: viteBundler(),
+  bundler: viteBundler( { 
+    viteOptions: {
+      build: {
+        rollupOptions: {
+          output: {
+            inlineDynamicImports: false,
+            manualChunks(id) {
+              if (id.includes('node_modules')) {
+                return id.toString().split('node_modules/')[1].split('/')[0].toString();
+              }
+            },
+          },
+        },
+      },
+      // plugins : [splitVendorChunkPlugin()]
+    }
+  }),
   base: "/",
   head: [
     // ["meta", { name: "google-site-verification", content: "pvvSTvZm_50xq7R_E4wMghRYyaoQ0Of-Hf7MvqBbj8M" }],

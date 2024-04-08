@@ -56,16 +56,3 @@ export const data = {
   },
   "filePathRelative": "docs/Nextjs/2024-02-11-Nextjs14의-클라이언트-컴포넌트-이해하기/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

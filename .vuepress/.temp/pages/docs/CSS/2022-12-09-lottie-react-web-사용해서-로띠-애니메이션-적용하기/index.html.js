@@ -37,16 +37,3 @@ export const data = {
   },
   "filePathRelative": "docs/CSS/2022-12-09-lottie-react-web-사용해서-로띠-애니메이션-적용하기/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

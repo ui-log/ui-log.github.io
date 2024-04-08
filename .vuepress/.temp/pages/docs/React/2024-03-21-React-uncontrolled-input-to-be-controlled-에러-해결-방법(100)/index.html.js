@@ -37,16 +37,3 @@ export const data = {
   },
   "filePathRelative": "docs/React/2024-03-21-React-uncontrolled-input-to-be-controlled-에러-해결-방법(100)/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

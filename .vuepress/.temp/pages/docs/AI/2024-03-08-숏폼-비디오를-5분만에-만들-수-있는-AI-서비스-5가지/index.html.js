@@ -55,16 +55,3 @@ export const data = {
   },
   "filePathRelative": "docs/AI/2024-03-08-숏폼-비디오를-5분만에-만들-수-있는-AI-서비스-5가지/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

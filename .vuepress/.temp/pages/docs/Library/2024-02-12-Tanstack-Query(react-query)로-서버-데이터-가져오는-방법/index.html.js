@@ -55,16 +55,3 @@ export const data = {
   },
   "filePathRelative": "docs/Library/2024-02-12-Tanstack-Query(react-query)로-서버-데이터-가져오는-방법/README.md"
 }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

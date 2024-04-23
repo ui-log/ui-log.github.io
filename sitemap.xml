@@ -1,6 +1,528 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-FixingtheSafariMobileResizingBugADevelopersGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-MasteringCSSGridAComprehensiveGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtoPositionHTMLElementsSidebySidewithCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Self-HostingWebFontFiles/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Day4AdvancedCSSTechniquesandBestPractices/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-10lesserknownCSStrickspart2/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-WhyIsMyz-indexNotWorkingAComprehensiveGuidetoUnderstandingandFixingz-indexIssues/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-JavaScriptGoogleInterviewQuestionPolyfillofStringifyandParse/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-BuildingaSimplePeopleCounterAppwithHTMLCSSandJavaScriptAStep-by-StepGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-UsingCSStoDisplayWebBrowserSizes/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowToMakeaResponsiveFormusingHTMLCssandJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-SimpleCountdownTimerUsingHTMLandJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-MasteringSCSSFromBasicstoAdvancedTechniques/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-UnderstandingCSSArchitecture/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-6waystodynamicallystyleAngularcomponents/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-5SimpleCodingWebsiteTricks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CreatingaSimpleMarqueeEffectwithCSSAnimation/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Full-pagethemetoggleanimationwithViewTransitionsAPI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtomakeareusabletoastcomponentinVuejs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-ADaisyUIFacelift/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-ReactFormDesignCreatingCustomReusableInputsandButtonsinReactJS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-ComingSoonHTMLTailwindTemplateVibeUpSiteTemplatesWebTemplates/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-FlexItLikeaProABeginnersGuidetoCSSFlexbox/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-NestingTechniquesinSCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-15Game-ChangingWebsitestoRevolutionizeYourDesignExperience/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-ColoringtheWebKitBrowserBars/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-MasteringDynamicStylingwithAngularsNgClassIllustratedwithCode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-AngularandpureHTMLdialogs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-30sfor3FundamentalConceptsofCSSInheritanceCascadingandSpecificity/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TheUltimateGuidetothePerfectSCSSInitialSetupforEveryReactProject/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-FetchingtheoriginalPokemonusingthePokeAPI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-BuildinganAnimatedRocketLoaderFREESourceCode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSS-in-JSLibrariesforStylingReactComponentsAComprehensiveComparison/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-UnderstandingDifferentUnitsinCSSABeginnersGuidewithReal-WorldAnalogies/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CraftingMyPortfolioWebsiteUsingReactjsABeginnersJourney/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-BlogezBlogPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CreatingaDynamicRegistrationFormusingHTMLCSSandJavaScriptStep-by-StepGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-NewCSSFeaturespart1/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtoStyleYourDjangoForms/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-AttexCodeIgniterTailwindCSSAdminDashboardAdminTemplatesWebTemplates/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtomakeabackgroundblurinCSSwithonelineofcode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-BuildinganAnimatedNavigationTabMenuFREESourceCode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-WeCanFinallyTransitionDisplayNone/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-AddingadynamicGlowEffecttoaButtonwithCSSanimation/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtoaddTailwindCSStoyourHTMLproject/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TheEssenceofFront-endDesignHowtoCleverlyUseCSSGradientTechniques/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSSDisplayFLEXvsBlockInlineandInline-BlockExplained/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TailwindCSS3CookiePopupCookizLandingPageTemplatesWebTemplates/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-AddingcssassetstoAngularLibrary/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-WhatisthedifferencebetweenREMandemandpx/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSSLab1Aworldofcontrasts/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowcanwerunaJavaprogramonanHTML-codedwebsite/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TailwindCSSHowtooverlapadivonthetopofanotherdiv/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CircularProgressBarUsingHTMLandCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-BuildinganInteractiveIslandPopupwithHTMLCSSandJavaScriptFREESourceCode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-FormValidationUsingJavaScriptsConstraintValidationAPI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-GridFlexboxinresponsivedesignMinimizingMediaQueries/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-SimpleDashboardUsingHTMLandCSSSourceCode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowToMakeaButtonwithaGradientBorderandGradientTextinHTMLCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-vsinCSS3/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtomakeaCSS-onlyhamburgermenu/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-MasteringDivCenteringFourTechniquesUnveiled/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtocreateaTicTacToegamewithHTMLCSSandJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-NavigatingJavaScriptMyJourneytoBuildingaSimpleCalculator/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-5Next-levelCSSTrickstoEnhanceYourWebDesign/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-MyFavouriteCSSOneLiners/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtomakeafancyinvertedborderradiusinCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-UnderstandingtheRelationshipbetweenHTMLCSSandJSUsingourownHumanBodyasaGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-UsingGlobalStylesinShadowDOM/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-SomeThoughtsaboutBootstrapTailwindCSSandWebStyling/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TheButtonthateveryFront-Enddevelopershouldusethewrittenonce-and-forgottencode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-OptimizingImageHandlinginNextjswiththeImageComponent/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Positionstuckandawaytofixit/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-ChoosingthePerfectCSSUnit/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-AngularAlternativesafterthedeprecationofng-deep/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtomakeborderanimationusingHTMLandCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSSnewmagiccolorhasbeensupportedbyallmajorengines/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-DemystifyingCSSSelectorsABeginnersGuidewithStraightforwardExamples/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-FetchdatafromasampleapiandrenderitinacardusingjavascriptandCSSstep-by-stepguide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-AnimatedCutePuppywithHTMLandCSSFREESourceCode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Top20FreeHTMLCSSE-commerceTemplatesforYourOnlineStore2023/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HarnessingthePowerofDataAttributeswithTailwindCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSSbestpracticesyoushouldknow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-DiscoverCleverWaystoUseCSSforWebDesign/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-IntroductiontoBEMblockelementmodifierAbeginnersguide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtocreateInfiniteHorizontalScrollandHover-PausewithPureCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-MasteringCSSLayoutAComprehensiveGuidetoKeyProperties/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CreateLoginFormValidationUsingJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-AddingCustomFontstoAngular/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-10MostUsedCSSDisplayValuesYouMustKnowAbout/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CommonSenseofStyleSheetsRefactoring/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtocreateaSlideshowCarouselusingHTMLCSSJS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-IntrotoCSSanimationsatutorialfordynamicwebdesigns/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-ChatbotTemplateUsingHTMLandCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Top5CSSFrameworksin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-My25-YearCareerinWebDesignThroughtheEyesoftheWaybackMachine/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-12ProjectstoBuildtoImproveYourCodingSkills/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtoTestyourwebfrontenddesigninmobiledeviceviaVScode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtoChangetheColorofanImageinCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-MasteringLayoutMagicTheEssentialGuidetoFlexboxandCSSGridforUIDesigners/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-VelonicLaravelAdminDashboardTemplateAdminTemplatesWebTemplates/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-LearnhowtouseaskeletonloaderwithAngularv17/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-PowerUpYourCSSwithPlayfulPracticeTopGamesforSharperSkillsandaWordPressBonus/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CompleteguidetoSVGsprites/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TechTestiTestimonialSectionTailwindTemplateSiteTemplatesWebTemplates/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-NativedualrangesliderHTMLCSSJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TechDomainHTMLCSSDomainTailwindTemplateLandingPageTemplatesWebTemplates/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-UnleashYourDesignPotentialwithCSSColorExtractorAMust-HaveToolforWebDesignersandDevelopers/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TechAuthAuthPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-MUIDataGridStyleCustomization/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TechErrorErrorPageHTMLTemplateSiteTemplatesWebTemplates/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-FrontendWeeklyDigest35717April2023/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TechPopupEcommercePopupHTMLTemplateSiteTemplatesWebTemplates/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TailwindCSSProsandCons/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CreateyourownInstagrambyusingthismindblowingCSSfeature/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-10lesserknownCSStricks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HTMLHacks10TipstoBuildBetterWebsites/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-BuildingaMultilingualStaticWebsiteAStep-by-StepGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-UsingOnlyCSStoRecreateWindows98/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-NotbytheBookthewrongapproachtoCSSRefactoring/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-BuildinganInteractiveQuizwithHTMLCSSandJavaScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowAccessibilityLedtheDDoSecretsRedesign/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CompleteGuidetoBuildingResponsiveUIwithCSScalc/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HowtoDeployaStaticWebsiteforFreeUsingGithubPages/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-SCAARSoftwareDesignPrinciplesforCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSSLab2Igottheblues/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-ReactReconciliationReactFiberBabel/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-ThewastedpotentialofattributeselectorsinCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TailwindCSSIsSoMuchMoreThanJustInlineCSSPlusItsFree/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSSTheCardGametheBattleofSpecificity/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HTMLandCSSyouneedtoknow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-5SimpleWaystoCenteraDivHorizontallyandVerticallyinCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-PXorREMinCSSJustUseREM/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-codeCreatinganAnimatedLoaderUsingHTMLandCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-E-commerceWebsiteUsingHTMLCSSandJavaScriptSourceCode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-10UsefulCSSGeneratorToolsThatYouShouldUsein2023/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TheBeginnersGuidetoProgrammingTop5QuestionsAnswered/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-DesigningaTravelandTourismWebsiteinHTMLandCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-OldPhotoEffectwithCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-EmpowerYourProjectsBuildingtheFuturewithChatGPTsPromptGPT-ABreakthroughinAppDevelopment/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-ModernCSSinAngularLayouts/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TheStateofFluidWebTypography/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-10CSSTricksYouDidntKnow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-LoginandRegistrationForminHTMLandCSSWithSourceCode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Sniper-CSSavoidunusedstyles/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSStechniqueseveryfrontenddevelopershouldknowin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-100NavigationBarHTMLandCSSFreeDemoSourceCode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-TheAll-NewdisplayProperty/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-AGuidetoCSSShadows/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSSPositionSticky-HowItReallyWorks/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-GettingStartedwithCSSMediaQueries/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CreatingaresumeusingHTMLandCSSandsavingitasaPDF/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-ShapesinCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-HandleCSSPositioningLikeaPro/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CreatePortfolioWebsiteUsingHTMLandCSSSourceCode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSSArtDrawingSantaClausinCSS/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Whystayingcalmcoolandcollectediskeywhenlearninghowtocode/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Tailwind40isComingandLooksGood/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-ModernCSSFeaturesThatEveryWebDeveloperShouldKnow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSSImageBackgroundRemovalQuickEasyGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-5ThingsYouNoLongerNeedJavaScripttoDo/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSSAt-RulesThatEveryWebDeveloperShouldKnow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-CSSHistoryinBrowser/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-FrontendWeeklyDigest358814April2023/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Top5WaystoStyleYourReactAppsin2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-EmbracethePowerofNativeStylerTransformingReactNativeStyling/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-LoginPagewithPasswordEyeIconHTMLCSSJavascript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Ballthatpopsoutofthewall/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-Howtomakeabasicresponsivewebfromscratch/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-EmbracetheBeautyofMaterialDesignColors/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-MasteringCSSLayersAGame-ChangerforYourStylingWorkflow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-IconographyAnOutSystemsapproach/</loc>
+</url>
+<url>
 	<loc>http://ui-log.github.io/docs/Tech/2024-04-07-MigrationguidefromStorybook6xto80/</loc>
 </url>
 <url>

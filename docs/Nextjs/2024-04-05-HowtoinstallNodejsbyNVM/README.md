@@ -166,18 +166,17 @@ nvm list # 또는 nvm ls
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+```bash
 nvm 사용 <버전>
 ```
 
 또는 LTS 버전을 사용하려면
 
-```markdown
+```bash
 nvm 사용 --lts
 ```
 
 또는 최신 버전을 사용하려면
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

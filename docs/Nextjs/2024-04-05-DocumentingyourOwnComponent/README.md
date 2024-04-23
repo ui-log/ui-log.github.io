@@ -1,5 +1,5 @@
 ---
-title: "자체 컴포넌트 문서화하기"
+title: "자체 컴포넌트 문서화하는 방법"
 description: ""
 date: 2024-04-05 16:42
 sidebarDepth: 0
@@ -29,7 +29,7 @@ link: "https://medium.com/@beecodeguy/documenting-function-component-4c6088dba7d
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![DocumentingyourOwnComponent_1](./img/DocumentingyourOwnComponent_1.png)
 
 # 장점
@@ -39,7 +39,6 @@ link: "https://medium.com/@beecodeguy/documenting-function-component-4c6088dba7d
 - 협업: 더 명확한 코드 통찰력을 제공하여 협업을 강화합니다.
 
 이제 특정 예시에 초점을 맞춰보겠습니다: Button 컴포넌트. 사용된 JSDoc 주석과 생성된 문서의 세부 사항을 살펴봅시다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

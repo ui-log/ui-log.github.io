@@ -10,7 +10,7 @@ link: "https://medium.com/better-programming/declarative-ui-programming-in-rust-
 ---
 
 
-```markdown
+
 ![image](./img/DeclarativeUIProgramminginRustforNativeApplications_0.png)
 
 지난 몇 주 동안 Rust를 배우는 데 시간을 투자했습니다. Rust가 고성능 응용 프로그램을 구축하는 데 가지는 잠재력과 동시에 고수준 추상화에 매료되었습니다. 웹과 React 세계에서 왔기 때문에 Rust의 UI 프로그래밍 측면의 가능성을 탐험하기로 결정했습니다. 이 탐구의 결과물은 React에서 영감을 받은 실험적인 프레임워크인 Appy입니다. 이 프레임워크는 Rust의 성능 능력을 활용하여 OpenGL을 사용해 컴포넌트를 직접 렌더링합니다.
@@ -18,7 +18,6 @@ link: "https://medium.com/better-programming/declarative-ui-programming-in-rust-
 이 프레임워크는 여전히 초기 단계에 있으며 실험으로 이해해야 합니다. 그러나 지금까지 배운 것을 공유하고 Rust가 UI 프로그래밍을 위한 가능성에 대한 대화를 시작하는 데 흥분을 느낍니다.
 
 Appy는 Rust, RSX, OpenGL 및 Simple DirectMedia Layer (SDL) 라이브러리에 의존하여 그래픽을 렌더링합니다. SDL은 크로스 플랫폼 기능을 제공하므로 Appy로 구축된 응용 프로그램은 여러 플랫폼에 배포될 수 있습니다. 그러나 현재 Android 및 데스크톱 버전의 배포 툴만 완전히 운영 중입니다. 그렇다고 해도 iOS 또는 wasm 도구 체인을 추가하는 것은 간단한 프로세스여야 합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,5 +1,5 @@
 ---
-title: "나만의 React NPM 패키지를 발행하는 단계별 안내"
+title: "나만의 React NPM 패키지를 배포하는 방법(단계별 안내)"
 description: ""
 date: 2024-04-05 19:08
 sidebarDepth: 0
@@ -74,7 +74,6 @@ my-react-package/
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ```js
 import React from 'react';
 const MyComponent=(props)=> {
@@ -93,7 +92,6 @@ export default MyComponent;
 루트 디렉토리에 `.gitignore` 파일을 추가하여 버전 관리에 커밋되지 말아야 할 파일 및 디렉토리를 지정합니다. `node_modules/` 및 `dist/` 같은 일반적인 항목을 포함할 수 있습니다.
 
 ## 5. babel 종속성 설치 및 `.babelrc` 파일 생성
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

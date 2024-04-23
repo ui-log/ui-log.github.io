@@ -1,5 +1,5 @@
 ---
-title: "환상적인 리액트 대시보드 프로젝트를 위한 무료 리액트 관리자 템플릿 30선!"
+title: "React dashboard 프로젝트를 위한 무료 리액트 어드민 템플릿 30개"
 description: ""
 date: 2024-04-05 19:41
 sidebarDepth: 0

@@ -10,7 +10,7 @@ link: "https://blog.prototypr.io/how-i-know-when-to-quit-my-design-job-every-sin
 ---
 
 
-```markdown
+
 ![이미지](./img/HowIknowwhentoquitmydesignjobeverysingletime_0.png)
 
 한 가지 내가 아직 잘하지 못한 것 중에서 열망하는 것이 있어. 그건 필기구를 손가락 사이에 뒤집는 것이야. 나한테는, 책상에서 필기구를 재밌게 다루는 창의적인 사람보다 멋진 게 없어.
@@ -18,7 +18,6 @@ link: "https://blog.prototypr.io/how-i-know-when-to-quit-my-design-job-every-sin
 와우, 그들은 종이 위에 잉크를 딸 수 있는 장치와 많은 시간을 보낸다는 걸까. 만약 그들이 그렇게 한다면, 그들은 많은 디자인을 할 거야. 많은 디자인을 하면, 그들은 그 일을 잘한다는 걸 의미해.
 
 나는 필기구를 자주 사용하지만, 대부분 도스리 쪽이나 원숭이 같이 내용을 필기하는 데 사용해. 그리고 내 할 일 목록 중에서 가장 흔하지 않은 것 중 하나인데, 내 노트북에 나타난 작업은 내가 원하는 것보다 더 자주 나타난다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

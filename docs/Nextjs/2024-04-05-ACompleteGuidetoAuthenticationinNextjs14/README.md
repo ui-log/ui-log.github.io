@@ -1,5 +1,5 @@
 ---
-title: "Next.js 14에서 인증(Authentication)을 위한 완벽한 가이드"
+title: "Next.js 14에서 인증(Authentication)을 위한 완벽 가이드 정리"
 description: ""
 date: 2024-04-05 16:21
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "디자인 시스템 내 일관성 부재"
+title: "디자인 시스템 - 디자인 일관성 유지하기"
 description: ""
 date: 2024-04-05 09:59
 sidebarDepth: 0
@@ -48,7 +48,7 @@ link: "https://medium.com/redesigning-design-systems/inconsistent-consistency-wi
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지](./img/Inconsistentconsistencywithindesignsystems_0.png)
 
 기본 용어에 대한 공유 정의가 없으면, 디자인 시스템 팀 및 사용자에게 혼란을 초래할 수 있습니다.
@@ -56,7 +56,6 @@ link: "https://medium.com/redesigning-design-systems/inconsistent-consistency-wi
 ‘접근 가능성’이라는 용어를 생각해보세요. 이 용어는 WCAG 2.1 AA 준수를 의미하는지, 아니면 장애 사용자에 대한 알려진 장벽이 없는 상태를 의미하는지 명확하게 전달되는지 살펴보세요.
 
 마찬가지로 ‘일관성’이라는 용어도 일관되게 이해되지 않습니다. 본 문서는 디자인 시스템 내에서 이러한 불일치를 탐구합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -264,6 +263,4 @@ link: "https://medium.com/redesigning-design-systems/inconsistent-consistency-wi
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![Inconsistent consistency within design systems](./img/Inconsistentconsistencywithindesignsystems_5.png)
-```

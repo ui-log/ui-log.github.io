@@ -1,5 +1,5 @@
 ---
-title: "파이그마를 빠르고 쉽게 리액트로 변환하기"
+title: "figma 디자인을 리액트로 변환하는 방법"
 description: ""
 date: 2024-04-05 16:18
 sidebarDepth: 0
@@ -29,7 +29,6 @@ link: "https://medium.com/@jherr2020/converting-figma-to-react-the-fast-and-easy
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![ConvertingFigmaToReacttheFastandEasyWay_0](./img/ConvertingFigmaToReacttheFastandEasyWay_0.png)
 
 The mockup looks pretty good. There is the home page mockup on the right-hand side and the detail page on the left.
@@ -37,7 +36,6 @@ The mockup looks pretty good. There is the home page mockup on the right-hand si
 To start converting, we first switch to the developer mode.
 
 ![ConvertingFigmaToReacttheFastandEasyWay_1](./img/ConvertingFigmaToReacttheFastandEasyWay_1.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

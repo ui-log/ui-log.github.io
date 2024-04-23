@@ -1,5 +1,5 @@
 ---
-title: "에픽 Next.js 14 튜토리얼 파트 1: 실전 프로젝트를 만들어 배우는 Next.js"
+title: "Next.js 14 튜토리얼 - 프로젝트 만들며 배우는 Next.js"
 description: ""
 date: 2024-04-05 15:17
 sidebarDepth: 0

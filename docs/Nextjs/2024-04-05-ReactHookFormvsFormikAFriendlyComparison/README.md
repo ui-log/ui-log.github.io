@@ -1,5 +1,5 @@
 ---
-title: "React Hook Form vs Formik: 친화적인 비교"
+title: "React Hook Form vs Formik 비교 정리"
 description: ""
 date: 2024-04-05 17:47
 sidebarDepth: 0

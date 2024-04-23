@@ -1,5 +1,5 @@
 ---
-title: "2024년 기능 토글링 구현하기"
+title: "웹사이트에서 토글링 기능 구현하기"
 description: ""
 date: 2024-04-05 14:33
 sidebarDepth: 0

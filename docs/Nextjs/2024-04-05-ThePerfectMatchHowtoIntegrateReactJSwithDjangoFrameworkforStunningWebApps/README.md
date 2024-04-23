@@ -1,5 +1,5 @@
 ---
-title: "완벽한 조합: 화려한 웹 앱을 위한 ReactJS와 Django 프레임워크 통합하는 방법"
+title: "ReactJS와 Django 프레임워크로 웹사이트 만드는 방법"
 description: ""
 date: 2024-04-05 12:37
 sidebarDepth: 0
@@ -318,7 +318,6 @@ export default App;
 ## 단계 6: 프로젝트 실행하기
 
 프로젝트를 실행하려면 두 개의 터미널 창을 엽니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

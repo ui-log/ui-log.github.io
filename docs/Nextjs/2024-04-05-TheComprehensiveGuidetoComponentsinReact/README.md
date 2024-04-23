@@ -357,7 +357,6 @@ function Header(){
 - 컴포넌트 합성은 종종 다른 컴포넌트를 props로 전달하여 동적 렌더링과 사용자 정의를 가능하게 합니다.
 - 컴포넌트 합성은 여러 개의 컴포넌트 층을 통과해야 하는 "prop drilling" 문제를 피하는 데 도움이 됩니다.
 - 각 레이어를 통해 props를 수동으로 전달하는 대신 children prop을 사용하여 필요한 컴포넌트에 직접 props를 전달할 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

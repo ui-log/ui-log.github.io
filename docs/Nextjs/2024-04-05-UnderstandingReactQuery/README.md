@@ -1,5 +1,5 @@
 ---
-title: "리액트 쿼리 이해하기"
+title: "React 리액트 쿼리로 데이터 가져오기 간단하게 하기"
 description: ""
 date: 2024-04-05 13:42
 sidebarDepth: 0

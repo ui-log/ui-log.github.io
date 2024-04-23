@@ -1,5 +1,5 @@
 ---
-title: "넥스트 제이에스 14 앱을 구글 클라우드 런에 배포하기"
+title: "Nextjs14 앱 구글 클라우드 런에 배포하기"
 description: ""
 date: 2024-04-05 14:51
 sidebarDepth: 0
@@ -127,7 +127,6 @@ npm run dev
 ![이미지](./img/DeployingaNextjs14apptoGoogleCloudRun_2.png)
 
 ![이미지](./img/DeployingaNextjs14apptoGoogleCloudRun_3.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

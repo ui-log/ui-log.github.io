@@ -1,5 +1,5 @@
 ---
-title: "React js에서 S3 버킷에 파일을 업로드하는 방법"
+title: "React에서 S3 버킷에 파일을 업로드하는 방법"
 description: ""
 date: 2024-04-05 17:00
 sidebarDepth: 0

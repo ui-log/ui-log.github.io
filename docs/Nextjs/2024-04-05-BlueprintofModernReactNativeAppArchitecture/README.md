@@ -1,5 +1,5 @@
 ---
-title: "현대적인 React Native 앱 아키텍처의 청사진"
+title: "최신 React Native 앱 아키텍처 정리(2024년)"
 description: ""
 date: 2024-04-05 12:38
 sidebarDepth: 0
@@ -114,7 +114,6 @@ Native Core 라이브러리는 제품의 다양한 사용 사례를 고려하여
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/BlueprintofModernReactNativeAppArchitecture_4.png)
 
 샘플 위젯 라이브러리
@@ -124,7 +123,6 @@ Native Core 라이브러리는 제품의 다양한 사용 사례를 고려하여
 - 채워진 버튼
 - 텍스트 버튼
 - 아이콘 버튼
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -137,7 +135,6 @@ Native Core 라이브러리는 제품의 다양한 사용 사례를 고려하여
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![BlueprintofModernReactNativeAppArchitecture_5](./img/BlueprintofModernReactNativeAppArchitecture_5.png)
 
 위젯 라이브러리를 패키지로 확장하여, 팀이 애플리케이션에서 이러한 번들을 재사용할 수 있도록 도와줄 수 있습니다.
@@ -181,7 +178,6 @@ export const defaultTheme: Theme = {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![BlueprintofModernReactNativeAppArchitecture_6](./img/BlueprintofModernReactNativeAppArchitecture_6.png)
 
 # 확장성 및 실시간
@@ -189,7 +185,6 @@ export const defaultTheme: Theme = {
 확장성 측면에서, 일부의 설계 패턴을 통해 실현 가능한 연속적인 사용자 경험 사례 중 하나를 살펴볼 수 있습니다.
 
 오프라인 우선 설계와 연결 불안정 처리
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

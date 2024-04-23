@@ -1,5 +1,5 @@
 ---
-title: "Tailwind CSS로 이미지 확대 도구 만들기"
+title: "Tailwind CSS로 이미지 확대 도구 만드는 방법"
 description: ""
 date: 2024-04-05 16:34
 sidebarDepth: 0
@@ -14,7 +14,7 @@ link: "https://medium.com/@rayhaanrakib/create-an-image-magnifier-with-tailwind-
 
 이 단계별 가이드를 따라가면 Tailwind CSS를 사용하여 이미지 확대기 컴포넌트를 만들 수 있어서 웹 애플리케이션의 사용자 경험을 향상시킬 수 있습니다. Tailwind CSS의 유틸리티 중심 접근 방식과 유연성을 통해 이미지 확대기와 같은 UI 컴포넌트를 쉽게 구축하고 사용자가 눈에 띄고 기능적인 인터페이스를 노력을 최소화하고 만들 수 있습니다. 오늘부터 Tailwind CSS를 활용하여 웹 개발 능력을 한 단계 끌어올려 보세요!
 
-![CreateanImagemagnifierwithTailwindCSS_0.png]("./img/CreateanImagemagnifierwithTailwindCSS_0.png")
+![CreateanImagemagnifierwithTailwindCSS_0.png](./img/CreateanImagemagnifierwithTailwindCSS_0.png)
 
 먼저 컴포넌트를 만든 다음에 그에 대해 설명하겠습니다.
 

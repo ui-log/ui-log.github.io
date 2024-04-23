@@ -1,5 +1,5 @@
 ---
-title: "테일윈드 CSS로 반응형 웹 디자인 마스터하기: 포괄적인 안내"
+title: "Tailwind CSS로 반응형 웹 디자인 구현하기"
 description: ""
 date: 2024-04-05 18:03
 sidebarDepth: 0
@@ -230,7 +230,6 @@ export default {
 값을 업데이트만 하려면 전체 스크린 값을 덮어쓰고 싶지 않으므로 값을 정의하기 위해 확장(extend)을 사용할 수 있습니다.
 
 확장 내에 스크린 객체를 정의하고 추가할 정의를 추가하면 됩니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

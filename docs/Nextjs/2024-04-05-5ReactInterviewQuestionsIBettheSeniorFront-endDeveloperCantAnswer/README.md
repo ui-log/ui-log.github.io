@@ -1,14 +1,13 @@
 ---
-title: "5가지 React 면접 질문. 시니어 프론트엔드 개발자도 대답할 수 없다고 생각해요!"
+title: "시니어 프론트엔드 개발자도 잘 모르는 5가지 React 면접 질문"
 description: ""
 date: 2024-04-05 13:59
 sidebarDepth: 0
 tag: Tech
-thumbnail: 
+thumbnail:
 originalTitle: "5 React Interview Questions. I Bet the Senior Front-end Developer Can’t Answer"
 link: "https://medium.com/stackademic/5-react-interview-questions-i-bet-the-senior-front-end-developer-cant-answer-91e2e56fba92"
 ---
-
 
 시니어 프론트엔드 개발자를 위한 React JS 관련 상위 질문들 — 고급 기능, 성능 최적화, 보안, 훅, 컨텍스트, 패턴, 테스팅, 그리고 에코시스템.
 
@@ -23,6 +22,7 @@ link: "https://medium.com/stackademic/5-react-interview-questions-i-bet-the-seni
 - React 애플리케이션에서 비동기 작업을 처리하는 방법은 무엇인가요?
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -42,6 +42,7 @@ React의 Virtual DOM은 실제 DOM의 메모리 내 표현입니다. React는 �
 예시:
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -65,6 +66,7 @@ function MyComponent() {
 피라미드는 세 개의 계층으로 나누어집니다:```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -84,6 +86,7 @@ function MyComponent() {
 테스트 피라미드는 테스트 전략이 통합 테스트보다는 유닛 테스트가 더 많아야 하고, 통합 테스트보다는 엔드 투 엔드 테스트가 더 많아야 함을 제안합니다. 이는 유닛 테스트가 더 빠르고 저렴하며 신뢰성이 더 높기 때문입니다. 통합 테스트는 유닛 테스트보다 비용이 많이 들고 실행하는 데 더 오래 걸리지만, 구성요소 간의 상호작용을 테스트하는 데 중요합니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -103,6 +106,7 @@ function MyComponent() {
 ![React Interview Questions](./img/5ReactInterviewQuestionsIBettheSeniorFront-endDeveloperCantAnswer_3.png)
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -122,6 +126,7 @@ KISS 원칙은 개발자들이 간단하고 이해하기 쉬운 코드를 작성
 YAGNI 원칙은 현재 필요하지 않은 기능을 구현하는 것을 피하도록 개발자들에게 조언합니다. React 개발 환경에서는 즉시 필요하지 않은 기능이나 구성 요소를 개발하는 유혹을 피해야 합니다. 대신 최소 기능 제품(MVP)을 구축하고 필요할 때 새로운 기능을 추가해야 합니다. 이는 코드베이스에서 불필요한 복잡성과 유지보수 문제를 피하는 데 도움이 됩니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -141,6 +146,7 @@ DRY 원칙은 개발자들에게 코드베이스 전체에 걸쳐 코드를 중�
 ![그림](./img/5ReactInterviewQuestionsIBettheSeniorFront-endDeveloperCantAnswer_4.png)
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -163,6 +169,7 @@ DRY 원칙은 개발자들에게 코드베이스 전체에 걸쳐 코드를 중�
 # 5. React 애플리케이션에서 비동기 작업을 어떻게 처리하나요?
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -180,31 +187,24 @@ DRY 원칙은 개발자들에게 코드베이스 전체에 걸쳐 코드를 중�
 다음은 async 및 await를 사용하여 비동기 API 호출을 하는 컴포넌트의 예시입니다:
 
 ```js
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function MyComponent() {
   const [data, setData] = useState(null);
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch('https://..../endpoint');
+      const response = await fetch("https://..../endpoint");
       const data = await response.json();
       setData(data);
     }
     fetchData();
   }, []);
-  return (
-    <div>
-      {data ? (
-        <div>{data.message}</div>
-      ) : (
-        <div>Loading...</div>
-      )}
-    </div>
-  );
+  return <div>{data ? <div>{data.message}</div> : <div>Loading...</div>}</div>;
 }
 ```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -218,27 +218,19 @@ function MyComponent() {
 React에서 비동기 함수를 처리하는 또 다른 방법은 axios나 fetch와 같은 라이브러리를 사용하여 API 호출을하는 것입니다.axios를 사용한 예제입니다:
 
 ```js
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 function MyComponent() {
   const [data, setData] = useState(null);
   useEffect(() => {
     async function fetchData() {
-      const response = await axios.get('https://my-api.com/endpoint');
+      const response = await axios.get("https://my-api.com/endpoint");
       setData(response.data);
     }
     fetchData();
   }, []);
-  return (
-    <div>
-      {data ? (
-        <div>{data.message}</div>
-      ) : (
-        <div>Loading...</div>
-      )}
-    </div>
-  );
+  return <div>{data ? <div>{data.message}</div> : <div>Loading...</div>}</div>;
 }
 ```
 
@@ -247,6 +239,7 @@ function MyComponent() {
 🛠 발간배경 및 성능 최적화 커버하기:
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -269,6 +262,7 @@ function MyComponent() {
 🪝 Hooks 및 Context Magic:
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -290,6 +284,7 @@ function MyComponent() {
 🧪 테스팅 마스터리:
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -311,6 +306,7 @@ function MyComponent() {
 ## ❤️ 제 작업을 좋아하셨다면 팔로우와 구독 부탁드립니다 ❤️
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"

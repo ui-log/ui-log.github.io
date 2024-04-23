@@ -1,5 +1,5 @@
 ---
-title: "유용한 UI/UX 디자인 서적"
+title: "디자이너에게 유용한 UI/UX 디자인 서적"
 description: ""
 date: 2024-04-05 08:56
 sidebarDepth: 0

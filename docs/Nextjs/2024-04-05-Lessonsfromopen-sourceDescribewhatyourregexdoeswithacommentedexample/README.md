@@ -1,5 +1,5 @@
 ---
-title: "오픈 소스에서 배운 교훈: 주석이 포함된 예시를 통해 정규 표현식이 하는 일을 설명하세요."
+title: "주석이 포함된 예시를 통해 정규 표현식이 하는 일을 설명하세요"
 description: ""
 date: 2024-04-05 16:51
 sidebarDepth: 0
@@ -29,7 +29,7 @@ link: "https://medium.com/dev-genius/lessons-from-open-source-describe-what-your
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 <img src="./img/Lessonsfromopen-sourceDescribewhatyourregexdoeswithacommentedexample_0.png" />
 
 `getStackWithoutErrorMessage` 함수는 이름이 길지만 메시지를 명확히 전달합니다. 이 함수는 하나의 일을 합니다. 하는 일을 설명하는 함수 이름을 작성하는 데 도움을 줍니다.
@@ -48,7 +48,6 @@ link: "https://medium.com/dev-genius/lessons-from-open-source-describe-what-your
 ```
 
 정규 표현식을 작성하는 것이 멋지지만 예시와 함께 하는 주석은 미래의 본인과 다른 개발자에게 그 정규 표현식이 무엇을 하는지 이해하는 데 도움이 됩니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

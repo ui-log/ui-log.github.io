@@ -1,5 +1,5 @@
 ---
-title: "기본을 넘어: 숙련된 개발자를 위한 3가지 React Native Hooks"
+title: "시니어 개발자를 위한 3가지 React Native Hooks"
 description: ""
 date: 2024-04-05 17:05
 sidebarDepth: 0

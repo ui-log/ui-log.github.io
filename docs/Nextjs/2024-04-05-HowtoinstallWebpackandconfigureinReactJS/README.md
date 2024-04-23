@@ -1,5 +1,5 @@
 ---
-title: "React JS에서 Webpack을 설치하고 구성하는 방법"
+title: "React JS에서 Webpack을 설치 및 세팅 방법"
 description: ""
 date: 2024-04-05 17:09
 sidebarDepth: 0

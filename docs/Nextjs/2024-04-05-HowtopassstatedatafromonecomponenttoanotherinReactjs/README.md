@@ -1,5 +1,5 @@
 ---
-title: "React.js에서 상태 데이터를 한 컴포넌트에서 다른 컴포넌트로 전달하는 방법"
+title: "React에서 state를 다른 컴포넌트로 전달하는 방법"
 description: ""
 date: 2024-04-05 19:50
 sidebarDepth: 0
@@ -40,13 +40,14 @@ class ParentComponent extends React.Component {
     );
   }
 }
-
+```
 자식 구성 요소에서는 props에 다음과 같이 액세스합니다:
 
 ```javascript
 function ChildComponent(props) {
   return <div>{props.data}</div>;
 }
+```
 
 다른 구성 요소에 상태를 전달하는 또 다른 방법은 context를 통해입니다. 
 Context를 사용하면 각 구성 요소 수준에서 수동으로 props를 전달하지 않고 
@@ -125,7 +126,6 @@ class ParentComponent extends React.Component {
 
 마크다운 형식으로 변경하려면 다음과 같이 하면 됩니다.
 
-```markdown
 ```js
 function ChildComponent(props) {
  const handleClick = () => {
@@ -136,4 +136,3 @@ function ChildComponent(props) {
 ```
 
 다른 컴포넌트에 상태를 전달하는 여러 가지 방법이 있습니다. props, context, 콜백 함수를 사용하는 React에서 각 방법은 장단점이 있습니다. 사용 사례에 따라 적절한 방법을 선택하는 것이 중요합니다.
-```

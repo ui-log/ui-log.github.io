@@ -1,5 +1,5 @@
 ---
-title: "리액트, 타입스크립트, 스토리북으로 컴포넌트 라이브러리 구축하기: 포괄적인 가이드"
+title: "리액트, 타입스크립트, 스토리북으로 컴포넌트 라이브러리 만드는 방법"
 description: ""
 date: 2024-04-05 15:07
 sidebarDepth: 0
@@ -89,7 +89,6 @@ npm install -D prettier
 ```
 
 프로젝트를 포맷하려면 package.json에 다음 스크립트를 추가하세요:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -849,7 +848,6 @@ npx lint-staged
 # NPM 및 GitHub 레지스트리에 라이브러리 발행하기
 
 ## GitHub에 게시하기
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

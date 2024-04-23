@@ -507,7 +507,6 @@ reportWebVitals();
 ```
 
 이 코드는 useEffect를 사용하여 컴포넌트가 마운트될 때 API에서 항목을 가져오는 기본 React 컴포넌트를 설정합니다. 데이터를 가져올 동안 로딩 메시지를 표시하고 API 요청 중 발생할 수 있는 오류를 처리합니다. 또한, deleteItem 함수를 트리거하는 삭제 버튼이 있는 항목 목록을 표시합니다.
-``` 
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,5 +1,5 @@
 ---
-title: "리액트에서의 SOLID: 좋은 점, 나쁜 점, 멋진 점"
+title: "리액트에서의 SOLID: 좋은 점, 나쁜 점"
 description: ""
 date: 2024-04-05 12:56
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "Vite 앱을 GitHub Pages에 배포하기"
+title: "Vite 사이트을 GitHub Pages에 배포하기"
 description: ""
 date: 2024-04-05 16:52
 sidebarDepth: 0

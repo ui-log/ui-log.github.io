@@ -356,11 +356,3 @@ React 웹 애플리케이션을 위한 100가지 이상의 사용 준비된 구�
 
 행복한 코딩하세요!
 
-# Stackademic 🎓
-
-끝까지 읽어주셔서 감사합니다. 떠나시기 전에:
-
-- 작가를 칭찬하고 팔로우해 주시면 감사하겠습니다! 👏
-- 다른 플랫폼에서도 우리를 팔로우해 주세요: X | LinkedIn | YouTube | Discord
-- 다른 플랫폼 방문하기: In Plain English | CoFeed | Venture | Cubed
-- Stackademic.com에서 더 많은 콘텐츠를 만나보세요.

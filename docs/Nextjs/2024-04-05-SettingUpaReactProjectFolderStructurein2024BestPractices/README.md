@@ -1,5 +1,5 @@
 ---
-title: "2024년 기준으로 React 프로젝트 폴더 구조 설정하기: 최상의 방법들"
+title: "2024년 기준으로 React 프로젝트 폴더 구조 설정하기"
 description: ""
 date: 2024-04-05 19:46
 sidebarDepth: 0

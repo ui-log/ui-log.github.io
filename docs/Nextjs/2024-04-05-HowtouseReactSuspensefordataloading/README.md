@@ -1,5 +1,5 @@
 ---
-title: "React Suspense를 데이터 로딩에 어떻게 활용할 수 있을까요?"
+title: "React Suspense를 데이터 로딩에 어떻게 활용하는 방법"
 description: ""
 date: 2024-04-05 18:41
 sidebarDepth: 0
@@ -29,7 +29,7 @@ Next.js에서 앱을 구축 중입니다. 예전 페이지 라우터에서 새�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![로딩 화면](https://miro.medium.com/v2/resize:fit:1400/1*tZZB70LCPz1tEosJZ5KvOw.gif)
 
 페이지가 로드되기 전에 빈 화면을 볼 수 있는데, 이 지연은 API에서 발생합니다. 대부분의 트래픽에 대해 CDN으로 캐싱되므로 프로덕션에서는 큰 문제가 되지 않습니다.
@@ -37,7 +37,6 @@ Next.js에서 앱을 구축 중입니다. 예전 페이지 라우터에서 새�
 클라이언트 측 탐색 구성 요소에서 로딩 스켈레톤을 표시하세요:
 
 ![로딩 스켈레톤](https://miro.medium.com/v2/resize:fit:1400/1*BwCVlL9Xo5d7LTICOjsdzA.gif)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -233,7 +232,6 @@ export default async function Page() {
 ```
 
 거의 완료되었습니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -300,7 +298,6 @@ export default async function Page() {
 ```
 
 이제 useEffect와 거의 동일한 로직을 가지고 있는 것을 볼 수 있습니다. 페이지에서 데이터를 미리 로드하고 ProductList를 렌더링하고 있지만, 페이지에서 데이터를 미리로드하지 않기로 결정한다면 컴포넌트 자체가 데이터를 로드할 수 있도록 충분히 똑똑합니다. 이 컴포넌트를 어떤 페이지에도 쉽게 삽입할 수 있고, 데이터를 로드하고 로딩 스켈레톤을 렌더링하는 부분을 담당할 것입니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

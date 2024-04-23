@@ -1,5 +1,5 @@
 ---
-title: "넥스트.제이에스 14 서버 액션으로 쇼핑 카트 만들기"
+title: "Next.js 14 서버 액션으로 장바구니 기능 만들기"
 description: ""
 date: 2024-04-05 17:39
 sidebarDepth: 0

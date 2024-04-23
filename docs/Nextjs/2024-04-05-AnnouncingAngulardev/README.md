@@ -1,5 +1,5 @@
 ---
-title: "Angular.dev 소개합니다!"
+title: "Angular 는 무엇인가?"
 description: ""
 date: 2024-04-05 17:45
 sidebarDepth: 0
@@ -85,7 +85,7 @@ Angular.io는 v17까지 문서 자료로써 계속해서 지원될 것이며, �
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![Angular 17](./img/AnnouncingAngulardev_3.png)
 
 "Hello World"로 시작하거나 템플릿 중 하나를 선택하여 Control Flow, Signals 등의 최신 기능을 탐색해보세요. v17 런칭을 기념해 미니 게임도 추가했어요. Angular에 대해 얼마나 잘 아시나요?
@@ -93,7 +93,6 @@ Angular.io는 v17까지 문서 자료로써 계속해서 지원될 것이며, �
 # 새로운 문서와 모든 개발자 수준을 위한 향상된 사용자 경험
 
 Angular.dev은 현대적인 Angular 개발을 처음부터 가르칩니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

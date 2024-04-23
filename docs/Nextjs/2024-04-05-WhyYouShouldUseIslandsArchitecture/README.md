@@ -1,5 +1,5 @@
 ---
-title: "섬 아키텍처를 사용해야 하는 이유"
+title: "Islands Architecture란 무엇이며 왜 사용해야하는가?"
 description: ""
 date: 2024-04-05 14:39
 sidebarDepth: 0

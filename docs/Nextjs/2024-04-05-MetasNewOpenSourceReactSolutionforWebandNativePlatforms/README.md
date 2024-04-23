@@ -1,5 +1,5 @@
 ---
-title: "🌐 메타의 새로운 오픈소스: 웹과 네이티브 플랫폼을 위한 리액트 솔루션"
+title: "메타의 새로운 오픈소스: 웹과 네이티브 플랫폼을 위한 리액트 솔루션"
 description: ""
 date: 2024-04-05 12:45
 sidebarDepth: 0
@@ -46,7 +46,6 @@ const App = () => {
 # react-native-web
 
 몇 년 전, 트위터의 점진적 웹 앱을 개발하던 동안, Nicolas Gallagher은 React Native for Web (RNW)를 소개했습니다. 이 혁신은 React Native 코드를 react-dom과 호환되는 코드로 번역하여, React Native 컴포넌트를 웹 플랫폼에서 렌더링할 수 있게 했습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -175,7 +174,6 @@ React Native 원칙라는 블로그 게시물에 그가 쓴 내용을 한 줄 �
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/MetasNewOpenSourceReactSolutionforWebandNativePlatforms_5.png)
 
 📱 React Native에서의 목표는 완전히 네이티브 애플리케이션을 개발하는 것입니다. 이 새로운 접근 방식을 채택함으로써 WebView나 다른 대안에 의존하지 않고 완전히 네이티브한 앱을 만들어 이 목표를 달성할 수 있습니다. 이를 확인하는 가장 쉬운 방법은 저장소에서 샘플 앱을 실행하고 Xcode의 뷰 계층 구조 도구를 활용하여 구성 요소를 검사하는 것입니다.
@@ -183,7 +181,6 @@ React Native 원칙라는 블로그 게시물에 그가 쓴 내용을 한 줄 �
 ![이미지](./img/MetasNewOpenSourceReactSolutionforWebandNativePlatforms_6.png)
 
 Nicolas의 RFC: RFC: React DOM for Native(https://github.com/react-native-community/discussions-and-proposals/pull/496)는 솔루션의 원칙을 자세히 소개합니다. 관심이 있으시면 깊이 읽어보실 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,5 +1,5 @@
 ---
-title: "디자인 포트폴리오에 UX 연구 표시하기 - 피해야 할 4가지 실수"
+title: "디자인 포트폴리오에서 피해야 할 4가지 실수"
 description: ""
 date: 2024-04-05 09:49
 sidebarDepth: 0
@@ -104,7 +104,7 @@ Melvin이 케이스 스터디 섹션의 제목으로 주요 결과를 잘 요약
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지 1](./img/DisplayingUXResearchinyourDesignPortfolio4mistakesyoudontwanttomake_5.png)
 
 Melvin이 사용자 입력으로 선별된 뷰를 만들었던 또 다른 좋은 예입니다. 그가 실제로 이 입력을 수집한 방식인가요? 아닙니다. 그러나 이는 매우 명확하게 포인트를 전달합니다.
@@ -112,7 +112,6 @@ Melvin이 사용자 입력으로 선별된 뷰를 만들었던 또 다른 좋은
 ![이미지 2](./img/DisplayingUXResearchinyourDesignPortfolio4mistakesyoudontwanttomake_6.png)
 
 마지막 예시인데, 이는 실제 "작업 파일"을 보여주는 좋은 균형을 이루고 있습니다. 또한 Melvin이 워크샵에서 나온 상위 3개 질문을 요약하여 제시하기 때문에, 전체적으로 결과를 파악하려고 메모지를 일일히 읽어 가지 않아도 됩니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

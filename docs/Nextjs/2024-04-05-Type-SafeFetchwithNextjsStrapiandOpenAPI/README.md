@@ -1,5 +1,5 @@
 ---
-title: "Type-Safe Fetch with Next.js, Strapi, and OpenAPINext.js, Strapi, 그리고 OpenAPI를 활용한 안전한 Fetch하기"
+title: "프론트엔드에서 타입 안정성을 지키며 데이터 가져오는 방법"
 description: ""
 date: 2024-04-05 13:00
 sidebarDepth: 0

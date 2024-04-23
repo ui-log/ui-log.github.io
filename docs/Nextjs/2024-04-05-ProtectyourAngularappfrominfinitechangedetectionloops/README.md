@@ -1,5 +1,5 @@
 ---
-title: "무한한 변경 감지 루프로부터 Angular 앱을 보호하세요! ♾️"
+title: "Angular infinite change detection loops 피하는 방법"
 description: ""
 date: 2024-04-05 09:05
 sidebarDepth: 0

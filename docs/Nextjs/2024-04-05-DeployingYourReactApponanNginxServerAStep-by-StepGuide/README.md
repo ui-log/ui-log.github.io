@@ -1,5 +1,5 @@
 ---
-title: "React 앱을 Nginx 서버에 배포하기: 단계별 안내"
+title: "React 앱을 Nginx 서버에 배포하기"
 description: ""
 date: 2024-04-05 16:41
 sidebarDepth: 0

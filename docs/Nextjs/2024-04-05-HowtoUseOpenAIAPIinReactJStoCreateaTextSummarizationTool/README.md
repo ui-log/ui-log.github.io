@@ -1,5 +1,5 @@
 ---
-title: "ReactJS에서 OpenAI API를 사용하여 텍스트 요약 도구를 만드는 방법"
+title: "ReactJS에서 OpenAI API를 사용하여 텍스트 요약 사이트 만들기"
 description: ""
 date: 2024-04-05 19:36
 sidebarDepth: 0

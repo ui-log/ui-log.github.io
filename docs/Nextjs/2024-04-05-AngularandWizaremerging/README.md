@@ -1,5 +1,5 @@
 ---
-title: "Angular와 Wiz가 합병합니다."
+title: "Angular, Wiz와 통합하다 "
 description: ""
 date: 2024-04-05 08:41
 sidebarDepth: 0
@@ -104,9 +104,3 @@ Wiz은 성능에 중점을 둔 앱에 초점을 맞추고 있습니다. 이에 �
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-❤️ 내 작업을 좋아하신다면 팔로우와 구독 부탁 드려요 ❤️
-
-- Follow me
-- Subscribe
-- LinkedIn
-- Front-end World 방문 후 구독해 주세요.

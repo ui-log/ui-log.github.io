@@ -1,5 +1,5 @@
 ---
-title: "React.js 단위 테스트: 예시를 통한 최상의 실천 방법과 도구들"
+title: "React.js 유닛 테스트(코드 있음)"
 description: ""
 date: 2024-04-05 19:22
 sidebarDepth: 0
@@ -183,7 +183,7 @@ npm install --save-dev @testing-library/react @testing-library/jest-dom jest ts-
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지](./img/ReactjsUnitTestingBestPracticesandToolswithexamples_1.png)
 
 4. TaskList 컴포넌트의 기능을 확인하기 위해 세 가지 테스트를 작성할 것입니다:
@@ -191,7 +191,6 @@ npm install --save-dev @testing-library/react @testing-library/jest-dom jest ts-
 1. 첫 번째 테스트는 TaskList가 API에서 작업을 가져오는지 확인합니다. React Testing Library의 waitFor 메서드를 사용하여 mock getTasks 메서드가 호출될 때까지 기다립니다.
 
 ![이미지](./img/ReactjsUnitTestingBestPracticesandToolswithexamples_2.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

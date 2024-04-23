@@ -1,5 +1,5 @@
 ---
-title: "커넥트 디자인 시스템"
+title: "커넥트 디자인 시스템 구축하기"
 description: ""
 date: 2024-04-05 09:57
 sidebarDepth: 0

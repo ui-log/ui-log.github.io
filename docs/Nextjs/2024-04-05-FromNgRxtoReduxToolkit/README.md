@@ -1,5 +1,5 @@
 ---
-title: "NgRx에서 Redux Toolkit으로"
+title: "NgRx에서 Redux Toolkit으로 전환하기"
 description: ""
 date: 2024-04-05 13:13
 sidebarDepth: 0
@@ -131,7 +131,6 @@ loadMovies$ = createEffect(() => this.actions$.pipe(
 ```
 
 3. 로드된 영화 목록을 상태로 줄이는 리듀서
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -144,9 +143,10 @@ loadMovies$ = createEffect(() => this.actions$.pipe(
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+```js
 // 리듀서
 on(MoviesLoadedSuccess.movies, , (state, { movies }) => ({ ...state, movieList: movies}))
+```
 
 4. 영화 목록을 선택하는 선택기
 
@@ -156,7 +156,6 @@ this.movies = this.store.select(fromRoot.movielist);
 ```
 
 자, 이제 NgEffects 프로세스에 익숙해졌으니 Redux toolkit과 RTK query에 대해 이야기해보겠습니다.  
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -250,7 +249,6 @@ loadMovies$ = createEffect(() => this.actions$.pipe(
 ```
 
 NgEffects의 첫 번째 부분... 액션에 대한 필터링을 하고 나서 서비스를 통해 비동기 프로세스를 실행합니다. 
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,5 +1,5 @@
 ---
-title: "구글 애널리틱스 4 (GA4)를 Next.js 14와 React에서 사용하기: 이벤트 추적 포함!"
+title: "Next.js 14와 React에서 구글 애널리틱스(GA4) 사용하기"
 description: ""
 date: 2024-04-05 15:42
 sidebarDepth: 0
@@ -110,7 +110,6 @@ export function EventButton() {
 # react-ga4 사용 — 시작하기.
 
 당신이 Google Analytics 계정, 생성된 속성, 그리고 측정 ID를 가지고 있다고 상정합니다. 또한 추적할 준비가 된 작동 중인 Next.js 또는 React 사이트를 가지고 있어야 합니다. 우리는 바로 Google Analytics 4 설정으로 넘어갈 것입니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

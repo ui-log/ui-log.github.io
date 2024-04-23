@@ -1,5 +1,5 @@
 ---
-title: "React로 마이크로 프론트엔드 구축하기"
+title: "React로 마이크로 프론트엔드 만들기"
 description: ""
 date: 2024-04-05 15:47
 sidebarDepth: 0

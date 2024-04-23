@@ -1,5 +1,5 @@
 ---
-title: "디자이너를 위한 10가지 필수 UX 도구: 디자인 프로세스 향상하기"
+title: "웹 UI 디자이너를 위한 필수 UX 도구 10가지"
 description: ""
 date: 2024-04-05 10:03
 sidebarDepth: 0
@@ -135,7 +135,6 @@ UserTesting은 다양한 테스트 유형을 제공하며 비교적 신속한 �
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 <img src="./img/10EssentialUXToolsforDesignersEnhanceYourDesignProcess_4.png" />
 
 Lyssna는 이전에 UsabilityHub으로 알려진 원격 사용자 연구 플랫폼으로, 디자인을 테스트하고 데이터 기반 의사 결정을 위해 사용자 피드백을 수집할 수 있는 기능을 제공합니다. 주요 기능은 다음과 같습니다:
@@ -145,7 +144,6 @@ Lyssna는 이전에 UsabilityHub으로 알려진 원격 사용자 연구 플랫�
 - 사용성 연구 생성: 다양한 기술을 사용하여 사용성 테스트를 만듭니다.
 
 Lyssna는 다양한 테스트 방법을 제공하여 초기 인상부터 상세한 탐색 분석까지 피드백을 수집할 수 있습니다. 가격은 매월 3명의 사용자에 대해 75달러부터 시작하며 참가자 패널에 대한 비용은 별도로 청구됩니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -198,7 +196,6 @@ Lyssna는 다양한 테스트 방법을 제공하여 초기 인상부터 상세�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/10EssentialUXToolsforDesignersEnhanceYourDesignProcess_6.png)
 
 Balsamiq은 낮은 품질의 수동 스타일 와이어프레임에 중점을 둔 와이어프레임 도구입니다. 재사용 가능한 심볼, 상호 작용하는 프로토타입 및 드래그 앤 드롭 기능과 같은 기능을 제공합니다. Balsamiq은 쉬운 및 신속한 와이어프레임 제작에 이상적이며, 미적인 측면보다는 기능성을 중시합니다. 가격은 월 $9부터 시작합니다.
@@ -206,7 +203,6 @@ Balsamiq은 낮은 품질의 수동 스타일 와이어프레임에 중점을 �
 # 7. Figma
 
 ![이미지](./img/10EssentialUXToolsforDesignersEnhanceYourDesignProcess_7.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

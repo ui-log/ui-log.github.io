@@ -1,5 +1,5 @@
 ---
-title: "D3.js와 React로 만드는 애니메이션 바 차트"
+title: "D3.js와 React로 애니메이션 바 차트 만드는 방법"
 description: ""
 date: 2024-04-05 12:35
 sidebarDepth: 0
@@ -385,7 +385,6 @@ selection
 - 각 밴드(bar)의 너비를 반환하는 xScale.bandwidth() 함수로 막대의 너비를 설정합니다.
 - 막대의 높이를 가장 낮은 값인 yScale(0)에서 시작하여 yScale() 함수로 설정합니다.
 - 이전에 정의한 colorScale() 함수로 막대의 색상을 설정합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -406,7 +405,6 @@ selection
 # 5. Polish it!
 
 축 눈금의 스타일을 사용자 정의하고, 막대를 애니메이션하는 등의 작업으로 차트를 개선할 수 있습니다!
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

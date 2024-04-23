@@ -29,7 +29,6 @@ link: "https://medium.com/ai-ai-oh/the-missing-human-flaws-the-telling-flaw-of-a
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/TheMissingHumanFlawsTheTellingFlawofAI_1.png)
 
 이 이미지를 위해 "거리에서 미소 짓는 여자"라는 간단한 프롬프트를 사용했습니다. 카메라로 거리에서 원시적인 감정을 잡는 것을 사랑하기 때문에 이를 선택했습니다.
@@ -37,7 +36,6 @@ link: "https://medium.com/ai-ai-oh/the-missing-human-flaws-the-telling-flaw-of-a
 이것은 훌륭한 거리 초상화의 모든 요소가 있습니다:
 
 사람들이 자신의 사진을 찍힌다는 것을 알 때 몇몇 사람들이 주는 즐거움과 기쁜 표정입니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

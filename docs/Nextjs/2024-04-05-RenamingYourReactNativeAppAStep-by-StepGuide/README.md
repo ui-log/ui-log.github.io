@@ -1,5 +1,5 @@
 ---
-title: "리액트 네이티브 앱 이름 변경하기: 단계별 안내"
+title: "리액트 네이티브 앱 이름 변경하기"
 description: ""
 date: 2024-04-05 17:42
 sidebarDepth: 0

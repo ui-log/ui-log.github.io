@@ -1,5 +1,5 @@
 ---
-title: "리액트.js에서 자식 컴포넌트에서 부모 컴포넌트의 함수 호출하기"
+title: "React.js에서 자식 컴포넌트에서 부모 컴포넌트의 함수 호출하는 방법"
 description: ""
 date: 2024-04-05 19:06
 sidebarDepth: 0
@@ -64,7 +64,6 @@ export default ChildComponent;
 ```
 
 방법 2: Ref 사용하기
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

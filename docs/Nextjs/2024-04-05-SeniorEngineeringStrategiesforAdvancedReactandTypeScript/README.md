@@ -1,5 +1,5 @@
 ---
-title: "React와 TypeScript를 활용한 고급 개발 전략을 위한 시니어 엔지니어링 팁"
+title: "React와 TypeScript를 활용한 고급 개발 팁"
 description: ""
 date: 2024-04-05 13:57
 sidebarDepth: 0
@@ -290,7 +290,6 @@ export default AccessibleButton;
 # 보안
 
 보안은 고급 React 및 TypeScript 개발의 또 다른 중요한 측면입니다. 보안 취약점은 데이터 유출에서 애플리케이션 다운타임에 이르는 심각한 결과를 초래할 수 있습니다. React 및 TypeScript 애플리케이션을 개발할 때 따라야 할 여러 보안 모범 사례가 있습니다. 안전한 코딩 관행, 입력 유효성 검사 및 HTTPS 사용 등이 그에 속합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -403,7 +402,6 @@ export default ExampleComponent;
 고급 React 및 TypeScript 애플리케이션을 구축하고 유지하는 것은 견고한 전략이 필요합니다. 잘 설계된 아키텍처, 포괄적인 테스트, 성능 최적화, 효율적인 개발 워크플로우, 접근성, 보안 및 유지 관리 전략은 성공적인 개발 전략의 필수 구성 요소입니다. 이러한 전략을 따르면 애플리케이션이 확장 가능하고 유지 가능하며 효율적이며 사용자에게 높은 품질의 사용자 경험을 제공할 수 있습니다.
 
 위에서 논의된 전략 외에도 더 많은 고급 React 및 TypeScript 기술과 패턴이 있습니다. 이러한 기술의 예시로는 고차 컴포넌트, 렌더 프롭스, 컨텍스트 등이 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

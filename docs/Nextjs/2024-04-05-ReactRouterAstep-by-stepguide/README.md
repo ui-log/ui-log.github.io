@@ -1,5 +1,5 @@
 ---
-title: "React Router: 단계별 안내"
+title: "React Router로 페이지 관리하기"
 description: ""
 date: 2024-04-05 17:44
 sidebarDepth: 0

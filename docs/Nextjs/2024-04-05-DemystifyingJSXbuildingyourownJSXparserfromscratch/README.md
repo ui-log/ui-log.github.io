@@ -1,5 +1,5 @@
 ---
-title: "JSX 해독하기: 제로에서 JSX 파서 만들기"
+title: "JSX parser 만드는 방법"
 description: ""
 date: 2024-04-05 14:46
 sidebarDepth: 0

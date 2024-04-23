@@ -1,5 +1,5 @@
 ---
-title: "오픈 소스에서 배운 교훈: Next.js에서 error.digest를 계산하는 알고리즘"
+title: "Next.js에서 error.digest를 계산하는 알고리즘"
 description: ""
 date: 2024-04-05 17:17
 sidebarDepth: 0

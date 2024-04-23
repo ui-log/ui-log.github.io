@@ -1,5 +1,5 @@
 ---
-title: "Reasoning과 Action (ReAct) 프레임워크를 결합한 LLM Agent를 LangChain을 사용하여 구축하기"
+title: "Reasoning과 Action (ReAct) 프레임워크를 결합한 LLM Agent를 LangChain을 사용하여 만들기"
 description: ""
 date: 2024-04-05 14:36
 sidebarDepth: 0
@@ -280,7 +280,6 @@ tools = [
 ```
 
 4. 애플리케이션에 LLM으로 GPT-4 모델을 사용합시다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -306,7 +305,6 @@ react = initialize_agent(tools, llm, agent=AgentType.REACT_DOCSTORE, verbose=Tru
 ```
 
 6-) 우리의 ReAct 에이전트에 질문을 전달할 수 있습니다. 배경에서, 에이전트는 OPENAI 모델과 상호 작용하는 API를 사용하여 작업을 수행합니다. 또한 모델에 도구 정보(함수 설명)를 추가 인수로 전달합니다(OPENAI의 경우 OPENAI 함수라고 함)와 프롬프트와 함께. 모델이 검색 또는 조회 작업을 수행해야 하는 경우 함수 설명과 함수 인수(있는 경우)를 에이전트에 반환합니다. 그런 다음 에이전트는 해당 도구를 사용하여 해당 함수를 호출하고 그 정보를 다시 모델에 전달합니다. 이러한 과정은 상기와 같이 반복적으로 수행됩니다. 모든 이러한 마법은 에이전트가 우리를 대신해 해 줍니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

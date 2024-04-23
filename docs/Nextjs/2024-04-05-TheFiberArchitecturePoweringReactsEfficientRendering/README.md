@@ -1,5 +1,5 @@
 ---
-title: "파이버 아키텍처: React의 효율적인 렌더링을 원동력으로"
+title: "Fiber 아키텍처: React의 효율적인 렌더링을 원동력으로"
 description: ""
 date: 2024-04-05 18:16
 sidebarDepth: 0

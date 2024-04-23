@@ -1,5 +1,5 @@
 ---
-title: "⚛️ 리액트 프로젝트의 폴더 구조"
+title: "리액트 프로젝트의 폴더 구조 추천"
 description: ""
 date: 2024-04-05 19:49
 sidebarDepth: 0

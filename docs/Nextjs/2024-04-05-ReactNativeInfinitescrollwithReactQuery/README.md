@@ -1,5 +1,5 @@
 ---
-title: "리액트 네이티브 | 리액트 쿼리로 무한 스크롤"
+title: "리액트 네이티브 - React Query로 무한 스크롤 구현하기"
 description: ""
 date: 2024-04-05 19:23
 sidebarDepth: 0

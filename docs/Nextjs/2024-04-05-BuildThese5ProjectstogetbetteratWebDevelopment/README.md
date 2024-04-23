@@ -1,5 +1,5 @@
 ---
-title: "웹 개발 실력 향상을 위해 이 5개 프로젝트를 만들어 보세요!"
+title: "초보 프론트엔드 개발자를 위한 토이 프로젝트 5개 추천(2024년)"
 description: ""
 date: 2024-04-05 12:13
 sidebarDepth: 0
@@ -67,7 +67,7 @@ GitHub 링크
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-<img src = "./img/BuildThese5ProjectstogetbetteratWebDevelopment_2.png" />
+<img src="./img/BuildThese5ProjectstogetbetteratWebDevelopment_2.png" />
 
 썬더레이스는 macOS용 동적 배경화면을 만드는 무료 오픈소스 앱입니다. macOS Mojave부터 "동적 데스크톱" 및 "밝은/어두운 데스크톱" 유형의 배경화면이 포함되어 감탄스러운 것들이 있습니다. 썬더레이스 앱을 사용하면 몇 번의 클릭으로 이러한 배경화면을 쉽게 만들 수 있습니다.
 

@@ -1,5 +1,5 @@
 ---
-title: "제목: TypeScript의 'private' 키워드 사용이 JavaScript의 # 접두사 사용보다 우세한 이유친구야, TypeScript의 'private' 키워드를 사용하는 것이 JavaScript의 # 접두사를 사용하는 것보다 더 좋은 이유가 있어."
+title: "JavaScript의 # 접두사 대신 TypeScript의 'private'를 사용해야하는 이유 "
 description: ""
 date: 2024-04-05 17:38
 sidebarDepth: 0

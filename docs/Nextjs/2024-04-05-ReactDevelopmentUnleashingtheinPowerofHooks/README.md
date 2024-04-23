@@ -1,5 +1,5 @@
 ---
-title: "리액트 개발: 훅의 힘이 발휘되는 방법"
+title: "React에서 훅을 사용해야하는 이유"
 description: ""
 date: 2024-04-05 19:55
 sidebarDepth: 0

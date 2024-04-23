@@ -1,5 +1,5 @@
 ---
-title: "React 컴포넌트를 SOLID 원칙과 React Composition으로 유지보수하기 - CodeCraftsmanship #4"
+title: "React 컴포넌트를 React Composition으로 유지보수하기"
 description: ""
 date: 2024-04-05 09:24
 sidebarDepth: 0
@@ -148,7 +148,6 @@ export default function Example() {
 ## 기능 n°2
 
 그럼 다른 선택적인 기능이 있었던 것으로 Product Owner (항상 같은 분 😉)가 원하는 제안이 있습니다: 입력값이 일부 유효성 검사와 일치할 때 확인 표시기를 추가하는 것입니다. 다시 한 번 그는 매우 친절하게 목업을 제공해주었습니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -161,7 +160,6 @@ export default function Example() {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![SOLID React Composition](./img/KeepyourReactComponentsmaintainablewithSOLID-ReactCompositionCodeCraftsmanship4_3.png)
 
 뒷일로 돌아와서 컴포넌트에 한 가지 더 추가해보세요:
@@ -212,7 +210,6 @@ export default function Example() {
 ```
 
 ## 지금 이 코드는 정말 복잡하네요
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -311,7 +308,7 @@ React 18에서 Composition은 컴포넌트를 확장하는 가장 일반적인 �
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ```js
 <Parent property1={ <Children1 />} property2={ <Children2 />} />
 ```
@@ -376,8 +373,6 @@ export function Example1() {
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-
-표 태그를 Markdown 형식으로 변경하세요.
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

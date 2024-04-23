@@ -1,5 +1,5 @@
 ---
-title: "2024년에는 React가 필요 없을 거예요"
+title: "2024년에는 굳이 React를 쓰지 않아도 되는 이유"
 description: ""
 date: 2024-04-05 13:31
 sidebarDepth: 0
@@ -203,7 +203,6 @@ module.exports = {
 
 5. 프로젝트 구조:
 새로운 src 폴더를 프로젝트 루트 디렉토리에 만드세요:
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

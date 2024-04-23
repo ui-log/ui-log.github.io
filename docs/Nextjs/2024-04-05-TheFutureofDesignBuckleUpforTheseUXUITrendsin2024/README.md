@@ -1,5 +1,5 @@
 ---
-title: "디자인의 미래: 2024년 UX UI 트렌드에 대비하세요!"
+title: "디자인의 미래: 2024년 UX UI 트렌드 알아보기"
 description: ""
 date: 2024-04-05 10:02
 sidebarDepth: 0

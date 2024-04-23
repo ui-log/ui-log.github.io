@@ -1,5 +1,5 @@
 ---
-title: "밤새 AI 전문가로 떠오르는 현상: 기회와 함정"
+title: "누구나 AI 전문가로 떠오르는 현상"
 description: ""
 date: 2024-04-05 09:39
 sidebarDepth: 0

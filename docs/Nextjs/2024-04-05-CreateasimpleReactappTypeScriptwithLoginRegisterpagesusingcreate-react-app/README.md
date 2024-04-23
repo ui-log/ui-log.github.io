@@ -1,5 +1,5 @@
 ---
-title: "간단한 React 앱 (TypeScript)을 만들어보자 - create-react-app을 사용하여 Login 및 Register 페이지를 만들어보기"
+title: "create-react-app을 사용하여 Login 및 Register 페이지를 만들어보기"
 description: ""
 date: 2024-04-05 19:51
 sidebarDepth: 0

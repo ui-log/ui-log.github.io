@@ -1,5 +1,5 @@
 ---
-title: "바이트-리액트 + 리액트-라우터-돔: 최신 방식!!"
+title: "Vite-React + React-Router-Dom 로 프로젝트 셋팅하는 방법"
 description: ""
 date: 2024-04-05 12:58
 sidebarDepth: 0
@@ -107,7 +107,7 @@ npm run dev
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지 1](./img/Vite-ReactReact-Router-DomThelatestway_1.png)
 
 앞서 설치된 "일반적인" React와 다른 점을 발견할 수 있습니다:
@@ -118,7 +118,6 @@ npm run dev
 - 이 미니 튜토리얼의 목적을 벗어난 node_modules에 있는 다른 내용
 
 ![이미지 2](./img/Vite-ReactReact-Router-DomThelatestway_2.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

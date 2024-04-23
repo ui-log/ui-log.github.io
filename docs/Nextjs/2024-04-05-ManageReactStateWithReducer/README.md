@@ -1,5 +1,5 @@
 ---
-title: "리액트 상태를 리듀서로 관리하기"
+title: "리액트 상태를 Reducer로 관리하기"
 description: ""
 date: 2024-04-05 14:44
 sidebarDepth: 0
@@ -126,7 +126,6 @@ const reducer = (state: FormState, action: Action) => {
 ## 함수형 컴포넌트(Functional Component)
 
 이제, 주요 컴포넌트가 함수형 컴포넌트(FC)로 정의되었습니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

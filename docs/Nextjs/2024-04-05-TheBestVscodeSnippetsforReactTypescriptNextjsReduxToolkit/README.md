@@ -1,5 +1,5 @@
 ---
-title: "리액트 타입스크립트 + 넥스트지에스 + 리덕스 툴킷을 위한 최고의 VSCode 코드 조각들"
+title: "React Typescript + Nextjs + Redux Toolkit을 위한 VSCode 코드 Snippets들"
 description: ""
 date: 2024-04-05 19:47
 sidebarDepth: 0
@@ -197,7 +197,6 @@ link: "https://medium.com/@bhanu1776/the-best-vscode-snippets-for-react-typescri
 ```
 
 # Imports alias → imp & imd
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,5 +1,5 @@
 ---
-title: "리액트에서 사용되는 로드, 언로드, 그리고 비포언로드 이벤트 리스너: 의의, 사용 사례, 최선의 실천 방법 및 주의점"
+title: "리액트에서 사용되는 Load, Unload, and BeforeUnload Event Listeners"
 description: ""
 date: 2024-04-05 18:05
 sidebarDepth: 0

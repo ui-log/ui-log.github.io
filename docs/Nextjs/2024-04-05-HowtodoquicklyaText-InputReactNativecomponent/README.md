@@ -1,5 +1,5 @@
 ---
-title: "빠르게 Text-Input 리액트 네이티브 컴포넌트 만들기"
+title: "리액트 네이티브 텍스트 Input 컴포넌트 만들기"
 description: ""
 date: 2024-04-05 18:43
 sidebarDepth: 0
@@ -373,7 +373,6 @@ return (
 위 링크에서 입력 attributes에 대해 읽을 수 있습니다.
 
 이것은 backticks ()로 표시된 템플릿 리터럴입니다. 템플릿 리터럴 내부에서는 `${}`를 사용하여 식을 삽입합니다. 이 경우에는 조건식의 결과가 삽입되었습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -388,7 +387,6 @@ return (
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-```markdown
 textInput: 요소에 대한 기본 CSS 클래스 이름입니다.
 ${isInputEmpty || !isValidEmail ? “errorInput” : “”}: 이는 조건식입니다. 조건에 따라, isInputEmpty가 true거나 isValidEmail이 false인 경우 "errorInput" 문자열이 클래스 목록에 추가됩니다. 그렇지 않으면 빈 문자열이 추가됩니다.
 
@@ -399,7 +397,6 @@ export default TextInputWithValidation;
 이제 다른 클래스가 사용할 수 있도록 내보내세요.
 
 CSS 부분은 그냥 복사하여 붙여넣으면 상관없습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

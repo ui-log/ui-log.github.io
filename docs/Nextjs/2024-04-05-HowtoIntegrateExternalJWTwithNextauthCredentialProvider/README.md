@@ -1,5 +1,5 @@
 ---
-title: "외부 JWT를 Next Auth 자격 증명 제공자와 통합하는 방법"
+title: "외부 JWT를 Next Auth Credential Provider와 통합하기"
 description: ""
 date: 2024-04-05 16:16
 sidebarDepth: 0
@@ -213,7 +213,6 @@ export default NextAuth(authOptions)
 이제 사용자로부터 이메일과 비밀번호를 받을 수 있도록 자격 증명 제공자를 추가해야합니다.
 
 pages/api/auth 경로의 [...nextauth].js 파일에서. 
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -575,7 +574,6 @@ const fetchClient = async (url, options) => {
 옵션 매개변수를 사용하여 사용자 지정 헤더를 허용하며 전개 연산자를 사용하여 세션 객체를 사용할 수 있는 경우에만 JWT를 첨부할 수 있습니다.
 
 # 각 요청에 JWT 동적으로 첨부하기 (Axios 사용)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

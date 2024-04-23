@@ -1,5 +1,5 @@
 ---
-title: "데이터 푸시? 아마 WebSocket이 필요 없을지도 몰라요"
+title: "WebSocket 없이 데이터 푸시 알림 기능 사용하는 방법"
 description: ""
 date: 2024-04-05 16:14
 sidebarDepth: 0
@@ -147,7 +147,6 @@ npx nest new sse-test
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![PushDataMaybeYouDontNeedWebSocket](./img/PushDataMaybeYouDontNeedWebSocket_7.png)
 
 여기서는 @Get, @Post 등의 데코레이터로 식별되지 않지만 @Sse 데코레이터는 이것이 이벤트 스트림 유형의 인터페이스임을 나타냅니다.
@@ -170,7 +169,6 @@ stream() {
 ```
 
 반환된 것은 Observable 객체이며, 내부적으로 observer.next를 사용하여 메시지를 반환합니다. 어떤 JSON 데이터도 반환할 수 있습니다. 먼저 aaa를 반환하고, 2초 후에는 bbb를 반환하고, 5초 후에는 ccc를 반환합니다. 그런 다음 Frontend 페이지를 만듭시다: React 프로젝트를 만듭니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -482,7 +480,6 @@ stream3() {
 ![](./img/PushDataMaybeYouDontNeedWebSocket_22.png)
 
 ![](./img/PushDataMaybeYouDontNeedWebSocket_23.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

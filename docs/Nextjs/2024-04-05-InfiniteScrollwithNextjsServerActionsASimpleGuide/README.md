@@ -1,5 +1,5 @@
 ---
-title: "Next.js 서버 액션을 이용한 무한 스크롤: 간단한 안내"
+title: "Next.js 서버 액션을 이용한 무한 스크롤 구현하기"
 description: ""
 date: 2024-04-05 14:54
 sidebarDepth: 0
@@ -149,7 +149,6 @@ export default async function Home() {
 ### 사용자 목록을 자식 클라이언트 컴포넌트로 이동
 
 사용자 페이지의 내용을 자식 클라이언트 컴포넌트로 이동하십시오. src/components/UserList.tsx를 생성하고 src/app/page.tsx에 포함시킵니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,5 +1,5 @@
 ---
-title: "리액트 개발의 수준 높이기: Create React App (CRA)와 Vite 중 선택하기"
+title: "Create React App (CRA)와 Vite 최신 비교 (2024년)"
 description: ""
 date: 2024-04-05 15:30
 sidebarDepth: 0
@@ -47,12 +47,3 @@ React 애플리케이션을 구축하기 위한 다양한 도구들을 탐색하
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-
-# 스택데믹 🎓
-
-끝까지 읽어주셔서 감사합니다. 떠나시기 전에:
-
-- 작가를 응원하고 팔로우해주세요! 👏
-- 팔로우하기: X | LinkedIn | YouTube | Discord
-- 다른 플랫폼 방문하기: In Plain English | CoFeed | Venture | Cubed
-- 스택데믹닷컴에서 더 많은 콘텐츠를 만나보세요.

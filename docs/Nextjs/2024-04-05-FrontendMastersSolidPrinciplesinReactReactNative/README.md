@@ -1,5 +1,5 @@
 ---
-title: "프론트엔드 마스터: React에서의 SOLID 원칙 React Native"
+title: "React에서의 SOLID 원칙 React Native"
 description: ""
 date: 2024-04-05 12:42
 sidebarDepth: 0
@@ -661,6 +661,5 @@ const EditListItemForm = () => {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![FrontendMastersSolidPrinciplesinReact-ReactNative_6](./img/FrontendMastersSolidPrinciplesinReact-ReactNative_6.png)
-```

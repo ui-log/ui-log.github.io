@@ -1,5 +1,5 @@
 ---
-title: "👀 리액트의 useOptimistic Hook으로 미래를 탐험해봅시다 ⚛️"
+title: "리액트19 useOptimistic Hook 추가 및 내용 정리"
 description: ""
 date: 2024-04-05 13:40
 sidebarDepth: 0
@@ -10,7 +10,7 @@ link: "https://medium.com/gitconnected/exploring-the-future-with-reacts-useoptim
 ---
 
 
-```markdown
+
 ![React의 useOptimistic 훅을 활용해 미래를 탐험하기](./img/ExploringtheFuturewithReactsuseOptimisticHook_0.png)
 
 현대 React에서 함수형 컴포넌트와 관련된 가장 중요한 주제 중 하나는 React 훅입니다. 이들이 처음 소개된 것은 2018년 React Conf에서 Sophie Alpert와 Dan Abramov가 소개한 것이었고, 그 뒤로 Ryan Florence가 이를 활용하는 애플리케이션을 리팩토링하는 방법을 소개했습니다.
@@ -18,7 +18,6 @@ link: "https://medium.com/gitconnected/exploring-the-future-with-reacts-useoptim
 그리고 그것들은 개발자들 사이에서 새로운 인기 있는 요소가 되었습니다.
 
 오늘은 React의 Canary에서만 사용 가능한 새로운 실험적인 훅인 useOptimistic에 대해 이야기해보려고 합니다. 이 훅을 사용하면 React의 다음 버전을 기다리지 않아도 되고, React 소스 코드 저장소의 주요 브랜치를 추적하는 Canary를 통해 다가오는 기능을 테스트할 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

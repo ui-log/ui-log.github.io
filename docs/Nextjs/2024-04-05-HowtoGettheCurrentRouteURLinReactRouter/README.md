@@ -93,7 +93,6 @@ export default function App() {
 - hash: 해시, 예: #pricing.
 
 참고
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

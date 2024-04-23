@@ -1,5 +1,5 @@
 ---
-title: "리액트로 단일 로그인(SSO) 애플리케이션 구축하기: 단계별 안내"
+title: "리액트로 단일 로그인(SSO) 애플리케이션 만들기(단계별 안내)"
 description: ""
 date: 2024-04-05 18:54
 sidebarDepth: 0
@@ -59,7 +59,6 @@ SSO없이
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/BuildingaSingleSign-OnSSOApplicationwithReactAStep-by-StepGuide_0.png)
 
 # 전제 조건:
@@ -69,7 +68,6 @@ SSO없이
 - Node.js 및 npm
 - React.js
 - 텍스트 편집기(예: Visual Studio Code)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

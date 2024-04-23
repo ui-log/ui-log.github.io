@@ -1,5 +1,5 @@
 ---
-title: "React 앱을 AWS S3에 배포하는 방법"
+title: "React 사이트를 AWS S3에 배포하는 방법"
 description: ""
 date: 2024-04-05 17:11
 sidebarDepth: 0
@@ -159,7 +159,6 @@ Resource의 값을 "uriel-my-react-app"처럼 제 이름이 아닌 자신의 버
 
 아래와 같이 변경해주세요:
 
-```markdown
 ![이미지](./img/HowToDeployAReactAppToAWSS3_8.png)
 
 이제 인덱스 문서를 작성할 차례입니다. "index.html"을 입력하고 선택적인 오류 문서는 아무것도 작성하지 않습니다.
@@ -167,7 +166,6 @@ Resource의 값을 "uriel-my-react-app"처럼 제 이름이 아닌 자신의 버
 이제 변경 사항을 저장하시면 됩니다.
 
 이제 여러분의 버킷은 정적 웹 사이트를 호스팅할 준비가 되었습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

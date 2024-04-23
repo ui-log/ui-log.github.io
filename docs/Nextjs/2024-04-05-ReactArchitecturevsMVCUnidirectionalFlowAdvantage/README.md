@@ -1,5 +1,5 @@
 ---
-title: "리액트 아키텍처 대 MVC: 단방향 흐름의 장점."
+title: "리액트 아키텍처 대 MVC: 단방향 흐름의 장점"
 description: ""
 date: 2024-04-05 15:12
 sidebarDepth: 0

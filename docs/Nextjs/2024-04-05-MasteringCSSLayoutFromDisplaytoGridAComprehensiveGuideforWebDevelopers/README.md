@@ -1,5 +1,5 @@
 ---
-title: "CSS 레이아웃 마스터하기: 디스플레이부터 그리드까지 - 웹 개발자를 위한 포괄적인 가이드"
+title: "CSS 레이아웃 마스터하기: display부터 grid까지 "
 description: ""
 date: 2024-04-05 08:44
 sidebarDepth: 0

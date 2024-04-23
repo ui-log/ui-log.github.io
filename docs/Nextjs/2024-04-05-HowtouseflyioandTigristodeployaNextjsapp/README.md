@@ -1,5 +1,5 @@
 ---
-title: "파생물 또는 미생물 흔적: 어떻게 눈대중 지진을 알아내는가?"
+title: "fly.io and Tigris로 Nextjs 사이트 배포하는 방법"
 description: ""
 date: 2024-04-05 18:21
 sidebarDepth: 0
@@ -546,7 +546,7 @@ export async function DELETE(req) {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![How to use fly.io and Tigris to deploy a Next.js app](./img/HowtouseflyioandTigristodeployaNextjsapp_3.png)
 
 GET requests are pretty easy. Just go to http://localhost:3000/api/getusers.
@@ -554,7 +554,6 @@ GET requests are pretty easy. Just go to http://localhost:3000/api/getusers.
 Doing POST Requests
 
 ![How to use fly.io and Tigris to deploy a Next.js app](./img/HowtouseflyioandTigristodeployaNextjsapp_4.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -716,7 +715,6 @@ export function useFetch(url) {
 ```
 
 이제 usePost에 이 코드를 추가하세요:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -1089,12 +1087,7 @@ return (
     </div>
   </form>
 </div>
-
-<div className="bg-white p-4 rounded drop-shadow-md mb-4 mt-4">
-  <h1 className="text-2xl mb-4">사용자 업데이트</h1>
-  <form onSubmit={(e) => handleUpdateForm(e)}>
-    <div className="flex flex-wrap items-center mb-2">
-    <label className="p-2 w-36 border-solid border-2">ID</
+```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

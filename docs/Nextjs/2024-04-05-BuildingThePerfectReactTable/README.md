@@ -1,5 +1,5 @@
 ---
-title: "완벽한 React 테이블 구축하기"
+title: "React에서 테이블 쉽게 만드는 방법"
 description: ""
 date: 2024-04-05 17:18
 sidebarDepth: 0
@@ -622,7 +622,6 @@ export type TableProps<D extends Record<string, any>, ED extends Record<string, 
 ```
 
 또한 새로운 속성을 useReactTable 훅에 전달하여 라이브러리 코어 내에서 사용할 수 있도록 해야 합니다. 업데이트 이후 이 훅이 이렇게 보입니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -904,7 +903,6 @@ export const useGetBetsTableData = () => {
 ```
 
 그리고 이 후크를 메인 컴포넌트에서 이렇게 간단하게 사용하세요.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,5 +1,5 @@
 ---
-title: "Vue 3 디자인 시스템 시리즈 -1"
+title: "Vue 3 디자인 시스템으로 재사용 가능한 디자인 만들기"
 description: ""
 date: 2024-04-05 08:47
 sidebarDepth: 0
@@ -114,7 +114,6 @@ export default defineNuxtConfig({
 ```
 
 # 3- Font Awsome 설정
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

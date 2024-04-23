@@ -1,5 +1,5 @@
 ---
-title: "Angular v17이 이전에 해결할 수 없었던 문제를 우연히 해결한 방법"
+title: "Angular v17에서는 해결 가능한 이슈들"
 description: ""
 date: 2024-04-05 10:14
 sidebarDepth: 0
@@ -147,7 +147,6 @@ Angular 프로젝트는 ng build 명령어를 사용하여 빌드됩니다. 이 
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ```js
 (python -c "print('\u2714')") >> output.txt
 ```
@@ -157,7 +156,6 @@ Angular 프로젝트는 ng build 명령어를 사용하여 빌드됩니다. 이 
 셀프 호스팅된 에이전트를 사용하면, 파이프 라인 로그가 모두 에이전트의 컴퓨터에 저장되지 않고 Azure DevOps 서버로 로그가 파이프됩니다. 
 
 문제는 파이프라인 에이전트 내에서 'checkmark'인 '\u2714' 문자를 해독하려고 시도할 때 발생하며, 이는 colorama/ansitowin32.py 스크립트 파일에 관련한 오류 로그 부분에서 확인할 수 있습니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -179,7 +177,6 @@ D:\a\_work\1\s\build_scripts\windows\artifacts\cli\Lib\site-packages\colorama/an
 <img src="./img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_2.png" />
 
 기술적으로, 2단계와 3단계에서 우리의 압축된 프로젝트는 Azure Blob 저장소에 업로드되며, 여기서 ACR 빌드 에이전트가 해당 데이터를 가져옵니다. 마찬가지로, ACR 빌드 에이전트는 로그를 Azure Blob 저장소에 저장하고 이것들은 az acr 명령의 일부로 스트리밍됩니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -226,7 +223,6 @@ print(flush.decode('utf-8', errors='ignore'))
 Colorama는 Win32 API 호출을 사용하여 터미널의 상태를 수정하며, Win32 API는 기본적으로 유니코드 특정 문자를 지원하지 않는 ANSI 코드 페이지를 사용합니다. 우리가 유니코드 문자열을 표시하려고 하는데 유니코드 코드 페이지를 지원하지 않는 API를 사용하고 있어서 문제가 발생한 것입니다.
 
 이제 이 배경에서 무슨 일이 일어나는지 이해하기 시작했습니다. 하지만 실제 해결책을 살펴보기 전에 다른 가능성 있는 반쯤 마음에 드는 해결책들을 확인해 봅시다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -345,7 +341,6 @@ New-ItemProperty -LiteralPath 'HKLM:\SYSTEM\CurrentControlSet\Control\Nls\CodePa
 - "베타: 전 세계 언어 지원을 위해 유니코드 UTF-8 사용" 활성화하기
 
 ![이미지](./img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_4.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,5 +1,5 @@
 ---
-title: "다음 React 프로젝트에서 Context API와 Redux를 언제 사용해야 할까요?"
+title: "Nextjs 프로젝트에서 Context API와 Redux를 사용하는 방법"
 description: ""
 date: 2024-04-05 16:11
 sidebarDepth: 0

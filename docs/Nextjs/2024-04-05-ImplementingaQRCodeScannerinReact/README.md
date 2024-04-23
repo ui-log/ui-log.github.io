@@ -1,5 +1,5 @@
 ---
-title: "**React에서 QR 코드 스캐너 구현하기**"
+title: "React에서 QR 코드 스캐너 구현하기"
 description: ""
 date: 2024-04-05 14:32
 sidebarDepth: 0

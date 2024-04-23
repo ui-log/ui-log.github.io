@@ -1,5 +1,5 @@
 ---
-title: ""How to Become a Self-Taught UI/UX Designer""
+title: "UI/UX Designer가 되는 방법"
 description: ""
 date: 2024-04-05 10:05
 sidebarDepth: 0

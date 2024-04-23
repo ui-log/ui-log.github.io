@@ -1,5 +1,5 @@
 ---
-title: "친구야, Tailwind CSS와 React Icons로 응답형 네비게이션 바 만들기"
+title: "Tailwind CSS와 React Icons로 반응형 네비게이션 바 만들기"
 description: ""
 date: 2024-04-05 18:20
 sidebarDepth: 0

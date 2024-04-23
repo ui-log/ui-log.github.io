@@ -1,5 +1,5 @@
 ---
-title: "리액트 JS의 새로운 문서에서의 Best Practices"
+title: "React JS의 새로운 문서에서의 예제"
 description: ""
 date: 2024-04-05 14:22
 sidebarDepth: 0
@@ -2275,7 +2275,7 @@ useRef는 다음과 같은 객체를 반환합니다:
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![ReactJSBestPracticesFromTheNewDocs_4](./img/ReactJSBestPracticesFromTheNewDocs_4.png)
 
 ref은 React가 추적하지 않는 컴포넌트의 "비밀 주머니"와 같습니다.
@@ -2283,7 +2283,6 @@ ref은 React가 추적하지 않는 컴포넌트의 "비밀 주머니"와 같습
 ref는 수정할 수 없는(불변) 일반적인 JavaScript 객체입니다. 사실 useRef는 항상 동일한 ref 객체를 반환합니다. 수정할 수 있는(mutable) current 프로퍼티를 가지고 있습니다.
 
 위 그림에서 current 프로퍼티는 화살표로 표시되는데, 객체 프로퍼티로서 원하는 것을 추적할 수 있습니다. (또한, 보다 전문적인 관점에서 보면 JavaScript 객체 프로퍼티는 기본 C++ 런타임에서 "포인터"로 구현되므로, 화살표 비유가 매우 적절합니다.)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -3066,7 +3065,6 @@ useEffect(() => {
 일부 Effects는 cleanup 함수가 필요하지 않을 수도 있습니다. 그러나 더 자주 필요합니다. 하지만 필요 없다면, 리액트는 아무것도 수행하지 않는 빈 cleanup 함수를 반환한 것처럼 동작할 것입니다.
 
 ## 146. 개발 환경에서 Effects가 두 번 실행됩니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

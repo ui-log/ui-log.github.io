@@ -1,5 +1,5 @@
 ---
-title: "React Testing Library: act() 함수 이해하기와 사용하는 시기."
+title: "React Testing Library: act() 함수 이해하기"
 description: ""
 date: 2024-04-05 19:28
 sidebarDepth: 0

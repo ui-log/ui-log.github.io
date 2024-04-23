@@ -1,5 +1,5 @@
 ---
-title: "2024년을 위한 Vue 개발자를 위한 최적의 실천 방법"
+title: "2024년을 위한 Vue 개발자가 되기 위한 최적의 루트"
 description: ""
 date: 2024-04-05 09:12
 sidebarDepth: 0

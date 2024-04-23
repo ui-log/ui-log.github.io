@@ -115,7 +115,7 @@ npm run build
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지](./img/HowtomanuallydeployaReactapptoAzureAppService_4.png)
 
 Step 3: React 프로젝트용 Azure App Service 프로비저닝
@@ -123,7 +123,6 @@ Step 3: React 프로젝트용 Azure App Service 프로비저닝
 ![이미지](./img/HowtomanuallydeployaReactapptoAzureAppService_5.png)
 
 ![이미지](./img/HowtomanuallydeployaReactapptoAzureAppService_6.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -231,7 +230,7 @@ Azure 자원
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![How to manually deploy a React app to Azure App Service 18](./img/HowtomanuallydeployaReactapptoAzureAppService_18.png)
 
 ![How to manually deploy a React app to Azure App Service 19](./img/HowtomanuallydeployaReactapptoAzureAppService_19.png)
@@ -239,7 +238,6 @@ Azure 자원
 ![How to manually deploy a React app to Azure App Service 20](./img/HowtomanuallydeployaReactapptoAzureAppService_20.png)
 
 ![How to manually deploy a React app to Azure App Service 21](./img/HowtomanuallydeployaReactapptoAzureAppService_21.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

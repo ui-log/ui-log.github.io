@@ -1,5 +1,5 @@
 ---
-title: "React에서 통신의 잠금 해제: 시그널의 힘으로의 여정"
+title: "React에서 시그널 통신 하는 방법"
 description: ""
 date: 2024-04-05 18:39
 sidebarDepth: 0

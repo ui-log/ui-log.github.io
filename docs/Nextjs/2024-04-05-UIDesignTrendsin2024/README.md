@@ -1,5 +1,5 @@
 ---
-title: "2024년 UI 디자인 트렌드"
+title: "2024년 4월 UI 디자인 최신 트렌드 "
 description: ""
 date: 2024-04-05 09:47
 sidebarDepth: 0

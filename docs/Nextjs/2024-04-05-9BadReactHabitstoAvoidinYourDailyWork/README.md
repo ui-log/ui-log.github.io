@@ -1,5 +1,5 @@
 ---
-title: "일상 업무에서 지양해야 할 9가지 나쁜 React 습관"
+title: "실력이 늘고싶다면 바꿔야하는 나쁜 React 습관 9가지"
 description: ""
 date: 2024-04-05 17:06
 sidebarDepth: 0
@@ -381,11 +381,10 @@ React 개발에서 이 아홉 가지 나쁜 습관을 피함으로써 코드 품
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 각각의 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
 - 필자를 갈켜주고 팔로우해주세요 👏️️
 - 팔로우하기: X | LinkedIn | YouTube | Discord | Newsletter
 - 다른 플랫폼 방문: Stackademic | CoFeed | Venture | Cubed
 - PlainEnglish.io에서 더 많은 콘텐츠를 확인하세요
-```

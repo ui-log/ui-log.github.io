@@ -1,5 +1,5 @@
 ---
-title: "React를 사용하여 블로깅 웹사이트 만들기: 단계별 안내"
+title: "React를 사용하여 블로그 웹사이트 만드는 방법(단계별 안내)"
 description: ""
 date: 2024-04-05 18:11
 sidebarDepth: 0
@@ -417,7 +417,6 @@ if (!response.ok) {
 useFetch라는 사용자 지정 훅은 데이터 가져오기 로직을 처리하는 데 설계되었습니다. 코드를 더 모듈식으로 만들어서 다양한 구성 요소에서 재사용할 수 있도록 하는 것이 목표입니다.
 
 src 폴더 안에 useFetch.js라는 새 파일이 있습니다. 이 파일에는 사용자 지정 훅의 로직이 포함될 것입니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -597,15 +596,12 @@ handleSubmit 함수 내에서 블로그 객체가 생성되며, 사용자가 입
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-표 태그를 마크다운 형식으로 변경해주세요.
 
-```markdown
 | 순번 | 이름 | 나이 |
 |------|------|------|
 | 1    | 제인 | 25   |
 | 2    | 마크 | 30   |
 | 3    | 리사 | 28   |
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -774,7 +770,6 @@ export default firebase;
 파이어베이스에서 제공하는 실제 구성으로 firebaseConfig 안의 플레이스홀더 값을 변경해주세요.
 
 # 16. Environment Variables 사용하기
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

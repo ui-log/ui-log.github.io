@@ -1,5 +1,5 @@
 ---
-title: "단계별 가이드: AWS EC2에 React 앱 배포하기"
+title: "AWS EC2에 React 앱 배포하는 방법"
 description: ""
 date: 2024-04-05 15:33
 sidebarDepth: 0
@@ -71,7 +71,7 @@ git clone <당신의-저장소-URL>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지](./img/Step-by-StepGuideDeployingaReactApponAWSEC2_3.png)
 
 Git 저장소를 성공적으로 복제한 후에는 Visual Studio Code를 열고 복제된 저장소 폴더로 이동하세요. 그런 다음 다음 명령을 사용하여 React 앱을 생성하세요:
@@ -81,7 +81,6 @@ npx create-react-app .
 ```
 
 다음으로 App.js 파일을 편집하여 "Hello, world."라는 기본 페이지를 표시하세요.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -186,7 +185,7 @@ t3.micro 인스턴스 유형을 선택하고 "새 키페어 생성"을 클릭하
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 <img src="./img/Step-by-StepGuideDeployingaReactApponAWSEC2_10.png" />
 
 가상 사설망(VPC)과 서브넷은 기본 설정으로 둡니다. 공용 IP 자동 할당을 위해 "활성화"를 선택하세요. "보안 그룹 생성"을 클릭하고 이름을 지정해주세요.
@@ -194,7 +193,6 @@ t3.micro 인스턴스 유형을 선택하고 "새 키페어 생성"을 클릭하
 <img src="./img/Step-by-StepGuideDeployingaReactApponAWSEC2_11.png" />
 
 <img src="./img/Step-by-StepGuideDeployingaReactApponAWSEC2_12.png" />
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -302,7 +300,6 @@ sudo apt install nginx -y
 ```
 
 - 리액트를 위한 디렉토리 생성
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

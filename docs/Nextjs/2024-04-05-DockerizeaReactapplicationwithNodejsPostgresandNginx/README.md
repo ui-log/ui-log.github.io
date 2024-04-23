@@ -557,7 +557,6 @@ export default Home;
 ```
 
 Layout.jsx
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

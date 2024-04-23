@@ -1,5 +1,5 @@
 ---
-title: "React 19 향상된 기능 상세 코드 예제로 살펴보기"
+title: "React 19 추가된 기능 상세 코드 예제로 살펴보기"
 description: ""
 date: 2024-04-05 19:13
 sidebarDepth: 0
@@ -351,7 +351,6 @@ export default Form;
 클라이언트(form)와 서버(submitData) 구성 요소 간의 이 원활한 통신은 action 속성을 통해서만 가능합니다. 이 속성을 활용하여 개발자는 다른 계층에 위치한 구성 요소 간의 상호 작용을 조율할 수 있으며, 효율적인 데이터 제출과 처리를 보장할 수 있습니다.
 
 향상된 후크 섹션에서는 양식과 작업하는 방법을 향상시키는 세 가지 새로운 후크를 배울 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -470,7 +469,6 @@ const HomePage = () => {
 👉 링크, 메타, 스크립트, 스타일 및 제목에 대해 더 읽어보세요.
 
 # 6. 자산 로딩
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -1195,46 +1193,3 @@ React19의 릴리스 일정이 궁금하다면, 업데이트를 위해 캐너리
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-# 개요
-
-이 글에서 많은 내용을 다뤘습니다. React v19에 적용될 흥미로운 변경 사항을 간단히 살펴보겠습니다:
-
-- 🤖 미래 버전의 React에서 새로운 React 컴파일러가 도입될 예정입니다.
-- 🙌🏽 이제 자동 다시 렌더링, 메모이제이션, 상태 및 UI 최적화를 사용할 수 있게 되었습니다.
-- 🔮 use()와 같은 새로운 훅이 추가되어 프로미스 및 비동기 코드를 간소화하는 데 도움이 될 것입니다.
-- ⚙️ 이제 React에서 서버 측 컴포넌트 지원이 가능해졌습니다.
-- 📝 액션, useFormStatus(), useStatusForm(), useOptimistic()를 사용하여 더 나은 폼 처리가 가능해졌습니다.
-- 🖼 React는 suspense를 활용하여 자산 로딩을 최적화하여 성능을 향상시킵니다.
-- 🔗 React에서 웹 구성 요소 통합이 가능해졌습니다.
-
-```js
-💬 소통합시다! 💬
-저는 네트워킹 기회, 협업, 기술 커뮤니티 내에서 지식 공유에 열려 있습니다.
-흥미로운 프로젝트나 산업 트렌드에 대해 논의하거나 JavaScript 개발에서 지원이 필요한 경우
-언제든지 연락해주세요.
-
-📧 이메일: fakhry.messaoudi@gmail.com
-🌐 포트폴리오: https://fakhreddine-messaoudi.netlify.app
-🔗 링크드인: https://www.linkedin.com/in/97fakhreddine
-🔗 깃허브: https://github.com/97Fakhreddine
-```  
-
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-
-# Stackademic 🎓
-
-끝까지 읽어주셔서 감사합니다. 떠나시기 전에:
-
-- 작가를 클릭하고 팔로우해주세요! 👏
-- 팔로우하기: X | LinkedIn | YouTube | Discord
-- 다른 플랫폼 방문하기: In Plain English | CoFeed | Venture | Cubed
-- 더 많은 콘텐츠는 Stackademic.com에서 확인하세요

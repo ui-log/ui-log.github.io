@@ -1,10 +1,10 @@
 export const data = {
   "key": "v-a1906d8a",
   "path": "/docs/Tech/2024-04-07-Codesnippetscontributions/",
-  "title": "코드 스니펫 기여내용",
+  "title": "코ㅈ드 스니펫 기여내용",
   "lang": "ko",
   "frontmatter": {
-    "title": "코드 스니펫 기여내용",
+    "title": "코ㅈ드 스니펫 기여내용",
     "description": "",
     "date": "2024-04-07 04:16",
     "sidebarDepth": 0,

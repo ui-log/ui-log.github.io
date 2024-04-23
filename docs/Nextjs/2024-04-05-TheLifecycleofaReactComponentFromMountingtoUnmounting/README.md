@@ -1,5 +1,5 @@
 ---
-title: "React 컴포넌트의 라이프사이클: 마운트부터 언마운트까지"
+title: "React 컴포넌트의 라이프사이클: Mounting부터 Unmounting까지"
 description: ""
 date: 2024-04-05 15:53
 sidebarDepth: 0

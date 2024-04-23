@@ -1,5 +1,5 @@
 ---
-title: "마스터링 RTK Query: 리액트 네이티브 앱에서 효율적인 서버 측 데이터 관리를 위한 포괄적인 가이드"
+title: "리액트 네이티브 앱에서 효율적인 서버 측 데이터 관리를 위해 RTK Query 사용하기"
 description: ""
 date: 2024-04-05 15:03
 sidebarDepth: 0

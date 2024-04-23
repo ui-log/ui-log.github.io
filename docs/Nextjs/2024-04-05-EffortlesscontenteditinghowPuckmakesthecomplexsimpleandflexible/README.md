@@ -1,5 +1,5 @@
 ---
-title: "노력 없는 콘텐츠 편집: Puck가 복잡한 것을 간단하고 유연하게 만드는 방법"
+title: "Puck가 복잡한 것을 간단하고 유연하게 만드는 방법"
 description: ""
 date: 2024-04-05 13:56
 sidebarDepth: 0

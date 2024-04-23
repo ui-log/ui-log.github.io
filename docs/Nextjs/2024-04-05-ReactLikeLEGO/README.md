@@ -1,5 +1,5 @@
 ---
-title: "리액트처럼 레고 조립하기"
+title: "레고처럼 리액트 컴포넌트 조립하기"
 description: ""
 date: 2024-04-05 13:41
 sidebarDepth: 0
@@ -286,7 +286,6 @@ export const useAxios = <D, T, E>() => {
 - 해당 후크는 이전 섹션에서 보았던 D, T, E 제네릭 타입을 사용합니다.
 
 여기에 사용 예시가 있습니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

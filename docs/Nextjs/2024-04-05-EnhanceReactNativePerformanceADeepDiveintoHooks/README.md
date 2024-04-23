@@ -1,5 +1,5 @@
 ---
-title: "React Native 성능 향상: 훅에 대한 깊이 있는 고찰"
+title: "React Native 훅을 사용해서 성능 향상하는 방법"
 description: ""
 date: 2024-04-05 17:50
 sidebarDepth: 0
@@ -201,7 +201,6 @@ export default withCarouselContext(MemoizedCarouselB);
 더 들어가기: CarouselB 컴포넌트의 특별한 여정
 
 우리는 UX를 완벽하게하기 위해, 일반적인 캐러셀에 맞춘 CarouselB를 소개했습니다. 동적 쇼케이스로 상상되는 우리의 홈 화면은 단 하나가 아니라 다섯 개의 CarouselB 인스턴스를 자랑하며, 각각 15개의 생생한 이미지로 넘쳐납니다. 이 설계 선택은 임의적이지 않습니다. 홈 화면을 포괄적인 탐색 허브로 변신시키는 비전에서 비롯됩니다. 다양한 옵션을 미리 제시함으로써, 사용자 이동 단계를 최소화하고 원하는 콘텐츠로 신속하고 직접적인 여정을 가능케 하려고 합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

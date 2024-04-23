@@ -1,5 +1,5 @@
 ---
-title: "React Native 마스터-2: React Native 애플리케이션을 위한 최상의 관행들"
+title: " React Native 애플리케이션을 위해 지켜야하는 습관들"
 description: ""
 date: 2024-04-05 19:58
 sidebarDepth: 0
@@ -224,7 +224,6 @@ console.log(`"${exampleProduct.productName}" 제품의 최종 가격은 $${calcu
 ## 3. React 및 TypeScript imports를 더 깨끗하게 만들기 위해 경로 별칭 사용
 
 경로 별칭을 사용하면 코드에 바로가기를 제공하여 import 경로를 더 짧고 이해하기 쉽게 만들 수 있습니다. 특히 서로 중첩된 많은 폴더가 있는 경우 import를 읽기 쉽게 만듭니다.
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

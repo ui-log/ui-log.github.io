@@ -1,5 +1,5 @@
 ---
-title: "넥스트제이에스를 연습하며 실력을 키우기 위해 이 5가지 프로젝트를 만들어보세요!"
+title: "Nextjs 공부할 때 만들면 좋은 토이 프로젝트 5가지"
 description: ""
 date: 2024-04-05 17:21
 sidebarDepth: 0
@@ -10,7 +10,8 @@ link: "https://medium.com/@mohit-vaswani/build-these-5-projects-to-get-better-at
 ---
 
 
-<img src="./img/Buildthese5ProjectstoGetBetteratNextjs_0.png"/></p>
+<img src="./img/Buildthese5ProjectstoGetBetteratNextjs_0.png"/>
+
 Next.js는 React 앱을 만들기 위한 놀라운 프레임워크입니다. 다양한 이점을 제공합니다. 오늘은 Next.js를 사용하여 빠르고 매력적인 웹 애플리케이션을 만드는 방법을 배울 수 있는 다섯 가지 프로젝트를 제공하려고 합니다. 이 프로젝트들은 링크와 GitHub 저장소가 포함되어 있어 편리합니다.
 
 추가로, 이 기사 맨 아래에는 놀라운 50가지 Next.js 프로젝트 링크도 포함하였습니다.

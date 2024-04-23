@@ -1,5 +1,5 @@
 ---
-title: "React에서 링크를 통해 데이터 전달하기: 효과적인 데이터 전송을 위한 안내"
+title: "React에서 링크를 통해 데이터 전달하기"
 description: ""
 date: 2024-04-05 15:50
 sidebarDepth: 0

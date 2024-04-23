@@ -94,7 +94,7 @@ console.log(affordable);
 
 테이블 태그를 마크다운 형식으로 변경하세요.
 
-```markdown
+
 Destructuring은 배열에서 값들을 분리하거나 객체에서 속성들을 개별 변수로 풀어낼 수 있게 해주는 기능입니다. 이를 통해 데이터에 접근하는 과정을 간소화하고 코드를 더 깔끔하고 가독성 있게 만들 수 있습니다.
 
 ## 2.1 배열 구조 분해:
@@ -102,7 +102,6 @@ Destructuring은 배열에서 값들을 분리하거나 객체에서 속성들�
 배열에서 요소를 검색할 때 유용합니다. 예를 들어, [이름, 성, 나이]와 같은 사용자 데이터 배열이 있다면, 이를 한 줄로 각각의 변수로 추출할 수 있습니다.
 
 ## 2.2 객체 구조 분해:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -498,49 +497,3 @@ ES6 이상에서 도입된 이러한 기능들은 JavaScript에서 개발자 경
 
 좋은 코딩 하세요! 💻
 
-만약 이 블로그를 유익하게 받아들였다면 주저하지 말고 좋아요, 댓글 및 공유를 해주세요. Python, Django, React 및 JavaScript와 관련된 주제에 대한 토론, 질문 또는 더 많은 탐구를 위해 언제든지 연락하십시오. 더 많은 유익한 콘텐츠를 기대해 주세요!
-
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-
-| 👍🏻 Like | 🔗 share and | 👉🏻 follow for more. |
-|---|---|---|
-| Connect with me: |
-| Linkedin, Github |
-| |
-| # Continue Learning: |
-
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-
-- Arrow functions에 대해 더 알아보기
-- Destructuring에 대해 더 알아보기
-- Template Literals에 대해 더 알아보기
-- JavaScript 클래스에 대해 더 알아보기
-- Promises에 대해 더 알아보기
-- Async/await에 대해 더 알아보기
-
-# Stackademic 🎓
-
-끝까지 읽어주셔서 감사합니다. 떠나시기 전에:
-
-- 박수를 보내주시고 저희 작가를 팔로우해주세요! 👏
-- 저희를 팔로우하기: X | LinkedIn | YouTube | Discord
-- 다른 플랫폼도 방문해보세요: In Plain English | CoFeed | Venture | Cubed
-- Stackademic.com에서 더 많은 콘텐츠를 만나보세요

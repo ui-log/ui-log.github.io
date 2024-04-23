@@ -1,5 +1,5 @@
 ---
-title: "2023년 화려한 React 기능: 웹 개발의 미래를 엿보다"
+title: "2024년에 React로 가능한 다양한 기능들"
 description: ""
 date: 2024-04-05 13:24
 sidebarDepth: 0
@@ -10,7 +10,6 @@ link: "https://medium.com/better-programming/exciting-react-features-in-2023-a-l
 ---
 
 
-```markdown
 ![ExcitingReactFeaturesin2023ALookintotheFutureofWebDevelopment_0](./img/ExcitingReactFeaturesin2023ALookintotheFutureofWebDevelopment_0.png)
 
 웹 개발의 빠르게 변화하는 세계에서 React는 가장 인기 있는 JavaScript 라이브러리 중 하나로 등장했습니다. 시작 이후로 React는 개발자가 강력하고 상호작용적인 웹 애플리케이션을 만들 수 있는 방식을 혁신했습니다.
@@ -18,7 +17,6 @@ link: "https://medium.com/better-programming/exciting-react-features-in-2023-a-l
 2023년을 맞아 React는 지속적으로 발전하며 생산성을 향상시키고 개발 프로세스를 단순화하는 새로운 기능과 개선 사항을 도입했습니다. 2023년에 React에 도입된 흥미로운 기능들과 사용 방법을 보여주는 코드 예제를 소개하겠습니다.
 
 # 동시 모드(Concurrent Mode)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

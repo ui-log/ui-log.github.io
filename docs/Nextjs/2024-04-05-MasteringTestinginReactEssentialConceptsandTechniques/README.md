@@ -1,5 +1,5 @@
 ---
-title: "React에서 테스팅 마스터하기: 필수적인 개념과 기술"
+title: "React에서 테스팅 마스터하기"
 description: ""
 date: 2024-04-05 18:26
 sidebarDepth: 0
@@ -394,7 +394,6 @@ await act(async () => {
 재료(요소) 찾기:
 
 - 렌더링된 컴포넌트 내에서 특정 요소를 찾기 위해 @testing-library/react의 screen을 활용하세요: 
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

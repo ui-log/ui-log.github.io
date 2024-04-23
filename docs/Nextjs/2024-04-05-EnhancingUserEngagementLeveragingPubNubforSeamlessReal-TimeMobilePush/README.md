@@ -1,5 +1,5 @@
 ---
-title: "사용자 참여 강화: PubNub을 활용한 실시간 모바일 푸시 서비스의 원활한 활용"
+title: "PubNub을 활용한 실시간 모바일 푸시 서비스 만들기"
 description: ""
 date: 2024-04-05 14:38
 sidebarDepth: 0

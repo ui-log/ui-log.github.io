@@ -1,5 +1,5 @@
 ---
-title: "전자 및 리액트를 활용한 데스크톱 애플리케이션 개발"
+title: "Electron, React로 데스크톱 애플리케이션 만들기"
 description: ""
 date: 2024-04-05 13:17
 sidebarDepth: 0

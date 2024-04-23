@@ -1,5 +1,5 @@
 ---
-title: "HTMX 대 React: 완벽한 비교"
+title: "HTMX vs React 비교 정리"
 description: ""
 date: 2024-04-05 13:35
 sidebarDepth: 0

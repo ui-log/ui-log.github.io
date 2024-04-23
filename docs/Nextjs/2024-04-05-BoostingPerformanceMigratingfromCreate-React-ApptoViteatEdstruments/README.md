@@ -1,5 +1,5 @@
 ---
-title: "성능 향상: Edstruments에서 Create-React-App에서 Vite로 이주하기"
+title: "Create-React-App에서 Vite로 migration 해서 성능 향상하기"
 description: ""
 date: 2024-04-05 16:53
 sidebarDepth: 0

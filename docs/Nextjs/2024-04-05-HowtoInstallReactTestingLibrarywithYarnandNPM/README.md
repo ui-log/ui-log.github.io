@@ -1,5 +1,5 @@
 ---
-title: "React Testing Library를 Yarn과 NPM으로 설치하는 방법"
+title: "React Testing Library 설치하는 방법"
 description: ""
 date: 2024-04-05 18:19
 sidebarDepth: 0

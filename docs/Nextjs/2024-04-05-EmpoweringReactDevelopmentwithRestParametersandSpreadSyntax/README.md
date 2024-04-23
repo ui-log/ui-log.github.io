@@ -1,5 +1,5 @@
 ---
-title: "리액트 개발을 강화하는 Rest 파라미터와 Spread 구문"
+title: "리액트 개발자라면 알아둬야할 Rest 파라미터와 Spread 구문"
 description: ""
 date: 2024-04-05 19:57
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "Nx Workspace를 활용한 Micro Frontend 아키텍처 구축하기"
+title: "Nx Workspace를 활용한 Micro Frontend 아키텍처 구축하는 방법"
 description: ""
 date: 2024-04-05 17:48
 sidebarDepth: 0

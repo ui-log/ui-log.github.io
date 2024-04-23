@@ -1,5 +1,5 @@
 ---
-title: "리액트에서의 프라이빗 라우트"
+title: "리액트에서의 프라이빗 라우트 사용하는 방법"
 description: ""
 date: 2024-04-05 17:50
 sidebarDepth: 0

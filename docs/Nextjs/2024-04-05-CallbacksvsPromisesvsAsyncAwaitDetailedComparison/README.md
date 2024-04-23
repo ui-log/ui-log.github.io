@@ -1,5 +1,5 @@
 ---
-title: "콜백 vs. 프로미스 vs. Async Await: 자세한 비교"
+title: "콜백 vs. 프로미스 vs. Async Await: 자세한 비교 정리"
 description: ""
 date: 2024-04-05 16:33
 sidebarDepth: 0

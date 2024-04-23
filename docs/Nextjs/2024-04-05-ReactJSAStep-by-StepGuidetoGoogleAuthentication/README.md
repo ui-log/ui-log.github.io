@@ -1,5 +1,5 @@
 ---
-title: "리액트 JS: 구글 인증 단계별 안내"
+title: "React JS: 구글 인증 단계별 안내"
 description: ""
 date: 2024-04-05 18:48
 sidebarDepth: 0
@@ -377,23 +377,3 @@ Google 로그인은 시간을 절약하고 사용자 경험을 향상시키기 �
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-깃허브 저장소: React-Google-Authentication.
-
-링크드인: Muhammed Sahad
-
-이메일: Sahadmuhammed289@gmail.com
-
-그리고,
-
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-
-🎊🎉신년 복 많이 받으세요!🎊🎉✨

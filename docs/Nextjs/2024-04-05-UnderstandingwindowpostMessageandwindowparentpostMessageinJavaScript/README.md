@@ -40,7 +40,6 @@ otherWindow.postMessage(message, targetOrigin, [transfer]);
 - transfer (선택 사항): 다른 창으로 보내질 때 복제 대신 전달할 Transferable 객체들의 배열입니다 (예: ArrayBuffer, MessagePort). 이 매개변수는 대량 데이터를 처리할 때 성능을 향상시킬 때 유용합니다.
 
 예시: 서로 다른 출처의 두 HTML 파일을 고려해 보겠습니다 (예: https://origin1.com 및 https://origin2.com):
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -101,7 +100,6 @@ otherWindow.postMessage(message, targetOrigin, [transfer]);
 이 예시에서 origin1.html의 “Send Message” 버튼을 클릭하면, origin2.html을 연 다음 메시지 “Hello from Origin 1!”를 전송합니다. origin2.html 창은 메시지를 수신하고, 보안을 위해 오리진이 “https://origin1.com”과 일치할 경우에만 수신된 데이터와 함께 경고를 표시합니다.
 
 # 1. window.parent.postMessage:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

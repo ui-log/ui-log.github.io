@@ -1,5 +1,5 @@
 ---
-title: ""Command Pattern으로 코드 유연성을 개선한 방법""
+title: "Command Pattern으로 코드 유연성을 개선한 방법"
 description: ""
 date: 2024-04-05 16:41
 sidebarDepth: 0

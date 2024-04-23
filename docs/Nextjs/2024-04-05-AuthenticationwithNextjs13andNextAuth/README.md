@@ -1,5 +1,5 @@
 ---
-title: "Next.js 13 및 Next Auth를 사용한 인증 방법"
+title: "Next.js 13 및 Next Auth를 사용한 인증 방법 정리"
 description: ""
 date: 2024-04-05 15:22
 sidebarDepth: 0
@@ -10,7 +10,7 @@ link: "https://medium.com/ascentic-technology/authentication-with-next-js-13-and
 ---
 
 
-```markdown
+
 ![AuthenticationwithNextjs13andNextAuth_0.png](./img/AuthenticationwithNextjs13andNextAuth_0.png)
 
 Next.js는 강력한 SSR 프레임워크로, 서버 측 렌더링과 정적 사이트 생성을 제공하여 성능을 향상시킵니다. Next Auth와 결합하면 다양한 인증 솔루션을 제공하여 안전한 사용자 인증을 위한 강력한 동반자를 갖게 됩니다.
@@ -18,7 +18,6 @@ Next.js는 강력한 SSR 프레임워크로, 서버 측 렌더링과 정적 사�
 오늘은 사용자를 외부 API에 인증하는 로그인 흐름을 생성하는 방법을 살펴보겠습니다. 사용자는 이메일 주소와 비밀번호를 사용하여 로그인하고 JWT가 생성됩니다. JWT는 쿠키로 저장되어 모든 다음 요청과 함께 전송됩니다 (말 그대로 다음 요청과 함께). Next Auth를 사용하여 권한 부여 및 인증을 정책으로 적용하는 방법은 여러 가지가 있습니다. 미들웨어 수준에서 적용하거나 Next AuthgetServerSession을 사용하여 서버 구성 요소에서 적용하거나 심지어 Next Auth의 useSession을 사용하여 클라이언트 측에서 적용할 수도 있습니다.
 
 Next Auth는 Next.js 13 앱 라우터 구조와 페이지 라우터를 모두 지원합니다. 이 게시물에서는 앱 라우터 경로를 사용할 것입니다. 응용 프로그램 구조는 다음과 같습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -329,7 +328,6 @@ export default async function RootLayout ({
 ```
 
 왜 layout.tsx 안에 SessionProvider 자체를 감쌀 수 없는 걸까요? SessionProvider는 React Context를 사용하기 때문에("use client"를 사용하여 경계를 정의하지 않았기 때문에) 서버 측 구성 요소로 가져올 수 없습니다. 그러면 왜 클라이언트 구성 요소에서 사용하지 않을까요? SessionProvider에는 오로지 getServerSession을 통해서만 얻을 수 있는 세션 객체이어야 합니다. 이것도 모르는게 아닙니다. getServerSession()을 통해 가져온 세션을 session prop으로 전달해야 합니다. 이런 상황에서 따를 수 있는 패턴은 이렇습니다. 이 경우에서는 서버 측 객체가 전달될 새로운 클라이언트 측 구성 요소(client-provider.tsx)를 만들어서 prop으로 전달합니다. 그 후, 이 새로운 구성 요소를 서버 측인 layout.tsx로 가져와서 getServerSession()에서 얻은 세션을 session prop으로 전달해주세요!
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

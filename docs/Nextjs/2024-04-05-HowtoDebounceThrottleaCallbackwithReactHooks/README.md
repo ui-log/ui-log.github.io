@@ -1,5 +1,5 @@
 ---
-title: "리액트 훅을 사용하여 콜백을 디바운스하고 쓰로틀하는 방법"
+title: "리액트 훅을 사용하여 콜백을 Debounce하고 Throttle하는 방법"
 description: ""
 date: 2024-04-05 15:31
 sidebarDepth: 0

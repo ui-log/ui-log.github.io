@@ -1,5 +1,5 @@
 ---
-title: "샤드씬이 또 해냈습니다"
+title: "Shadcn이란 무엇인지 알아보기"
 description: ""
 date: 2024-04-05 19:06
 sidebarDepth: 0

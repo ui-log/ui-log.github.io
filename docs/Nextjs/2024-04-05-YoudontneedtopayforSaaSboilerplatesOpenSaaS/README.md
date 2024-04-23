@@ -1,5 +1,5 @@
 ---
-title: "SaaS 보일러플레이트를 위해 돈을 지불할 필요가 없어요 — Open SaaS"
+title: "SaaS 보일러플레이트를 무료로 사용하는 방법"
 description: ""
 date: 2024-04-05 12:30
 sidebarDepth: 0
@@ -350,7 +350,6 @@ const getResponse: GetResponse<RespArgs, string> = async ({ hours }) => { }
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 <img src="./img/YoudontneedtopayforSaaSboilerplatesOpenSaaS_8.png" />
 
 # AI를 활용한 예시 앱 (OpenAI API 사용)
@@ -358,7 +357,6 @@ const getResponse: GetResponse<RespArgs, string> = async ({ hours }) => { }
 <img src="./img/YoudontneedtopayforSaaSboilerplatesOpenSaaS_9.png" />
 
 AI 기술을 활용하면 새로운 앱 아이디어를 실현할 수 있습니다. 이것이 개발자들이 SaaS 앱을 만들기에 관심을 가지는 원인 중 하나입니다. 위에서 언급한 것처럼, 내가 처음으로 만든 SaaS 앱인 CoverLetterGPT는 "GPT Wrapper" 중 하나이며, 매월 약 $350의 수익을 올리는 것에 자부심을 갖고 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

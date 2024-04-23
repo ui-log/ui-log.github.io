@@ -608,7 +608,6 @@ export default store;
 ```
 
 index 파일에서 수정된 내용을 기준으로 root-sagas 파일까지 되돌아가보겠습니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -660,7 +659,6 @@ watchGetUser와 watchGetUsersList는 두 개의 사가이며, all을 사용하�
 fork와 all을 사용함으로써 Redux Saga에서 동시에 작업하는 사가를 생성하고 관리할 수 있습니다. 이를 통해 여러 작업을 병렬로 실행하여 애플리케이션을 더 반응적이고 효율적으로 만들 수 있습니다.
 
 run — Redux Saga에서 run 함수는 미들웨어를 시작하고 루트 사가를 실행하는 데 사용됩니다. run 함수는 루트 사가 함수인 하나의 인수를 사용합니다. 미들웨어 인스턴스의 run 함수에 루트 사가 함수를 전달하여 사가를 시작하고 발송된 액션에 대해 청취할 수 있게 합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,0 +1,314 @@
+<template><div><h2 id="도커-빌드에서-간단한-유니코드-문자가-문제를-일으켰을-때" tabindex="-1"><a class="header-anchor" href="#도커-빌드에서-간단한-유니코드-문자가-문제를-일으켰을-때" aria-hidden="true">#</a> 도커 빌드에서 간단한 유니코드 문자가 문제를 일으켰을 때</h2>
+<h1 id="소개" tabindex="-1"><a class="header-anchor" href="#소개" aria-hidden="true">#</a> 소개</h1>
+<p>소프트웨어 엔지니어로서 소프트웨어 문제가 발생하면 그 원인을 찾고 싶어합니다. 그리고 그에 따라서, 우리는 코드를 실행하는 시스템을 소유하거나 제어하지 못한다면 깊이 파고들지 못하여 문제를 해결하지 못할 수 있습니다.</p>
+<p>이 기사에서는 간단한 유니코드 문자가 문제를 일으켰는데, 이를 해결하려는 노력 끝에 문제가 해결되지 않는 것처럼 보였던 상황을 분석해보겠습니다. 걱정하지 마세요. 그 해법을 살펴보겠지만, 다른 문제를 일으킬 수 있음에 주의해야 합니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>문제에 대해 자세히 알아보기 전에 Angular, Azure Container Registry 및 Azure Pipelines Windows 에이전트가 어떻게 기여하는지 이해해야 합니다.</p>
+<p><a href="./img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_0.png">이미지</a></p>
+<h2 id="azure-파이프라인-에이전트" tabindex="-1"><a class="header-anchor" href="#azure-파이프라인-에이전트" aria-hidden="true">#</a> Azure 파이프라인 에이전트</h2>
+<p>Azure 파이프라인은 Microsoft의 솔루션으로 자동으로 빌드 및 코드 프로젝트를 테스트합니다. 이는 지속적인 통합 및 지속적인 전달 (CI/CD) 관행을 결합하여 애플리케이션을 어디든지 빌드, 테스트 및 릴리스할 수 있습니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>Azure 파이프라인 에이전트는 한 번에 하나의 작업을 실행하는 설치된 에이전트 소프트웨어가 있는 컴퓨팅 인프라(컴퓨터)입니다. CI/CD 작업은 이러한 작업 내에서 수행됩니다.</p>
+<p>Azure 파이프라인은 두 가지 주요 유형의 에이전트를 제공합니다:</p>
+<ul>
+<li>Microsoft 호스팅 에이전트(마이크로소프트에 의해 클라우드에서 호스팅 및 완전히 관리됨)</li>
+<li>자체 호스팅 에이전트(온프레미스 인프라에 호스팅됨)</li>
+</ul>
+<p>Azure 파이프라인 에이전트는 다양한 유형의 기계에 설치할 수 있습니다:</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<ul>
+<li>macOS 에이전트</li>
+<li>Linux 에이전트</li>
+<li>Windows 에이전트</li>
+<li>Docker 에이전트</li>
+</ul>
+<p>이게 왜 중요한지 곧 알게 될 거예요.</p>
+<h2 id="az-acr-build-커맨드란-무엇인가요" tabindex="-1"><a class="header-anchor" href="#az-acr-build-커맨드란-무엇인가요" aria-hidden="true">#</a> az acr build 커맨드란 무엇인가요?</h2>
+<p>익숙한 docker build 형식을 사용하는 경우, Azure CLI의 az acr build 커맨드는 프로젝트를 압축하고 임시 blob 저장소에 업로드하여 Microsoft 호스팅 에이전트가 가져와 docker build를 수행할 수 있게 합니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>빌드 과정 중에, 빌드 에이전트는 로그를 다시 보내줍니다 (나중에 왜 이게 중요한지 알게 될 거예요). 작업이 완료되면, 생성된 이미지가 Azure Container Registry에 푸시됩니다 — Microsoft Azure 클라우드에 호스팅된 관리되는 Docker 레지스트리 서비스입니다.</p>
+<h2 id="angular-소개" tabindex="-1"><a class="header-anchor" href="#angular-소개" aria-hidden="true">#</a> Angular 소개</h2>
+<p>Angular는 인기 있는 오픈 소스 프론트엔드 웹 애플리케이션 프레임워크로, 동적인 단일 페이지 웹 애플리케이션(SPA)과 점진적 웹 애플리케이션(PWA)을 만드는 데 사용됩니다.</p>
+<h1 id="angular이-책임을-질까요" tabindex="-1"><a class="header-anchor" href="#angular이-책임을-질까요" aria-hidden="true">#</a> Angular이 책임을 질까요?</h1>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>저희 Angular 애플리케이션의 Dockerfile을 살펴보겠습니다.</p>
+<p>Angular 프로젝트는 ng build 명령어를 사용하여 빌드됩니다. 이 명령어는 npm run build 명령어로 백그라운드에서 호출됩니다.</p>
+<p>버전 17 이전의 모든 Angular 버전에서는 빌드가 완료되면 npm run build 명령어에서 다음 텍스트가 출력됩니다:</p>
+<p><img src="@source/docs/Nextjs/2024-04-05-HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem/img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_1.png" alt="output"></p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>초록색 체크 표시가 문제를 만드는 요인입니다. 왜냐하면 &quot;✔&quot;는 유니코드 문자 (코드 U+2714)이기 때문이죠.</p>
+<h1 id="azure-devops-에이전트의-잘못" tabindex="-1"><a class="header-anchor" href="#azure-devops-에이전트의-잘못" aria-hidden="true">#</a> Azure DevOps 에이전트의 잘못</h1>
+<p>다음 YAML 파이프라인 정의와 함께 Azure 파이프라인에서 az acr build 명령을 Windows 에이전트에서 실행해 봅시다 (Windows OS의 중요성에 대해서는 곧 알아볼 것입니다):</p>
+<p>동일한 오류는 Python을 사용하여 Windows OS 기계에서 다음 명령을 사용하여 재현할 수 있습니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token punctuation">(</span>python <span class="token operator">-</span>c <span class="token string">"print('\u2714')"</span><span class="token punctuation">)</span> <span class="token operator">>></span> output<span class="token punctuation">.</span>txt
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h1 id="발생하는-위치-및-이유" tabindex="-1"><a class="header-anchor" href="#발생하는-위치-및-이유" aria-hidden="true">#</a> 발생하는 위치 및 이유</h1>
+<p>셀프 호스팅된 에이전트를 사용하면, 파이프 라인 로그가 모두 에이전트의 컴퓨터에 저장되지 않고 Azure DevOps 서버로 로그가 파이프됩니다.</p>
+<p>문제는 파이프라인 에이전트 내에서 'checkmark'인 '\u2714' 문자를 해독하려고 시도할 때 발생하며, 이는 colorama/ansitowin32.py 스크립트 파일에 관련한 오류 로그 부분에서 확인할 수 있습니다:</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token constant">D</span><span class="token operator">:</span>\a\_work\<span class="token number">1</span>\s\build_scripts\windows\artifacts\cli\Lib\site<span class="token operator">-</span>packages\colorama<span class="token operator">/</span>ansitowin32<span class="token punctuation">.</span>py
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>플로우 다이어그램을 보고, 모든 구성 요소가 서로 어떻게 대화하는지 살펴봅시다.</p>
+<img src="@source/docs/Nextjs/2024-04-05-HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem/img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_2.png" />
+<p>기술적으로, 2단계와 3단계에서 우리의 압축된 프로젝트는 Azure Blob 저장소에 업로드되며, 여기서 ACR 빌드 에이전트가 해당 데이터를 가져옵니다. 마찬가지로, ACR 빌드 에이전트는 로그를 Azure Blob 저장소에 저장하고 이것들은 az acr 명령의 일부로 스트리밍됩니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>Azure 파이프라인 빌드 에이전트에서 발생하는 오류는 Azure Blob storage에서 로그를 스트리밍하고 표준 출력으로 인쇄하는 동안 3단계와 4단계 사이에 발생합니다.</p>
+<p>Azure CLI 서버는 colorama(파이썬 패키지)를 사용하여 터미널 텍스트에 색을 입히기 위해 stdout을 감싸고 찾은 ANSI 시퀀스를 제거하여(출력물에서 엉터리 문자로 나타날 것) Win32 API 호출을 통해 터미널의 상태를 수정합니다.</p>
+<h2 id="azure-cli-소스-코드-깊이-파헤치기" tabindex="-1"><a class="header-anchor" href="#azure-cli-소스-코드-깊이-파헤치기" aria-hidden="true">#</a> Azure CLI 소스 코드 깊이 파헤치기</h2>
+<p>Azure CLI의 오류는 command_modules/acr/_stream_utils.py 파일 143번째 줄에서 발생합니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> colorama
+<span class="token punctuation">.</span>
+<span class="token punctuation">.</span>
+colorama<span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">.</span>
+<span class="token punctuation">.</span>
+<span class="token function">print</span><span class="token punctuation">(</span>flush<span class="token punctuation">.</span><span class="token function">decode</span><span class="token punctuation">(</span><span class="token string">'utf-8'</span><span class="token punctuation">,</span> errors<span class="token operator">=</span><span class="token string">'ignore'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>이 줄의 역할은 UTF-8로 디코딩된 바이트 문자열(블롭 스토리지에서 검색된 로그 데이터)을 출력하는 것뿐입니다. 그러나 colorama 패키지가 가져와 초기화되어 있으므로 이후 print 명령 호출은 텍스트에 색상이나 스타일을 추가하기 위해 colorama 기능을 사용할 것입니다.</p>
+<p>Colorama는 Win32 API 호출을 사용하여 터미널의 상태를 수정하며, Win32 API는 기본적으로 유니코드 특정 문자를 지원하지 않는 ANSI 코드 페이지를 사용합니다. 우리가 유니코드 문자열을 표시하려고 하는데 유니코드 코드 페이지를 지원하지 않는 API를 사용하고 있어서 문제가 발생한 것입니다.</p>
+<p>이제 이 배경에서 무슨 일이 일어나는지 이해하기 시작했습니다. 하지만 실제 해결책을 살펴보기 전에 다른 가능성 있는 반쯤 마음에 드는 해결책들을 확인해 봅시다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<h1 id="로그를-비활성화하면-문제가-해결될-것으로-생각되지만-더-나은-방법이-있습니다" tabindex="-1"><a class="header-anchor" href="#로그를-비활성화하면-문제가-해결될-것으로-생각되지만-더-나은-방법이-있습니다" aria-hidden="true">#</a> 로그를 비활성화하면 문제가 해결될 것으로 생각되지만, 더 나은 방법이 있습니다.</h1>
+<p>이상적으로는 az acr build 명령을 사용하여 로그를 완전히 비활성화하고 --no-logs 인수를 추가하는 것입니다. 그러나 이는 빌드 로그를 완전히 잃는다는 점에서 가장 나쁜 해결책입니다.</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>az acr build <span class="token operator">--</span>no<span class="token operator">-</span>logs <span class="token operator">--</span>registry <span class="token function">$</span><span class="token punctuation">(</span>Registry<span class="token punctuation">)</span> <span class="token operator">--</span>image <span class="token string">"$(image):$(tag)"</span> <span class="token punctuation">.</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<ul>
+<li><code v-pre>ng build</code> 명령의 진행 로그를 progress=false 인자로 비활성화하세요. 진행 관련 일부 로그를 잃지만 이상적인 해결책은 아닙니다.</li>
+</ul>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token constant">RUN</span> npm run build <span class="token operator">--</span> <span class="token operator">--</span>progress<span class="token operator">=</span><span class="token boolean">false</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h1 id="진짜-해결책" tabindex="-1"><a class="header-anchor" href="#진짜-해결책" aria-hidden="true">#</a> 진짜 해결책</h1>
+<p>해결책을 살펴보기 전에, 인코딩 및 문자 세트 (코드 페이지)가 어떻게 작동하는지 이해하는 것이 좋습니다. Unicode 및 Character Sets (No Excuses!) 기사를 읽으면 개발자가 꼭 알아야 할 최소한의 내용을 이해할 수 있습니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<ul>
+<li>ACP는 ANSI (미국 국가 표준 협회) 코드 페이지를 의미하며, 기본적으로 미국 및 서유럽 지역에서는 Windows-1252 문자 집합으로 설정됩니다. 이는 레거시 GUI 애플리케이션에서 사용됩니다.</li>
+<li>OEMCP는 원본 장비 제조업체 코드 페이지를 의미하며, 기본적으로는 원본 IBM PC의 문자 집합인 437로 설정됩니다. 이는 레거시 콘솔 애플리케이션에서 사용됩니다.</li>
+</ul>
+<p>PowerShell을 통해 Windows 레지스트리에서 현재 정의된 ANSI 코드 페이지 및 OEM 코드 페이지를 확인할 수 있습니다. 아래의 레지스트리 경로를 살펴보세요:</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>Get<span class="token operator">-</span>ItemProperty <span class="token constant">HKLM</span><span class="token operator">:</span>\<span class="token constant">SYSTEM</span>\CurrentControlSet\Control\Nls\CodePage `
+  <span class="token operator">|</span> Select<span class="token operator">-</span>Object <span class="token constant">OEMCP</span><span class="token punctuation">,</span> <span class="token constant">ACP</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/docs/Nextjs/2024-04-05-HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem/img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_3.png" alt="이미지"></p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>지역 설정에 따라이 값은 코드 페이지 식별자 목록 중 아무것이나 가질 수 있습니다. 가장 일반적인 것들은 다음과 같습니다:</p>
+<ul>
+<li>874-타이</li>
+<li>932-ShiftJIS — 일본</li>
+<li>936-GBK — 중국 (중화인민공화국, 싱가포르)</li>
+<li>949-한국 통합 한글</li>
+<li>950-Big5 Extended — 중국 (대만, 홍콩 특별 행정구)</li>
+<li>1250-중앙 유럽</li>
+<li>1251-키릴 자모</li>
+<li>1252-U.S. (ANSI)</li>
+<li>1253-그리스</li>
+<li>1254-터키</li>
+<li>1255-히브리어</li>
+<li>1256-아랍어</li>
+<li>1257-발트</li>
+</ul>
+<p>cmd.exe와 powershell.exe에서 텍스트는 현재 지정된 ANSI 코드 페이지를 사용하여 작성 및 읽기됩니다.</p>
+<p>유니코드 특정 문자를 인코딩하기 위해 Windows 레지스트리 항목을 변경하여 Windows가 UTF-8 인코딩 (코드 페이지 65001)을 사용하도록해야 합니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>New<span class="token operator">-</span>ItemProperty <span class="token operator">-</span>LiteralPath <span class="token string">'HKLM:\SYSTEM\CurrentControlSet\Control\Nls\CodePage'</span> <span class="token operator">-</span>Name <span class="token string">'ACP'</span> <span class="token operator">-</span>Value <span class="token string">'65001'</span> <span class="token operator">-</span>PropertyType String <span class="token operator">-</span>Force<span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>이와 유사한 결과를 얻는 방법은 전 세계 언어 지원을 위해 유니코드 UTF-8을 사용하는 베타 기능을 활성화하는 것입니다.</p>
+<ul>
+<li>intl.cpl 실행</li>
+<li>&quot;관리&quot; 탭 열기</li>
+<li>&quot;시스템 지역 설정 변경&quot; 열기</li>
+<li>&quot;베타: 전 세계 언어 지원을 위해 유니코드 UTF-8 사용&quot; 활성화하기</li>
+</ul>
+<p><img src="@source/docs/Nextjs/2024-04-05-HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem/img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_4.png" alt="이미지"></p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<h2 id="이-솔루션이-다른-문제를-일으키는-방법" tabindex="-1"><a class="header-anchor" href="#이-솔루션이-다른-문제를-일으키는-방법" aria-hidden="true">#</a> 이 솔루션이 다른 문제를 일으키는 방법</h2>
+<p>그러나 이로 인해 낡은 Windows 버전에서 부팅 문제가 발생하거나 PowerShell이 작은 글꼴 크기로 고정되거나 텍스트가 잘못 표시될 수 있는 등의 다른 문제가 발생할 수 있습니다. 따라서 이 문제를 해결함으로써 다른 문제가 발생할 수도 있습니다.</p>
+<p>그러니 여기서는 사실 두 악 중에 작은 악을 택하는 것입니다.</p>
+<h2 id="linux-에이전트" tabindex="-1"><a class="header-anchor" href="#linux-에이전트" aria-hidden="true">#</a> Linux 에이전트</h2>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>지금 문제는 Linux 기반 Azure DevOps 에이전트에서도 동일한 오류가 발생하는가요? 그 답은 아닙니다. 왜냐하면 colorama에서 터미널 출력을 변경하기 위해 Win32 API 호출을 할 필요가 없기 때문이죠.</p>
+<h1 id="angular-버전-17-x가-이-문제를-해결한-방법" tabindex="-1"><a class="header-anchor" href="#angular-버전-17-x가-이-문제를-해결한-방법" aria-hidden="true">#</a> Angular 버전 17.x가 이 문제를 해결한 방법</h1>
+<p>음, 정말 간단합니다. Angular 버전 17부터는 'ng build' 명령어의 빌드 출력에 '✔' (유니코드) 문자가 더 이상 표시되지 않아 Win32 API와의 인코딩 문제를 일으키지 않습니다. 그게 전부입니다.</p>
+<p><img src="@source/docs/Nextjs/2024-04-05-HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem/img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_5.png" alt="How Angular v17 Accidentally Solved a Previously Unsolvable Problem"></p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<h1 id="결론" tabindex="-1"><a class="header-anchor" href="#결론" aria-hidden="true">#</a> 결론</h1>
+<p>보이지 않는 해결책을 가진 코딩 문제는 처음에는 좌절스럽기도 하지만, 이것을 해결하는 것이 바로 우리 소프트웨어 엔지니어들이 하는 일입니다. 이러한 문제들은 우리의 인내와 끈기를 시험하며, 해결된 후에는 귀중한 경험과 배경에서 어떻게 일이 작동하는지에 대한 세밀한 통찰력을 제공합니다.</p>
+<p>명확한 해결책이 없는 도중 장애물을 마주치는 것은 desparate할 수 있지만, 이것이 우리에게 성장과 학습의 기회를 제공하는 것을 기억하는 것이 중요합니다. 궁극적으로, 이것은 우리에게 다른 소프트웨어 엔지니어들과 구분되는 깊은 이해력을 제공합니다.</p>
+<p>이것이 과거에 직면한 보이지 않는 해결이 불가능한 코딩 문제를 다시 해결하고 재시도하는 동기부여가 되길 바랍니다.</p>
+<!-- ui-log 수평형 -->
+<p><ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-4877378276818686"
+  data-ad-slot="9743150776"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins></p>
+<component is="script">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</component>
+<p>이 기사에서 사용된 모든 소스 코드는 내 GitHub 저장소에 있습니다.</p>
+<h1 id="평문으로-🚀" tabindex="-1"><a class="header-anchor" href="#평문으로-🚀" aria-hidden="true">#</a> 평문으로 🚀</h1>
+<p>In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:</p>
+<ul>
+<li>작가를 박수로 응원하고 팔로우하는 것을 잊지 마세요️👏️️</li>
+<li>팔로우하기: X | LinkedIn | YouTube | Discord | Newsletter</li>
+<li>다른 플랫폼 방문하기: Stackademic | CoFeed | Venture | Cubed</li>
+<li>PlainEnglish.io에서 더 많은 컨텐츠를 확인하세요</li>
+</ul>
+</div></template>

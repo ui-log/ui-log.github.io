@@ -1,5 +1,5 @@
 ---
-title: "복잡한 시스템: 양식"
+title: "복잡한 form 작성 방법"
 description: ""
 date: 2024-04-05 09:51
 sidebarDepth: 0
@@ -158,7 +158,7 @@ link: "https://medium.com/@dinashkenazi/complex-systems-forms-2d6440a572c2"
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지](./img/ComplexSystemsForms_1.png)
 
 팝업 폼은 간단하고 짧은 양식을 채우는 경우에 이점이 있습니다. 또한 제품의 여러 곳에서 양식을 작성할 수 있는 경우에도 도움이 될 수 있습니다.
@@ -169,7 +169,6 @@ link: "https://medium.com/@dinashkenazi/complex-systems-forms-2d6440a572c2"
 - 빠른 완료 시간
 - 사용자 화면 이동을 방해하지 않음
 - 다른 화면에서 프롬프트 될 수 있음
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -404,7 +403,6 @@ link: "https://medium.com/@dinashkenazi/complex-systems-forms-2d6440a572c2"
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![ComplexSystemsForms_10](./img/ComplexSystemsForms_10.png)
 
 Aligning to the right:
@@ -412,7 +410,6 @@ Aligning to the right:
 When labels are aligned to the right, the spacing between the label and the input is inconsistent. However, this format makes it easier to scan the labels. Yet, it could make it harder to find related input due to the visual distance from the label.
 
 This format works well with long labels and long forms.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -554,7 +551,7 @@ This format works well with long labels and long forms.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지](./img/ComplexSystemsForms_18.png)
 
 ## 경고
@@ -562,7 +559,6 @@ This format works well with long labels and long forms.
 대부분의 경고는 팝업 형태로 나타납니다. 사용자들이 자신의 행동의 결과에 대해 경고합니다. 이렇게 하면 사용자의 작업이 차단되고 그 행동의 결과를 알려줍니다.
 
 ![이미지](./img/ComplexSystemsForms_19.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

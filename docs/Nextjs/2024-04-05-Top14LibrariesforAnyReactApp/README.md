@@ -1,5 +1,5 @@
 ---
-title: "React 앱에 필요한 상위 14개 라이브러리"
+title: "React 앱 개발에 반드시 필요한 14개 라이브러리"
 description: ""
 date: 2024-04-05 13:04
 sidebarDepth: 0

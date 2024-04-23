@@ -1,5 +1,5 @@
 ---
-title: "React에서 오류를 처리하는 방법: 완벽한 가이드"
+title: "React에서 에러를 처리하는 방법"
 description: ""
 date: 2024-04-05 14:09
 sidebarDepth: 0
@@ -576,7 +576,6 @@ const ComponentWithBoundary = () => {
 ```
 
 하지만. 우리는 여전히 처음부터 다시 시작해야 합니다: 모든 컴포넌트는 "에러" 상태를 관리해야 하며 더 중요한 것은 무엇을 해야 하는지에 대한 결정을 내려야 합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

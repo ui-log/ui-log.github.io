@@ -67,7 +67,6 @@ typeof 연산자는 각 값의 타입을 알려줍니다. JavaScript 원시 데�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/TheimmutabilityunchangeabilitystaticityinJSandReact_1.png)
 
 실패해요; 원래의 문자열이 그대로 남아 있어요.
@@ -75,7 +74,6 @@ typeof 연산자는 각 값의 타입을 알려줍니다. JavaScript 원시 데�
 # 그렇다면 데이터 변이는 어떻게 발생할까요?
 
 아래에 객체로 표현된 내 작은 것부터 시작해봅시다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -88,7 +86,7 @@ typeof 연산자는 각 값의 타입을 알려줍니다. JavaScript 원시 데�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 <img src="./img/TheimmutabilityunchangeabilitystaticityinJSandReact_2.png" />
 
 하지만 할머니는 아기를 "Haultsy"라고 불러요 (완전 오해, 말할 가치가 없어요). 코드에서는:
@@ -96,7 +94,6 @@ typeof 연산자는 각 값의 타입을 알려줍니다. JavaScript 원시 데�
 <img src="./img/TheimmutabilityunchangeabilitystaticityinJSandReact_3.png" />
 
 아내가 집에 오자 아이의 이름이 바뀐 것을 발견해요.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -257,9 +254,8 @@ Object.assign은 첫 번째 매개변수로 생성된 빈 객체에 두 번째 �
 
 실용적인 예제가 소설 형식으로 설명하는 것보다 더 도움이 될 것이라고 믿습니다. 다음 코드로 문제를 설명해 보겠습니다.
 
-```markdown
+
 ![image](./img/TheimmutabilityunchangeabilitystaticityinJSandReact_9.png)
-```
 
 # 코드 검토
 

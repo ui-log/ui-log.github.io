@@ -1,14 +1,13 @@
 ---
-title: "5가지 규칙: Testing Library를 활용한 유지보수 가능한 React 유니트 테스트 작성하기 — CodeCraftsmanship #6"
+title: "Testing Library를 활용한 React 유닛 테스트 작성하기"
 description: ""
 date: 2024-04-05 17:41
 sidebarDepth: 0
 tag: Tech
-thumbnail: 
+thumbnail:
 originalTitle: "5 Rules to write maintainable React unit tests with testing-library — CodeCraftsmanship #6"
 link: "https://medium.com/interaction-dynamics/5-rules-to-write-maintainable-react-unit-tests-with-testing-library-codecraftsmanship-6-02572833ec4b"
 ---
-
 
 단위 테스트는 테스트 피라미드의 기초이자 신뢰할 수 있는 애플리케이션의 기반이 됩니다. React에서는 testing-library 라이브러리가 두드러집니다. 많은 개발자들이 이를 사용하여 테스트를 작성하는 것을 보곤 합니다.
 
@@ -19,6 +18,7 @@ link: "https://medium.com/interaction-dynamics/5-rules-to-write-maintainable-rea
 # AAA 패턴
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -40,6 +40,7 @@ AAA 패턴은 개발 커뮤니티 전체에서 표준으로 사용됩니다:
 제 측면에서는 각 테스트를 3 단락으로 나누겠습니다:
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -51,17 +52,17 @@ AAA 패턴은 개발 커뮤니티 전체에서 표준으로 사용됩니다:
 </component>
 
 ```js
-it('onChange가 트리거되어야 합니다', async () => {
+it("onChange가 트리거되어야 합니다", async () => {
   // 사전 준비
-  const onChange = jest.fn()
-  const { user } = renderTest({ onChange })
+  const onChange = jest.fn();
+  const { user } = renderTest({ onChange });
 
   // 실행
-  await user.type(screen.getByTestId(dataTestId), 'foo')
-  
+  await user.type(screen.getByTestId(dataTestId), "foo");
+
   // 단언
-  expect(onChange).toHaveBeenCalled()
-})
+  expect(onChange).toHaveBeenCalled();
+});
 ```
 
 # 사용자 이벤트
@@ -71,6 +72,7 @@ it('onChange가 트리거되어야 합니다', async () => {
 testing-library를 사용하면 개발자들이 자주 사용하는 선택지는 fireEvent를 사용하는 것입니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -112,6 +114,7 @@ it('해당 요소를 클릭해야 합니다', async () => {
 ```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -127,18 +130,19 @@ it('해당 요소를 클릭해야 합니다', async () => {
 컴포넌트가 프로퍼티로 객체를 필요로 할 때, 종종 다음과 같은 코드를 볼 수 있어요:
 
 ```js
-it('should render hello', () => {
-  const user = { id: 'foo', firstName: 'John', lastName: 'Doe' }
+it("should render hello", () => {
+  const user = { id: "foo", firstName: "John", lastName: "Doe" };
 
-  render(<HelloWorld user={user} />)
+  render(<HelloWorld user={user} />);
 
-  expect(screen.queryByText('John Doe')).toBeInTheDocument()
-})
+  expect(screen.queryByText("John Doe")).toBeInTheDocument();
+});
 ```
 
 하지만 User 타입에 새로운 프로퍼티를 추가할 때마다, 초기화된 사용자를 사용하는 모든 테스트를 업데이트해야 해요. 이 타입을 많은 테스트에서 사용할 때, 많은 변경을 필요로 해요.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -152,13 +156,13 @@ it('should render hello', () => {
 해결책은 기본 사용자를 만들고 필요한 속성을 재정의할 수 있는 모의 함수를 생성하는 것입니다. 그런 다음 사용자가 필요할 때마다 이 함수를 재사용하면 됩니다:
 
 ```js
-it('should render hello', () => {
-  const user = mockUser({ firstName: 'John', lastName: 'Doe' })
+it("should render hello", () => {
+  const user = mockUser({ firstName: "John", lastName: "Doe" });
 
-  render(<HelloWorld user={user} />)
+  render(<HelloWorld user={user} />);
 
-  expect(screen.queryByText('John Doe')).toBeInTheDocument()
-})
+  expect(screen.queryByText("John Doe")).toBeInTheDocument();
+});
 ```
 
 테스트에 필요한 속성만 재정의하면 사용자에 추가 속성이 생겨도 이 테스트에 손 대지 않아도 됩니다.
@@ -166,6 +170,7 @@ it('should render hello', () => {
 모의 빌더를 만드는 예제는 이곳에서 찾을 수 있습니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -185,6 +190,7 @@ it('should render hello', () => {
 컴포넌트의 종속성을 모킹하기 위해 jest.mock을 사용하는 개발자들을 종종 보게 됩니다:
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -196,11 +202,11 @@ it('should render hello', () => {
 </component>
 
 ```js
-jest.mock('react-i18next', () => ({
+jest.mock("react-i18next", () => ({
   useTranslation: () => ({
-    t: (v: string) => v
-  })
-}))
+    t: (v: string) => v,
+  }),
+}));
 
 //..
 ```
@@ -213,6 +219,7 @@ jest.mock('react-i18next', () => ({
 ## 래퍼 사용하기
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -228,21 +235,21 @@ jest.mock('react-i18next', () => ({
 랩퍼는 예를 들어 Context Provider나 상태가 이미 초기화된 Redux Provider가 될 수 있습니다.
 
 ```js
-const Wrapper: React.FC<PropsWithChildren> = ({ children }) => 
-  <Provider store={alreadyInitializedState}>{children}</Provider>
+const Wrapper: React.FC<PropsWithChildren> = ({ children }) => <Provider store={alreadyInitializedState}>{children}</Provider>;
 
-it('...을 렌더링해야 합니다.', () => {
+it("...을 렌더링해야 합니다.", () => {
   //...
 
-  render(<Component />, { wrapper: Wrapper })
+  render(<Component />, { wrapper: Wrapper });
 
   // ...
-})
+});
 ```
 
 대규모 아키텍처에서는 컴포넌트가 종종 여러 프로바이더에 의존하므로 해당 테스트는 상태, HTTP 호출, 번역, 다른 맥락 등을 위한 여러 래퍼(wrapper)가 필요하며 코드가 복잡해집니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -265,7 +272,7 @@ const wrapper = mockWrapper()
 
 it('should render ...', () => {
   //...
-  
+
   render(<Component />, { wrapper})
 
   // ...
@@ -277,6 +284,7 @@ it('should render ...', () => {
 # Custom Render 함수
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -315,6 +323,7 @@ it('should ...'', () => {
 - 새로운 선택적이 아닌 속성을 추가하면 모든 테스트를 업데이트해야 합니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -328,25 +337,25 @@ it('should ...'', () => {
 해결책은 재사용할 사용자 정의 렌더 함수를 만드는 것입니다:
 
 ```js
-const renderTest = buildRenderTest(Component, { 
+const renderTest = buildRenderTest(Component, {
   // 기본 속성
   onChange: jest.fn(),
-  value: '',
-})
+  value: "",
+});
 
-it('하는 일은 ...', () => {
-  const onChange = jest.fn()  
+it("하는 일은 ...", () => {
+  const onChange = jest.fn();
 
-  renderTest({ onChange })
-
-  //...
-})
-
-it('하는 일은 ...', () => {
-  renderTest({ value: 100 })
+  renderTest({ onChange });
 
   //...
-})
+});
+
+it("하는 일은 ...", () => {
+  renderTest({ value: 100 });
+
+  //...
+});
 ```
 
 이 해결책으로:
@@ -355,6 +364,7 @@ it('하는 일은 ...', () => {
 - 함수 buildRenderTest 내에 기본 래퍼가 이미 설정되어 있으므로 새 종속성을 추가할 때 많은 변경을 이미 방지하고 있습니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -367,22 +377,23 @@ it('하는 일은 ...', () => {
 
 이 패턴은 확장 가능한 테스트에 대한 첨단 솔루션입니다. 예를 들어 리덕스 문서에서 테스트를 작성하는 것을 권장합니다.
 
-이 사용자 정의 렌더 함수 빌더의 핵심은 함수 render 의 API 반환을 개선할 수 있다는 점입니다. 
+이 사용자 정의 렌더 함수 빌더의 핵심은 함수 render 의 API 반환을 개선할 수 있다는 점입니다.
 
 예를 들어, 이 기사의 두 번째 섹션에서 사용자 이벤트의 공식 문서를 제안하는 공식 사용자-이벤트 문서의 초기화를 포함할 수 있습니다 :
 
 ```js
-it('should ...', async () => {
-  const onChange = jest.fn()  
-  const { user } = renderTest({ onChange })
+it("should ...", async () => {
+  const onChange = jest.fn();
+  const { user } = renderTest({ onChange });
 
-  await user.click()
+  await user.click();
 
   //...
-})
+});
 ```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -402,6 +413,7 @@ it('should ...', async () => {
 물론 이것으로 테스트 작성과 관련된 모든 어려움을 해결하지는 못해요. testing-library에는 배울 게 더 많아요. 테스트 작성 능력은 testing-library에만 한정되지 않아요. TDD나 테스트 피라미드 같은 다른 최상의 실천법도 추가할 수 있어요.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -414,7 +426,7 @@ it('should ...', async () => {
 
 그런데 컴포넌트를 리팩터링할 때 모든 테스트를 동시에 업데이트할 필요가 없어서 더 자신감이 있을 거예요.
 
-이 글이 마음에 드셨나요? 👏🏼 
+이 글이 마음에 드셨나요? 👏🏼
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*DOJtuVhHnz8QA0V5.gif)
 

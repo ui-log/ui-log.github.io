@@ -1,5 +1,5 @@
 ---
-title: "당신의 다음 Next.js 앱에 어떤 데이터베이스를 사용해야 할까요?"
+title: "Next.js 앱의 데이터베이스를 고르는 기준"
 description: ""
 date: 2024-04-05 15:19
 sidebarDepth: 0

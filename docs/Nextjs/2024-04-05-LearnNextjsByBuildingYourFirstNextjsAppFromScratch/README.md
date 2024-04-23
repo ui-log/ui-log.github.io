@@ -1,5 +1,5 @@
 ---
-title: "첫 Next.js 앱을 처음부터 만들면서 Next.js 배우기"
+title: "웹사이트 처음부터 만들면서 Next.js 배우기"
 description: ""
 date: 2024-04-05 13:28
 sidebarDepth: 0
@@ -814,7 +814,6 @@ export default function Home() {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![Learn Next.js by Building Your First Next.js App from Scratch](./img/LearnNextjsByBuildingYourFirstNextjsAppFromScratch_7.png)
 
 비슷한 방식으로 React 컴포넌트를 만들고 CSS 모듈을 사용하여 다른 클래스나 스타일과 충돌하지 않도록 스타일을 지정할 수 있습니다.
@@ -822,7 +821,6 @@ export default function Home() {
 예를 들어 사용자 지정 버튼을 만들어 봅시다.
 
 ## 커스텀 버튼 컴포넌트
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

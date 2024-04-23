@@ -1,5 +1,5 @@
 ---
-title: "React Native 앱에서 왜 Flipper가 필요하지 않을까요... 그리고 이를 대체하는 방법입니다!"
+title: "React Native 앱에서 Flipper가 필요하지 않은 이유"
 description: ""
 date: 2024-04-05 13:12
 sidebarDepth: 0
@@ -48,7 +48,7 @@ Flipper가 0.62 버전에서 소개되었을 때, React Native 개발자들에�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![image](https://miro.medium.com/v2/resize:fit:996/0*Fc1EzfW1mhk-nraz.gif)
 
 # React DevTools
@@ -56,7 +56,6 @@ Flipper가 0.62 버전에서 소개되었을 때, React Native 개발자들에�
 Flipper을 열 때 React DevTools로 가서 React 렌더 트리와 Components Inspector, 그리고 Profiler flamegraph를 활용하는 경우가 많아요.
 
 ![image](./img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_3.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

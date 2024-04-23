@@ -1,5 +1,5 @@
 ---
-title: "코드 스니펫 기여내용"
+title: "코ㅈ드 스니펫 기여내용"
 description: ""
 date: 2024-04-07 04:16
 sidebarDepth: 0

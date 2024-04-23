@@ -1,5 +1,5 @@
 ---
-title: "TypeScript에서 intersection을 이해하는 것이 생각보다 어려울 수 있어요!"
+title: "TypeScript에서 intersection 알아보기"
 description: ""
 date: 2024-04-05 15:38
 sidebarDepth: 0
@@ -285,7 +285,6 @@ const villain = { villain: "lex luthor", hero: "clark kent" }
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![Understanding the intersection in TypeScript might be harder than you think](./img/UnderstandingtheintersectioninTypescriptmightbeharderthanyouthink_1.png)
 
 # 다른 유형에 동일한 원칙 적용
@@ -295,7 +294,6 @@ const villain = { villain: "lex luthor", hero: "clark kent" }
 ```js
 type Hero = string;
 ``` 
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

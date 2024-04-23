@@ -1,5 +1,5 @@
 ---
-title: "Advanced React Patterns and Optimization: Reusability (Render Props, HOCs), Suspense, and Code Splitting"
+title: "리액트 고급 기술 알아보기 (Render Props, HOCs), Suspense, Code Splitting"
 description: ""
 date: 2024-04-05 15:48
 sidebarDepth: 0
@@ -699,7 +699,6 @@ export default App;
 ```
 
 설명:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,5 +1,5 @@
 ---
-title: "Next.js 13에서 NextAuth와 구글 및 자격 증명 제공자 설정 안내"
+title: "Next.js 13에서 NextAuth와 구글 및 자격 증명 제공자 설정하는 방법"
 description: ""
 date: 2024-04-05 15:25
 sidebarDepth: 0

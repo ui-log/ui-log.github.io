@@ -1,5 +1,5 @@
 ---
-title: "리액트 애플리케이션을 Azure App Service, Docker, Azure Container Registry, Azure DevOps Pipeline에 배포하는 단계별 안내서 | 파트 1"
+title: "리액트 애플리케이션을 Azure App Service, Docker, Azure Container Registry, Azure DevOps Pipeline에 배포하기"
 description: ""
 date: 2024-04-05 17:52
 sidebarDepth: 0
@@ -68,7 +68,6 @@ EXPOSE 80
 도커 데스크톱이나 터미널 명령을 사용하여 Docker 이미지를 빌드할 수 있습니다. 터미널을 사용하는 경우, docker build -t react-demo:latest .와 같은 명령을 사용하면 됩니다. --progress=plain 옵션을 사용하여 간소화된 로그와 더 쉬운 디버깅을 제공합니다. docker images 명령을 사용하여 생성된 모든 이미지를 확인하고 나열하세요.
 
 ## 단계 4: 이미지 실행 및 컨테이너 확인
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

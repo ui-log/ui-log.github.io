@@ -1,5 +1,5 @@
 ---
-title: "리액트 훅에 대해 알아보고 활용 사례들"
+title: "리액트 훅을 실제 업무에 활용한 사례들"
 description: ""
 date: 2024-04-05 16:12
 sidebarDepth: 0
@@ -89,7 +89,6 @@ function UsersList() {
 useEffect 훅은 React Hooks의 중심이되어 함수형 컴포넌트에서 부수 효과를 활성화합니다. 컴포넌트가 렌더링된 후 데이터 가져 오기, 구독, 타이머, DOM 조작과 같은 동작을 수행할 수 있습니다.
 
 구조 이해:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -149,7 +148,6 @@ useEffect(() => {
 ```
 
 - 마운트 및 업데이트 시 코드 실행: 의존성 배열을 사용하여 특정 상태나 프로퍼티 변화에 따라 효과가 다시 실행되는 시점을 제어하세요.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -250,7 +248,6 @@ function Toolbar({ toggleTheme }) {
 # useReducer
 
 `useReducer` 훅은 복잡한 상태를 관리할 때 `useState`의 대안으로 사용됩니다. 리듀서 함수를 사용하여 상태 전환을 캡슐화하며 액션에 기반한 상태 변화를 다룹니다.
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -293,7 +290,6 @@ function CounterReducer() {
 ## 덜 일반적이지만 유용한 Hooks
 
 # useCallback
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

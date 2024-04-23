@@ -1,5 +1,5 @@
 ---
-title: "리액트에서 세션 시간 초과"
+title: "리액트에서 세션 시간 초과 처리 방법"
 description: ""
 date: 2024-04-05 17:55
 sidebarDepth: 0
@@ -291,7 +291,6 @@ export default Login;
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![SessionTimeOutinReact_3](./img/SessionTimeOutinReact_3.png)
 
 버튼을 클릭하면 홈페이지로 이동합니다. 하지만 아직 홈페이지가 없습니다. 만들어보도록 하죠.
@@ -299,7 +298,6 @@ export default Login;
 ## 홈페이지
 
 HomePage.js 파일을 생성하고 다음을 추가하세요:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -505,7 +503,6 @@ useIdle 훅은 두 개의 속성을 포함하는 객체를 전달하여 호출�
 
 useEffects
 1. 타이머 useEffect
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

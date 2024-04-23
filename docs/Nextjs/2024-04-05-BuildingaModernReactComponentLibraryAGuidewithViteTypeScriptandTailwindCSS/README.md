@@ -1,5 +1,5 @@
 ---
-title: "현대적인 React 컴포넌트 라이브러리 구축하기: Vite, TypeScript 및 Tailwind CSS로 하는 가이드"
+title: "Vite, TypeScript 및 Tailwind CSS로 React 컴포넌트 라이브러리 만드는 방법"
 description: ""
 date: 2024-04-05 16:43
 sidebarDepth: 0

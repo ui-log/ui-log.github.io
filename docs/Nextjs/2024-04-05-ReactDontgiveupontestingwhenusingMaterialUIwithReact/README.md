@@ -1,5 +1,5 @@
 ---
-title: "[React] Material UI와 함께 React를 사용할 때 테스팅을 포기하지 마세요!"
+title: "Material UI + React에서 테스팅 사용하는 방법"
 description: ""
 date: 2024-04-05 19:25
 sidebarDepth: 0
@@ -57,7 +57,6 @@ npm install @mui/material @emotion/react @emotion/styled
 # 구성 요소
 
 # 1. TextField
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -307,7 +306,6 @@ Label과 placeholder 텍스트의 동작 방식은 TextField와 동일합니다.
 ![이미지1](./img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_3.png)
 
 ![이미지2](./img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_4.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -668,7 +666,6 @@ export default SimpleButton;
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![ReactDontgiveupontestingwhenusingMaterialUIwithReact_12](./img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_12.png)
 
 ## 테스트 (기본)
@@ -702,7 +699,6 @@ describe("SimpleButton Tests", () => {
   });
 });
 ```
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -905,7 +901,6 @@ Snackbar 컴포넌트는 Alert 컴포넌트와 함께 사용할 때 추가로 �
 # 6. Dialogs
 
 ## Implementation
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

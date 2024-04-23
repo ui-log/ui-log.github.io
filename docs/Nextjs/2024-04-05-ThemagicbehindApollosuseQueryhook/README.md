@@ -1,5 +1,5 @@
 ---
-title: "아폴로의 useQuery 훅 뒤에 숨은 마법"
+title: "Apollo의 useQuery 훅 사용 방법 정리"
 description: ""
 date: 2024-04-05 17:29
 sidebarDepth: 0

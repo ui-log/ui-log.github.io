@@ -1,5 +1,5 @@
 ---
-title: "리액트 JS에서 Spread Operator란 무엇인가요?"
+title: "React JS에서 Spread Operator 연산자 사용방법"
 description: ""
 date: 2024-04-05 14:21
 sidebarDepth: 0

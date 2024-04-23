@@ -1,5 +1,5 @@
 ---
-title: "리액트.js에서 라우트와 라우팅에 대한 포괄적인 가이드"
+title: "React.js에서 라우트와 라우팅 가이드"
 description: ""
 date: 2024-04-05 15:09
 sidebarDepth: 0

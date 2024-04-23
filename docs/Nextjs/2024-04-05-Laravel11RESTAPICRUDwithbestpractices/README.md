@@ -1,5 +1,5 @@
 ---
-title: "라라벨 11 REST API CRUD - 최상의 실천 방법들"
+title: "Laravel 11 REST API CRUD 작성하기"
 description: ""
 date: 2024-04-05 09:13
 sidebarDepth: 0
@@ -10,7 +10,6 @@ link: "https://medium.com/@1415sandalanka/laravel-11-rest-api-crud-with-best-pra
 ---
 
 
-```markdown
 ![이미지](./img/Laravel11RESTAPICRUDwithbestpractices_0.png)
 
 라라벨 11에서 RESTful API CRUD 애플리케이션을 만드는 것은 라라벨 애플리케이션 설정, 라우트 정의, 유효성 검사, 모델, 리소스 정의, 컨트롤러 생성, Repository 디자인 패턴 구현 및 모델 작업을 포함합니다. 이를 달성하는 방법에 대한 단계별 가이드는 다음과 같습니다:

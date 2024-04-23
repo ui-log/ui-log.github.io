@@ -1,5 +1,5 @@
 ---
-title: "Vue에서 환경 변수 다루기"
+title: "Vue에서 환경 변수 다루는 방법"
 description: ""
 date: 2024-04-05 09:10
 sidebarDepth: 0

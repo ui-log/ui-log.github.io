@@ -1,5 +1,5 @@
 ---
-title: "다음 13에 대한 몇 가지 첫번째 생각"
+title: "Next 13 버전에 대한 생각 정리"
 description: ""
 date: 2024-04-05 13:15
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "리액트 디자인 패턴: Provider 패턴"
+title: "React 디자인 패턴: Provider 패턴"
 description: ""
 date: 2024-04-05 19:35
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "리액트 JS에서 이미지를 추가하는 방법 - 초심자를 위한 가이드"
+title: "리액트 JS에서 이미지를 추가하는 방법"
 description: ""
 date: 2024-04-05 17:02
 sidebarDepth: 0

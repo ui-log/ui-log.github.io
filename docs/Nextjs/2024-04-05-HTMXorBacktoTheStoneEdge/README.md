@@ -1,5 +1,5 @@
 ---
-title: "HTMX 또는 돌로 돌아가기"
+title: "HTMX란 무엇인가?"
 description: ""
 date: 2024-04-05 19:59
 sidebarDepth: 0

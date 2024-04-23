@@ -1,5 +1,5 @@
 ---
-title: "5분 안에 React 앱의 파비콘과 타이틀을 변경하는 방법"
+title: "React 앱의 파비콘과 타이틀을 변경하는 가장 빠른 방법"
 description: ""
 date: 2024-04-05 16:20
 sidebarDepth: 0

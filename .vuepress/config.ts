@@ -134,6 +134,5 @@ export default defineUserConfig({
       json: true,
     }),
     searchPlugin({}),
-    // demoBlock({}),
   ],
 });

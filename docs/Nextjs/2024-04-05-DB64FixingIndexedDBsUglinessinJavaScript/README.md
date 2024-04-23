@@ -1,5 +1,5 @@
 ---
-title: "DB64: 자바스크립트에서 IndexedDB의 번잡함 고치기"
+title: "자바스크립트에서 IndexedDB의 복잡도 해결하기"
 description: ""
 date: 2024-04-05 15:45
 sidebarDepth: 0
@@ -111,6 +111,5 @@ IndexedDB와 DB64을 사용하면 한 데이터베이스가 삭제될 때 다른
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![Julien Etienne](./img/DB64FixingIndexedDBsUglinessinJavaScript_2.png)
-```

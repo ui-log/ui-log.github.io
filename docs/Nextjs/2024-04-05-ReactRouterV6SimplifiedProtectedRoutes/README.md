@@ -1,5 +1,5 @@
 ---
-title: "React Router V6 — 간편한 보호된 라우트"
+title: "React Router V6에서 Protected Routes 간편하게 사용하는 방법"
 description: ""
 date: 2024-04-05 18:43
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "리액트 훅스 치트 시트"
+title: "React Hooks 치트 시트"
 description: ""
 date: 2024-04-05 20:05
 sidebarDepth: 0
@@ -68,7 +68,6 @@ React의 클래스 없이 더 많은 기능을 사용하는 방법: React에 Hoo
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 - 클래스 기반 컴포넌트 사용:
 
 ![ReactHooksCheatSheet_3](./img/ReactHooksCheatSheet_3.png)
@@ -76,7 +75,6 @@ React의 클래스 없이 더 많은 기능을 사용하는 방법: React에 Hoo
 - 함수형 컴포넌트 사용:
 
 ![ReactHooksCheatSheet_4](./img/ReactHooksCheatSheet_4.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -127,7 +125,6 @@ useState에 관한 중요한 점들은 다음과 같습니다:
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```
 ![React Hooks Cheat Sheet 7](./img/ReactHooksCheatSheet_7.png)
 
 2. 상태 변수 업데이트: 여기서는 useState를 호출하여 반환된 업데이트 함수를 호출해야 합니다.
@@ -135,7 +132,6 @@ useState에 관한 중요한 점들은 다음과 같습니다:
 ![React Hooks Cheat Sheet 8](./img/ReactHooksCheatSheet_8.png)
 
 3. 다중 상태 변수 사용: 함수 컴포넌트 내에서 다중 상태 변수를 사용하고 업데이트할 수 있습니다. 아래 예시를 참고하세요.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -205,7 +201,7 @@ useState에 관한 중요한 점들은 다음과 같습니다:
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![React Hooks Cheat Sheet](./img/ReactHooksCheatSheet_13.png)
 
 useEffect 블록은 handleClick 함수를 실행한 후 현재 탭/브라우저 창의 제목을 업데이트합니다.
@@ -213,7 +209,6 @@ useEffect 블록은 handleClick 함수를 실행한 후 현재 탭/브라우저 
 다음은 useEffect에 관련된 유용한 내용입니다:
 
 - 효과 정리: 효과를 정리해야 하는데, 일반적으로 useEffect에 전달된 효과 함수 내에서 함수를 반환하여 정리합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -264,7 +259,6 @@ useEffect 블록은 handleClick 함수를 실행한 후 현재 탭/브라우저 
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![img](./img/ReactHooksCheatSheet_17.png)
 
 - 배열 의존성 없이 사용: 어떤 배열 의존성도 제공하지 않고 효과를 완전히 건너뛸 수 있습니다. 효과 함수는 모든 렌더링 후에 실행됩니다:
@@ -272,7 +266,6 @@ useEffect 블록은 handleClick 함수를 실행한 후 현재 탭/브라우저 
 ![img](./img/ReactHooksCheatSheet_18.png)
 
 # 4. 훅 규칙
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -496,7 +489,7 @@ useState Hook은 Context를 매개변수로 받아 그 값에서 값을 가져�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![React Hooks Cheat Sheet](./img/ReactHooksCheatSheet_31.png)
 
 ## 4. useCallback 훅
@@ -504,7 +497,6 @@ useState Hook은 Context를 매개변수로 받아 그 값에서 값을 가져�
 이 훅은 최적화된 하위 컴포넌트에 콜백을 전달할 때 불필요한 렌더링을 방지하는 데 유용합니다. 호출 서명은 다음과 같습니다:
 
 ![React Hooks Cheat Sheet](./img/ReactHooksCheatSheet_32.png)
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -638,7 +630,7 @@ inputRef에 입력 요소를 보관하기 위한 참조를 생성한 후, 이것
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![React Hooks Cheat Sheet 39](./img/ReactHooksCheatSheet_39.png)
 
 이제 React DOM이나 React Testing Library를 사용하여 보일러플레이트 코드를 줄일 수 있습니다. 그러나 일반 코드로 테스트하는 방법을 알아봅시다. 브라우저에서 발생하는 동작과 일치하는지 확인하려면 아래와 같이 코드 렌더링 및 업데이트를 여러 번 ReactTestUtils.act() 호출로 래핑할 것입니다.
@@ -646,7 +638,6 @@ inputRef에 입력 요소를 보관하기 위한 참조를 생성한 후, 이것
 ![React Hooks Cheat Sheet 40](./img/ReactHooksCheatSheet_40.png)
 
 # 2. React Hooks로 데이터 가져오기
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -754,7 +745,7 @@ Component가 이미 마운트된 상태에도 컴포넌트 상태가 설정된 �
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![React Hooks Cheat Sheet](./img/ReactHooksCheatSheet_48.png)
 
 여기서 우리는 didCancel이라는 부울 값을 사용하여 데이터 가져오기 코드가 컴포넌트의 상태(마운트되었는지, 언마운트되었는지)를 알 수 있도록 했습니다. 만약 컴포넌트가 마운트 해제되면 플래그가 true로 설정되어 데이터 가져오기가 비동기적으로 해결된 후 컴포넌트 상태를 설정하는 것을 방지합니다.
@@ -762,7 +753,6 @@ Component가 이미 마운트된 상태에도 컴포넌트 상태가 설정된 �
 # 5. Hooks를 사용하여 이전 props 또는 상태 가져오기
 
 때로는 사용한 효과를 정리하기 위해 컴포넌트의 이전 props가 필요합니다. 이를 설명하기 위해 userId props에 기반한 소켓을 구독하는 효과가 있다고 가정해 봅시다. 이 prop이 변경되면 이전에 설정된 userId의 구독을 취소하고 다음 userId에 대해 구독하려고 합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

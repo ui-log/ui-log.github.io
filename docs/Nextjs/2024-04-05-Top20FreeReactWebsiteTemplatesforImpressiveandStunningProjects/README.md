@@ -1,5 +1,5 @@
 ---
-title: "인상적이고 멋진 프로젝트를 위한 무료 React 웹사이트 템플릿 20선"
+title: "멋진 웹사이트를 위한 무료 React 템플릿 사이트 20가지"
 description: ""
 date: 2024-04-05 17:01
 sidebarDepth: 0

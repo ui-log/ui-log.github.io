@@ -1,5 +1,5 @@
 ---
-title: "리액트에서의 useMemo와 memo 디코딩하기: 진정한 차이점 이해하기"
+title: "리액트에서의 useMemo와 memo 둘의 차이점 정리"
 description: ""
 date: 2024-04-05 19:09
 sidebarDepth: 0

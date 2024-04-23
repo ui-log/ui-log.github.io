@@ -1,5 +1,5 @@
 ---
-title: "웹 UI 개발이 왜 어렵나요?"
+title: "웹 UI 개발을 개발자들이 어려워하는 이유"
 description: ""
 date: 2024-04-05 13:02
 sidebarDepth: 0

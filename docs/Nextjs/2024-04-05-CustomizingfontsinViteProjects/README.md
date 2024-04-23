@@ -1,5 +1,5 @@
 ---
-title: "Vite 프로젝트에서 폰트 사용자 정의하기"
+title: "Vite 프로젝트에서 폰트 커스텀하기"
 description: ""
 date: 2024-04-05 12:54
 sidebarDepth: 0
@@ -50,7 +50,7 @@ mkdir src/assets/fonts
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![Customizing fonts](./img/CustomizingfontsinViteProjects_2.png)
 
 Mozilla의 문서에서 설명했듯이, @font-face CSS at-rule은 텍스트를 표시할 사용자 정의 폰트를 지정합니다. 이는 원격 서버에서 또는 사용자의 컴퓨터에 로컬로 설치된 폰트에서 로드할 수 있습니다.
@@ -58,7 +58,6 @@ Mozilla의 문서에서 설명했듯이, @font-face CSS at-rule은 텍스트를 
 Mozilla 문서에서 설명한대로, @font-face CSS at-rule은 텍스트를 표시하는 데 사용할 사용자 지정 폰트를 지정합니다.
 
 폰트는 원격 서버에서 또는 사용자의 컴퓨터에 로컬로 설치된 폰트에서 로드할 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

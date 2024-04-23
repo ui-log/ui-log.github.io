@@ -1,5 +1,5 @@
 ---
-title: "Angular 와 React 사이의 이해하기. 파트 1: Dumb, Smart 컴포넌트"
+title: "Angular 와 React -  Dumb, Smart 컴포넌트"
 description: ""
 date: 2024-04-05 16:30
 sidebarDepth: 0

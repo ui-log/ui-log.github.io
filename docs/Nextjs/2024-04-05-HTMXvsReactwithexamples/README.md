@@ -1,5 +1,5 @@
 ---
-title: "HTMX 대 React: 예시와 함께"
+title: "HTMX, React를 대체할 수 있을까?"
 description: ""
 date: 2024-04-05 15:35
 sidebarDepth: 0

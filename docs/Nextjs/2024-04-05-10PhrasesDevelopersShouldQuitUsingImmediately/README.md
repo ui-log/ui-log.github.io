@@ -1,5 +1,5 @@
 ---
-title: "즉시 그만 사용해야 하는 개발자들의 10가지 표현"
+title: "개발자들이 가장 많이 실수하는 10가지"
 description: ""
 date: 2024-04-05 09:17
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "Chrome DevTools를 마스터하기: 시니어 프론트엔드 개발자처럼!"
+title: "알아두면 유용한 Chrome DevTools 활용법 정리"
 description: ""
 date: 2024-04-05 18:08
 sidebarDepth: 0
@@ -29,18 +29,14 @@ link: "https://medium.com/javascript-in-plain-english/use-chrome-devtools-like-a
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-테이블 태그를 Markdown 형식으로 변경해 보겠습니다.
 
-```markdown
 | 순서 | 내용                     |
 |------|--------------------------|
 | 1.   | XHR 요청 재전송           |
 | 2.   | 커뮤니케이션 효율 향상을 위한 디버깅|
 | 3.   | 백엔드 개발자와의 인터페이스 문제 해결|
 | 4.   | 도킹 효율성 향상 가능     |
-``` 
 
-아래와 같이 표를 Markdown 형식으로 바꿨어요!
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -158,7 +154,7 @@ link: "https://medium.com/javascript-in-plain-english/use-chrome-devtools-like-a
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![Image 1](https://miro.medium.com/v2/resize:fit:1400/0*-8jXl_RMnO7vYi5E.gif)
 
 Now there’s a new question. We just want to take a part of the screenshot page. What should we do?
@@ -166,7 +162,6 @@ Now there’s a new question. We just want to take a part of the screenshot page
 It’s also very easy, just enter “Capture node screenshot” in the third step.
 
 ![Image 2](https://miro.medium.com/v2/resize:fit:1400/1*v-zr3t37PSBdfmQTu-GTmw.gif)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -295,7 +290,7 @@ It’s also very easy, just enter “Capture node screenshot” in the third ste
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*hhdAUT80OIAgdxGlCcIq3Q.gif)
 
 대량의 데이터를 다룰 때 조건부 중단점을 사용하는 것은 개발 작업에 매우 도움이 되며 효율성을 크게 향상시킬 수 있습니다.
@@ -303,7 +298,6 @@ It’s also very easy, just enter “Capture node screenshot” in the third ste
 # 마지막으로
 
 읽어 주셔서 감사합니다. 앞으로도 여러분의 팔로우와 높은 품질의 기사를 더 많이 볼 수 있기를 기대합니다.
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

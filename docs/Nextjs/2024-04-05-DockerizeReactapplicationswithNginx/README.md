@@ -1,5 +1,5 @@
 ---
-title: "Nginx을 사용하여 React 애플리케이션을 도커라이즈하기"
+title: "Nginx을 사용하여 React 애플리케이션 Dockerize 하기 "
 description: ""
 date: 2024-04-05 16:55
 sidebarDepth: 0

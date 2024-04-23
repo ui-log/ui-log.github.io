@@ -410,7 +410,6 @@ function exclude(user, keys) {
 pages/api/auth 폴더에 [...nextauth].js라는 파일을 만듭니다. 이 파일에서는 이 경우 CredentialsProvider인 인증 제공 업체를 구성할 것입니다. CredentialsProvider는 NextAuth 제공 업체로 사용자가 사용자 이름과 비밀번호와 같은 임의의 자격 증명으로 등록할 수 있게 합니다.
 
 [...nextauth].js 파일을 열고 다음 코드를 추가하세요.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,5 +1,5 @@
 ---
-title: "React 프로젝트를 Vite로 설정하는 방법"
+title: "React 프로젝트를 Vite로 만들어 설정하는 방법"
 description: ""
 date: 2024-04-05 15:02
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "Node.js v19.9.0에서 발생하는 "error:0308010C:digital envelope routines::unsupported" 해결하기"
+title: "Node.js v19.9.0에서 발생하는 error:0308010C:digital envelope routines::unsupported 해결하기"
 description: ""
 date: 2024-04-05 12:44
 sidebarDepth: 0
@@ -50,7 +50,6 @@ Error: error:0308010C:digital envelope routines::unsupported
 D:\Projects\Mini Project\Frontend\node_modules\react-scripts\scripts\start.js:19
   throw err;
   ^
-```
 ```
 
 <!-- ui-log 수평형 -->

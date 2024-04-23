@@ -432,7 +432,6 @@ const OnChange: React.FC<OnChangeProps> = ({ id }) => {
 ```
 
 Props 및 useState는 이전에 다루었으므로 남은 로직을 해석하는 것만 남았습니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -638,7 +637,7 @@ Angular 컴포넌트는 모두 클래스이므로, 이는 쉽게 private 및 pub
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ```js
 private inputRef: ElementRef<HTMLInputElement> | null = null;
 
@@ -682,7 +681,6 @@ export class AfterViewInitParentComponent implements AfterViewInit {
 ```
 
 하나씩 짚어볼까요:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

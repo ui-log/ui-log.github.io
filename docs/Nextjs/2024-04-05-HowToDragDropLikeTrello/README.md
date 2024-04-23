@@ -1,5 +1,5 @@
 ---
-title: "티렐로처럼 드래그 앤 드롭하는 방법"
+title: "트렐로같은 드래그 앤 드롭 칸반보드 만드는 방법"
 description: ""
 date: 2024-04-05 12:42
 sidebarDepth: 0

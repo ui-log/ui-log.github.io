@@ -1,5 +1,5 @@
 ---
-title: "자습서: React JavaScript에서 계산기 앱을 위한 테스트 주도 개발 (TDD)"
+title: "React JavaScript에서 계산기 앱 TDD로 만들기"
 description: ""
 date: 2024-04-05 17:22
 sidebarDepth: 0
@@ -10,7 +10,6 @@ link: "https://medium.com/@info.juicetip/tutorial-test-driven-development-tdd-fo
 ---
 
 
-```markdown
 ![Tutorial Test Driven Development TDD for a Calculator App in React JavaScript](./img/TutorialTestDrivenDevelopmentTDDforaCalculatorAppinReactJavaScript_0.png)
 
 ## Prerequisites
@@ -19,7 +18,6 @@ link: "https://medium.com/@info.juicetip/tutorial-test-driven-development-tdd-fo
 - React 개념에 익숙함
 
 ## Tools Used
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

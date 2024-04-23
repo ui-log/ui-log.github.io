@@ -1,5 +1,5 @@
 ---
-title: "React 19 탐험: 즉각적인 UI 피드백을 위한 useOptimistic 훅의 힘"
+title: "React 19 - 즉각적인 UI 피드백을 위한 useOptimistic 훅 정리"
 description: ""
 date: 2024-04-05 17:07
 sidebarDepth: 0

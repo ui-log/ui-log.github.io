@@ -1,5 +1,5 @@
 ---
-title: "샤도윈 UI 추가 구성 요소 및 자원"
+title: "shadcn UI 추가 구성 요소"
 description: ""
 date: 2024-04-05 09:27
 sidebarDepth: 0
@@ -116,7 +116,6 @@ GitHub의 PR 라벨 선택기에서 영감을 받은 Combobox 컴포넌트.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 <img src="./img/shadcnuiadditionalcomponentsandresources_3.png" />
 
 GitHub의 PR 코멘트 섹션에서 영감을 받은 Textarea 컴포넌트입니다.
@@ -124,7 +123,6 @@ GitHub의 PR 코멘트 섹션에서 영감을 받은 Textarea 컴포넌트입니
 # shadcn-keyboard-shortcuts
 
 <img src="./img/shadcnuiadditionalcomponentsandresources_4.png" />
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -194,7 +192,6 @@ https://stackblitz.com/edit/stackblitz-starters-dlsw2v
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 <img src="./img/shadcnuiadditionalcomponentsandresources_8.png" />
 
 릭텍스트 편집기. 아직 어리지만 관심을 가지고 지켜보세요.
@@ -202,7 +199,6 @@ https://stackblitz.com/edit/stackblitz-starters-dlsw2v
 # 그라데이션 선택기
 
 <img src="./img/shadcnuiadditionalcomponentsandresources_9.png" />
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -312,7 +308,7 @@ Radix UI를 기반으로 한 날짜 범위 선택기입니다.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 <img src="./img/shadcnuiadditionalcomponentsandresources_16.png" />
 
 사용 준비된 채팅 UI입니다.
@@ -320,7 +316,6 @@ Radix UI를 기반으로 한 날짜 범위 선택기입니다.
 # 사용자 정의
 
 <img src="./img/shadcnuiadditionalcomponentsandresources_17.png" />
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -428,7 +423,6 @@ Vue flavor of shadcn/ui.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/shadcnuiadditionalcomponentsandresources_24.png)
 
 shadcn/ui에서 영감을 받은 매우 좋은 React Native UI 라이브러리입니다.
@@ -436,7 +430,6 @@ shadcn/ui에서 영감을 받은 매우 좋은 React Native UI 라이브러리�
 # React Native: nativecn-ui
 
 ![이미지](./img/shadcnuiadditionalcomponentsandresources_25.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

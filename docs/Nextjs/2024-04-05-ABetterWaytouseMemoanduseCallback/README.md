@@ -1,5 +1,5 @@
 ---
-title: "useMemo와 useCallback을 사용하는 더 나은 방법"
+title: "리액트 useMemo와 useCallback을 올바르게 사용하는 방법"
 description: ""
 date: 2024-04-05 15:13
 sidebarDepth: 0
@@ -71,7 +71,6 @@ function Body() {
 피드백 완료! 그런데 안타깝게도, 동료가 다시 연락을 했다. 메시지 내용은 “네 피드백에 답변했어요”야.
 
 저런. 
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -144,7 +143,6 @@ function Example() {
 이제 위의 계산이 저렴하다면 메모이제이션을 사용하는 것이 이득이 없을 수도 있습니다. 또한 dataOne 또는 dataTwo가 업데이트마다 데이터를 다시 수집해야 하는 경우가 있을 수 있습니다. 이것이 발생하면 useMemo 호출의 종속성으로, 모든 렌더링이 generate 함수를 다시 실행하게 하므로 메모이제이션이 필요하지 않을 수 있습니다. React는 상당히 성능이 우수하며, 필요하지 않은 메모이제이션을 갖는 것은 코드의 성능 오버헤드와 복잡성을 둘 다 늘리는 것입니다.
 
 그리고 위의 글이 그것에 대한 것입니다. 최적화가 가치 있는지 이해하고 거기서 선택을 하는 것입니다. 이것은 좋은 조언입니다. 그러나 우리가 이러한 리액트 훅을 사용하기로 결정하는 선택을 하는 데 고려해야 할 두 번째 요인이 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -315,7 +313,6 @@ const List = React.memo(({data}) => {
 ![ABetterWaytouseMemoanduseCallback_4.png](./img/ABetterWaytouseMemoanduseCallback_4.png)
 
 그렇다면 useMemo와 useCallback을 사용하는 방법에 대한 우리의 사용 방식에 대해 어떤 의미가 있을까요? React.memo를 사용하지 않으려고 결정했으므로 최적화가 다시 렌더링을 중지하지는 않을 것입니다. 그렇다면 느린 계산을 최적화하는 용도로만 사용해야 할까요?
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

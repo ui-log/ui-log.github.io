@@ -1,5 +1,5 @@
 ---
-title: "리액트 19: 리액트 컴파일러가 당신의 코드를 새로운 차원으로 이끌어드립니다!"
+title: "리액트 코드 작성 방식을 뒤바꾼 React19"
 description: ""
 date: 2024-04-05 17:30
 sidebarDepth: 0
@@ -73,7 +73,7 @@ React 19에 추가된 주요 변경 사항은 다음과 같습니다:
 
 프라미스를 사용한 오류 처리가 리액트 컴파일러 방식에서 간단해졌습니다. 직접 프라미스를 throw 하는 대신, use(promise) 훅을 활용하여 비동기 작업과 오류를 더욱 효과적으로 제어할 수 있습니다.
 
-## <Context.Provider>를 <Context>로 변경:
+## `<Context.Provider>`를 `<Context>`로 변경:
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

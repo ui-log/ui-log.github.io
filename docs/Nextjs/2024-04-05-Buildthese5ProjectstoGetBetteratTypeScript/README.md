@@ -1,5 +1,5 @@
 ---
-title: "TypeScript 실력 향상을 위해 이 5개 프로젝트 만들어보기"
+title: "TypeScript 실력 향상을 위해 만들어보면 좋은 프로젝트 5개"
 description: ""
 date: 2024-04-05 18:40
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "React에서 Firebase Cloud Messaging: 포괄적인 가이드"
+title: "React에서 Firebase Cloud Messaging 사용하기"
 description: ""
 date: 2024-04-05 16:08
 sidebarDepth: 0
@@ -417,7 +417,6 @@ export default Message;
 ```
 
 스타일을 직접 구성하거나 아래 제공된 스타일을 사용할 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -457,7 +456,6 @@ export default Message;
 앱이 비활성 상태인 경우에 대비해서, public 폴더에 서비스 워커 파일(firebase-messaging-sw.js)을 생성해야 합니다. 그 안에 messaging.onBackgroundMessage 이벤트 리스너를 사용할 것입니다.
 
 이 이벤트 리스너는 웹 애플리케이션이 활성 상태가 아닐 때(백그라운드에 있거나 종료된 상태) 발신 메시지를 수신하는 데 사용됩니다. 백그라운드 메시지가 수신되면, 제공된 콜백 함수를 호출하여 메시지 페이로드를 기록하고 알림을 표시합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

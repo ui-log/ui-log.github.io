@@ -24,6 +24,9 @@ const relationPosts = computed(() => {
   const index = lists.indexOf(current);
   return lists.slice(Math.max(index - 5, 0), index + 5).filter((v) => v !== current);
 });
+
+
+
 </script>
 
 <template>
@@ -32,6 +35,7 @@ const relationPosts = computed(() => {
       <div class="hit">
         <img :src="hitUrl" alt="Hits bn" />
       </div>
+      <h1 class="postpage_title">{{pageData.title}}</h1>
       <component is="script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686" crossorigin="anonymous" async></component>
 
       <!-- ui-log 수평형 -->
@@ -66,6 +70,12 @@ const relationPosts = computed(() => {
   img {
     margin: 0 0 10px auto !important;
   }
+}
+
+h1.postpage_title { 
+  font-size: 42px;
+  font-weight: 800;
+  white-space: pre-wrap;
 }
 
 .relations {

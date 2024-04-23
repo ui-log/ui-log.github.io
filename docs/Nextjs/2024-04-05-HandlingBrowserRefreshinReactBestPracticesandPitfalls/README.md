@@ -1,5 +1,5 @@
 ---
-title: "React에서 브라우저 새로고침 처리하기: 최상의 방법과 함정들"
+title: "React에서 브라우저 새로고침 처리하는 방법"
 description: ""
 date: 2024-04-05 20:01
 sidebarDepth: 0

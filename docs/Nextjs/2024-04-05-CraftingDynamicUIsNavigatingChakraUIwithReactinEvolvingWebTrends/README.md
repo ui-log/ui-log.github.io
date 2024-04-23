@@ -1,5 +1,5 @@
 ---
-title: "동적 UI 제작: 진화하는 웹 트렌드에서 React로 Chakra UI 탐색하기"
+title: "React로 Chakra UI로 반응형 웹사이트 만드는 방법"
 description: ""
 date: 2024-04-05 13:47
 sidebarDepth: 0
@@ -178,7 +178,6 @@ export default LoginForm;
 - 번들 크기:
 
 - 예: Chakra UI를 프로젝트에 통합할 때, 특히 많은 수의 컴포넌트나 스타일을 가져오는 경우 번들 크기가 커질 수 있습니다. 이 문제를 완화하기 위해 webpack의 트리 쉐이킹 기능을 활용하여 사용하지 않는 코드를 제거하고 번들 크기를 최적화할 수 있습니다. 또한 프로젝트에 꼭 필요한 Chakra UI 컴포넌트와 스타일만 선택적으로 가져와 불필요한 부풀임을 줄일 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

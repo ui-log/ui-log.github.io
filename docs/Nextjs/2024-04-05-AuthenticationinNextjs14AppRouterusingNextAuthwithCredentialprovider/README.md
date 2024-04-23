@@ -1,5 +1,5 @@
 ---
-title: "Next.js 14에서 NextAuth의 자격 증명 제공자를 사용한 앱 라우터를 통한 인증"
+title: "Next.js 14에서 NextAuth의 Credential provider를 사용한 앱 라우터 인증 방법"
 description: ""
 date: 2024-04-05 14:16
 sidebarDepth: 0
@@ -76,7 +76,6 @@ function authenticate(username: string, password: string) {
 - 이 간단한 튜토리얼을 위해 사용자 이름과 비밀번호를 'admin'으로 하드코딩했습니다. 나중에는 데이터베이스에서 조회하거나 외부 API에서 가져오도록 변경해야 합니다.
 - 사용자가 인증되지 않았을 경우 null을 반환하며, UI에 오류를 표시하고 사용자에게 어떤 정보가 잘못되었는지 알려주지 않고 세부 정보를 확인할 수 있도록 합니다.
 - 사용자가 인증되었다고 가정하고, 사용자 객체를 생성하고 세부 정보를 채워서 반환합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -196,7 +195,6 @@ export type User = {
 NextAuth.js api 핸들러를 만들기
 
 NextAuth.js가 모든 요청을 /api/auth/*로 처리할 수 있도록 동적 라우트 핸들러를 만듭니다
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

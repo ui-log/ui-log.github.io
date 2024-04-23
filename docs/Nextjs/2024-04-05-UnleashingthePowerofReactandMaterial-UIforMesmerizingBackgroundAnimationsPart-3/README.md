@@ -1,5 +1,5 @@
 ---
-title: "리액트와 Material-UI의 힘을 발휘하여 매혹적인 배경 애니메이션을 만들어보기 - 파트 3"
+title: "리액트와 Material-UI로 배경 애니메이션을 만들어보기"
 description: ""
 date: 2024-04-05 17:31
 sidebarDepth: 0
@@ -231,7 +231,6 @@ export default BackgroundAnimation;
 백그라운드 애니메이션을 React 앱에서 구현하기
 
 # 단계 5: BackgroundAnimation을 App.js에 통합하기
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -288,7 +287,6 @@ npm start
 프로젝트 요구 사항에 따라 BackgroundAnimation 컴포넌트와 그 사용법을 App.js에서 자유롭게 수정해보세요. 또한 Material-UI의 추가 기능을 탐색하여 애플리케이션의 전체적인 스타일링과 구조를 개선해보세요.
 
 # 결론: 몰입형 경험 제작하기
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

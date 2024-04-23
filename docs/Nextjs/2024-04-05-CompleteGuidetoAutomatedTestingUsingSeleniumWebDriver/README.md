@@ -1,5 +1,5 @@
 ---
-title: "셀레늄 웹드라이버를 사용한 자동화 테스팅 완벽 가이드"
+title: "selenium webdriver를 사용한 자동화 테스팅 방법"
 description: ""
 date: 2024-04-05 16:28
 sidebarDepth: 0

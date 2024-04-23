@@ -1,5 +1,5 @@
 ---
-title: "훌륭한 클로저와 React에서 그것을 어디서 찾을 수 있는지"
+title: " React에서 클로저(closures)를 사용하는 방법"
 description: ""
 date: 2024-04-05 13:08
 sidebarDepth: 0
@@ -405,9 +405,8 @@ second(); // 다른 무작위 숫자를 기록합니다
 
 이것은 동적인 장면을 사진으로 찍는 것과 같아요: 버튼을 누르면 장면 전체가 사진 속에 영원히 “얼려져”버려요. 버튼을 다시 눌러도 이미 촬영된 사진에는 아무 변화도 일어나지 않을 거예요.
 
-```markdown
+
 ![Fantastic closures and how to find them in React](./img/FantasticclosuresandhowtofindtheminReact_1.png)
-```
 
 React에서는 우리가 심지어 깨닫지 못하는 사이에 계속해서 클로저를 생성해요. 컴포넌트 내에서 선언된 모든 콜백 함수는 클로저에요:
 
@@ -566,9 +565,8 @@ third(); // "first"를 출력합니다.
 
 이 행동을 수정하려면, 값이 변경될 때마다 함수와 해당 클로저를 다시 만들고 싶어할 거예요. 이런 식으로: 
 
-```markdown
+
 ![FantasticclosuresandhowtofindtheminReact_2.png](./img/FantasticclosuresandhowtofindtheminReact_2.png)
-```
 
 
 
@@ -1014,7 +1012,6 @@ const Form = () => {
 ```
 
 이제 메모이제이션이 완벽하게 작동합니다 — onClick이 변하지 않습니다. 하나 문제가 있습니다, 그러나: 아무것도 수행하지 않습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

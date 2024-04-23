@@ -1,5 +1,5 @@
 ---
-title: "React 애플리케이션을 상승시켜주는 @mil-rliB reactjs-star-rating를 사용하여 대화형 별점을 추가해보세요!"
+title: "React에서 @mil-rliB reactjs-star-rating를 사용하여 대화형 별점 추가하기"
 description: ""
 date: 2024-04-05 15:46
 sidebarDepth: 0
@@ -51,7 +51,6 @@ React 애플리케이션에 별점 평가를 구현하는 첫 번째 단계는 R
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 패키지 @mil-rlib/reactjs-star-rating
 
 데모 링크 https://milayek86.github.io/reactjs-star-rating/
@@ -61,7 +60,6 @@ npm install @mil-rlib/reactjs-star-rating
 ```
 
 또는
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

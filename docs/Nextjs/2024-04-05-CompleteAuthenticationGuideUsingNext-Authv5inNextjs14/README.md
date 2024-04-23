@@ -1,5 +1,5 @@
 ---
-title: "Next.js 14에서 Next-Auth v5를 사용하는 인증 완벽 가이드"
+title: "Next.js 14에서 Next-Auth v5를 사용하는 인증 가이드 정리"
 description: ""
 date: 2024-04-05 13:22
 sidebarDepth: 0

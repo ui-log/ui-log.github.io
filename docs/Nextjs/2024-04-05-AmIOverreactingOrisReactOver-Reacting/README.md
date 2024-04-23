@@ -1,5 +1,5 @@
 ---
-title: "과도한 반응일까요? 아니면 React가 과도하게 반응하는 걸까요?"
+title: "React에서 자동 렌더링을 취소하는 방법"
 description: ""
 date: 2024-04-05 14:42
 sidebarDepth: 0
@@ -12,9 +12,6 @@ link: "https://medium.com/gitconnected/am-i-overreacting-or-is-react-over-reacti
 
 ![사진](./img/AmIOverreactingOrisReactOver-Reacting_0.png)
 
-원문은 https://devtails.xyz에서 게시되었습니다.
-
-2023년 1월 4일 수정
 
 예상대로, 특정 예시에 많은 관심이 기울어졌습니다. 이 중 일부 비판은 타당하지만, 이 글의 요점은 구체적으로 나온 행동에 있는 것이 아닙니다. 오히려, 이 글은 React를 통해 엄청난 수의 요소를 렌더링하는 비용을 보여주고, React가 제공하는 자동 렌더링을 취소하기 위해 추가적인 레이어를 얼마나 더 더해야 하는지를 보여주는 것입니다. 더 나은 예시를 찾게 된다면 후속 글을 작성할 수 있을 것입니다.
 

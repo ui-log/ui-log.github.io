@@ -1,5 +1,5 @@
 ---
-title: "2024년, 네이티브 CSS 네스팅이 다가옵니다 🚀"
+title: "2024년에 CSS 네스팅을 하는 방법"
 description: ""
 date: 2024-04-05 12:54
 sidebarDepth: 0
@@ -29,7 +29,6 @@ link: "https://medium.com/javascript-in-plain-english/its-2024-and-native-css-ne
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ```js
 <div class="box">
   <p>안녕 중간사이즈</p>
@@ -53,7 +52,6 @@ link: "https://medium.com/javascript-in-plain-english/its-2024-and-native-css-ne
 ```
 
 ![그림](./img/Its2024andNativeCSSNestingIsComing_1.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -143,7 +141,6 @@ CSS 중첩 기능은 아직 실험 단계에 있는 기능입니다. 위의 코�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/Its2024andNativeCSSNestingIsComing_2.png)
 
 # 간단한 영어로 🚀
@@ -154,4 +151,3 @@ In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나시�
 - 팔로우하기: X | LinkedIn | YouTube | Discord | Newsletter
 - 다른 플랫폼 방문하기: Stackademic | CoFeed | Venture | Cubed
 - PlainEnglish.io에서 더 많은 콘텐츠 확인하기
-```

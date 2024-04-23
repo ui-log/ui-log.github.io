@@ -1,5 +1,5 @@
 ---
-title: "JWT에 대한 실용적인 개요"
+title: "React 사이트에서 JWT 사용하는 방법"
 description: ""
 date: 2024-04-05 16:48
 sidebarDepth: 0

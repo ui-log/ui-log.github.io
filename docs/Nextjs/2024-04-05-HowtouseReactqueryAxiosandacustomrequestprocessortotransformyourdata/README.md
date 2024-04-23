@@ -1,5 +1,5 @@
 ---
-title: "React 쿼리, Axios 및 사용자 정의 요청 프로세서를 사용하여 데이터를 변환하는 방법"
+title: "React query, Axios를 사용하여 데이터를 변환하는 방법"
 description: ""
 date: 2024-04-05 16:09
 sidebarDepth: 0
@@ -10,7 +10,7 @@ link: "https://medium.com/@amavictor/how-to-use-react-query-axios-and-a-custom-r
 ---
 
 
-```markdown
+
 ![Screenshot](./img/HowtouseReactqueryAxiosandacustomrequestprocessortotransformyourdata_0.png)
 
 React Query는 React 애플리케이션 내에서 데이터를 관리하기 위해 설계된 강력한 라이브러리입니다. 데이터 가져오기, 캐싱, 서버와의 동기화와 같은 작업을 간편하게 처리하며, 우아한 솔루션을 제공합니다. 반면 Axios는 JavaScript 애플리케이션에서 API 요청을 처리하기 위해 널리 사용되는 HTTP 클라이언트입니다. React Query와 Axios를 결합하여 손쉽게 구현하고 유지보수할 수 있는 강력한 데이터 관리 솔루션을 만들 수 있습니다.
@@ -18,7 +18,6 @@ React Query는 React 애플리케이션 내에서 데이터를 관리하기 위�
 본 문서에서는 React Query를 Axios와 통합하는 과정을 안내합니다. 우리는 데이터 관리 접근 방식을 간소화하기 위해 일부 사용자 정의 후크와 함께 Axios인 request processor를 활용할 것입니다. 각 단계는 예제와 함께 제시되어 있어 쉽게 따라할 수 있고 애플리케이션에 솔루션을 구현할 수 있습니다. 이 문서는 React Query 라이브러리의 최신 개선 사항과 요구 사항을 반영하도록 업데이트되었습니다.
 
 # 단계 1: Axios 클라이언트 및 request processor 설정하기
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

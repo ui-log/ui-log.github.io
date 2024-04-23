@@ -1,5 +1,5 @@
 ---
-title: "리액트에서 PDF 문서 표시하기"
+title: "리액트 웹사이트에서 PDF 뷰어 만들기"
 description: ""
 date: 2024-04-05 13:46
 sidebarDepth: 0

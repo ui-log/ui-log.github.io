@@ -1,5 +1,5 @@
 ---
-title: "테일윈드로 체크박스 스타일링하기"
+title: "Tailwind로 커스텀 체크박스 만들기"
 description: ""
 date: 2024-04-05 18:58
 sidebarDepth: 0
@@ -16,7 +16,6 @@ link: "https://medium.com/@marek-rozmus/styling-checkbox-with-tailwind-46a92c157
 
 이번에는 순수한 프론트엔드 작업인 체크박스 스타일링에 대해 알아보겠습니다. 체크박스 요소에서는 일부 스타일링(예: 테두리)을 변경할 수 없고 전체 체크박스를 처음부터 다시 스타일링해야 합니다. 기본 스타일링을 지워야 하며, 한 단계씩 만들어나가야 합니다.
 
-![이미지](./img/StylingcheckboxwithTailwind_1.png)
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -143,7 +142,6 @@ HTML 체크박스(보다 정확히는 input 태그)의 모양은 브라우저와
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 <img src="./img/StylingcheckboxwithTailwind_4.png" />
 
 <img src="./img/StylingcheckboxwithTailwind_5.png" />
@@ -151,7 +149,6 @@ HTML 체크박스(보다 정확히는 input 태그)의 모양은 브라우저와
 참고: 한 줄 레이블의 경우에는 flex 항목 정렬을 사용할 수 있지만, 레이블이 두 줄 이상인 경우(또는 일부 화면 크기에서 줄바꿈이 가능한 경우) 다음 문제가 발생합니다:
 
 <img src="./img/StylingcheckboxwithTailwind_6.png" />
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -326,7 +323,6 @@ SVG 아이콘은 상자에 렌더링되어야 하므로 상대 및 절대 클래
 
 이상입니다 - 이제 탤윈드 클래스로 체크박스를 스타일링하는 방법을 알게 되었습니다.
 
-![하트모양 체크박스](./img/StylingcheckboxwithTailwind_9.png)
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

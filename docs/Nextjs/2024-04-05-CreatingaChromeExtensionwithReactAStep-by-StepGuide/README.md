@@ -1,5 +1,5 @@
 ---
-title: "리액트로 크롬 익스텐션 만들기: 단계별 안내"
+title: "리액트로 크롬 익스텐션 만들기"
 description: ""
 date: 2024-04-05 15:36
 sidebarDepth: 0
@@ -10,7 +10,6 @@ link: "https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-
 ---
 
 
-```markdown
 ![Creating a Chrome extension with a React app built using TypeScript and bundled with Webpack](./img/CreatingaChromeExtensionwithReactAStep-by-StepGuide_0.png)
 
 크롬 익스텐션을 TypeScript를 사용하여 빌드하고 Webpack으로 번들링된 React 앱으로 만드는 것은 현대적인 브라우저 익스텐션을 만드는 좋은 방법입니다. 이 블로그에서는 npx create-react-app 템플릿을 사용하여 TypeScript로 크롬 익스텐션을 만드는 과정을 안내하고 Webpack을 사용하여 앱을 번들링하는 방법을 설명하겠습니다. 또한 Manifest V3의 최신 버전을 사용할 것입니다.
@@ -18,7 +17,6 @@ link: "https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-
 GitHub 저장소
 
 다소 조급한 기분인가요? 바로 GitHub 저장소로 이동하세요. 도움이 되었다면 꼭 별표를 남겨 주세요.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

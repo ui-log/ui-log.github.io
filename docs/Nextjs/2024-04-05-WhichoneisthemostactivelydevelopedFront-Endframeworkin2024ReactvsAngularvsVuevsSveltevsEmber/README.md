@@ -1,5 +1,5 @@
 ---
-title: "2024년에 가장 활발하게 개발되고 있는 프론트엔드 프레임워크는 무엇일까요? – React vs Angular vs Vue vs Svelte vs Ember"
+title: "2024년 가장 많이 사용되는 프론트엔드 프레임워크는? – React vs Angular vs Vue vs Svelte vs Ember"
 description: ""
 date: 2024-04-05 16:26
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "2023년에 CSS를 작성하는 것은 다를 것입니다"
+title: "2023년에 CSS를 작성하는 방법"
 description: ""
 date: 2024-04-05 08:26
 sidebarDepth: 0
@@ -105,7 +105,6 @@ CSS가 많은 새로운 기능들을 추가했지만, 많은 웹 개발자들은
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![./img/StartingtowriteCSSin2023willbedifferent_5.png](./img/StartingtowriteCSSin2023willbedifferent_5.png)
 
 메인스트림 브라우저인 Chrome, Safari 및 Firefox의 릴리스에서 다양한 웹 플랫폼에서 도입된 새로운 기능 및 버그 수정 사항을 확인할 수 있습니다.
@@ -113,7 +112,6 @@ CSS가 많은 새로운 기능들을 추가했지만, 많은 웹 개발자들은
 # 릴리스 노트
 
 ![./img/StartingtowriteCSSin2023willbedifferent_6.png](./img/StartingtowriteCSSin2023willbedifferent_6.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -261,7 +259,7 @@ CSS의 핵심 기능부터 시작해 봅시다. 이것은 여러분이 CSS를 �
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![Starting to write CSS in 2023 will be different](./img/StartingtowriteCSSin2023willbedifferent_14.png)
 
 캐스케이딩 계층은 CSS에서 가장 중요한 개념 중 하나입니다. 많은 웹 개발자들이 이를 두렵게 여기는데, 이유 중 하나는 작성한 CSS가 충돌을 일으키거나 덮어쓰기가 쉽기 때문입니다. 예를 들어:
@@ -278,7 +276,6 @@ ul[class] { /* (0,1,1) */
 ```
 
 어떤 선언(CSS 스타일 규칙)이 "승리"하여(요소에 적용되는) 적용될지 결정하기 위해, 캐스케이딩은 상응하는 알고리즘을 제공합니다. 캐스케이딩 알고리즘을 이해하면 브라우저가 스타일 규칙 충돌을 해결하는 방법을 이해할 수 있으며, 즉 브라우저가 요소에 적용할 스타일 규칙을 결정합니다. 그러나 캐스케이딩 알고리즘은 다른 사양마다 다양한 설명이 제공되며, 레벨 5에서는 여섯 가지 다른 수준이 제공됩니다. 캐스케이딩 계층을 고려하지 않고, 그 표준은 다음과 같습니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -291,7 +288,7 @@ ul[class] { /* (0,1,1) */
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![image](./img/StartingtowriteCSSin2023willbedifferent_15.png)
 
 위의 예시와 같이, 우리는 다음 기준에 따라 .nav 가중치를 높여야 합니다:
@@ -308,7 +305,6 @@ ul.nav { /* (0,1,1) */
 ```
 
 CSS에 익숙한 동료들은 이러한 표준들의 우선순위가 높은 것부터 낮은 것까지 정렬되어 있고, 얻어진 선언이 결정될 때까지 하나씩 확인합니다. 가장 높은 표준에서 어떤 속성 선언이 이길지 결정할 수 없으면, 카스케이드가 다음 표준으로 이동합니다. 예를 들어, 아래 그림에서 보여지는 것처럼.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -417,7 +413,6 @@ CSS cascading layer @layer 기능을 이용하면 이전 CSS 방법론 (예: ITC
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 
 <img src="./img/StartingtowriteCSSin2023willbedifferent_20.png" />
 
@@ -446,7 +441,6 @@ table.colortable th {
 
 이렇게 하면 스타일 코드가 반복적이고 중복되며 흩어지게 됩니다. 그래서 많은 웹 개발자들이 CSS 프로세서의 특성을 기반으로 CSS 선택자를 작성하는 중첩 방법을 사용할 것입니다. 예를 들어, 위의 코드가 SCSS의 중첩 구문을 사용하여 작성된다면 다음과 같을 것입니다:
 
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -559,7 +553,6 @@ h1 {
 ```
 
 # 👁️ scope
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -704,7 +697,6 @@ CSS 카스케이드 내에서 @scope는 인접한 영역을 결정하는 새로�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 <img src="./img/StartingtowriteCSSin2023willbedifferent_25.png" />
 
 개인적으로 CSS :has()은 if... else... 함수에 가장 가깝습니다. 이는 주로 HTML의 DOM과 관련이 있으며 이것이 관계 선택기(relational selector)라고 불리는 이유입니다. 예를 들어, 다음 예제에서는 하위 요소의 존재를 확인하고 적용된 스타일은 상위 요소에 적용됩니다.
@@ -730,7 +722,6 @@ CSS 카스케이드 내에서 @scope는 인접한 영역을 결정하는 새로�
 ```
 
 위 세 가지 케이스에 해당하는 DOM 트리는 아래 그림에 나와 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -842,7 +833,6 @@ S를 지정한 후에 An + B 논리는 주어진 선택자 목록 S와 일치하
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![StartingtowriteCSSin2023willbedifferent_31.png](./img/StartingtowriteCSSin2023willbedifferent_31.png)
 
 더 흥미로운 점은 :has(), :not(), ~ 및 +를 함께 사용하여 :nth-child(An + B [of S]?) 및 :nth-last-child(An + B [of S]?) 선택기를 모방하거나 CSS에 존재하지 않는 선택기까지 시뮬레이션할 수 있다는 것입니다:
@@ -854,7 +844,6 @@ S를 지정한 후에 An + B 논리는 주어진 선택자 목록 S와 일치하
 - :nth-last-in-island-of-class(.special)는 ElementGroups에서 n번째 뒤에서 요소(클래스 이름 .😍)를 선택합니다. 예를 들어, .😍:not(:has(+.😍 +.😍)):has(+.😍)는 끝에서 두 번째 요소(클래스 이름 .😍)를 선택하고, .😍:not(:has(+.😍 +.😍 +.😍)):has(+.😍 +.😍)는 끝에서 세 번째 요소(클래스 이름 .😍)를 선택합니다.
 
 ![StartingtowriteCSSin2023willbedifferent_32.png](./img/StartingtowriteCSSin2023willbedifferent_32.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -886,7 +875,6 @@ W3C 명세서의 CSS 값 및 단위 모듈 레벨 4는 웹 개발자에게 수�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/StartingtowriteCSSin2023willbedifferent_34.png)
 
 애니메이션 애호가이거나 자주 애니메이션을 개발해야 하는 경우, CSS 삼각 함수가 최선의 도우미가 될 것입니다. 애니메이션 개발 과정에서 다음과 같이 CSS 삼각 함수를 사용할 수 있습니다:
@@ -897,7 +885,6 @@ W3C 명세서의 CSS 값 및 단위 모듈 레벨 4는 웹 개발자에게 수�
 - asin(), acos(), atan() 및 atan2() 함수는 요소를 회전하는 데 사용할 수 있습니다.
 
 또한 삼각함수는 애니메이션에서 다양한 응용과 역할을 갖고 있습니다. 일반적인 예시를 몇 가지 소개합니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -1403,7 +1390,7 @@ light-dark() 함수를 사용하는 것이 prefers-color-scheme 미디어 쿼리
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![Starting to write CSS in 2023 will be different](./img/StartingtowriteCSSin2023willbedifferent_58.png)
 
 스타일 쿼리는 크기 쿼리와 매우 유사합니다. 스타일 쿼리를 사용하여 컨테이너의 계산된 스타일을 쿼리할 수 있지만 size 쿼리는이를 구별합니다. 이를 통해 style () 함수를 통해여 어떤 유효한 스타일 선언도 허용할 수 있습니다. style () 함수는 다음을 허용합니다:
@@ -1428,7 +1415,6 @@ light-dark() 함수를 사용하는 것이 prefers-color-scheme 미디어 쿼리
 }
 ```
 스타일 쿼리의 조건( style () 함수에서 선언된대로)이 계산된 값을 비교한다는 점을 유의하십시오.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -1575,7 +1561,6 @@ Una Kravets은 CSS Day 2023에서 "CSS 커뮤니티의 현재 상황"과 관련�
 웹 사이트에 테마 스위치가 있다고 가정해보겠습니다. JavaScript를 사용할 수 없는 경우에는 스크립트 미디어 쿼리를 사용하여 스위치를 시스템 환경 설정을 준수하도록 만들 수 있습니다. 또는 JavaScript를 사용할 수 있는 경우에는 스위치 구성 요소를 사용해보세요. 제스처로 스위치를 스와이프하여 켜고 끌 필요 없이 간단하게 동작할 수 있습니다. 스크립트를 활용하면 사용자 경험을 업그레이드할 수 있는 많은 기회가 있습니다. 스크립트가 비활성화된 경우에도 의미 있는 기본적인 경험을 제공할 수 있습니다.
 
 # 👁️ 줏어진 투명도를 가진 미디어 쿼리
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -1867,7 +1852,6 @@ transition-behavior 속성값으로 허용된 이산을 사용하면 이산 속�
 더 자세한 이산 속성 애니메이션 소개를 원하시면 "Web Animation Journey"에서 "프레임 애니메이션 및 전환 애니메이션: 비즈니스 시나리오에 더 나은 방법은 무엇인가요?"를 읽어보세요!
 
 # 👁️ @starting-style
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -1880,11 +1864,9 @@ transition-behavior 속성값으로 허용된 이산을 사용하면 이산 속�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![Image](./img/StartingtowriteCSSin2023willbedifferent_81.png)
 
 @Starting-style는 새로운 CSS @ 규칙으로, display: none을 사용하여 요소의 표시와 숨김을 부드럽게 애니메이션하는 데 새로운 웹 기능을 사용합니다. 이 규칙은 브라우저가 페이지에서 요소를 열기 전에 "before-open" 스타일을 찾아주는 방법을 제공합니다. 이는 인트로 애니메이션에 유용하며, 팝업 또는 대화상자와 같은 요소를 애니메이션하는 데 사용할 수 있습니다. 또한 요소를 만들고 애니메이션을 적용하고 싶을 때도 사용할 수 있습니다. 다음 예시는 popover 속성을 사용하여 뷰포트 바깥에서 부드럽게 보여지도록 만들어 상위 레이어로 이동하는 애니메이션을 보여줍니다.
-```
 
 ```js
 /*   IS-OPEN STATE   */
@@ -1908,7 +1890,6 @@ dialog {
 ```
 
 ![Image](./img/StartingtowriteCSSin2023willbedifferent_82.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -1940,7 +1921,6 @@ dialog {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![StartingtowriteCSSin2023willbedifferent_84.png](./img/StartingtowriteCSSin2023willbedifferent_84.png)
 
 If you’re interested in entry and exit animations, or want to make a smooth entry and exit animation, see @Una Kravets and @Joey Arhar’s tutorial [Four new CSS features for smooth entry and exit animations](link to the tutorial).
@@ -1948,7 +1928,6 @@ If you’re interested in entry and exit animations, or want to make a smooth en
 # 👁️ Anchor Positioning
 
 ![StartingtowriteCSSin2023willbedifferent_85.png](./img/StartingtowriteCSSin2023willbedifferent_85.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -2001,7 +1980,6 @@ CSS 앵커 위치 지정에 대해 더 알고 싶다면, 모던 CSS에서 웹 �
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 <img src="./img/StartingtowriteCSSin2023willbedifferent_87.png" />
 
 W3C 명세는 CSS 합성 애니메이션을 다음과 같이 설명합니다:
@@ -2009,7 +1987,6 @@ W3C 명세는 CSS 합성 애니메이션을 다음과 같이 설명합니다:
 대략적으로 말하면, "animation-composition 속성은 여러 애니메이션이 동시에 동일한 속성에 영향을 미칠 때 사용되는 복합 연산을 정의합니다."
 
 다시 말해, CSS 애니메이션 합성 (animation-composition)은 여러 CSS 애니메이션 효과를 동시에 동일한 속성에 적용하고, 이러한 애니메이션을 어떻게 결합하여 속성 값에 영향을 미치는지를 제어하는데 사용됩니다. 이를 통해 한 요소에 동시에 여러 애니메이션 효과가 작용할 때 애니메이션 성능을 더 유연하게 제어하고, 속성 값의 오버레이 및 교체를 포함한 복잡한 애니메이션 효과를 만드는 웹 개발자들에게 단일 애니메이션 규칙에 의존하지 않고 더 많은 제어를 제공합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -10,7 +10,6 @@ link: "https://medium.com/@kevinnokiawriting/reading-books-is-useless-heres-a-be
 ---
 
 
-![이 글에서는 링크 주소입니다]("./img/ReadingBooksIsUselessHeresaBetterWaytoRead_0.png") 
 
 책을 읽는 것을 좋아해요.
 

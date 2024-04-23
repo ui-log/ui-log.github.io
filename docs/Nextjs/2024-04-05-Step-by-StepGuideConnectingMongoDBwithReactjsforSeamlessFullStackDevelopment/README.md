@@ -1,5 +1,5 @@
 ---
-title: "단계별 안내서: MongoDB와 React.js 연결하기 - 통합된 풀 스택 개발을 위해"
+title: "MongoDB와 React.js 연결하기"
 description: ""
 date: 2024-04-05 16:58
 sidebarDepth: 0

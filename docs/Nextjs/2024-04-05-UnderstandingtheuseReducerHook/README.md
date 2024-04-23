@@ -1,5 +1,5 @@
 ---
-title: "useReducer 훅 이해하기"
+title: "React 프로젝트 useReducer 훅 이해하기"
 description: ""
 date: 2024-04-05 20:02
 sidebarDepth: 0

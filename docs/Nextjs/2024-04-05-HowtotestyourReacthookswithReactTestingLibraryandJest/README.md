@@ -1,5 +1,5 @@
 ---
-title: "리액트 훅을 React Testing Library와 Jest로 테스트하는 방법"
+title: "React Testing Library와 Jest로 리액트 훅 테스트하는 방법"
 description: ""
 date: 2024-04-05 18:31
 sidebarDepth: 0

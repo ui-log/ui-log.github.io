@@ -1,5 +1,5 @@
 ---
-title: "리덕스의 기본 사항을 빠르게 알아보기"
+title: "리덕스의 기본 사항을 빠르게 알아보자"
 description: ""
 date: 2024-04-05 16:55
 sidebarDepth: 0

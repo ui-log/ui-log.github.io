@@ -1,5 +1,5 @@
 ---
-title: "2024년이야! 이제 React Server Components를 사용해야 해요!"
+title: "2024년에는 React Server Components를 사용해야 하는 이유"
 description: ""
 date: 2024-04-05 12:39
 sidebarDepth: 0

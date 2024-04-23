@@ -1,5 +1,5 @@
 ---
-title: "자바스크립트에서의 패턴들 *******"
+title: "자바스크립트에서의 패턴들"
 description: ""
 date: 2024-04-05 19:38
 sidebarDepth: 0
@@ -710,7 +710,6 @@ console.log(pattern);
 ```
 
 방법:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

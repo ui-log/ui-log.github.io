@@ -1,5 +1,5 @@
 ---
-title: "리액트와 넥스트.js 앱에서 노드.js를 이용한 푸시 알림"
+title: "리액트와 Next.js 앱에서 node.js를 이용한 푸시 알림 구현하기"
 description: ""
 date: 2024-04-05 19:12
 sidebarDepth: 0

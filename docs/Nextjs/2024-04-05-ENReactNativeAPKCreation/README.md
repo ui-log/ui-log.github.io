@@ -1,5 +1,5 @@
 ---
-title: "[한국어] ReactNative APK 만들기"
+title: "ReactNative APK 직접 만들기"
 description: ""
 date: 2024-04-05 14:17
 sidebarDepth: 0

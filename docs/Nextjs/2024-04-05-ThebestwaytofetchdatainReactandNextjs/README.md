@@ -1,5 +1,5 @@
 ---
-title: "리액트와 Next.js에서 데이터를 가져오는 최선의 방법"
+title: "React와 Next.js에서 데이터를 가져오는 여러가지 방법"
 description: ""
 date: 2024-04-05 15:44
 sidebarDepth: 0

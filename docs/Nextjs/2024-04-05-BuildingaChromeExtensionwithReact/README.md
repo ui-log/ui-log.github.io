@@ -1,5 +1,5 @@
 ---
-title: "리액트로 크롬 익스텐션 만들기!"
+title: "리액트로 크롬 확장프로그램 만드는 방법"
 description: ""
 date: 2024-04-05 15:40
 sidebarDepth: 0
@@ -60,7 +60,6 @@ manifest.json 파일은 JSON 형식의 메타데이터 파일로, 확장 프로�
 - js: 페이지에 주입될 JavaScript 파일의 배열입니다. 이 예시에서 contentScript.js는 실행되는 JavaScript 파일입니다. 상호작용할 웹 페이지에 확장 프로그램이 활성화된 Logic이 포함된 파일입니다.
 
 이것이 Chrome 확장 프로그램을 위한 manifest.json 파일의 기본 구조입니다. 확장 프로그램의 요구에 따라 필드를 추가할 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -88,7 +87,8 @@ manifest.json 파일은 JSON 형식의 메타데이터 파일로, 확장 프로�
 <body>
     <h1>Hello Extension!</h1>
 </body>
-</html>```
+</html>
+```
 
 그 다음으로 확장 프로그램 폴더는 다음과 같아야 합니다:
 
@@ -103,7 +103,7 @@ manifest.json 파일은 JSON 형식의 메타데이터 파일로, 확장 프로�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![Chrome Extension](./img/BuildingaChromeExtensionwithReact_1.png)
 
 # 확장 프로그램 로드
@@ -112,7 +112,6 @@ manifest.json 파일은 JSON 형식의 메타데이터 파일로, 확장 프로�
 
 - Google Chrome을 열고 chrome://extensions/로 이동합니다.
 - 오른쪽 상단에서 “개발자 모드”를 토글합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

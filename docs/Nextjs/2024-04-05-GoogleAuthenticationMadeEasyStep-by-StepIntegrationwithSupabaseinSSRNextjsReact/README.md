@@ -1,5 +1,5 @@
 ---
-title: "Google 인증을 쉽게 만들기: SSR (Next.js React)에서 Supabase와의 단계별 통합"
+title: "SSR (Next.js React)에서 Supabase로 Google 인증을 쉽게 하기"
 description: ""
 date: 2024-04-05 19:52
 sidebarDepth: 0

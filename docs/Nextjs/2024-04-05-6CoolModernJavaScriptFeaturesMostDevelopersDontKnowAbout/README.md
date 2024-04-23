@@ -1,16 +1,15 @@
 ---
-title: "현대 JavaScript의 여러 멋진 기능중 대부분의 개발자가 알지 못할 것 같은 6가지를 소개합니다"
+title: "JavaScript 개발자라면 반드시 알아둬야하는 기능들 (2024년)"
 description: ""
 date: 2024-04-05 19:10
 sidebarDepth: 0
 tag: Tech
-thumbnail: 
+thumbnail:
 originalTitle: "6 Cool Modern JavaScript Features Most Developers Don’t Know About"
 link: "https://medium.com/javascript-in-plain-english/6-cool-modern-javascript-features-most-developers-dont-know-about-fc9ad774645a"
 ---
 
 
-```markdown
 <img src="./img/6CoolModernJavaScriptFeaturesMostDevelopersDontKnowAbout_0.png" />
 
 # 소개
@@ -18,9 +17,9 @@ link: "https://medium.com/javascript-in-plain-english/6-cool-modern-javascript-f
 JavaScript는 지속적으로 발전하고 업그레이드되며, 점점 더 많은 새로운 기능이 코드를 간결하게 만듭니다. 본 문서에서는 새로운 JavaScript 기능 중 여섯 가지를 소개하겠습니다. 함께 공부해보세요.
 
 # 1. “in” 연산자 대신 “Object.hasOwn” 사용하기
-```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -39,15 +38,16 @@ JavaScript는 지속적으로 발전하고 업그레이드되며, 점점 더 많
 
 ```js
 const Person = function (age) {
-  this.age = age
-}
-Person.prototype.name = 'fatfish'
-const p1 = new Person(24)
-console.log('age' in p1) // true 
-console.log('name' in p1) // true  주의해 주세요
+  this.age = age;
+};
+Person.prototype.name = "fatfish";
+const p1 = new Person(24);
+console.log("age" in p1); // true
+console.log("name" in p1); // true  주의해 주세요
 ```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -66,15 +66,16 @@ obj.hasOwnProperty
 
 ```js
 const Person = function (age) {
-  this.age = age
-}
-Person.prototype.name = 'fatfish'
-const p1 = new Person(24)
-console.log(p1.hasOwnProperty('age')) // true 
-console.log(p1.hasOwnProperty('name')) // fasle  pay attention here
+  this.age = age;
+};
+Person.prototype.name = "fatfish";
+const p1 = new Person(24);
+console.log(p1.hasOwnProperty("age")); // true
+console.log(p1.hasOwnProperty("name")); // fasle  pay attention here
 ```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -88,7 +89,7 @@ console.log(p1.hasOwnProperty('name')) // fasle  pay attention here
 "obj.hasOwnProperty"은 프로토타입 체인의 속성을 이미 필터링할 수 있지만, 경우에 따라 안전하지 않고 프로그램에 실패를 일으킬 수 있습니다.
 
 ```js
-Object.create(null).hasOwnProperty('name')
+Object.create(null).hasOwnProperty("name");
 // Uncaught TypeError: Object.create(...).hasOwnProperty is not a function
 ```
 
@@ -97,6 +98,7 @@ Object.hasOwn
 걱정 마세요, 이 두 문제를 피하기 위해 "Object.hasOwn"을 사용할 수 있습니다. 이 방법은 "obj.hasOwnProperty" 방법보다 훨씬 편리하고 안전합니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -107,7 +109,7 @@ Object.hasOwn
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```js
+````js
 let object = { age: 24 }
 Object.hasOwn(object, 'age') // true
 let object2 = Object.create({ age: 24 })
@@ -141,9 +143,10 @@ console.log(p1._money) // 1
 p1._money = 2 // 외부에서 비공개 속성 _money를 수정합니다.
 console.log(p1.money) // 2
 console.log(p1._money) // 2
-```  
+````
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -158,33 +161,34 @@ console.log(p1._money) // 2
 
 ```js
 class Person {
-  #money=1
-  constructor (name) {
-    this.name = name
+  #money = 1;
+  constructor(name) {
+    this.name = name;
   }
-  get money () {
-    return this.#money
+  get money() {
+    return this.#money;
   }
-  set money (money) {
-    this.#money = money
+  set money(money) {
+    this.#money = money;
   }
-  showMoney () {
-    console.log(this.#money)
+  showMoney() {
+    console.log(this.#money);
   }
 }
-const p1 = new Person('fatfish')
-console.log(p1.money) // 1
+const p1 = new Person("fatfish");
+console.log(p1.money); // 1
 // p1.#money = 2 // 우리는 이 방법으로 #money를 수정할 수 없습니다
-p1.money = 2
-console.log(p1.money) // 2
-console.log(p1.#money) // Private field '#money' must be declared in an enclosing class 에러 발생
+p1.money = 2;
+console.log(p1.money); // 2
+console.log(p1.#money); // Private field '#money' must be declared in an enclosing class 에러 발생
 ```
 
 # 3. 유용한 숫자 구분자
 
-숫자를 더 읽기 쉽게 만들기 위해 “_”를 사용할 수 있습니다. 멋지죠.
+숫자를 더 읽기 쉽게 만들기 위해 “\_”를 사용할 수 있습니다. 멋지죠.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -196,22 +200,23 @@ console.log(p1.#money) // Private field '#money' must be declared in an enclosin
 </component>
 
 ```js
-const sixBillion = 6000000000
+const sixBillion = 6000000000;
 // 이건 읽기가 매우 어렵다
-const sixBillion2 = 6000_000_000
+const sixBillion2 = 6000_000_000;
 // 멋지고 읽기 쉽다
-console.log(sixBillion2) // 6000000000
+console.log(sixBillion2); // 6000000000
 ```
 
-물론, 실제 계산에도 “_”를 사용할 수 있어요.
+물론, 실제 계산에도 “\_”를 사용할 수 있어요.
 
 ```js
-const sum = 1000 + 6000_000_000 // 6000001000
+const sum = 1000 + 6000_000_000; // 6000001000
 ```
 
 # 4. “&&”와 삼항 연산자(Ternary operators)를 단순화하기 위해 “?.”를 사용하세요.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -225,13 +230,14 @@ const sum = 1000 + 6000_000_000 // 6000001000
 당신이 아래 예제에 익숙할거라고 생각돼, 우리는 이를 간단하게 할 수 있을까요?
 
 ```js
-const obj = null
-console.log(obj?.name)
-const $title = document.querySelector('.title')
-const title = $title?.innerText
+const obj = null;
+console.log(obj?.name);
+const $title = document.querySelector(".title");
+const title = $title?.innerText;
 ```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -253,6 +259,7 @@ Common spelling of “?.”
 # 5. Use “??” instead of “||”
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -267,25 +274,25 @@ Common spelling of “?.”
 
 ```js
 const obj = {
-  name: 'fatfish',
+  name: "fatfish",
   nullValue: null,
   zero: 0,
-  emptyString: '',
+  emptyString: "",
   falseValue: false,
-}
-console.log(obj.age ?? 'some other default') // some other default
-console.log(obj.age || 'some other default') // some other default
+};
+console.log(obj.age ?? "some other default"); // some other default
+console.log(obj.age || "some other default"); // some other default
 
-console.log(obj.nullValue ?? 'some other default') // some other default
-console.log(obj.nullValue || 'some other default') // some other default
-console.log(obj.zero ?? 0) // 0
-console.log(obj.zero || 'some other default') // some other default
+console.log(obj.nullValue ?? "some other default"); // some other default
+console.log(obj.nullValue || "some other default"); // some other default
+console.log(obj.zero ?? 0); // 0
+console.log(obj.zero || "some other default"); // some other default
 
-console.log(obj.emptyString ?? 'emptyString') // ''
-console.log(obj.emptyString || 'some other default') // some other default
+console.log(obj.emptyString ?? "emptyString"); // ''
+console.log(obj.emptyString || "some other default"); // some other default
 
-console.log(obj.falseValue ?? 'falseValue') // false
-console.log(obj.falseValue || 'some other default') // some other default
+console.log(obj.falseValue ?? "falseValue"); // false
+console.log(obj.falseValue || "some other default"); // some other default
 ```
 
 # 6. 큰 정수 계산 문제 대응으로 "BigInt"를 사용해 보세요
@@ -293,6 +300,7 @@ console.log(obj.falseValue || 'some other default') // some other default
 JS에서 Number.MAX_SAFE_INTEGER를 초과하는 숫자 계산은 정확하지 않을 수 있습니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -306,7 +314,7 @@ JS에서 Number.MAX_SAFE_INTEGER를 초과하는 숫자 계산은 정확하지 �
 예시:
 
 ```js
-Math.pow(2, 53) === Math.pow(2, 53) + 1 // true
+Math.pow(2, 53) === Math.pow(2, 53) + 1; // true
 // Math.pow(2, 53) => 9007199254740992
 // Math.pow(2, 53) + 1 => 9007199254740992
 ```
@@ -314,10 +322,11 @@ Math.pow(2, 53) === Math.pow(2, 53) + 1 // true
 큰 숫자들을 계산할 때, 계산 오류를 피하기 위해 "BigInt"를 사용할 수 있습니다.
 
 ```js
-BigInt(Math.pow(2, 53)) === BigInt(Math.pow(2, 53)) + BigInt(1) // false
+BigInt(Math.pow(2, 53)) === BigInt(Math.pow(2, 53)) + BigInt(1); // false
 ```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -337,6 +346,7 @@ BigInt(Math.pow(2, 53)) === BigInt(Math.pow(2, 53)) + BigInt(1) // false
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"

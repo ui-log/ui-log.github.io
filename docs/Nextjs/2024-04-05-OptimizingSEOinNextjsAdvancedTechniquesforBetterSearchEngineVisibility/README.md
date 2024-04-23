@@ -1,5 +1,5 @@
 ---
-title: "Next.js에서 SEO를 최적화하는 방법: 더 나은 검색 엔진 노출을 위한 고급 기술"
+title: "Next.js에서 검색 엔진 노출을 위해 SEO를 최적화하는 방법"
 description: ""
 date: 2024-04-05 19:44
 sidebarDepth: 0

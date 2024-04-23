@@ -1,5 +1,5 @@
 ---
-title: "리액트 및 백엔드 앱에서 GitHub 및 Google을 사용한 인증 로그인하는 방법"
+title: "리액트 및 백엔드 앱에서 GitHub 및 Google을 사용한 인증 로그인하기"
 description: ""
 date: 2024-04-05 14:18
 sidebarDepth: 0
@@ -732,7 +732,5 @@ export default HomePage
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 작가와 소통하고 싶으신가요?
 세계의 친구들과 트위터를 통해 소통하는 것을 즐기시나요.
-```

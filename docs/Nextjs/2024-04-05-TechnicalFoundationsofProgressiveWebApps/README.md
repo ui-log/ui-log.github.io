@@ -1,5 +1,5 @@
 ---
-title: "점진적 웹 앱의 기술적 기초"
+title: "Progressive Web Apps이란 무엇인지 알아보기"
 description: ""
 date: 2024-04-05 19:19
 sidebarDepth: 0

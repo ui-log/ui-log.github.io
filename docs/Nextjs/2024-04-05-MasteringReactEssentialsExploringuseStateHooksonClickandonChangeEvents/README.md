@@ -1,5 +1,5 @@
 ---
-title: "리액트 필수 요소 마스터하기: useState 훅, onClick 및 onChange 이벤트 탐구"
+title: "리액트 기초 정리 useState 훅, onClick 및 onChange 이벤트"
 description: ""
 date: 2024-04-05 16:59
 sidebarDepth: 0
@@ -32,9 +32,7 @@ import React, { useState } from "react";
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-다음은 Markdown 형식으로 테이블을 변경하는 것입니다.
-
-```markdown
+```js
 function Counter() {
     const [count, setCount] = useState(0);
     
@@ -142,6 +140,7 @@ function DynamicForm() {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
+```js
 const handleChange = (e) => {
   setInputValue(e.target.value);
 };
@@ -159,6 +158,7 @@ return (
 );
 
 export default DynamicForm;
+```
 
 결론: 축하합니다! 이제 React의 기초를 습득했습니다. useState 훅을 사용하여 상태를 관리하고 onClick 및 onChange 이벤트를 처리하는 방법까지 배웠습니다. 이러한 개념을 실전 시나리오에 적용함으로써 React 개발자로서 여정을 시작할 기초 기술을 습득했습니다. 계속해서 탐험하고 실험하며 빌드하는 과정에서 React 전문가로서의 역량이 계속 성장함을 확인할 것입니다.
 

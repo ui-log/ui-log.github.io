@@ -1,5 +1,5 @@
 ---
-title: "프로젝트에 사용하기 좋은 상위 6개의 리액트 컴포넌트 라이브러리"
+title: "프로젝트에 사용하기 좋은 6개의 React 컴포넌트 라이브러리"
 description: ""
 date: 2024-04-05 14:04
 sidebarDepth: 0
@@ -210,7 +210,6 @@ ReactDOM.render(<App />, document.querySelector("#app"));
 ```
 
 # Chakra UI
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -724,7 +723,6 @@ function MyButton() {
 ```
 
 # React 컴포넌트 라이브러리를 선택할 때 고려해야 할 요소
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

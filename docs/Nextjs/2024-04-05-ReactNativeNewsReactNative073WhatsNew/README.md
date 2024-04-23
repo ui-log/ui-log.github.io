@@ -1,5 +1,5 @@
 ---
-title: "리액트 네이티브 뉴스: 리액트 네이티브 0.73 새로운 기능은 무엇이 있을까요?"
+title: "리액트 네이티브 0.73에서 추가된 새로운 기능"
 description: ""
 date: 2024-04-05 18:56
 sidebarDepth: 0
@@ -29,7 +29,6 @@ React Native 팀은 개발 중 문제를 해결하는 방법을 업그레이드�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![React Native News](./img/ReactNativeNewsReactNative073WhatsNew_1.png)
 
 Flipper를 사용하여 디버깅하는 것이 좋지 않은 경험을 했어요. 대신 터미널이나 Chrome 디버거를 사용하는 편입니다 (RN 버전에 따라 다르겠죠). RN 팀이 Flipper를 대체하기로 한 최근 결정에 정말 기대돼요. 그들은 이러한 결정을 내린 이유를 더 자세히 공유했어요:
@@ -40,7 +39,6 @@ Flipper를 사용하여 디버깅하는 것이 좋지 않은 경험을 했어요
 - Android 및 iOS에 각각 많은 종속성을 추가하는 Flipper는 빌드 시간을 더 오래 걸리게 하고 릴리스 프로세스를 복잡하게 만들었어요.
 
 React Native는 새로운 JavaScript 디버거에 대한 작업 중이라고 발표했어요. 점진적으로 Flipper를 React Native 앱의 디버깅을 위한 기본 도구로부터 이동하고 있어요.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -186,5 +184,3 @@ brew install --cask zulu17
 </component>
 
 - RN 팀은 이제 0.73에 0.71 @types/react-native을 사용하지 않을 예정입니다.
-
-![이미지](./img/ReactNativeNewsReactNative073WhatsNew_2.png)

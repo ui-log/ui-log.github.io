@@ -1,5 +1,5 @@
 ---
-title: "Angular 17: 알아두어야 할 새로운 변경 사항"
+title: "Angular 17 새로 나온 내용 정리"
 description: ""
 date: 2024-04-05 08:59
 sidebarDepth: 0
@@ -94,14 +94,12 @@ Angular 17부터 독립 구성 요소가 기본 값이에요. 기본적으로, n
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-테이블 태그를 마크다운 형식으로 변경해주세요.
 
-```markdown
+
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
-```
 
 
 <!-- ui-log 수평형 -->

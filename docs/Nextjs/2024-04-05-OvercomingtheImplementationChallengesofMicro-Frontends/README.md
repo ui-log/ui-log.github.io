@@ -1,5 +1,5 @@
 ---
-title: "마이크로 프론트엔드 구현 과제 극복하기"
+title: "마이크로 프론트엔드 구현 하기 "
 description: ""
 date: 2024-04-05 09:02
 sidebarDepth: 0

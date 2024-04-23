@@ -1,5 +1,5 @@
 ---
-title: "Figma 변수를 Vodafone UK에서 활용하는 방법: 복잡한 다중 브랜드 디자인 시스템을 위한 분류 체계 구성 방법"
+title: "Figma 변수를 Vodafone UK에서 활용하는 방법"
 description: ""
 date: 2024-04-05 08:54
 sidebarDepth: 0

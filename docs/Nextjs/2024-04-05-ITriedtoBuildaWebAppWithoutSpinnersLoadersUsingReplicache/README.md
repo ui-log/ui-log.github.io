@@ -1,5 +1,5 @@
 ---
-title: "웹앱 만들기 도전: Replicache를 활용해 스피너나 로더 없이!"
+title: "Replicache를 활용해 스피너나 로더 없이 웹 사이트 만들기"
 description: ""
 date: 2024-04-05 14:48
 sidebarDepth: 0

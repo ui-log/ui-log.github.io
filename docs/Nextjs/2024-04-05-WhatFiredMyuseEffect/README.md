@@ -1,5 +1,5 @@
 ---
-title: "내 useEffect가 왜 실행되었을까요?"
+title: "useEffect가 실행 방식 이해하기"
 description: ""
 date: 2024-04-05 12:34
 sidebarDepth: 0
@@ -108,8 +108,6 @@ useEffectDependencyDebugger(() => {
 useEffectDebugger는 useEffect 훅을 트리거하는 의존성을 정확히 파악할 수 있는 간단하고 효과적인 방법을 제공하여 디버깅 프로세스를 크게 개선합니다. 의존성 변경에 대한 통찰력을 제공함으로써, 개발자들은 컴포넌트를 더 잘 이해하고 최적화할 수 있어서 더 효율적이고 유지보수 가능한 React 애플리케이션을 구축할 수 있습니다.
 
 # 간단하게 설명하자면 🚀
-```
-
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
   style="display:block"

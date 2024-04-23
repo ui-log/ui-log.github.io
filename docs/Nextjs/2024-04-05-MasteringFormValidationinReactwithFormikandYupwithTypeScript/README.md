@@ -1,5 +1,5 @@
 ---
-title: "리액트에서 Formik과 Yup을 활용한 폼 유효성 검사 마스터하기 (타입스크립트 지원)"
+title: "리액트에서 Formik과 Yup으로 폼 유효성 검사하기(타입스크립트 지원)"
 description: ""
 date: 2024-04-05 19:17
 sidebarDepth: 0
@@ -10,7 +10,6 @@ link: "https://medium.com/@olaishola/mastering-form-validation-in-react-with-for
 ---
 
 
-```markdown
 <img src="./img/MasteringFormValidationinReactwithFormikandYupwithTypeScript_0.png" />
 
 # 소개
@@ -18,7 +17,6 @@ link: "https://medium.com/@olaishola/mastering-form-validation-in-react-with-for
 폼 유효성 검사는 견고하고 사용자 친화적인 웹 애플리케이션을 개발하는 중요한 부분입니다. React에서 개발자들은 종종 강력한 서드 파티 라이브러리에 의존하여 유효성 검사를 간소화하고 일관된 사용자 경험을 제공합니다. Formik과 Yup은 두 가지 인기 있는 라이브러리로, React에서 폼 유효성 검사에 우아하고 효율적인 솔루션을 제공하기 위해 완벽하게 작동합니다. 이 포괄적인 가이드에서는 Formik과 Yup을 사용하여 폼 유효성 검사를 구현하는 과정을 탐구하고 TypeScript의 추가적인 이점을 활용하는 방법을 살펴보겠습니다.
 
 ## 왜 또 다른 라이브러리가 필요한 걸까요?
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -33,11 +31,10 @@ link: "https://medium.com/@olaishola/mastering-form-validation-in-react-with-for
 
 이렇게 마음을 비우고 즐거운 웃음으로 새로운 내용을 만나보시는 건 어떨까요? 이 표를 마크다운 형식으로 변경해드리겠습니다:
 
-```markdown
+
 |선택 1|선택 2|선택 3|
 |---|---|---|
 |내용 1|내용 2|내용 3|
-```
 
 요렇게 말씀해주셨네요! 그렇게 마음을 비우고 불필요한 스트레스로 고생할 필요는 없어요. 직접 작성해야하는 추가적인 로직보다는 Formik와 Yup 같은 타사 라이브러리를 활용하는 걸 고려해보세요. 이 라이브러리를 사용하면 많은 시간과 노력을 절약할 수 있어요. 직접 검증 로직을 작성하는 대신 Formik와 Yup을 사용하는 이유를 여기서 한 번 살펴보세요.
 

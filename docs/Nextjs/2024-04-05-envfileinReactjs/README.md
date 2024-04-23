@@ -1,5 +1,5 @@
 ---
-title: "React JS에서 .env 파일"
+title: "React JS에서 .env 파일 사용 방법"
 description: ""
 date: 2024-04-05 12:48
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "90%의 디자이너들이 고용되기 어렵다고?"
+title: "2024년 디자이너로 취직하기 어려운 시기"
 description: ""
 date: 2024-04-05 09:53
 sidebarDepth: 0

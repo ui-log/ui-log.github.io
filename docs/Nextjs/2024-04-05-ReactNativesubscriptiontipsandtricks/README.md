@@ -1,5 +1,5 @@
 ---
-title: "React Native 구독에 대한 팁과 노하우"
+title: "React Native subscription에 대한 팁과 노하우"
 description: ""
 date: 2024-04-05 13:23
 sidebarDepth: 0

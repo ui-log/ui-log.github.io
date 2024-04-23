@@ -10,7 +10,6 @@ link: "https://medium.com/@chrlschn/react-is-the-new-ibm-6af2f4b04e5e"
 ---
 
 
-```markdown
 ![ReactistheNewIBM_0](./img/ReactistheNewIBM_0.png)
 
 우리 중 일부는 산업에 충분한 기간 동안 변형된 이 문구들이 나타나고 사라지는 것을 보았습니다.
@@ -18,7 +17,6 @@ link: "https://medium.com/@chrlschn/react-is-the-new-ibm-6af2f4b04e5e"
 구글에서 가장 먼저 나오는 결과에 이에 관한 훌륭한 블로그 게시물이 있습니다:
 
 Paul Liesching이 작성한 매우 잘 쓴 LinkedIn 기사를 인용했습니다: 
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

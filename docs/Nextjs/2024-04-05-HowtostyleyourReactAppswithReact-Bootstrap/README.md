@@ -1,5 +1,5 @@
 ---
-title: "React-Bootstrap로 React 앱 스타일링하는 방법"
+title: "React-Bootstrap로 React 앱 스타일링하기"
 description: ""
 date: 2024-04-05 13:06
 sidebarDepth: 0
@@ -281,7 +281,6 @@ import Form from 'react-bootstrap/Form';
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 <img src="./img/HowtostyleyourReactAppswithReact-Bootstrap_5.png" />
 
 # 'Carousel' 컴포넌트
@@ -289,7 +288,6 @@ import Form from 'react-bootstrap/Form';
 이제 React에서 캐러셀 컴포넌트를 사용하는 방법을 배우게 될 거에요. 이 컴포넌트는 이미지 슬라이드 덱과 유사하게 작동하며 사용자가 각 슬라이드마다 헤더 텍스트와 함께 이미지 간을 전환할 수 있어요.
 
 이 새로운 컴포넌트를 더 잘 구성하기 위해 독립적인 .jsx 파일로 분리하는 것이 좋아요. 저희는 이를 'Carousel.jsx'로 간단히 명명하고 CSS 파일인 'Carousel.module.css'에서 추가 스타일링 규칙을 가져왔어요. React Bootstrap으로부터의 모든 컴포넌트와 마찬가지로 첫 번째 단계는 이를 import 하는 것이에요:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

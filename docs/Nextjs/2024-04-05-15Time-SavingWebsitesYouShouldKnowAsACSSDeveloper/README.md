@@ -1,5 +1,5 @@
 ---
-title: "CSS 개발자로서 알아야 할 15가지 시간 절약 웹사이트"
+title: "CSS 개발자로서 반드시 알아둬야하는 15가지 웹사이트"
 description: ""
 date: 2024-04-05 12:09
 sidebarDepth: 0
@@ -200,7 +200,7 @@ Glassmorphism을 사용하여 유리처럼 보이는 요소를 생성하고 인�
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지](./img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_13.png)
 
 # Clippy — CSS Clip-Path Maker
@@ -208,7 +208,6 @@ Glassmorphism을 사용하여 유리처럼 보이는 요소를 생성하고 인�
 Clippy — CSS Clip-Path Maker를 사용하면 쉽게 복잡한 모양을 만들 수 있어요.
 
 ![이미지](./img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_14.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -259,25 +258,3 @@ CSS Validator는 CSS 코드가 웹의 규칙을 따르는지 확인하는 데 �
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-계속 코딩해요!!
-
-![이미지](./img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_16.png)
-
-# Stackademic
-
-끝까지 읽어주셔서 감사합니다. 떠나시기 전에:
-
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-
-- 작가를 박수 치시고 팔로우해주세요! 👏
-- 트위터(X)나 링크드인, 유튜브에서 팔로우해주세요.
-- 전세계에서 프로그래밍 교육을 무료로 보급하고 있는 Stackademic.com을 방문해보세요.

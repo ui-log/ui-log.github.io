@@ -1,5 +1,5 @@
 ---
-title: "ESLint과 Prettier를 ViteJS React 프로젝트에 추가하기"
+title: "ViteJS React 프로젝트에 ESLint과 Prettier를 추가하는 방법"
 description: ""
 date: 2024-04-05 17:53
 sidebarDepth: 0
@@ -246,24 +246,3 @@ dist/
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*X47IZ1le2c5GwdDd.gif" />
 
-# 마지막으로
-```  
-
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-
-이 게시물은 Cathal Mac Donnacha의 'Setting up ESLint & Prettier in ViteJS'에서 영감을 받았습니다.
-
-Storybook, Jest 및 React Testing Library를 포함한이 구성을 가진 저장소는 제 GitHub에서 사용할 수 있습니다: https://github.com/marcosdiasdev/react-vitejs-template.
-
-이야기를 나눠봅시다!
-
-끝까지 읽어 주셔서 감사합니다. 작가와 이 출판물을 팔로우해 보시기 바랍니다. 세계적으로 무료 프로그래밍 교육을 민주화하는 Stackademic을 방문하여 자세히 알아보세요.

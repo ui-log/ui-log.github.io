@@ -1,5 +1,5 @@
 ---
-title: "Korean translation: 기술 블로그 포스트 스타일로 번역하겠습니다.고지대에 집을 짓지 말아야 해요."
+title: "고지대에 집을 짓지 말아야 해요."
 description: ""
 date: 2024-04-05 14:14
 sidebarDepth: 0

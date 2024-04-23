@@ -1,5 +1,5 @@
 ---
-title: "Node.js 어플리케이션에 Google 로그인 구현하기"
+title: "Node.js 사이트에서 Google 로그인 기능 구현하기"
 description: ""
 date: 2024-04-05 19:46
 sidebarDepth: 0

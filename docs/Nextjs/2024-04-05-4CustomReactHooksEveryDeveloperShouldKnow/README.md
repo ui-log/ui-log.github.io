@@ -1,14 +1,13 @@
 ---
-title: "4개의 개발자가 알아야 하는 커스텀 React Hooks"
+title: "프론트엔드 개발자가 알아야 하는 커스텀 React Hooks 4가지"
 description: ""
 date: 2024-04-05 18:14
 sidebarDepth: 0
 tag: Tech
-thumbnail: 
+thumbnail:
 originalTitle: "4 Custom React Hooks Every Developer Should Know"
 link: "https://medium.com/@fatfish/4-custom-react-hooks-every-developer-should-know-c61f644bbc3e"
 ---
-
 
 <img src="./img/4CustomReactHooksEveryDeveloperShouldKnow_0.png" />
 
@@ -19,6 +18,7 @@ link: "https://medium.com/@fatfish/4-custom-react-hooks-every-developer-should-k
 # 1. useMount
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -38,6 +38,7 @@ link: "https://medium.com/@fatfish/4-custom-react-hooks-every-developer-should-k
 소스 코드
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -57,6 +58,7 @@ link: "https://medium.com/@fatfish/4-custom-react-hooks-every-developer-should-k
 ## 2. useUnmount
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -76,6 +78,7 @@ link: "https://medium.com/@fatfish/4-custom-react-hooks-every-developer-should-k
 소스 코드
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -95,6 +98,7 @@ link: "https://medium.com/@fatfish/4-custom-react-hooks-every-developer-should-k
 이것은 useEffect 내에서의 클로저 메커니즘 때문에 발생합니다. 컴포넌트가 처음 렌더링될 때 언로드될 때 전달된 함수의 경우, 실시간 상태를 얻기 위해 useRef를 사용해야 합니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -114,6 +118,7 @@ link: "https://medium.com/@fatfish/4-custom-react-hooks-every-developer-should-k
 때로는 의존성이 변경된 후에만 논리 코드를 실행하고 싶을 때가 있습니다. 우리가 이렇게 작성하면 목표를 달성할 수 있을까요?
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -124,7 +129,6 @@ link: "https://medium.com/@fatfish/4-custom-react-hooks-every-developer-should-k
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*eB5VHSFHOS77OqJ9HccwnA.gif)
 
 죄송하지만 'count'가 구성 요소가 마운트되자마자 '0'으로 출력됩니다. 'count'가 변경된 후에 콜백 함수를 어떻게 실행할 수 있을까요?
@@ -132,9 +136,9 @@ link: "https://medium.com/@fatfish/4-custom-react-hooks-every-developer-should-k
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*TgD4btOM7CrJ6fu8IdLFRw.gif)
 
 좋아요, 이게 정말 유용한 훅입니다.
-```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -154,6 +158,7 @@ setPerson 작업을 간단하게 만들기 위해 useSetState 훅을 구현할 �
 예시
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"

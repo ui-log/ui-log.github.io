@@ -1,5 +1,5 @@
 ---
-title: "터미널 생산성 향상 Zsh 플러그인"
+title: "터미널 생산성 향상을 위한 Zsh 플러그인"
 description: ""
 date: 2024-04-05 09:09
 sidebarDepth: 0
@@ -131,7 +131,6 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 반복해서 동일한 명령을 입력하는 것에 지쳤나요? zsh-autosuggestions는 명령 기록과 현재 컨텍스트를 기반으로 지능적으로 명령을 제안합니다. 제안을 수락하려면 오른쪽 화살표 키를 누르고, 무시하려면 계속 입력하면 됩니다. 이 플러그인은 수많은 키 입력을 줄여주고 반복적 스트레인 손상을 방지할 수 있습니다.
 
 이 플러그인의 설치 과정도 동일합니다. 해당 레포를 플러그인 경로에 복사하세요. 그리고 .zshrc 파일의 플러그인 목록에 플러그인 이름을 추가하세요.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -166,7 +165,6 @@ ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![Terminal Productivity Booster Zsh Plugins](./img/TerminalProductivityBoosterZshPlugins_5.png)
 
 ```js
@@ -183,7 +181,6 @@ antigen bundle zsh-users/zsh-autosuggestions
 ## 3- 컬러풀 파일
 
 이 플러그인들은 파일 유형을 색으로 구분할 수 있도록 도와줍니다. 따라서 동일한 유형의 파일을 쉽게 인식할 수 있게 만들어줍니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

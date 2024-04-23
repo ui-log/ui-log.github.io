@@ -1,5 +1,5 @@
 ---
-title: "내용 : Next.js, Supabase 및 Stripe를 사용하여 몇 분 만에 SaaS 프로젝트 시작하기"
+title: "Next.js, Supabase 및 Stripe를 사용하여 몇 분 만에 SaaS 프로젝트 만들기"
 description: ""
 date: 2024-04-05 19:30
 sidebarDepth: 0
@@ -10,7 +10,7 @@ link: "https://medium.com/udacity-engineering/bootstrap-a-saas-project-in-minute
 ---
 
 
-```markdown
+
 ![Bootstrap a SaaS with a modern tech stack built to move quickly](./img/BootstrapaSaaSProjectinMinuteswithNextjsSupabaseandStripe_0.png)
 
 # TL;DR
@@ -18,7 +18,6 @@ link: "https://medium.com/udacity-engineering/bootstrap-a-saas-project-in-minute
 # Overview
 
 Bootstrap a SaaS with a modern tech stack built to move quickly. In just a few minutes you can deploy a SaaS project that includes:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

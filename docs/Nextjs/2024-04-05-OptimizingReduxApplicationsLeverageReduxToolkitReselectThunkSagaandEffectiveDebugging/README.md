@@ -1,5 +1,5 @@
 ---
-title: "Redux 어플리케이션 최적화하기: Redux Toolkit, Reselect, Thunk, Saga 그리고 효과적인 디버깅을 활용해보세요"
+title: " Redux Toolkit, Reselect, Thunk, Saga로 Redux 사이트 최적확 하는 방법"
 description: ""
 date: 2024-04-05 19:32
 sidebarDepth: 0
@@ -568,7 +568,6 @@ const initialState = {
 - 해결책: 데이터 구조를 정규화합니다. 제품 및 리뷰를 별도의 엔티티로 저장합니다. 각 리뷰 객체는 해당하는 제품 ID를 참조합니다. 이렇게 함으로써 중복을 줄이고 제품의 특정 리뷰를 검색하기가 간단해집니다.
 
 ## 메모이제이션
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -1332,7 +1331,6 @@ export default KitchenComponent;
 - 셀렉터 내보내기: 컴포넌트에서 사용하기 위해 selectKitchenItems 셀렉터를 내보냅니다.
 
 ## Redux Persist:
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

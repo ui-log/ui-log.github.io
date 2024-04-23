@@ -1,5 +1,5 @@
 ---
-title: "본 포스트에서는 Vercel에 자체 Ollama LLM 챗봇 프런트엔드를 빠르게 배포하는 방법에 대해 알려드리겠습니다."
+title: "Vercel로 자체 Ollama LLM 챗봇 사이트를 만들기"
 description: ""
 date: 2024-04-05 17:21
 sidebarDepth: 0

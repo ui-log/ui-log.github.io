@@ -315,12 +315,4 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 <p>행복한 코딩하세요!</p>
-<h1 id="stackademic-🎓" tabindex="-1"><a class="header-anchor" href="#stackademic-🎓" aria-hidden="true">#</a> Stackademic 🎓</h1>
-<p>끝까지 읽어주셔서 감사합니다. 떠나시기 전에:</p>
-<ul>
-<li>작가를 칭찬하고 팔로우해 주시면 감사하겠습니다! 👏</li>
-<li>다른 플랫폼에서도 우리를 팔로우해 주세요: X | LinkedIn | YouTube | Discord</li>
-<li>다른 플랫폼 방문하기: In Plain English | CoFeed | Venture | Cubed</li>
-<li>Stackademic.com에서 더 많은 콘텐츠를 만나보세요.</li>
-</ul>
 </div></template>

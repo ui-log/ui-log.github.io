@@ -1,14 +1,13 @@
 ---
-title: "리액트에서 가장 좋은 5개의 테이블: 장단점들"
+title: "리액트에서 표(테이블)을 만들기 쉬운 라이브러리 5개"
 description: ""
 date: 2024-04-05 18:06
 sidebarDepth: 0
 tag: Tech
-thumbnail: 
+thumbnail:
 originalTitle: "5 Best Tables in React: Pros and Cons"
 link: "https://medium.com/@debpanda17/5-best-tables-in-react-pros-and-cons-5c5d08cfe69a"
 ---
-
 
 ![React에서 가장 좋은 테이블 5선: 장단점](./img/5BestTablesinReactProsandCons_0.png)
 
@@ -19,6 +18,7 @@ React, 사용자 인터페이스를 구축하는 데 가장 인기 있는 JavaSc
 GitHub 저장소: [링크]
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -41,6 +41,7 @@ GitHub 저장소: [링크]
 - 간단한 테이블에는 과도할 수 있습니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -62,6 +63,7 @@ GitHub 저장소
 - 활발한 커뮤니티 및 지속적인 개발.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -82,6 +84,7 @@ Cons:
 GitHub 저장소
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -104,6 +107,7 @@ GitHub 저장소
 - Material-UI 프로젝트가 아닌 경우에는 최적의 선택이 아닐 수 있음.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -125,6 +129,7 @@ GitHub 저장소
 - 필요에 따라 높은 사용자 정의가 가능합니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -145,6 +150,7 @@ Cons:
 [GitHub 저장소](링크)
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -167,6 +173,7 @@ Cons:
 - 고급 상호 작용이 필요한 애플리케이션에 적합하지 않습니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"

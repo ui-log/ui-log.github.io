@@ -434,7 +434,7 @@ CircleCI 웹사이트로 이동하여 계정을 만드세요. 이미 계정이 �
 
 CircleCI 대시보드에서 Projects로 이동하여 "프로젝트 만들기"를 클릭하세요.
 
-![이미지](img/SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_5.png)
+![이미지](./img/SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_5.png)
 
 이제 원격 저장소 서비스를 선택하세요. 제 프로젝트 저장소는 Github에 있으므로 Github를 선택했습니다. Github, Gitlab 및 Bitbucket 중 하나를 선택할 수 있습니다.
 

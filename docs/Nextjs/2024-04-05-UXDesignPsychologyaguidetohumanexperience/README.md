@@ -1,5 +1,5 @@
 ---
-title: "사용자 경험 디자인 심리학 - 인간 경험 가이드"
+title: "사용자 경험 디자인 심리학"
 description: ""
 date: 2024-04-05 08:53
 sidebarDepth: 0

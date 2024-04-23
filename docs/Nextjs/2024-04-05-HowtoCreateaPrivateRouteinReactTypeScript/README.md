@@ -1,5 +1,5 @@
 ---
-title: "React 및 TypeScript에서 개인 경로를 만드는 방법"
+title: "React 및 TypeScript에서 private route를 만드는 방법"
 description: ""
 date: 2024-04-05 20:10
 sidebarDepth: 0
@@ -29,7 +29,7 @@ link: "https://medium.com/stackademic/how-to-create-a-private-route-in-react-typ
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지](https://miro.medium.com/v2/resize:fit:620/1*-YT_3SovqaKE7fKo5_8ehw.gif)
 
 우선 사용자 인증을 처리하는 사용자 컨텍스트를 생성해보겠습니다.
@@ -75,7 +75,6 @@ export const useAuth = (): AuthContextProps => {
 ```
 
 이제 비공개 라우트 컴포넌트를 생성해봅시다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -108,7 +107,6 @@ export default PrivateRoute;
 마지막으로, private route 컴포넌트를 ourApp 컴포넌트에서 사용합니다.
 
 userContext 파일을 올바르게 import하는지 확인하십시오. 사용자가 로그인없이 보호된 경로에 액세스하려는 경우, 로그인 페이지로 다시 리디렉션됩니다. `Outlet` 컴포넌트는 react-router-dom v6에서 소개된 컴포넌트입니다. (v6 이전에 이 방법이 어떻게 수행되었는지 알아보려면 이 문서를 참조하세요.)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -183,13 +181,3 @@ App 컴포넌트에서, 우리는 전체 앱에 인증 컨텍스트를 제공하
 <component is="script">
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
-
-안녕하세요, 저는 소프트웨어 엔지니어이자 기술 작가인 Obetta Augustine .E입니다. 저에게는 augustineebuka98@gmail.com 으로 연락하실 수 있습니다. 감사합니다.
-
-# 스택아데믹
-
-끝까지 읽어주셔서 감사합니다. 떠나시기 전에:
-
-- 작가에게 박수를 보내고 팔로우해주세요! 👏
-- 트위터(X), 링크드인 그리고 유튜브에서 저희를 팔로우해주세요.
-- Stackademic.com을 방문하여 전 세계에서 프로그래밍 교육을 무료로 이용할 수 있는 방법에 대해 더 자세히 알아보세요.

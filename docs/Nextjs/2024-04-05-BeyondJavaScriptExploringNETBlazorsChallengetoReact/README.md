@@ -1,5 +1,5 @@
 ---
-title: "자바스크립트를 넘어서: .NET Blazor가 React에 도전하는 방법 탐구"
+title: "자바스크립트 대신 .NET Blazor를 사용하는 이유"
 description: ""
 date: 2024-04-05 12:51
 sidebarDepth: 0

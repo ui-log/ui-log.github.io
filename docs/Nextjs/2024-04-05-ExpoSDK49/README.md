@@ -1,5 +1,5 @@
 ---
-title: "Expo SDK 49: 업그레이드가 얼마나 좋을까요?"
+title: "Expo SDK 49 업그레이드 내용 정리"
 description: ""
 date: 2024-04-05 14:11
 sidebarDepth: 0

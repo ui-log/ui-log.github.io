@@ -111,7 +111,6 @@ doc.html(document.body, {
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/DownloadingReactComponentsasPDFFiles_3.png)
 
 구현에 들어가기 전에, react-to-pdf가 2개의 종속성만 있다는 사실을 알게돼 놀라웠습니다. 버전 1.0.1에서의 압축 해제된 크기는 82.7 kB입니다.
@@ -119,7 +118,6 @@ doc.html(document.body, {
 ![이미지](./img/DownloadingReactComponentsasPDFFiles_4.png)
 
 html2canvas와 jsPDF를 사용하는 다양한 방법을 시도한 후, 이 두 가지가 제가 찾던 단순한 종속성이라는 것을 깨달았습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -265,7 +263,6 @@ const Component = () => {
 ```
 
 이것은 Code Sandbox를 통해 react-to-pdf 문서에서 제공하는 데모입니다. 위의 코드 블록들도 문서에서 가져왔음을 언급하고 싶군요.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -301,10 +298,3 @@ const Component = () => {
 - html2canvas 문서
 - react-to-pdf GitHub 페이지
 
-# Stackademic
-
-끝까지 읽어주셔서 감사합니다. 떠나시기 전에:
-
-- 저자를 칭찬하고 팔로우해주시면 감사하겠습니다! 👏
-- Twitter(X), LinkedIn, YouTube에서 팔로우해주세요.
-- 세계 어디서나 무료 프로그래밍 교육을 민주화하는 Stackademic.com 방문해보세요.

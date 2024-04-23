@@ -1,5 +1,5 @@
 ---
-title: "2024년을 위한 상위 10개 ReactJS 코딩 면접 도전 과제"
+title: "2024년, ReactJS 코딩 면접 과제 10개 소개"
 description: ""
 date: 2024-04-05 18:24
 sidebarDepth: 0
@@ -665,7 +665,6 @@ export default function App() {
 API에서 데이터를 가져와 고정된 페이지 당 항목 수를 보여주는 페이징 컴포넌트를 구축하십시오
 
 -paginated.js
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

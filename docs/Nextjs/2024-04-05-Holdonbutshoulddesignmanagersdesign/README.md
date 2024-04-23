@@ -86,7 +86,7 @@ link: "https://medium.com/design-bridges/design-manager-types-b12c980576b5"
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지](./img/Holdonbutshoulddesignmanagersdesign_7.png)
 
 리더십 트랙을 선택하면 마음가짐, 도구 및 방법론에서 많은 변화가 있게 됩니다. 간단히 말해, 디자인하는 것보다 소통, 계획 및 전략에 더욱 집중하게 됩니다. 이 현상의 생생한 예는 매일 사용하는 도구가 급격히 바뀌는 것입니다.
@@ -94,7 +94,6 @@ link: "https://medium.com/design-bridges/design-manager-types-b12c980576b5"
 ![이미지](./img/Holdonbutshoulddesignmanagersdesign_8.png)
 
 하지만 가장 흥미로운 변화 중 하나는 디자인 중심의 프레임워크에서 사람 중심의 프레임워크로의 전환입니다. 유명한 디자인 생각 프로세스와 직원 라이프사이클을 비교해 보면, 직원 라이프사이클은 디자이너들 사이에서는 잘 알려지지 않았지만 덜 유명하지는 않습니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

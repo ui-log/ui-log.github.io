@@ -1,5 +1,5 @@
 ---
-title: "내가 프로젝트에 Angular로 전환한 이유"
+title: "내가 프로젝트를 React가 아닌 Angular로 만든 이유"
 description: ""
 date: 2024-04-05 18:59
 sidebarDepth: 0

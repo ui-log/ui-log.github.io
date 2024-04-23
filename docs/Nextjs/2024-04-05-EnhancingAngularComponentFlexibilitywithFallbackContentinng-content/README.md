@@ -1,5 +1,5 @@
 ---
-title: "Angular 컴포넌트 유연성 향상하기: ng-content 내 폴백 콘텐츠를 활용해보세요!"
+title: "Angular 컴포넌트 유연성 향상하기"
 description: ""
 date: 2024-04-05 09:21
 sidebarDepth: 0
@@ -94,20 +94,3 @@ class AppComponent {}
 
 위의 예시에서, 메인 콘텐츠의 조건부 렌더링이 있더라도 Angular의 콘텐츠 프로젝션 중에는 해당 동적 변경 사항이 고려되지 않기 때문에 기본 콘텐츠로 돌아가지 않습니다.
 
-# 🙏 ngneat 및 Netanel Basal 지원하기: 주목 받기!
-
-Angular용 ngneat 오픈 소스 라이브러리에 열정적이거나 Netanel Basal의 블로그 포스트가 학습 과정에서 가치 있는 것으로 생각되는가요? 제 작업을 후원하여 지원을 표현해주세요!
-```
-
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
-
-저를 팔로우하고 Angular 및 JS에 관한 더 많은 내용을 읽어보세요!

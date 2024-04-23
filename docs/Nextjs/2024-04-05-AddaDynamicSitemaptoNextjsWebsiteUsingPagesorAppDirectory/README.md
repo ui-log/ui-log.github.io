@@ -1,5 +1,5 @@
 ---
-title: "Next.js 웹사이트에 동적 사이트맵 추가하기: 페이지 또는 애플리케이션 디렉토리를 이용해요"
+title: "Next.js 웹사이트에 동적 사이트맵 추가하는 방법"
 description: ""
 date: 2024-04-05 13:45
 sidebarDepth: 0
@@ -169,7 +169,6 @@ export default function SiteMap() {}
 또 하나 주목할 점은 XML을 문자열로 생성하고 JSX가 아니라는 것입니다. 따라서 여기서는 JavaScript 템플릿 리터럴을 사용해야 합니다.
 
 URL을 자신의 것으로 교체하고 앱을 시작하고 yoursite.com/sitemap.xml로 이동한 후 동적으로 생성된 사이트맵을 볼 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

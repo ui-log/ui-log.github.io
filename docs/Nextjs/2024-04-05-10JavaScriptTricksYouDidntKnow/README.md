@@ -1,5 +1,5 @@
 ---
-title: ""알지 못했던 JavaScript 트릭 10가지🤞🚀""
+title: "알아두면 빨리 퇴근하는 JavaScript 트릭 10가지"
 description: ""
 date: 2024-04-05 12:14
 sidebarDepth: 0

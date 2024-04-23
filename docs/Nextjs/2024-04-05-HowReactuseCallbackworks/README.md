@@ -1,5 +1,5 @@
 ---
-title: "리액트의 useCallback이 어떻게 작동하는지 알아보자!!"
+title: "리액트의 useCallback이 어떻게 작동하는지 알아보기"
 description: ""
 date: 2024-04-05 13:36
 sidebarDepth: 0
@@ -10,7 +10,6 @@ link: "https://medium.com/@ramnayan699/how-react-usecallback-working-with-react-
 ---
 
 
-```markdown
 ![HowReactuseCallbackworks_0](./img/HowReactuseCallbackworks_0.png)
 
 React.useCallback: useCallback은 React Hook으로, 다시 렌더링 사이에 함수 정의를 캐시할 수 있게 해줍니다.
@@ -61,7 +60,6 @@ export default function App() {
     </div>
   );
 }
-```
 ```
 
 <!-- ui-log 수평형 -->

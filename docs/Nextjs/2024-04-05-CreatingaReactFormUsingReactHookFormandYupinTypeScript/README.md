@@ -1,5 +1,5 @@
 ---
-title: "리액트 훅 폼과 Yup을 사용한 타입스크립트로 리액트 폼 만들기"
+title: "타입스크립트로 리액트 폼 만드는 방법"
 description: ""
 date: 2024-04-05 19:04
 sidebarDepth: 0
@@ -180,7 +180,7 @@ export const Form: React.FC = () => {
 - import "./Form.css";: 이 줄은 Form.css라는 CSS 파일을 가져와서 폼에 스타일을 적용합니다. 이 파일은 이 React 컴포넌트가 있는 파일과 동일한 디렉토리에 있어야 합니다.
 - interface IFormInput {...}: 이 부분은 폼의 데이터 모양을 지정하는 TypeScript 인터페이스인 IFormInput을 정의합니다. 폼에는 이름, 주소, 도시, 주, 전화번호, 우편번호의 필드가 모두 문자열로 예상됩니다.
 - export const Form: React.FC = () = {...}: Form에 대한 주요 함수형 컴포넌트 정의입니다. React.FC 유형을 사용하여 컴포넌트와 해당 props를 유형 검사합니다.
-- const { register, handleSubmit } = useForm<IFormInput>();: 이 줄은 useForm 훅을 호출하고 폼 상태로부터 반환된 register, handleSubmit 메서드를 구조분해합니다. register는 입력 필드를 폼에 등록하고 handleSubmit는 폼 제출을 처리하는 함수입니다. 훅은 IFormInput 유형으로 호출되어 폼 데이터의 모양을 지정합니다.
+- const { register, handleSubmit } = useForm`<IFormInput>`();: 이 줄은 useForm 훅을 호출하고 폼 상태로부터 반환된 register, handleSubmit 메서드를 구조분해합니다. register는 입력 필드를 폼에 등록하고 handleSubmit는 폼 제출을 처리하는 함수입니다. 훅은 IFormInput 유형으로 호출되어 폼 데이터의 모양을 지정합니다.
 - const onSubmit = (data: IFormInput) => console.log(data);: 폼을 제출할 때 호출되는 함수입니다. 폼 데이터는 IFormInput 유형이며 콘솔에 로깅됩니다.
 - 컴포넌트 함수 내의 return 문은 Form 컴포넌트가 렌더링해야 하는 JSX를 설명하는 것을 반환합니다. 이는 이름, 주소, 도시, 주, 전화번호, 우편번호에 대한 레이블과 입력 필드, 제출 버튼이 포함된 폼 요소입니다. 입력 필드는 useForm 훅을 사용하여 폼에 등록되고, 폼의 onSubmit 핸들러는 useForm에서 제공하는 handleSubmit 함수로 설정됩니다.
 - 도시, 주, 우편번호 필드는 "input-group" 클래스를 가진 div에 포함되어 있으며 이 세 필드 각각은 "input-field" 클래스를 가진 div로 더 포장되어 있습니다. 이 구성은 CSS에서 지정된 대로 이 세 필드를 동일한 수평 줄에 정렬하기 위한 것입니다.
@@ -299,7 +299,6 @@ npm run start
 ```
 
 이 명령을 실행하면 브라우저에서 다음 페이지가 열립니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -416,7 +415,7 @@ Yup은 양식 유효성 검사를 간단하게 처리할 수 있도록 개발된
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지](./img/CreatingaReactFormUsingReactHookFormandYupinTypeScript_5.png)
 
 참고: 유효성 검사를 실패하면 onSubmit이 호출되지 않습니다. 따라서 제출 버튼을 누른 후 콘솔에 양식 객체가 표시되지 않습니다.
@@ -424,7 +423,6 @@ Yup은 양식 유효성 검사를 간단하게 처리할 수 있도록 개발된
 전화 번호를 수정하고 제출하면 다시 한 번 onSubmit이 호출되고 양식 객체가 콘솔에 출력됩니다.
 
 ![이미지](./img/CreatingaReactFormUsingReactHookFormandYupinTypeScript_6.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

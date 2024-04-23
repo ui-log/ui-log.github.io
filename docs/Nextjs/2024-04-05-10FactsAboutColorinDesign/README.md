@@ -1,5 +1,5 @@
 ---
-title: "디자인에서 색상에 관한 10가지 사실"
+title: "웹 디자인에서 색상에 관한 10가지 사실"
 description: ""
 date: 2024-04-05 08:40
 sidebarDepth: 0
@@ -29,7 +29,7 @@ link: "https://medium.com/@uxplanet/10-facts-about-color-in-design-7291a6dfbe66"
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![이미지](./img/10FactsAboutColorinDesign_3.png)
 
 사용자는 제품에 대해 무의식적 판단을 90초 내에 내리며, 그 평가의 90%가 색상만을 기반으로 합니다.
@@ -37,7 +37,6 @@ link: "https://medium.com/@uxplanet/10-facts-about-color-in-design-7291a6dfbe66"
 ![이미지](./img/10FactsAboutColorinDesign_4.png)
 
 ![이미지](./img/10FactsAboutColorinDesign_5.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -126,7 +125,7 @@ link: "https://medium.com/@uxplanet/10-facts-about-color-in-design-7291a6dfbe66"
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 ![10FactsAboutColorinDesign_16.png](./img/10FactsAboutColorinDesign_16.png)
 
 사람들은 텍스트 내용을 읽기 전에 시각 자료를 처리하기 때문에 즉각적인 이해를 위해 전략적인 색상 선택이 중요합니다.
@@ -134,7 +133,6 @@ link: "https://medium.com/@uxplanet/10-facts-about-color-in-design-7291a6dfbe66"
 ![10FactsAboutColorinDesign_17.png](./img/10FactsAboutColorinDesign_17.png)
 
 ![10FactsAboutColorinDesign_18.png](./img/10FactsAboutColorinDesign_18.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

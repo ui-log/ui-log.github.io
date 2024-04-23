@@ -1,5 +1,5 @@
 ---
-title: "리덕스 대 컨텍스트 API: 어떤 것을 선택해야 할까요?"
+title: "React vs Context API 비교 정리"
 description: ""
 date: 2024-04-05 17:28
 sidebarDepth: 0
@@ -237,7 +237,6 @@ export default App;
 ```
 
 Redux를 사용하는 장점 몇 가지는 다음과 같습니다:
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

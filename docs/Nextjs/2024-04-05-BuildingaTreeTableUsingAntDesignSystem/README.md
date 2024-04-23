@@ -1,5 +1,5 @@
 ---
-title: "Ant Design 시스템을 활용하여 TreeTable 만들기!"
+title: "Ant Design 시스템을 활용하여 TreeTable 만드는 방법"
 description: ""
 date: 2024-04-05 14:59
 sidebarDepth: 0
@@ -505,7 +505,6 @@ yarn start를 실행하세요. 행에서 노드를 제거를 클릭하면 해당
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/BuildingaTreeTableUsingAntDesignSystem_7.png)
 
 리스트가 길 경우, 부모와 자식을 쉽게 연결하기가 어려울 수 있습니다. 우리는 부모에서 자식으로 향하는 각도 있는 선을 추가하고 싶습니다.
@@ -513,7 +512,6 @@ yarn start를 실행하세요. 행에서 노드를 제거를 클릭하면 해당
 이 아이콘은 EnterOutlined입니다.
 
 ![이미지](./img/BuildingaTreeTableUsingAntDesignSystem_8.png)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

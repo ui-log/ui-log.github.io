@@ -1,5 +1,5 @@
 ---
-title: "개를 입양하세요, Flatiron Phase 2 프로젝트"
+title: "리액트로 강아지 입양 사이트 만들기"
 description: ""
 date: 2024-04-05 17:57
 sidebarDepth: 0

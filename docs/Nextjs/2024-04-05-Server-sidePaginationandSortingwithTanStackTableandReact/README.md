@@ -1,5 +1,5 @@
 ---
-title: "TanStack Table과 React를 사용한 서버 측면 페이징 및 정렬"
+title: "TanStack Table과 React를 사용한 Server-side Pagination 및 sorting 구현하기"
 description: ""
 date: 2024-04-05 18:00
 sidebarDepth: 0
@@ -378,7 +378,6 @@ const tableLib = useReactTable({
 마지막으로 getIsSorted를 호출하여 열이 정렬된 순서를 확인할 수 있습니다. 해당 열에 정렬 상태가 없는 경우를 처리하는 것을 잊지 말아야 합니다 (enableSortingRemoval: true를 선택한 경우 또는 enableSorting: false로 특정 열에 대해 정렬을 비활성화한 경우). 이 경우를 삼항 연산자에서 null을 사용하여 처리할 수 있습니다.
 
 이제 usePagination 후크에 집중해보겠습니다. 이 후크는 이전 usePagination 후크와 동일한 비즈니스 로직을 따릅니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

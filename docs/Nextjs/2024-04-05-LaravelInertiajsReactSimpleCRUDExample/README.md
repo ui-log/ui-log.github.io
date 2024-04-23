@@ -1,5 +1,5 @@
 ---
-title: "라라벨 + 이너셔.js + 리액트 - 간단한 CRUD 예제"
+title: "Laravel + Inertia.js + react 간단한 CRUD 예제"
 description: ""
 date: 2024-04-05 16:05
 sidebarDepth: 0

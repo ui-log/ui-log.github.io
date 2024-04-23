@@ -1,5 +1,5 @@
 ---
-title: "Nightwatch와 Testing Library로 React 컴포넌트를 테스트해보세요!"
+title: "Nightwatch와 Testing Library로 React 컴포넌트를 테스트하기"
 description: ""
 date: 2024-04-05 14:35
 sidebarDepth: 0

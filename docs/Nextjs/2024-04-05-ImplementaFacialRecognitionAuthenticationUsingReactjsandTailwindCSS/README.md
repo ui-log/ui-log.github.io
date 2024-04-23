@@ -1,5 +1,5 @@
 ---
-title: "리액트.js와 TailwindCSS를 활용한 얼굴 인식 인증 구현하기"
+title: "React와 TailwindCSS로 얼굴 인식 인증 구현하기"
 description: ""
 date: 2024-04-05 15:27
 sidebarDepth: 0

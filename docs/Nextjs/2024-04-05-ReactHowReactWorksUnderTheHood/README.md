@@ -1,5 +1,5 @@
 ---
-title: "리액트: 리액트가 내부적으로 어떻게 작동하는지"
+title: "React가 내부적으로 어떻게 동작하는지 알아보기"
 description: ""
 date: 2024-04-05 16:56
 sidebarDepth: 0
@@ -10,27 +10,6 @@ link: "https://medium.com/@ruchivora16/react-how-react-works-under-the-hood-9b62
 ---
 
 
-<table>
-  <tr>
-    <td>이미지</td>
-    <td>React는 강력한 자바스크립트 라이브러리로 기술 세계의 샛별이 되었습니다. 사용자 인터페이스를 구축하는 방식을 완전히 변형했습니다. Angular로 두 해를 보낸 후 React를 탐색할 기회를 얻었습니다. Angular에도 매력이 있지만 React는 흠잡을 데 없이 매력적입니다.
-
-    이 블로그에서는 React의 핵심 개념인 DOM, 가상 DOM, 조정 및 차이 알고리즘과 같은 내부 작업을 풀어 설명하여 React의 내부 작업을 해독하겠습니다. 이러한 개념을 이해하면 개발자들은 React의 힘을 활용하여 효율적이고 반응성 있는 사용자 인터페이스를 만들 수 있습니다. 또한 React의 내부 작업을 이해하면 개발 중 발생할 수 있는 성능 문제를 해결하는 데 도움이 될 수 있습니다.
-
-    # 문서 객체 모델 (Document Object Model, DOM)</td>
-  </tr>
-</table>
-
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-<component is="script">
-(adsbygoogle = window.adsbygoogle || []).push({});
-</component>
 
 DOM(문서 객체 모델)은 JavaScript가 웹 페이지의 요소들과 상호 작용하고 조작할 수 있도록 하는 HTML 구조의 표현입니다. 각 HTML 요소는 DOM 트리 내에서 노드이며, HTML 코드에서의 중첩에 따라 부모-자식 관계가 형성됩니다. 다음 예시를 살펴보세요:
 
@@ -179,7 +158,6 @@ Diffing 알고리즘은 조화 과정의 중심 역할을 하는데, 효율성�
 이 행동은 서로 다른 유형의 요소가 서로 다른 가상 DOM 구조를 생성할 것으로 가정하고 있습니다. 따라서 루트 요소의 유형이 변경되면 diffing 알고리즘은 전체 하위 트리가 교체되었을 것으로 가정하며 완전히 다시 구축해야 한다고 판단합니다. 이러한 접근 방식은 DOM이 응용 프로그램 상태와 동기화되어 일관된 신뢰할 수 있는 사용자 경험을 제공하도록 보장합니다.
 
 ## 2. 동일 유형의 DOM 요소
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

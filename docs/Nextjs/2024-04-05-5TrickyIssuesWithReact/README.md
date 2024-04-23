@@ -1,14 +1,13 @@
 ---
-title: "리액트에서 발생하는 5가지 tricky한 문제들 💫"
+title: "리액트에서 자주 발생하는 5가지 에러들"
 description: ""
 date: 2024-04-05 19:27
 sidebarDepth: 0
 tag: Tech
-thumbnail: 
+thumbnail:
 originalTitle: "5 Tricky Issues With React 💫"
 link: "https://medium.com/javascript-in-plain-english/5-tricky-issues-with-react-40a9d888b0b3"
 ---
-
 
 <img src="./img/5TrickyIssuesWithReact_0.png" />
 
@@ -23,6 +22,7 @@ link: "https://medium.com/javascript-in-plain-english/5-tricky-issues-with-react
 - 오류 경계 ⛑️: 자식 컴포넌트의 오류가 전체 앱을 크래시하지 않도록 오류를 우아하게 처리하여 방지합니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -45,15 +45,14 @@ class RenderPropComponent extends React.Component {
 
 ```js
 function App() {
-  return (
-    <RenderPropComponent render={(text) => <div>{text}</div>} />
-  );
+  return <RenderPropComponent render={(text) => <div>{text}</div>} />;
 }
 ```
 
 # React Internationalization (i18n)으로 세계로 뻗어나가기 🌐
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -75,6 +74,7 @@ npm install react-intl
 ```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -99,19 +99,20 @@ npm install react-intl
 ```
 
 ```js
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage } from "react-intl";
 
 function Greeting({ name }) {
   return (
     <div>
       <FormattedMessage id="welcome" />
-      <FormattedMessage id="hello" values={ name } />
+      <FormattedMessage id="hello" values={name} />
     </div>
   );
 }
 ```
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -131,6 +132,7 @@ function Greeting({ name }) {
 - React.lazy() & Suspense: React.lazy()를 사용하여 컴포넌트를 동적으로 가져오고, 우아한 로딩을 위해 Suspense를 활용하세요.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -142,7 +144,7 @@ function Greeting({ name }) {
 </component>
 
 ```js
-const LazyComponent = React.lazy(() => import('./LazyComponent'));
+const LazyComponent = React.lazy(() => import("./LazyComponent"));
 
 function App() {
   return (
@@ -158,7 +160,7 @@ function App() {
 # React의 에러 바운더리 — 당신의 안전망 🛠️
 
 React에서 에러 바운더리를 사용하여 컴포넌트 오류를 캐치하고 처리하며 전체 앱에 영향을 미치지 않습니다.
-```
+
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -198,11 +200,12 @@ class ErrorBoundary extends Component {
    }
 }
 export default ErrorBoundary;
-```
+````
 
 - 컴포넌트 감싸기: 잠재적으로 오류가 발생할 수 있는 컴포넌트 주변에 에러 경계를 사용하여 앱을 보호하세요.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"
@@ -224,6 +227,7 @@ React에서의 Props는 예측 가능하고 효율적인 데이터 흐름을 유
 Props는 변경 불가능하지만 부모 컴포넌트는 새로운 prop 값 전달을 통해 자식 컴포넌트 업데이트를 일으킬 수 있습니다. 이를 통해 통신과 데이터 흐름을 유지할 수 있습니다.
 
 <!-- ui-log 수평형 -->
+
 <ins class="adsbygoogle"
   style="display:block"
   data-ad-client="ca-pub-4877378276818686"

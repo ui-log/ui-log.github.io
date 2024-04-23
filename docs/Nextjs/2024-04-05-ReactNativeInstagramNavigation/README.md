@@ -1,5 +1,5 @@
 ---
-title: "리액트 네이티브 인스타그램 내비게이션"
+title: "리액트 네이티브로 인스타그램 내비게이션 만들기"
 description: ""
 date: 2024-04-05 14:56
 sidebarDepth: 0
@@ -78,7 +78,6 @@ link: "https://medium.com/@trai-nguyen/react-native-instagram-navigation-a8a376e
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![이미지](./img/ReactNativeInstagramNavigation_0.png)
 
 ```js
@@ -137,7 +136,6 @@ yarn add react-native-screens react-native-safe-area-context
 
 yarn add @react-navigation/native-stack
 
-
 // 그런 다음 @react-navigation을 성공적으로 설치한 후 IOS에 설치하십시오
 
 cd ios && pod install && cd ..
@@ -145,7 +143,7 @@ cd ios && pod install && cd ..
 
 그런 다음 App.tsx 파일을 업데이트해야 합니다.
 
-```js
+```tsx
 /**
  * 샘플 React Native 앱
  * https://github.com/facebook/react-native
@@ -228,7 +226,6 @@ export default App;
 ```
 
 이것은 react-navigation 통합 결과입니다.
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -455,7 +452,6 @@ export default HomeScreen;
 ```
 
 그리고 여기가 홈 화면의 UI 결과입니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -667,7 +663,6 @@ export default App;
 ```
 
 ![Animated GIF](https://miro.medium.com/v2/resize:fit:592/1*o59tGOoBQT6SBCkA8HX9DA.gif)
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

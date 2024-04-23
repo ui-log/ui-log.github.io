@@ -1,5 +1,5 @@
 ---
-title: "에러 이해하기: `유효하지 않은 후크 호출. 후크는 함수 컴포넌트의 본문 내에서만 호출할 수 있습니다`"
+title: "리액트 에러 해결 방법: Invalid hook call. Hooks can only be called inside of the body of a function component"
 description: ""
 date: 2024-04-05 20:00
 sidebarDepth: 0

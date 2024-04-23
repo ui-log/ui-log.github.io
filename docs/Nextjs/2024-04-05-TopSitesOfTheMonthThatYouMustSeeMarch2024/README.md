@@ -1,5 +1,5 @@
 ---
-title: "3월. 2024년, 꼭 봐야 할 이번 달의 인기 사이트들!"
+title: "3월. 2024년, 개발자들이 꼭 봐야 할 이번 달의 인기 사이트들"
 description: ""
 date: 2024-04-05 08:37
 sidebarDepth: 0
@@ -10,7 +10,7 @@ link: "https://orpetron-wda-team.medium.com/top-sites-of-the-month-that-you-must
 ---
 
 
-![TopSitesOfTheMonthThatYouMustSeeMarch2024_0.png]
+![](./img/TopSitesOfTheMonthThatYouMustSeeMarch2024_0.png)
 
 우리는 세계적으로 우수한 웹 디자인 프로젝트를 발굴하고 발견하여 의미 있는 현대적인 디자인에 대한 인식을 높이고 웹 디자인 혁신을 위한 새로운 방향을 개척하고 커뮤니티를 영감시킨 웹 디자이너를 찬미합니다.
 
@@ -510,7 +510,7 @@ zkPass
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
+
 Motion은 브랜드의 분위기와 캐릭터를 전달하는데 UI/UX 애니메이션의 힘을 보여주는 웹사이트입니다.
 
 ## 태그:
@@ -518,7 +518,6 @@ Motion은 브랜드의 분위기와 캐릭터를 전달하는데 UI/UX 애니메
 디자인 에이전시 404 페이지 스크롤 애니메이션 창의적인 메뉴 상호작용 애니메이션 상호작용 디자인 소개 애니메이션 랜딩 페이지 사운드-오디오 타이포그래피 Angular Core.js GSAP 애니메이션 jQuery Lottie Open Graph TypeScript Webflow
 
 # 10- MEEBITS 1.2
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -607,7 +606,6 @@ CSS_killer
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-```markdown
 ![TopSitesOfTheMonthThatYouMustSeeMarch2024_15](./img/TopSitesOfTheMonthThatYouMustSeeMarch2024_15.png)
 
 By MILL3 from Canada.
@@ -615,7 +613,6 @@ By MILL3 from Canada.
 ## About:
 
 Cartier는 창작, 전략, 미디어, 디자인, 소셜 네트워크 및 제작 서비스를 제공하는 광고 대행사입니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

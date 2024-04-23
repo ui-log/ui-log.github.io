@@ -1,5 +1,5 @@
 ---
-title: "리액트에서 쿠키에 토큰 저장하기"
+title: "React에서 쿠키에 토큰 저장하기"
 description: ""
 date: 2024-04-05 18:10
 sidebarDepth: 0

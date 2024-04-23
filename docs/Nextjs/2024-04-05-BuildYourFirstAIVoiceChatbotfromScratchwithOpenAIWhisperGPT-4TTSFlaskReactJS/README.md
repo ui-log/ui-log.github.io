@@ -1,5 +1,5 @@
 ---
-title: "처음부터 OpenAI(Whisper, GPT-4, TTS), Flask, ReactJS를 활용해 AI 보이스 챗봇을 만들어봐요!"
+title: "OpenAI(Whisper, GPT-4, TTS), Flask, ReactJS를 활용해 AI 보이스 챗봇 만들기"
 description: ""
 date: 2024-04-05 16:39
 sidebarDepth: 0

@@ -1,5 +1,5 @@
 ---
-title: "React: useEffect()를 잘못 사용하고 있어요. 이렇게 해보세요!"
+title: "React: useEffect()를 올바르게 사용하는 방법"
 description: ""
 date: 2024-04-05 12:40
 sidebarDepth: 0
@@ -10,7 +10,6 @@ link: "https://medium.com/stackademic/why-you-should-avoid-using-useeffect-hook-
 ---
 
 
-```markdown
 ![React hooks](./img/ReactYouareUsinguseEffectWrongDoThisInstead_0.png)
 
 리액트를 공부하기로 결정했다면, 훅(Hooks)은 가장 먼저 배워야 하는 것 중 하나입니다. 하지만 훅을 사용하는 것에 대해 처음에는 당황스러울 수도 있습니다. 훅은 리액트의 필수 요소로, 첫 번째 몇 버전의 리액트에서 발생한 여러 문제를 해결하기 위해 만들어졌습니다. 리액트는 렌더링이 컴포넌트의 라이프사이클 함수 내에서 모두 수행되던 시절이 있었는데, 그런 문제들을 해결하고자 만들어진 것이죠.
@@ -18,7 +17,6 @@ link: "https://medium.com/stackademic/why-you-should-avoid-using-useeffect-hook-
 그렇다면, 모두가 처음으로 다루는 첫 번째 훅(함수)은 useState()와 useEffect()일 것입니다. useState()는 상태 관리와 컴포넌트가 다시 렌더링되어야 하는 시점을 제어하는 데 사용됩니다. 반면 useEffect()는 위에서 언급한 라이프사이클 함수와 약간 유사한 방식으로 동작합니다.
 
 useEffect() 훅은 두 가지 출력을 받을 수 있습니다. 첫 번째는 콜백 함수이고, 두 번째는 선택적으로 이 훅이 언제 호출되어야 하는지 정의합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -48,7 +46,6 @@ useEffect() 훅은 두 가지 출력을 받을 수 있습니다. 첫 번째는 �
 useEffect의 작동 방식을 다시 살펴보았으니, 메모이제이션이라는 최적화 기술에 대해 자세히 알아야 합니다. 메모이제이션은 불필요한 다시 렌더링을 방지하고, useEffect에서 종속성 배열을 다룰 때 특히 컴포넌트의 성능을 크게 향상시킬 수 있습니다.
 
 useEffect 훅의 주요 아이디어는 외부 API나 데이터베이스 접근, HTTP 요청 완료를 기다릴 때와 같이 데이터 전송을 동기화하는 것입니다. 그러나 이 훅을 코드 내의 가능한 모든 상황에서 사용하는 경향이 있어서 코드가 특히 Case A와 C*에 나열된 상황에서 더럽고 코드가 길어지면서 한 가지의 상태를 변경하면 프로세스 중에 종속성 배열의 하나를 변경하면 루프를 트리거할 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -122,7 +119,6 @@ export default ChildComponent;
 여기에서 어떤 일이 일어나고 있는지 설명해보겠습니다:
 
 우리는 코드를 수정해서 Child Component로 콜백 함수를 전달하도록 하였습니다. 이 변경사항을 주목해주세요:
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

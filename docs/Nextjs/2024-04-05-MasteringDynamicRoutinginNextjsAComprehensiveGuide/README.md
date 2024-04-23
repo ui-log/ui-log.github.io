@@ -1,5 +1,5 @@
 ---
-title: "넥스트.제이에스에서 동적 라우팅 마스터하기: 포괄적 안내"
+title: "Nextjs에서 동적 라우팅 구현하는 방법"
 description: ""
 date: 2024-04-05 19:21
 sidebarDepth: 0
@@ -163,7 +163,6 @@ export default Post;
 # Catch-All 라우트
 
 Next.js는 대괄호 안에 ... 연산자를 사용하여 catch-all 라우트를 지원합니다. 이를 통해 동적으로 여러 세그먼트를 캡처하는 라우트를 생성할 수 있습니다. 예를 들어, pages/products/[...slug].js는 /products/category/subcategory/product-name과 같은 라우트와 일치할 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

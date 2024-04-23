@@ -1,5 +1,5 @@
 ---
-title: ""Promise.all 때문에 일자리 기회를 놓쳤습니다""
+title: "Promise.all을 직접 만드는 방법"
 description: ""
 date: 2024-04-05 16:47
 sidebarDepth: 0
@@ -107,13 +107,12 @@ MDN에서:
 
 예시
 
-```markdown
+
 코드
 
 Promise.resolve가 이렇게 쉬울 줄 몰랐어요.
 
 테스트 해보세요
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -187,7 +186,6 @@ MDN에서:
 
 아래와 같이 Markdown 형식으로 변경해보겠습니다.
 
-```markdown
 변경된 텍스트:
 
 코드
@@ -197,7 +195,6 @@ MDN에서:
 테스트 코드
 
 # 5. Promise.allSettled
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

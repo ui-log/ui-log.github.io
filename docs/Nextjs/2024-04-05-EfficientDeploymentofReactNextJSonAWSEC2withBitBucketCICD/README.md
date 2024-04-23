@@ -1,5 +1,5 @@
 ---
-title: "리액트 Next JS를 AWS EC2에 효율적으로 배포하는 방법 (BitBucket CI CD 포함)"
+title: "React Next JS를 AWS EC2에 효율적으로 배포하는 방법 (BitBucket CI CD 포함)"
 description: ""
 date: 2024-04-05 13:26
 sidebarDepth: 0
@@ -165,7 +165,6 @@ http://18.xxx.xxx.xx:3000
 위 단계를 따라하면 AWS EC2 인스턴스에 안정적인 환경을 구축하여 React/Next JS 애플리케이션을 배포할 수 있습니다. 이 설정은 사용자가 애플리케이션에 접근할 수 있음을 보장하는 것뿐만 아니라 안정적이고 확장 가능한 호스팅 솔루션을 제공합니다.
 
 # Bitbucket와 AWS EC2 사이의 SSH 연결 설정하기
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

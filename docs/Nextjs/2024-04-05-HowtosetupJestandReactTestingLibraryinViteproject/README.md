@@ -1,5 +1,5 @@
 ---
-title: "Vite 프로젝트에서 Jest와 React Testing Library 설정하는 방법"
+title: "Vite 프로젝트에서 Jest와 React Testing Library 추가하기"
 description: ""
 date: 2024-04-05 18:45
 sidebarDepth: 0
@@ -131,7 +131,6 @@ module.exports = {
 ```
 
 4- package에 jest를 추가하고 package.json에 추가하십시오. 
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

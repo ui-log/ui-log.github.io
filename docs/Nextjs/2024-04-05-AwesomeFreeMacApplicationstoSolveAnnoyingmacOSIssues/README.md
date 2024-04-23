@@ -1,5 +1,5 @@
 ---
-title: "짜증나는 macOS 문제를 해결하는 멋진 무료 맥 애플리케이션들."
+title: "짜증나는 macOS 문제를 해결하는 무료 맥 애플리케이션들 "
 description: ""
 date: 2024-04-05 09:23
 sidebarDepth: 0
@@ -10,7 +10,7 @@ link: "https://medium.com/@pthapa1/awesome-free-mac-applications-to-solve-annoyi
 ---
 
 
-![이미지](./img/AmazingFreeMacApplicationstoSolveAnnoyingmacOSIssues_0.png)
+![이미지](./img/AwesomeFreeMacApplicationstoSolveAnnoyingmacOSIssues_0.png)
 
 저는 10년이 넘는 기간 동안 macOS를 사용해 왔어요. 여러 해 동안 제 삶을 더 쉽게 만들어 주는 몇 가지 어플리케이션을 발견했어요. 이 글을 쓸 당시 이 어플리케이션들은 무료였고 대부분 오픈 소스 프로젝트입니다. 그러니 가능하다면 개발자들을 지원해 주세요.
 

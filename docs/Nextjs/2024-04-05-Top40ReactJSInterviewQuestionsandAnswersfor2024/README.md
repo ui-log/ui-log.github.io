@@ -1,5 +1,5 @@
 ---
-title: "2024년을 위한 상위 40가지 ReactJS 인터뷰 질문과 답변"
+title: "2024년 최신 ReactJS 인터뷰 질문과 답변 40가지"
 description: ""
 date: 2024-04-05 15:57
 sidebarDepth: 0
@@ -411,7 +411,6 @@ React.memo()은 함수 컴포넌트와 함께 사용되는 하이어오더 컴�
 특히 동일한 프롭스를 받지만 모든 변경에 재렌더링이 필요하지 않은 함수 컴포넌트와 함께 사용할 때 특히 유용합니다.
 
 또한 컴포넌트가 가볍고 여러 프롭스로 렌더링되는 경우에는 React Memo를 사용하지 않는 것이 좋습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -446,7 +445,6 @@ export default Todo;
 합성 이벤트는 브라우저의 기본 이벤트 시스템을 감싼 크로스 브라우저 래퍼입니다. 서로 다른 브라우저와 기기에서 일관된 동작과 성능을 보장하기 위해 설계되었습니다.
 
 합성 이벤트는 브라우저와 기기에 관계없이 React에서 이벤트를 처리하는 통일된 API를 제공합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -700,7 +698,6 @@ export default Greeting;
 데이터가 시간이 지남에 따라 변경되고 해당 업데이트에 대해 알고 렌더링해야 할 때 상태 컴포넌트가 필요합니다. setState 메서드를 사용하여 자체 상태를 보유하고 관리할 수 있는 능력이 있습니다. 또한 라이프사이클 메서드에 액세스할 수도 있습니다.
 
 React 훅이 도입되면서 함수형 컴포넌트를 사용하여 상태 컴포넌트를 작성할 수도 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -739,7 +736,6 @@ export default Counter;
 setState()는 비동기 작업이므로 상태를 직접 업데이트할 때 React는 변경 사항을 감지하지 못합니다. 따라서 다시 렌더링되지 않습니다. 이로 인해 UI가 업데이트된 상태를 반영하지 않아 일관성이 없어지고 디버그하기 어려운 버그가 발생할 수 있습니다.
 
 ## 12. setState()의 콜백 함수의 목적은 무엇인가요?
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -929,7 +925,6 @@ class MyComponent extends React.Component {
 React에서 "ref"는 특정 DOM 노드나 React 요소를 참조하거나 액세스하는 방법을 제공하는 객체입니다. Ref는 주로 입력에 초점을 맞추거나 크기를 얻거나 메소드에 액세스하는 등 DOM과 상호 작용하기 위해 사용됩니다.
 
 Refs는 클래스 컴포넌트에서 React.createRef() 메소드를 사용하거나 함수형 컴포넌트에서 useRef() 훅을 사용하여 생성됩니다. 한번 생성된 ref는 ref 속성을 사용하여 React 엘리먼트에 부착할 수 있습니다. 이를 통해 ref 객체의 current 속성을 사용하여 기본 DOM 노드나 React 엘리먼트에 액세스할 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -1046,7 +1041,6 @@ export default ChildComponent;
 ## 17. React Fiber는 무엇인가요?
 
 React Fiber는 React 16에서 소개된 새로운 조정 알고리즘입니다. React 애플리케이션을 더 빠르고 더 부드럽게 만들도록 설계되었습니다. 특히 많은 업데이트가 있는 복잡한 애플리케이션에 대해 적합합니다.
-``` 
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -1436,7 +1430,6 @@ useEffect(() => {
 ```
 
 ## 24. React Hooks란 무엇인가요? 주요 훅은 무엇인가요?
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -1804,7 +1797,6 @@ export default MyComponent;
 
 다음과 같이 table 태그를 Markdown 형식으로 변경해주세요.
 
-```markdown
 Using ref object:
 
 ```js
@@ -1826,7 +1818,6 @@ export default MyComponent;
 ## 31. React에서 서버 측 렌더링이 작동하는 방식은?
 
 서버 측 렌더링(SSR)은 React 애플리케이션을 서버에서 렌더링한 후 클라이언트에 보내는 기술입니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -2142,7 +2133,6 @@ export default UserList;
 ```
 
 함수형 컴포넌트 사용: 가능하면 클래스 컴포넌트 대신 함수형 컴포넌트를 사용하십시오. 함수형 컴포넌트는 더 간단하고 간결하며 이해하기 쉽습니다. 함수형 컴포넌트에서 상태 관리 및 부작용 처리에 useState와 useEffect 같은 훅을 사용하십시오.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -2201,7 +2191,6 @@ export default UserProfile;
 ```
 
 기술적이고 설명적인 변수명 사용: 변수나 컴포넌트의 목적을 정확하게 설명하는 기술적이고 설명적인 변수명을 사용하세요. 이렇게 하면 다른 개발자들이 코드를 더 쉽게 이해하고 읽을 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -2567,7 +2556,6 @@ test('matches snapshot', () => {
 이 테스트를 처음 실행하면 Button 컴포넌트의 렌더링 출력을 포함하는 스냅샷 파일(예: Button.test.js.snap)이 생성됩니다. 이후의 테스트 실행에서는 현재 출력을 저장된 스냅샷과 비교하고, 차이가 있으면 테스트를 실패시킵니다.
 
 모킹: Jest와 같은 도구를 사용하여 API 호출과 같은 외부 종속성을 모킹하여 테스트하는 코드를 격리시키고 테스트를 더 예측 가능하게 만듭니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -3057,13 +3045,9 @@ LinkedIn에서도 팔로우해주세요: https://www.linkedin.com/in/ravics09/
 (adsbygoogle = window.adsbygoogle || []).push({});
 </component>
 
-텍스트를 마크다운 형식으로 변경해야 함
-
-```markdown
 | Read Until The End | 
 | --------------------| 
 | Please! Consider clapping and following the author! 👏 | 
 | Follow us X | LinkedIn | YouTube | Discord | 
 | Check out our other platforms: In Plain English | CoFeed | Venture | Cubed | 
 | More great content at Stackademic.com |
-```

@@ -1,5 +1,5 @@
 ---
-title: "앱 성능 급등! 2024년 React Native 성능, 코드 최적화 및 모베스트 프랙티스 포괄 가이드"
+title: "2024년 React Native 성능을 향상시키는 방법"
 description: ""
 date: 2024-04-05 17:25
 sidebarDepth: 0
@@ -172,7 +172,6 @@ const CounterComponent = () => {
 useMemo는 useCallback과 유사하지만, useCallback은 함수를 메모이제이션하는 데 사용되고 useMemo는 함수 결과를 메모이제이션하는 데 사용됩니다. 이 차이점은 불필요한 계산과 다시 렌더링을 방지하여 앱의 성능을 향상시키는 데 중요합니다.
 
 ## useMemo의 본질
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -258,7 +257,6 @@ const SumComponent = ({ numbers }) => {
 # 4. 컴포넌트 최적화를 위한 React.memo 활용
 
 React.memo는 useMemo나 useCallback과는 다른 목적을 가진 고차 컴포넌트(HOC)입니다. 함수형 컴포넌트의 다시 렌더링 프로세스를 제어하는 데 사용되며, 특히 복잡한 컴포넌트 트리를 가진 앱에서 성능을 향상시키는 데 중요한 도구로 작용합니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -412,7 +410,6 @@ const OptimizedImage = () => (
 # 6. 메모리 누수 방지: 리액트 네이티브에서 상태 업데이트 보호하기
 
 비동기 작업에서 상태 업데이트를 관리하는 것은 때때로 컴포넌트가 언마운트되기 전에 메모리 누수로 이어질 수 있습니다. 이 문제는 비동기 작업이 완료되고 DOM에 더 이상 없는 컴포넌트의 상태를 업데이트하려고 할 때 발생하여 React에서 경고를 발생시킵니다. 이러한 문제에 대응하기 위해 컴포넌트가 여전히 마운트된 상태인 경우에만 안전하게 상태를 업데이트하는 사용자 정의 후크를 만들어 메모리 누수를 방지할 수 있습니다.
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

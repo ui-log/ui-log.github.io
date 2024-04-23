@@ -1,5 +1,5 @@
 ---
-title: "새로운 앱 라우터를 활용하여 Next.js 앱을 구조화하는 방법"
+title: "새로운 앱 라우터를 활용하여 Next.js 사이트 만들기"
 description: ""
 date: 2024-04-05 18:55
 sidebarDepth: 0
@@ -257,7 +257,6 @@ link: "https://medium.com/better-programming/how-to-structure-your-next-js-app-w
 또 다른 방법으로, 프로젝트 전체에서 공통적으로 사용되는 파일을 저장해야 할 경우 다음 섹션을 참고해주세요.
 
 # 공통 파일 정리하기
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

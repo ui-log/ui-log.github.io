@@ -1,5 +1,5 @@
 ---
-title: "리액트 JS의 미래."
+title: "리액트 JS의 앞으로의 행보"
 description: ""
 date: 2024-04-05 19:07
 sidebarDepth: 0

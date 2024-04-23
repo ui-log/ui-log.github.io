@@ -1,5 +1,5 @@
 ---
-title: "당신의 React 애플리케이션에 Superset 대시보드 삽입하기"
+title: "당신의 React 애플리케이션에 Superset 대시보드 추가하기"
 description: ""
 date: 2024-04-05 20:09
 sidebarDepth: 0
@@ -10,7 +10,7 @@ link: "https://medium.com/@khushbu.adav/embedding-superset-dashboards-in-your-re
 ---
 
 
-```markdown
+
 ![Embedding Superset Dashboards in your React application](./img/EmbeddingSupersetdashboardsinyourReactapplication_0.png)
 
 슈퍼셋(Superset)은 차트를 빠르게 구축할 수 있는 노코드 웹 기반 인터페이스입니다. 여러 데이터베이스 및 시각화를 지원하여 데이터를 효과적으로 표시할 수 있습니다. 대시보드 임베딩을 통해 슈퍼셋 대시보드를 아이프레임을 통해 자체 애플리케이션에 임베드할 수 있습니다.
@@ -18,7 +18,6 @@ link: "https://medium.com/@khushbu.adav/embedding-superset-dashboards-in-your-re
 임베드된 대시보드는 통찰력 있는 데이터 분석을 웹 애플리케이션에 직접 가져오는 방법을 제공합니다.
 
 임베딩 SDK를 사용하면 앱의 인증을 사용하여 슈퍼셋 대시보드를 자체 웹 앱에 임베드할 수 있습니다.
-```  
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"
@@ -123,7 +122,6 @@ services:
 아래 슈퍼셋 설정을 사용할 것입니다. 가장 중요한 부분은 EMBEDDED_SUPERSET 기능 플래그를 활성화하는 것입니다.
 
 superset_config.py
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

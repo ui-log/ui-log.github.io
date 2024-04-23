@@ -1,5 +1,5 @@
 ---
-title: "React에서 드래그 앤 드롭 파일 업로드 컴포넌트 만들기: 단계별 안내"
+title: "React에서 드래그 앤 드롭 파일 업로드 컴포넌트 만들기"
 description: ""
 date: 2024-04-05 19:56
 sidebarDepth: 0
@@ -537,7 +537,6 @@ export default App;
 <img src="./img/CreatingaDrag-and-DropFileUploadComponentinReactAStep-by-StepGuide_1.png" />
 
 # 결론
-```
 
 <!-- ui-log 수평형 -->
 <ins class="adsbygoogle"

@@ -1,5 +1,5 @@
 ---
-title: "반응형 네비게이션바 만들기: 리액트 초보자를 위한 안내"
+title: "React에서 반응형 네비게이션바 만들기"
 description: ""
 date: 2024-04-05 15:16
 sidebarDepth: 0

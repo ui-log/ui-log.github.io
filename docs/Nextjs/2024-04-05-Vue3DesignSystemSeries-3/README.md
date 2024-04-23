@@ -1,5 +1,5 @@
 ---
-title: "Vue 3 디자인 시스템 시리즈 -3"
+title: "Vue 3 디자인 시스템 시리즈 - prettier-plugin-tailwindcss"
 description: ""
 date: 2024-04-05 08:34
 sidebarDepth: 0

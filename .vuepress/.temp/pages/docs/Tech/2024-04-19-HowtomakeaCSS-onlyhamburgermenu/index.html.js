@@ -16,7 +16,20 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null
+    "updatedTime": 1713854865000
   },
   "filePathRelative": "docs/Tech/2024-04-19-HowtomakeaCSS-onlyhamburgermenu/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

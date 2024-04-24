@@ -62,3 +62,16 @@ export const data = {
   },
   "filePathRelative": "docs/React/2024-02-20-React에서-Data-URL과-sprite-이미지-성능-비교-/README.md"
 }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

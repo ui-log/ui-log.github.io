@@ -18,3 +18,16 @@ export const data = {
   },
   "filePathRelative": "docs/Editor/2024-03-05-꼭-설치해야하는-Vscode-extension-10가지/README.md"
 }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

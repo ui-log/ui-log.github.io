@@ -1,6 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-Nextjs14OfflinePagewithPWA/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-ClientSideFormValidationwithZoduseFormStateinNextjs14/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-UltimateGuidetoHOCinReactPart1/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-HowtoaddFaceIDauthenticationtoyourReactNativeApp/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-HowtosetuppathaliasesinViteReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-ReactvsAngularvsVuejsWhattoChoosein2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-ExploringReactNativesCoreComponentsTheFoundationofYourUI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-TheseFront-endOpenSourceLibrariesAreWorthLearningIn2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-UnlockingReactsMagicMasteringStateandHooksLikeaPro/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-SecureYourNextJsAppASimpleGuidetoSupabaseAuth/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-DevelopingVTableCustomEditComponentwithReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-Howtobuildasimplereal-timeapplicationusingFlaskReactandSocketio/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-IndexSignaturesinTypeScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-GettingstartedwithReactD3js/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-ReactNativewithWatermelonDB/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-useRefvsuseStateinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-10ExpertPerformanceTipsEverySeniorJSReactDeveloperShouldKnow/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-HowtobuildReactNativeformswithReactHookFormandZod/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-ExploringthePowerandSimplicityofNextjsAModernApproachtoWebDevelopment/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-CouldnotresolvedependencyWhatactuallyitMeans/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-TestingtheReactcomponentstatewithJest/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-12SuperUsefulJavaScriptTipstoImproveWebDevelopmentEfficiency/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-HowEventsWorkinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-DeeplinkSetupinReactNative/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-18JavaScriptOne-LinersThatllMakeYouLookLikeaPro/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-HowtocreateGradientBackgroundforMessagingApps/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-Whatexactlyarethetechnologiesyoushouldlearntoengineeryourfront-end/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-FlutterorReactNativeWhichisBetterforYourNextApp/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-BestNextjsLibrariesandPackagesin2024ForAllYourNeeds/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-Top10Must-haveVSCodeExtensionsforAngularDevelopersin2022/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-ExploringtheLatestFeaturesofReact18/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-WhatarethedifferenttypesofhooksinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-BuildingaLightweightMotionSysteminReactUsingCSSAnimations/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-HowIImplementedanAPIfetchofmyGitHub/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-TheRealDynamicUseofGatsbyImagewithStoryblokPt2CaveatsandPitfalls/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-ReactQueryuseSuspenseQueryRenderYourComponentsWithoutBlockingtheUI/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-React101ABeginnersGuidetoBuildingDynamicWebApps/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-Reactjs-toggleswitchAReactbasedtoggleswitchcomponentpackage/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-BuildingaFullStackApplicationwithDjangoDjangoRESTNextjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-CreatingaReactandTypescriptappwithWebpack/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-StreamingLLMOutputwithDjangoReactandLangChain/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-HowtobuildasimpleAutocompletewithReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-Next-AuthinAppRouterofNextjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-SnowflakeMeansBusinessIntegratingCortexAIModelsinReactwithHono/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-MiddlewareinNextjsAComprehensiveGuide/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-DeployingYourNextJSProjectonHostinger/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-SayGoodbyetotheFullScreenofImports/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-WhatsNewinReact19/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-MasterReactivityinJavaScript8PowerfulPatterns/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-BuildingandDeployingaSimpleWebAppwithFastAPIReactandDocker/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-UploadfilestoAWSs3bucketfromReactusingPre-signedUrls/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-ReactmemoOptimizeReactFunctionalComponents/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-WhatAretheNewFeaturesandUpdatesinNextjs142/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-UtilizingURLParametersforStateManagementinNextjs/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-PassingDatafromChildtoParentComponentsinReact/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-HowtoBuildaBudget-FriendlyDesignSystem/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-AllReacthooksinoneshort/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-GrowwSDEIntern-FrontendInterviewExperienceOff-CampusHiring2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-HowIStructuremyReactProjects/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-7VSCodeExtensionsCanUninstalledIn2024/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-WhyDoesJavaScriptsparseInt00000005Print5/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-AsimpleimplementationofaLoaderinReactusingContextAPICustomHookandTypeScript/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-10Must-KnowJavaScriptTricksTipsAboutReduce/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-SetupJestinatypescriptReactproject/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-ReactsUpcomingCompilerSayGoodbyetouseMemoanduseCallback/</loc>
+</url>
+<url>
+	<loc>http://ui-log.github.io/docs/Tech/2024-04-23-SDE-2FrontendInterviewExpMMT/</loc>
+</url>
+<url>
 	<loc>http://ui-log.github.io/docs/Tech/2024-04-19-FixingtheSafariMobileResizingBugADevelopersGuide/</loc>
 </url>
 <url>

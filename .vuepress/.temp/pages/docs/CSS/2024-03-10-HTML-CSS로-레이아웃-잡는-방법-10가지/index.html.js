@@ -85,3 +85,16 @@ export const data = {
   },
   "filePathRelative": "docs/CSS/2024-03-10-HTML-CSS로-레이아웃-잡는-방법-10가지/README.md"
 }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

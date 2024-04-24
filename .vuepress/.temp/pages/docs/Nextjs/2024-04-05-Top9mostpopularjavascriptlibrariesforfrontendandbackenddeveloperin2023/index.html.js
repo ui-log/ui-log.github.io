@@ -71,7 +71,20 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1712420138000
+    "updatedTime": 1713854865000
   },
   "filePathRelative": "docs/Nextjs/2024-04-05-Top9mostpopularjavascriptlibrariesforfrontendandbackenddeveloperin2023/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

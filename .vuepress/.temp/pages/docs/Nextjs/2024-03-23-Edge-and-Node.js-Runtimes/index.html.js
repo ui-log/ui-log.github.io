@@ -46,3 +46,16 @@ export const data = {
   },
   "filePathRelative": "docs/Nextjs/2024-03-23-Edge-and-Node.js-Runtimes/README.md"
 }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
